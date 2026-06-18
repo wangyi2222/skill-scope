@@ -1,0 +1,24 @@
+{
+  "name": "AI-Session-Viewer",
+  "description": "Claude Code & Codex CLI 本地会话记忆的统一可视化浏览器",
+  "use_case": "AI Session Viewer 是一个轻量级应用，让你可以在一个统一界面中浏览、搜索、统计来自 Claude Code 和 OpenAI Codex CLI 的所有本地会话记忆，并支持一键恢复（Resume）到对应 CLI 中继续对话。",
+  "audience": "开发",
+  "level": "待补充",
+  "category": "待补充",
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "tags": [
+    "api",
+    "codex",
+    "claude",
+    "cli"
+  ],
+  "github_url": "https://github.com/zuoliangyu/AI-Session-Viewer",
+  "_source": {
+    "repo_description": "Contribute to zuoliangyu/AI-Session-Viewer development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

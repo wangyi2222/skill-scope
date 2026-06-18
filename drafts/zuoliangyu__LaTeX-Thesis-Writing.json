@@ -1,0 +1,24 @@
+{
+  "name": "LaTeX Thesis Writing",
+  "description": "用于中文学位论文 LaTeX 模板 + Claude Code 写作辅助技能，含格式自检、AI 主动配图、去 AI 痕迹检测、定稿前 14 项复盘。。",
+  "audience": "开发",
+  "level": "进阶",
+  "category": "Tool",
+  "platforms": [
+    "Claude"
+  ],
+  "tags": [
+    "LaTeX",
+    "学位论文",
+    "Claude",
+    "Skills",
+    "论文写作",
+    "中文模板"
+  ],
+  "github_url": "https://github.com/zuoliangyu/LaTeX-Thesis-Writing",
+  "_source": {
+    "repo_description": "中文学位论文 LaTeX 模板 + Claude 写作辅助技能",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

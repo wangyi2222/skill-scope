@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills 导航页</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="brand-mark">Skills Directory</p>
+      <h1>精选 Skills，方便快速浏览</h1>
+      <p class="hero-copy">
+        这是一个用于了解 Skills 的简洁展示页，帮助用户快速判断每个 Skill 的作用、适用人群以及下一步该去哪里查看。
+        网站仅供浏览，内容由维护者手动更新。
+      </p>
+    </header>
+
+    <main class="content">
+      <section class="filter-panel" aria-labelledby="controls-title">
+        <div class="panel-head">
+          <div>
+            <p class="content-kicker">筛选</p>
+            <h2 id="controls-title">搜索与筛选</h2>
+          </div>
+          <p class="panel-note">用更少的操作，更快找到合适的 Skill。</p>
+        </div>
+
+        <div class="controls-grid">
+          <label class="field">
+            <span>搜索 Skill</span>
+            <input id="searchInput" type="search" placeholder="输入名称、场景或标签">
+          </label>
+          <label class="field">
+            <span>平台</span>
+            <select id="platformFilter">
+              <option value="all">全部平台</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>类别</span>
+            <select id="categoryFilter">
+              <option value="all">全部类别</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>适用人群</span>
+            <select id="audienceFilter">
+              <option value="all">全部人群</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="grid-wrap" aria-labelledby="cards-title">
+        <div class="grid-head">
+          <div>
+            <p class="content-kicker">全部 Skills</p>
+            <h2 id="cards-title">浏览卡片列表</h2>
+          </div>
+          <p id="resultCount" class="result-count">0 个 Skills</p>
+        </div>
+        <div id="cardGrid" class="card-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

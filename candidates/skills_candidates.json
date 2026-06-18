@@ -1,0 +1,291 @@
+[
+  {
+    "name": "DeepTutor",
+    "full_name": "zuoliangyu/DeepTutor",
+    "github_url": "https://github.com/zuoliangyu/DeepTutor",
+    "score": 16,
+    "confidence": "high",
+    "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+    "topics": [],
+    "reasons": [
+      "found SKILL.md",
+      "strong keyword: skill.md",
+      "medium keyword: claude code",
+      "medium keyword: prompt",
+      "weak keyword: workflow",
+      "weak keyword: assistant",
+      "weak keyword: tools",
+      "weak keyword: mcp"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "mentions elevated permissions",
+      "very low public activity"
+    ],
+    "status": "published",
+    "status_label": "已上卡片"
+  },
+  {
+    "name": "AI-Session-Viewer",
+    "full_name": "zuoliangyu/AI-Session-Viewer",
+    "github_url": "https://github.com/zuoliangyu/AI-Session-Viewer",
+    "score": 12,
+    "confidence": "high",
+    "description": "",
+    "topics": [],
+    "reasons": [
+      "strong keyword: skill.md",
+      "medium keyword: claude code",
+      "medium keyword: codex cli",
+      "medium keyword: prompt",
+      "weak keyword: workflow",
+      "weak keyword: assistant",
+      "weak keyword: tools"
+    ],
+    "risk_level": "high",
+    "risk_reasons": [
+      "mentions sensitive credential fields",
+      "mentions elevated permissions"
+    ],
+    "status": "published",
+    "status_label": "已上卡片"
+  },
+  {
+    "name": "cc-switch",
+    "full_name": "zuoliangyu/cc-switch",
+    "github_url": "https://github.com/zuoliangyu/cc-switch",
+    "score": 12,
+    "confidence": "high",
+    "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+    "topics": [],
+    "reasons": [
+      "medium keyword: claude code",
+      "medium keyword: cursor",
+      "medium keyword: gemini cli",
+      "medium keyword: prompt",
+      "weak keyword: workflow",
+      "weak keyword: assistant",
+      "weak keyword: tools",
+      "weak keyword: mcp"
+    ],
+    "risk_level": "low",
+    "risk_reasons": [
+      "no obvious risk signals from metadata and README"
+    ],
+    "status": "published",
+    "status_label": "已上卡片"
+  },
+  {
+    "name": "Taffy-Studio",
+    "full_name": "zuoliangyu/Taffy-Studio",
+    "github_url": "https://github.com/zuoliangyu/Taffy-Studio",
+    "score": 8,
+    "confidence": "high",
+    "description": "一个简单的多端可用的大模型聚合应用",
+    "topics": [],
+    "reasons": [
+      "strong keyword: skill.md",
+      "medium keyword: prompt",
+      "weak keyword: workflow",
+      "weak keyword: tools",
+      "weak keyword: mcp"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "very low public activity"
+    ],
+    "status": "published",
+    "status_label": "已上卡片"
+  },
+  {
+    "name": "ai-cli-installer",
+    "full_name": "zuoliangyu/ai-cli-installer",
+    "github_url": "https://github.com/zuoliangyu/ai-cli-installer",
+    "score": 6,
+    "confidence": "high",
+    "description": "",
+    "topics": [],
+    "reasons": [
+      "medium keyword: claude code",
+      "medium keyword: codex cli",
+      "weak keyword: workflow",
+      "weak keyword: tools"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "missing license metadata"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "LaTeX-Thesis-Writing",
+    "full_name": "zuoliangyu/LaTeX-Thesis-Writing",
+    "github_url": "https://github.com/zuoliangyu/LaTeX-Thesis-Writing",
+    "score": 4,
+    "confidence": "medium",
+    "description": "中文学位论文 LaTeX 模板 + Claude 写作辅助技能",
+    "topics": [],
+    "reasons": [
+      "medium keyword: claude code",
+      "weak keyword: workflow",
+      "weak keyword: tools"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "mentions elevated permissions"
+    ],
+    "status": "published",
+    "status_label": "已上卡片"
+  },
+  {
+    "name": "claude-code-mirror",
+    "full_name": "zuoliangyu/claude-code-mirror",
+    "github_url": "https://github.com/zuoliangyu/claude-code-mirror",
+    "score": 3,
+    "confidence": "medium",
+    "description": "claude code镜像仓库",
+    "topics": [],
+    "reasons": [
+      "medium keyword: claude code",
+      "weak keyword: workflow"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "missing license metadata",
+      "very low public activity"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "codex-mirror",
+    "full_name": "zuoliangyu/codex-mirror",
+    "github_url": "https://github.com/zuoliangyu/codex-mirror",
+    "score": 3,
+    "confidence": "medium",
+    "description": "",
+    "topics": [],
+    "reasons": [
+      "medium keyword: codex cli",
+      "weak keyword: workflow"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "missing license metadata",
+      "very low public activity"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "awesome-android-ui",
+    "full_name": "zuoliangyu/awesome-android-ui",
+    "github_url": "https://github.com/zuoliangyu/awesome-android-ui",
+    "score": 2,
+    "confidence": "low",
+    "description": "A curated list of awesome Android UI/UX libraries",
+    "topics": [],
+    "reasons": [
+      "medium keyword: prompt"
+    ],
+    "risk_level": "low",
+    "risk_reasons": [
+      "no obvious risk signals from metadata and README"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "EFlowCodeLine",
+    "full_name": "zuoliangyu/EFlowCodeLine",
+    "github_url": "https://github.com/zuoliangyu/EFlowCodeLine",
+    "score": 2,
+    "confidence": "low",
+    "description": "针对EFlowCode站点特化的ccline",
+    "topics": [],
+    "reasons": [
+      "medium keyword: claude code"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "missing license metadata"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "wttr.in",
+    "full_name": "zuoliangyu/wttr.in",
+    "github_url": "https://github.com/zuoliangyu/wttr.in",
+    "score": 2,
+    "confidence": "low",
+    "description": "天气api",
+    "topics": [],
+    "reasons": [
+      "weak keyword: workflow",
+      "weak keyword: tools"
+    ],
+    "risk_level": "high",
+    "risk_reasons": [
+      "mentions sensitive credential fields",
+      "mentions elevated permissions"
+    ],
+    "status": "blocked_high_risk",
+    "status_label": "高风险，需人工复核"
+  },
+  {
+    "name": "Deep-Live-Cam",
+    "full_name": "zuoliangyu/Deep-Live-Cam",
+    "github_url": "https://github.com/zuoliangyu/Deep-Live-Cam",
+    "score": 1,
+    "confidence": "low",
+    "description": "real time face swap and one-click video deepfake with only a single image",
+    "topics": [],
+    "reasons": [
+      "weak keyword: tools"
+    ],
+    "risk_level": "high",
+    "risk_reasons": [
+      "uses Invoke-Expression"
+    ],
+    "status": "blocked_high_risk",
+    "status_label": "高风险，需人工复核"
+  },
+  {
+    "name": "micu-ai-lib",
+    "full_name": "zuoliangyu/micu-ai-lib",
+    "github_url": "https://github.com/zuoliangyu/micu-ai-lib",
+    "score": 1,
+    "confidence": "low",
+    "description": "米醋AI开放社区导览",
+    "topics": [],
+    "reasons": [
+      "weak keyword: workflow"
+    ],
+    "risk_level": "medium",
+    "risk_reasons": [
+      "missing license metadata"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  },
+  {
+    "name": "wos-fetch",
+    "full_name": "zuoliangyu/wos-fetch",
+    "github_url": "https://github.com/zuoliangyu/wos-fetch",
+    "score": 1,
+    "confidence": "low",
+    "description": "Web of Science literature fetcher with full-text downloading. Runs locally, uses your own WoS access.",
+    "topics": [],
+    "reasons": [
+      "weak keyword: workflow"
+    ],
+    "risk_level": "low",
+    "risk_reasons": [
+      "no obvious risk signals from metadata and README"
+    ],
+    "status": "candidate",
+    "status_label": "候选，待确认"
+  }
+]

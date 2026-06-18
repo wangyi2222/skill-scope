@@ -1,0 +1,23 @@
+{
+  "name": "ai-cli-installer",
+  "description": "用于为 Claude Code / Codex CLI 提供镜像加速下载与一键安装的桌面应用，同时也能作为本地 / 远程 Web 服务运行。Tauri + Svelte 5 + R",
+  "audience": "开发",
+  "level": "高级",
+  "category": "开发",
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "tags": [
+    "claude",
+    "web",
+    "rust",
+    "tauri"
+  ],
+  "github_url": "https://github.com/zuoliangyu/ai-cli-installer",
+  "_source": {
+    "repo_description": "Contribute to zuoliangyu/ai-cli-installer development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

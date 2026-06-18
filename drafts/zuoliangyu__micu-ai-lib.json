@@ -1,0 +1,15 @@
+{
+  "name": "micu-ai-lib",
+  "description": "米醋AI开放社区导览. Contribute to zuoliangyu/micu-ai-lib development by creating an account on GitHub.",
+  "use_case": "MICU 工作室 AI 项目聚合站点。成员仓库提交 project.yaml，主仓库定时拉取并由 Astro 渲染为静态站点。",
+  "audience": "待补充",
+  "level": "待补充",
+  "category": "待补充",
+  "tags": [],
+  "github_url": "https://github.com/zuoliangyu/micu-ai-lib",
+  "_source": {
+    "repo_description": "米醋AI开放社区导览. Contribute to zuoliangyu/micu-ai-lib development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

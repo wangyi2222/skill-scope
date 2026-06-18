@@ -1,0 +1,22 @@
+{
+  "name": "DeepTutor",
+  "description": "用于> Teach your AI agent to configure, manage, and use DeepTutor — an intelligent learning ",
+  "audience": "开发",
+  "level": "高级",
+  "category": "研究",
+  "platforms": [
+    "Codex"
+  ],
+  "tags": [
+    "deeptutor",
+    "manage",
+    "web",
+    "tool"
+  ],
+  "github_url": "https://github.com/zuoliangyu/DeepTutor",
+  "_source": {
+    "repo_description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

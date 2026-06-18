@@ -1,0 +1,20 @@
+{
+  "name": "STM32-Debug-Configurator",
+  "description": "**强大的 Visual Studio Code STM32 调试配置扩展**",
+  "use_case": "**强大的 Visual Studio Code STM32 调试配置扩展**",
+  "audience": "待补充",
+  "level": "待补充",
+  "category": "待补充",
+  "tags": [
+    "openocd",
+    "stm32",
+    "cfg",
+    "版本"
+  ],
+  "github_url": "https://github.com/zuoliangyu/STM32-Debug-Configurator",
+  "_source": {
+    "repo_description": "用于快速生成cortex-debug的插件仓库",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

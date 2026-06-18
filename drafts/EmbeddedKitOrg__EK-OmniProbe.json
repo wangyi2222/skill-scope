@@ -1,0 +1,27 @@
+{
+  "name": "EK-OmniProbe",
+  "description": "用于开源嵌入式开发五合一工具，集成固件烧录、源码级调试、RTT 实时输出、串口终端和 BLE 蓝牙功能。。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "Tool",
+  "platforms": [
+    "Claude"
+  ],
+  "tags": [
+    "嵌入式",
+    "调试器",
+    "烧录",
+    "RTT",
+    "串口",
+    "BLE",
+    "probe-rs",
+    "Tauri",
+    "Rust"
+  ],
+  "github_url": "https://github.com/EmbeddedKitOrg/EK-OmniProbe",
+  "_source": {
+    "repo_description": "嵌入式开发三合一工具，固件烧录 rtt调试 串口终端. Contribute to EmbeddedKitOrg/EK-OmniProbe development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

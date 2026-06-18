@@ -1,0 +1,25 @@
+{
+  "name": "cc-switch",
+  "description": "用于Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "开发",
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini"
+  ],
+  "tags": [
+    "claude",
+    "api",
+    "provider",
+    "switch"
+  ],
+  "github_url": "https://github.com/zuoliangyu/cc-switch",
+  "_source": {
+    "repo_description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

@@ -1,0 +1,2 @@
+{"file":".trellis/spec/guides/skills-directory-product-guide.md","reason":"Review should verify that implementation still serves discovery rather than drifting into tutorial behavior."}
+{"file":".trellis/spec/frontend/index.md","reason":"Review should use the frontend project guidelines as the verification baseline."}

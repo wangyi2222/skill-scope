@@ -1,0 +1,23 @@
+{
+  "name": "Taffy-Studio",
+  "description": "用于一套代码，七端交付的大模型工作站 —— 基于 Tauri 2 + React + 共享 Rust 核心。。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "开发",
+  "platforms": [
+    "Claude",
+    "Gemini"
+  ],
+  "tags": [
+    "scripts",
+    "tasks",
+    "docker",
+    "linux"
+  ],
+  "github_url": "https://github.com/zuoliangyu/Taffy-Studio",
+  "_source": {
+    "repo_description": "一个简单的多端可用的大模型聚合应用",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}
