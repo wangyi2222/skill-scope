@@ -26,10 +26,6 @@ function syncCardHeights() {
   });
 }
 
-function getUniqueValues(key) {
-  return [...new Set(skills.map((item) => item[key]).filter(Boolean))].sort();
-}
-
 function getUniquePlatformValues() {
   return [
     ...new Set(
@@ -148,16 +144,11 @@ function renderCards() {
   }
 
   filtered.sort((left, right) => {
-    const leftCategory = left.category;
-    const rightCategory = right.category;
-    const leftName = left.name;
-    const rightName = right.name;
-
-    if (leftCategory === rightCategory) {
-      return leftName.localeCompare(rightName);
+    if (left.category === right.category) {
+      return left.name.localeCompare(right.name);
     }
 
-    return leftCategory.localeCompare(rightCategory);
+    return left.category.localeCompare(right.category);
   });
 
   filtered.forEach((skill) => {
