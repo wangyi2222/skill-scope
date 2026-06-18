@@ -51,6 +51,20 @@ code {
   padding: 36px 36px 30px;
 }
 
+.brand-lockup {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brand-lockup img {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  box-shadow: 0 12px 26px rgba(30, 41, 59, 0.12);
+}
+
 .brand-mark,
 .content-kicker {
   margin: 0 0 10px;
@@ -59,6 +73,12 @@ code {
   letter-spacing: 0.14em;
   font-size: 11px;
   font-weight: 700;
+}
+
+.brand-subtitle {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .hero h1,
