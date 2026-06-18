@@ -76,7 +76,7 @@ code {
 }
 
 .hero {
-  padding: 22px;
+  padding: 28px;
 }
 
 .brand-lockup {
@@ -139,7 +139,7 @@ code {
 
 .filter-panel,
 .grid-wrap {
-  padding: 16px;
+  padding: 18px;
 }
 
 .panel-head,
@@ -195,7 +195,7 @@ code {
 }
 
 .grid-head {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .card-grid {
@@ -207,8 +207,8 @@ code {
 .card {
   display: grid;
   gap: 10px;
-  min-height: 220px;
-  padding: 14px;
+  min-height: 230px;
+  padding: 16px;
   border-radius: 18px;
   border: 1px solid var(--line);
   background: var(--surface);
