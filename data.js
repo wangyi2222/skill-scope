@@ -152,5 +152,73 @@ window.skillsData = [
     ],
     "logo_url": "https://raw.githubusercontent.com/HughYau/qiushi-skill/main/assets/logo_main.png",
     "github_url": "https://github.com/HughYau/qiushi-skill"
+  },
+  {
+    "name": "Anthropic DOCX Skill",
+    "description": "用于创建、读取、编辑和整理 Word 文档，适合处理报告、信件、模板、目录、页码、批注和图文排版等 .docx 场景。",
+    "audience": "工作流",
+    "level": "进阶",
+    "category": "文档",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "DOCX",
+      "Word",
+      "文档处理",
+      "报告"
+    ],
+    "github_url": "https://github.com/anthropics/skills/tree/main/skills/docx"
+  },
+  {
+    "name": "Anthropic PPTX Skill",
+    "description": "用于创建、读取、编辑和整理演示文稿，适合处理幻灯片、模板、讲稿、备注、提取内容和生成演示文件等 .pptx 场景。",
+    "audience": "工作流",
+    "level": "进阶",
+    "category": "文档",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "PPTX",
+      "幻灯片",
+      "演示文稿",
+      "模板"
+    ],
+    "github_url": "https://github.com/anthropics/skills/tree/main/skills/pptx"
+  },
+  {
+    "name": "Anthropic XLSX Skill",
+    "description": "用于读取、清洗、编辑和生成电子表格，适合处理 Excel、CSV、TSV、公式、图表、格式整理和表格数据转换。",
+    "audience": "工作流",
+    "level": "进阶",
+    "category": "文档",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "XLSX",
+      "Excel",
+      "表格",
+      "数据清洗"
+    ],
+    "github_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+  },
+  {
+    "name": "Anthropic PDF Skill",
+    "description": "用于读取、拆分、合并、旋转、加水印、填表、加密和 OCR 处理 PDF，适合各类 PDF 文档分析与加工场景。",
+    "audience": "工作流",
+    "level": "进阶",
+    "category": "文档",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "PDF",
+      "OCR",
+      "文档处理",
+      "表单"
+    ],
+    "github_url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
   }
 ];
