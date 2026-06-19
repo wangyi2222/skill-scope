@@ -1,0 +1,33 @@
+{
+  "name": "auto-embedded",
+  "description": "用于>-。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "Agent",
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini"
+  ],
+  "tags": [
+    "嵌入式",
+    "全平台",
+    "RIPER-5",
+    "spec注入",
+    "分层架构门禁",
+    "STM32",
+    "GD32",
+    "MSPM0",
+    "电赛",
+    "MATLAB",
+    "多Agent"
+  ],
+  "logo_url": "",
+  "github_url": "https://github.com/DunCanYounG-1/embedded-dev",
+  "_source": {
+    "repo_description": "Primary embedded development skills",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

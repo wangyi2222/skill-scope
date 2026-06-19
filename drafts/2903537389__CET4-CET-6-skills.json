@@ -1,0 +1,24 @@
+{
+  "name": "CET-6 翻译批改 Skill             # 必填",
+  "description": "用于大学英语六级翻译AI批改行为准则，含100分制评分体系、逐句精批流程、中英翻译思维提升指南和十年真题语料库 | CET-6 translation grading skill ",
+  "audience": "开发",
+  "level": "基础",
+  "category": "LLM                          # 必填：LLM / CV / Agent / Tool / Other",
+  "platforms": [
+    "Claude"
+  ],
+  "tags": [
+    "CET6",
+    "翻译",
+    "批改",
+    "英语六级",
+    "可选"
+  ],
+  "logo_url": "https://raw.githubusercontent.com/2903537389/CET4-CET-6-skills/HEAD/assets/logo.png",
+  "github_url": "https://github.com/2903537389/CET4-CET-6-skills",
+  "_source": {
+    "repo_description": "Contribute to 2903537389/CET4-CET-6-skills development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

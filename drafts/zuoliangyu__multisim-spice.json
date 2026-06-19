@@ -1,0 +1,25 @@
+{
+  "name": "multisim-spice",
+  "description": "用于一句话把电路描述变成 ngspice 自检通过、可直接在 NI Multisim 打开的 SPICE 网表(Claude Code Skill)。",
+  "audience": "开发",
+  "level": "基础",
+  "category": "Agent",
+  "platforms": [
+    "Claude"
+  ],
+  "tags": [
+    "Multisim",
+    "SPICE",
+    "ngspice",
+    "电路仿真",
+    "ClaudeCode",
+    "Skill"
+  ],
+  "logo_url": "",
+  "github_url": "https://github.com/zuoliangyu/multisim-spice",
+  "_source": {
+    "repo_description": "multisim自动化仿真",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

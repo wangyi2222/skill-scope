@@ -1,0 +1,24 @@
+{
+  "name": "考研逐页填空复习系统",
+  "description": "用于一个本地运行的考研逐页复习工具，可将教材内容转成填空题卡，并根据“知道/不知道”反馈安排后续复习。。",
+  "audience": "开发",
+  "level": "基础",
+  "category": "Tool",
+  "platforms": [
+    "Codex"
+  ],
+  "tags": [
+    "考研",
+    "间隔复习",
+    "填空题卡",
+    "本地工具",
+    "遗忘曲线"
+  ],
+  "logo_url": "https://raw.githubusercontent.com/750cool/kaoyan-king/HEAD/preview-01.png",
+  "github_url": "https://github.com/750cool/kaoyan-king",
+  "_source": {
+    "repo_description": "交互式考研逐页复习系统：将教材内容转成填空题卡，支持知道/不知道反馈、本地复习记录、遗忘曲线调度和每日自动推送。",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

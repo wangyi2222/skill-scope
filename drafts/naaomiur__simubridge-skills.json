@@ -1,0 +1,28 @@
+{
+  "name": "SimuBridge Skills                     # 必填",
+  "description": "用于AI驱动的Simulink技能包——通过MCP让Claude直接用自然语言创建、修改、仿真MATLAB Simulink模型，20+专用工具，全程本地运行。 # 必填。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "Tool                             # 必填：LLM / CV / Agent / Tool / Other",
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "tags": [
+    "MCP",
+    "Simulink",
+    "MATLAB",
+    "Skill",
+    "AI",
+    "仿真",
+    "模型",
+    "可选"
+  ],
+  "logo_url": "https://img.shields.io/badge/Python-3.9+-blue.svg",
+  "github_url": "https://github.com/naaomiur/simubridge-skills",
+  "_source": {
+    "repo_description": "AI 驱动的 Simulink 技能包 + MCP 后端/AI-powered Simulink model manipulation skill pack with MCP backend",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

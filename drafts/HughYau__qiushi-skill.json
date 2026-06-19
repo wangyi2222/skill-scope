@@ -1,0 +1,25 @@
+{
+  "name": "qiushi-skill",
+  "description": "用于🔴 求是 Skill —— 武装 AI 的大脑。",
+  "audience": "开发",
+  "level": "进阶",
+  "category": "开发",
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "tags": [
+    "ai-agents",
+    "methodology",
+    "skills",
+    "workflow"
+  ],
+  "logo_url": "https://raw.githubusercontent.com/HughYau/qiushi-skill/main/assets/logo_main.png",
+  "github_url": "https://github.com/HughYau/qiushi-skill",
+  "_source": {
+    "repo_description": "求是Skill——从经典唯物辩证法与实践哲学中提炼出一条总原则和九大方法论工具武装AI大脑。Qiushi-Skill: Build agents that investigate first, focus on the main contradiction, validate in practice, and keep pushing until the work is actually done.",
+    "readme_used": true,
+    "structured_meta_used": false
+  }
+}

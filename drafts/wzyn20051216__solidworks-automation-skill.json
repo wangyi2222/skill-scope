@@ -1,0 +1,27 @@
+{
+  "name": "SolidWorks Automation Skill",
+  "description": "用于面向 Codex、Claude 与 OpenClaw 的 SolidWorks 自动化技能，支持零件建模、装配、工程图、导出、自审查和本地 MCP 工具调用。。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "Tool",
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "tags": [
+    "SolidWorks",
+    "CAD",
+    "MCP",
+    "Python",
+    "COM",
+    "Automation"
+  ],
+  "logo_url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/HEAD/src-tauri/icons/128x128.png",
+  "github_url": "https://github.com/wzyn20051216/solidworks-automation-skill",
+  "_source": {
+    "repo_description": "Python automation toolkit for SolidWorks API",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

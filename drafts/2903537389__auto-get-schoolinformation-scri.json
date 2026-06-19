@@ -1,0 +1,24 @@
+{
+  "name": "校园通知爬虫 + 多渠道推送系统",
+  "description": "用于自动爬取高校网站通知公告，通过 QQ 邮件/钉钉/飞书多渠道推送，支持 GitHub Actions 云端定时运行。",
+  "audience": "开发",
+  "level": "高级",
+  "category": "Tool",
+  "platforms": [],
+  "tags": [
+    "爬虫",
+    "通知推送",
+    "Playwright",
+    "GitHub",
+    "Actions",
+    "邮件",
+    "钉钉"
+  ],
+  "logo_url": "",
+  "github_url": "https://github.com/2903537389/auto-get-schoolinformation-scri",
+  "_source": {
+    "repo_description": "Contribute to 2903537389/auto-get-schoolinformation-scri development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}

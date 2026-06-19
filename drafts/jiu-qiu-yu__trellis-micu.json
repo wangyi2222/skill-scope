@@ -1,0 +1,22 @@
+{
+  "name": "trellis-micu                  # 必填",
+  "description": "用于让你的AI编程更规范,减少编程幻觉 # 必填。",
+  "audience": "开发",
+  "level": "进阶",
+  "category": "LLM                # 必填：LLM / CV / Agent / Tool / Other",
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "tags": [
+    "编程工作流",
+    "可选"
+  ],
+  "logo_url": "https://raw.githubusercontent.com/jiu-qiu-yu/trellis-micu/HEAD/1.png",
+  "github_url": "https://github.com/jiu-qiu-yu/trellis-micu",
+  "_source": {
+    "repo_description": "Contribute to jiu-qiu-yu/trellis-micu development by creating an account on GitHub.",
+    "readme_used": true,
+    "structured_meta_used": true
+  }
+}
