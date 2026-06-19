@@ -23,7 +23,7 @@ window.skillsData = [
     "description": "用于在 Visual Studio Code 中快速生成和管理 STM32 调试配置的扩展工具。",
     "audience": "开发",
     "level": "高级",
-    "category": "插件",
+    "category": "嵌入式",
     "platforms": [
       "stm32"
     ],
@@ -41,7 +41,7 @@ window.skillsData = [
     "description": "用于嵌入式开发的一体化工具，集成固件烧录、源码级调试、RTT 输出、串口终端和 BLE 调试能力。",
     "audience": "开发",
     "level": "高级",
-    "category": "开发",
+    "category": "嵌入式",
     "platforms": [
       "Claude"
     ],
@@ -275,7 +275,7 @@ window.skillsData = [
     "description": "用于嵌入式开发的多 Agent 工作流 Skill，覆盖 STM32、GD32、MSPM0、电赛和分层架构规范等工程场景。",
     "audience": "开发",
     "level": "高级",
-    "category": "开发",
+    "category": "嵌入式",
     "platforms": [
       "Claude",
       "Codex",
@@ -313,7 +313,7 @@ window.skillsData = [
     "description": "用于让 Claude 通过 MCP 创建、修改和仿真 MATLAB Simulink 模型，适合控制、仿真和模型驱动开发场景。",
     "audience": "开发",
     "level": "高级",
-    "category": "开发",
+    "category": "嵌入式",
     "platforms": [
       "Claude"
     ],
@@ -349,7 +349,7 @@ window.skillsData = [
     "description": "用于把自然语言电路描述转换成可在 NI Multisim 打开的 SPICE 网表，并通过 ngspice 自检。",
     "audience": "开发",
     "level": "进阶",
-    "category": "开发",
+    "category": "嵌入式",
     "platforms": [
       "Claude"
     ],

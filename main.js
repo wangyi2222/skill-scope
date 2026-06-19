@@ -1,5 +1,5 @@
 const skills = window.skillsData || [];
-const CATEGORY_OPTIONS = ["文档", "开发", "工作流", "插件", "图像", "自动化", "研究"];
+const CATEGORY_OPTIONS = ["文档", "开发", "嵌入式", "工作流", "插件", "图像", "自动化", "研究"];
 const AUDIENCE_OPTIONS = ["开发", "设计", "工作流"];
 
 const searchInput = document.getElementById("searchInput");

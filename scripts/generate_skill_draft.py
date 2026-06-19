@@ -78,13 +78,15 @@ ZH_CONFIG = decode_escapes("\u914d\u7f6e")
 ZH_DOC = decode_escapes("\u6587\u6863")
 ZH_AUTO = decode_escapes("\u81ea\u52a8\u5316")
 ZH_RESEARCH = decode_escapes("\u7814\u7a76")
+ZH_EMBEDDED = decode_escapes("\u5d4c\u5165\u5f0f")
 ZH_ADVANCED = decode_escapes("\u8fdb\u9636")
 ZH_EXPERT = decode_escapes("\u9ad8\u7ea7")
 ZH_BASIC = decode_escapes("\u57fa\u7840")
 
 CATEGORY_RULES = [
+    (ZH_EMBEDDED, ["embedded", "stm32", "gd32", "mspm0", "firmware", "probe", "openocd", "rtt", "ble", "spice", "multisim", "ngspice", "simulink", "\u5d4c\u5165\u5f0f", "\u56fa\u4ef6", "\u70e7\u5f55", "\u7535\u8def", "\u4eff\u771f"]),
     (ZH_DOC, ["docs", "documentation", "readme", "markdown", "wiki", ZH_DOC]),
-    (ZH_DEV, ["debug", "debugger", "sdk", "api", "cli", "code", "compiler", "build", "test", "config", "stm32", "embedded", "probe", ZH_DEV, ZH_CODE, ZH_CONFIG]),
+    (ZH_DEV, ["debug", "debugger", "sdk", "api", "cli", "code", "compiler", "build", "test", "config", ZH_DEV, ZH_CODE, ZH_CONFIG]),
     (ZH_WORKFLOW, ["workflow", "session", "memory", "viewer", "dashboard", "manager", "switch", "process", ZH_WORKFLOW, ZH_SESSION, ZH_ORGANIZE]),
     (ZH_PLUGIN, ["plugin", "extension", "vscode", "cursor", "marketplace", ZH_PLUGIN]),
     (ZH_IMAGE, ["image", "photo", "picture", "visual", "design", "mockup", ZH_IMAGE, ZH_DESIGN, ZH_VISION]),
@@ -376,7 +378,7 @@ def infer_level(project_meta: dict | None, repo_description: str, readme_text: s
         return ZH_EXPERT
     if any(keyword in text for keyword in INTERMEDIATE_KEYWORDS):
         return ZH_ADVANCED
-    if category in (ZH_DEV, ZH_AUTO):
+    if category in (ZH_DEV, ZH_AUTO, ZH_EMBEDDED):
         return ZH_ADVANCED
     return ZH_BASIC
 

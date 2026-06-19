@@ -49,10 +49,32 @@ AUDIENCE_BY_CATEGORY = {
     "图像": "设计",
     "设计": "设计",
     "开发": "开发",
+    "嵌入式": "开发",
     "自动化": "开发",
     "研究": "工作流",
     "工作流": "工作流",
 }
+
+EMBEDDED_KEYWORDS = [
+    "embedded",
+    "stm32",
+    "gd32",
+    "mspm0",
+    "firmware",
+    "probe",
+    "openocd",
+    "rtt",
+    "ble",
+    "spice",
+    "multisim",
+    "ngspice",
+    "simulink",
+    "嵌入式",
+    "固件",
+    "烧录",
+    "电路",
+    "仿真",
+]
 
 TRUSTED_OWNERS = {
     "anthropics",
@@ -291,7 +313,8 @@ def score_item(item: dict) -> dict:
 
 
 def build_card(item: dict) -> dict:
-    category = CATEGORY_MAP.get(str(item.get("category") or ""), "工作流")
+    text = " ".join(str(item.get(key) or "") for key in ("name", "description", "link", "category")).lower()
+    category = "嵌入式" if any(keyword in text for keyword in EMBEDDED_KEYWORDS) else CATEGORY_MAP.get(str(item.get("category") or ""), "工作流")
     name = normalize_name(str(item.get("name") or ""), str(item.get("link") or ""))
     description = translate_description(str(item.get("description") or ""), name)
     raw_tags = [
