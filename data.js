@@ -1,5 +1,4 @@
 window.skillsData = [
- 
   {
     "name": "AI-Session-Viewer",
     "description": "用于统一查看和整理 Claude Code 与 Codex CLI 本地会话记录的可视化工具。",
@@ -25,7 +24,9 @@ window.skillsData = [
     "audience": "开发",
     "level": "高级",
     "category": "插件",
-    "platforms": ["stm32"],
+    "platforms": [
+      "stm32"
+    ],
     "tags": [
       "openocd",
       "stm32",
@@ -131,5 +132,25 @@ window.skillsData = [
     ],
     "logo_url": "https://raw.githubusercontent.com/zuoliangyu/Taffy-Studio/HEAD/src-tauri/icons/icon.png",
     "github_url": "https://github.com/zuoliangyu/Taffy-Studio"
+  },
+  {
+    "name": "qiushi-skill",
+    "description": "用于让 AI Agent 先调查、抓主要矛盾并在实践中验证结果，适合构建更稳健的问题分析和任务执行工作流。",
+    "audience": "工作流",
+    "level": "进阶",
+    "category": "工作流",
+    "platforms": [
+      "Claude",
+      "Codex",
+      "Cursor"
+    ],
+    "tags": [
+      "方法论",
+      "Agent",
+      "工作流",
+      "问题分析"
+    ],
+    "logo_url": "https://raw.githubusercontent.com/HughYau/qiushi-skill/main/assets/logo_main.png",
+    "github_url": "https://github.com/HughYau/qiushi-skill"
   }
 ];
