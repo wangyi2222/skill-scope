@@ -172,3 +172,31 @@ candidates/skills_candidates.json
   ->
 generate_skill_draft.py --append-data
 ```
+
+## 从 anbeime/skill 技能商店导入
+
+`anbeime/skill` 是一个聚合型技能仓库，不应该把仓库本身做成一张卡片，而应该先把它收集的 Skill 当成候选池评分。
+
+当前流程：
+
+```bash
+python scripts/import_anbeime_skills.py
+```
+
+这个命令会读取 `candidates/anbeime_skills.json`，生成：
+
+- `candidates/anbeime_scored_skills.json`：完整评分结果，包含 `score`、`status`、`risk_level` 和判断原因。
+- 不修改 `data.js`。
+
+确认后再执行：
+
+```bash
+python scripts/import_anbeime_skills.py --append-data --limit 100
+```
+
+写入规则：
+
+- 只追加 `status=selected` 的条目。
+- 已存在的 `github_url` 自动跳过，避免重复卡片。
+- 有明显风险词或无法稳定生成中文简介的条目先保留为候选，不直接上线。
+- 正式卡片仍写入 `data.js`，维护者可以继续手动修改。
