@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://raw.githubusercontent.com;">
   <title data-i18n="pageTitle">SkillScope - AI Skills 发现与筛选</title>
   <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css?v=20260620-8">
@@ -31,8 +32,8 @@
             <h2 id="controls-title" data-i18n="filterTitle">缩小范围</h2>
           </div>
           <div class="language-toggle" aria-label="Language">
-            <button class="language-button is-active" type="button" data-lang="zh">中文</button>
-            <button class="language-button" type="button" data-lang="en">English</button>
+            <button class="language-button is-active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+            <button class="language-button" type="button" data-lang="en" aria-pressed="false">English</button>
           </div>
         </div>
 
@@ -71,7 +72,7 @@
           </div>
           <p id="resultCount" class="result-count">0 个 Skills</p>
         </div>
-        <div id="cardGrid" class="card-grid"></div>
+        <div id="cardGrid" class="card-grid" aria-live="polite"></div>
 
         <section class="feedback-panel" aria-labelledby="feedback-title">
           <div>

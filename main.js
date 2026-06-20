@@ -141,7 +141,9 @@ function applyTranslations() {
   });
 
   languageButtons.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.lang === currentLanguage);
+    const isActive = button.dataset.lang === currentLanguage;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 
   updateSelectOptionLabels();
@@ -209,8 +211,11 @@ function onResize() {
   }
   resizePending = true;
   requestAnimationFrame(() => {
-    syncCardHeights();
-    resizePending = false;
+    try {
+      syncCardHeights();
+    } finally {
+      resizePending = false;
+    }
   });
 }
 
@@ -350,6 +355,8 @@ function filterSkills() {
       skillDescription,
       skill.audience,
       skill.category,
+      formatAudience(skill.audience),
+      formatCategory(skill.category),
       skill.source,
       ...(skill.tags || [])
     ]
