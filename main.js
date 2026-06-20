@@ -11,6 +11,7 @@ const sourceTagsPanel = document.getElementById("sourceTagsPanel");
 const sourceTags = document.getElementById("sourceTags");
 
 const SOURCE_TAG_THRESHOLD = 15;
+const PINNED_SOURCE_TAGS = ["anthropics", "zuoliangyu"];
 let activeSource = "all";
 
 function syncCardHeights() {
@@ -68,7 +69,7 @@ function getFrequentSources() {
   });
 
   return [...counts.entries()]
-    .filter(([, count]) => count > SOURCE_TAG_THRESHOLD)
+    .filter(([owner, count]) => count > SOURCE_TAG_THRESHOLD || PINNED_SOURCE_TAGS.includes(owner))
     .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]));
 }
 
