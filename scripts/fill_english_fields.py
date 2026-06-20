@@ -2,8 +2,7 @@ import json
 import re
 from pathlib import Path
 
-
-DATA_FILE = Path("data.js")
+from common import DATA_FILE, load_data, write_data
 
 CATEGORY_CONTEXT = {
     "文档": "document workflows",
@@ -85,19 +84,6 @@ ACTION_PHRASES = [
 ]
 
 
-def load_items() -> list[dict]:
-    raw = DATA_FILE.read_text(encoding="utf-8-sig")
-    match = re.search(r"window\.skillsData\s*=\s*(\[[\s\S]*\]);?\s*$", raw)
-    if not match:
-        raise RuntimeError("Unable to parse data.js")
-    return json.loads(match.group(1))
-
-
-def write_items(items: list[dict]) -> None:
-    payload = "window.skillsData = " + json.dumps(items, ensure_ascii=False, indent=2) + ";\n"
-    DATA_FILE.write_text(payload, encoding="utf-8")
-
-
 def source_slug(item: dict) -> str:
     source = str(item.get("source") or item.get("github_url") or "")
     parts = [part for part in re.split(r"[/#?]+", source) if part]
@@ -151,7 +137,7 @@ def english_description(item: dict) -> str:
 
 
 def main() -> None:
-    items = load_items()
+    items = load_data()
     filled_names = 0
     filled_descriptions = 0
 
@@ -166,7 +152,7 @@ def main() -> None:
             description["en"] = english_description(item)
             filled_descriptions += 1
 
-    write_items(items)
+    write_data(items)
     print(f"filled_names={filled_names}")
     print(f"filled_descriptions={filled_descriptions}")
 

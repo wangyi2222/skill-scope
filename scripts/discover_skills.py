@@ -8,6 +8,7 @@ import re
 import urllib.parse
 from datetime import datetime, timezone
 
+from common import load_data
 from generate_skill_draft import DATA_FILE, fetch_text_file, github_api_get
 
 
@@ -75,13 +76,22 @@ MEDIUM_RISK_PATTERNS = [
 ]
 
 
-def search_repositories(query: str, per_page: int) -> list[dict]:
+def search_repositories(query: str, per_page: int, max_pages: int = 3) -> list[dict]:
     encoded = urllib.parse.quote_plus(query)
-    data = github_api_get(f"/search/repositories?q={encoded}&sort=updated&order=desc&per_page={per_page}")
-    if not isinstance(data, dict):
-        return []
-    items = data.get("items")
-    return items if isinstance(items, list) else []
+    results: list[dict] = []
+    for page in range(1, max_pages + 1):
+        data = github_api_get(
+            f"/search/repositories?q={encoded}&sort=updated&order=desc&per_page={per_page}&page={page}"
+        )
+        if not isinstance(data, dict):
+            break
+        items = data.get("items")
+        if not isinstance(items, list) or not items:
+            break
+        results.extend(items)
+        if len(items) < per_page:
+            break
+    return results
 
 
 def fetch_owner_repositories(owner: str, limit: int) -> list[dict]:
@@ -259,11 +269,10 @@ def dedupe_candidates(candidates: list[dict]) -> list[dict]:
 def load_published_urls() -> set[str]:
     if not DATA_FILE.exists():
         return set()
-    raw = DATA_FILE.read_text(encoding="utf-8")
-    match = re.search(r"window\.skillsData\s*=\s*(\[[\s\S]*\]);?\s*$", raw)
-    if not match:
+    try:
+        items = load_data()
+    except (RuntimeError, json.JSONDecodeError):
         return set()
-    items = json.loads(match.group(1))
     if not isinstance(items, list):
         return set()
     return {str(item.get("github_url")) for item in items if isinstance(item, dict) and item.get("github_url")}

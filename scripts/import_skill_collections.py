@@ -7,11 +7,25 @@ import pathlib
 import re
 from urllib.parse import urlparse
 
+from common import (
+    AUDIENCE_BY_CATEGORY,
+    DATA_FILE,
+    DESC_TRANSLATIONS,
+    EMBEDDED_KEYWORDS,
+    HIGH_RISK_WORDS,
+    TRUSTED_OWNERS,
+    canonical_url,
+    load_data,
+    owner_from_url,
+    repo_from_url,
+    slug_from_url,
+    source_from_link,
+    write_data,
+)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 COLLECTIONS_DIR = ROOT / "candidates" / "collections"
 REPORT_FILE = COLLECTIONS_DIR / "scored_collection_skills.json"
-DATA_FILE = ROOT / "data.js"
 
 COLLECTION_REPOS = [
     "VoltAgent/awesome-agent-skills",
@@ -32,60 +46,8 @@ COLLECTION_ROOTS = {
     "https://github.com/anthropics/skills",
 }
 
-TRUSTED_OWNERS = {
-    "anthropics",
-    "google",
-    "github",
-    "vercel-labs",
-    "cloudflare",
-    "supabase",
-    "huggingface",
-    "stripe",
-    "trailofbits",
-    "expo",
-    "getsentry",
-    "better-auth",
-    "tinybirdco",
-    "neondatabase",
-    "fal-ai-community",
-    "sanity-io",
-    "remotion-dev",
-    "czlonkowski",
-    "obra",
-    "skillmatic-ai",
-}
-
-HIGH_RISK_WORDS = [
-    "token",
-    "secret",
-    "password",
-    "credential",
-    "apk",
-    "medical",
-    "health",
-    "wallet",
-    "private key",
-]
-
-EMBEDDED_WORDS = [
-    "embedded",
-    "stm32",
-    "gd32",
-    "mspm0",
-    "firmware",
-    "probe",
-    "openocd",
-    "rtt",
-    "ble",
-    "spice",
-    "multisim",
-    "ngspice",
-    "simulink",
-    "circuit",
-]
-
 CATEGORY_RULES = [
-    ("嵌入式", EMBEDDED_WORDS),
+    ("嵌入式", EMBEDDED_KEYWORDS),
     ("开发", ["code", "dev", "developer", "testing", "test", "mcp", "api", "sdk", "react", "next", "cloudflare", "stripe", "auth", "postgres", "github", "copilot", "waf", "cloud", "gke", "firebase", "alloydb", "bigquery"]),
     ("文档", ["doc", "docs", "document", "pdf", "ppt", "pptx", "xlsx", "word", "excel", "markdown", "readme", "notion"]),
     ("图像", ["image", "video", "gif", "design", "ui", "ux", "visual", "canvas", "art", "photo", "remotion", "fal"]),
@@ -93,33 +55,6 @@ CATEGORY_RULES = [
     ("研究", ["research", "paper", "deep-research", "evaluation", "dataset", "model", "huggingface", "rag"]),
     ("工作流", ["agent", "skill", "context", "memory", "planning", "review", "commit", "issue", "linear", "productivity"]),
 ]
-
-AUDIENCE_BY_CATEGORY = {
-    "文档": "工作流",
-    "开发": "开发",
-    "嵌入式": "开发",
-    "工作流": "工作流",
-    "插件": "开发",
-    "图像": "设计",
-    "自动化": "开发",
-    "研究": "工作流",
-}
-
-DESC_TRANSLATIONS = {
-    "Create, edit, and analyze Word documents": "用于创建、编辑和分析 Word 文档。",
-    "Collaborative document editing and co-authoring": "用于协作文档编辑和共同写作。",
-    "Create, edit, and analyze PowerPoint presentations": "用于创建、编辑和分析 PowerPoint 演示文稿。",
-    "Create, edit, and analyze Excel spreadsheets": "用于创建、编辑和分析 Excel 表格。",
-    "Extract text, create PDFs, and handle forms": "用于提取 PDF 文本、创建 PDF 并处理表单。",
-    "Create generative art using p5.js with seeded randomness": "用于基于 p5.js 和随机种子创建生成式艺术。",
-    "Design visual art in PNG and PDF formats": "用于设计并输出 PNG 和 PDF 格式的视觉作品。",
-    "Frontend design and UI/UX development tools": "用于辅助前端界面设计和 UI/UX 开发。",
-    "Create animated GIFs optimized for Slack size constraints": "用于创建适合 Slack 体积限制的动画 GIF。",
-    "Style artifacts with professional themes or generate custom themes": "用于为作品应用专业主题或生成自定义主题。",
-    "Build complex claude.ai HTML artifacts with React and Tailwind": "用于用 React 和 Tailwind 构建复杂的 Claude HTML 作品。",
-    "Create MCP servers to integrate external APIs and services": "用于创建 MCP 服务，把外部 API 和服务接入 Agent 工作流。",
-    "Test local web applications using Playwright": "用于通过 Playwright 测试本地 Web 应用。",
-}
 
 
 def collection_file(repo: str, suffix: str) -> pathlib.Path:
@@ -141,35 +76,6 @@ def normalize_github_url(url: str) -> str:
     return normalized.rstrip("/")
 
 
-def canonical_url(url: str) -> str:
-    parsed = urlparse(url)
-    parts = [part for part in parsed.path.strip("/").split("/") if part]
-    if len(parts) >= 5 and parts[2] in ("tree", "blob"):
-        return f"https://github.com/{parts[0]}/{parts[1]}/tree/{parts[3]}/{'/'.join(parts[4:])}".rstrip("/")
-    if len(parts) >= 2:
-        return f"https://github.com/{parts[0]}/{parts[1]}".rstrip("/")
-    return url.rstrip("/")
-
-
-def owner_from_url(url: str) -> str:
-    parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
-    return parts[0].lower() if parts else ""
-
-
-def repo_from_url(url: str) -> str:
-    parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
-    return parts[1].lower() if len(parts) > 1 else ""
-
-
-def slug_from_url(url: str) -> str:
-    parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
-    if len(parts) >= 5 and parts[2] in ("tree", "blob"):
-        return parts[-1]
-    if len(parts) >= 2:
-        return parts[1]
-    return "unknown-skill"
-
-
 def display_name_from_source_name(name: str, link: str) -> str:
     value = clean_text(name)
     if "/" in value:
@@ -177,15 +83,6 @@ def display_name_from_source_name(name: str, link: str) -> str:
     if value.lower() in ("github", "repository", "repo"):
         return slug_from_url(link)
     return value or slug_from_url(link)
-
-
-def source_from_url(url: str) -> str:
-    parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
-    if len(parts) >= 5 and parts[2] in ("tree", "blob"):
-        return f"{parts[0]}/{parts[1]}/{'/'.join(parts[4:])}"
-    if len(parts) >= 2:
-        return f"{parts[0]}/{parts[1]}"
-    return ""
 
 
 def clean_text(text: str) -> str:
@@ -673,23 +570,11 @@ def build_card(item: dict) -> dict:
             "en": description,
         },
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
-        "source": source_from_url(link),
+        "source": source_from_link(link),
         "category": category,
         "tags": tags[:5],
         "github_url": link,
     }
-
-
-def load_data() -> list[dict]:
-    raw = DATA_FILE.read_text(encoding="utf-8")
-    match = re.search(r"window\.skillsData\s*=\s*(\[[\s\S]*\]);?\s*$", raw)
-    if not match:
-        raise RuntimeError("Unable to parse data.js")
-    return json.loads(match.group(1))
-
-
-def write_data(items: list[dict]) -> None:
-    DATA_FILE.write_text("window.skillsData = " + json.dumps(items, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
 
 
 def gather_items() -> list[dict]:

@@ -5,16 +5,12 @@ import json
 import pathlib
 import re
 
+from common import DATA_FILE, canonical_url, load_data, write_data
 from import_skill_collections import (
     REPORT_FILE,
-    canonical_url,
     clean_text,
     translate_description,
 )
-
-
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA_FILE = ROOT / "data.js"
 
 MANUAL_DESCRIPTION_FIXES = {
     "web-artifacts-builder": "用于使用 React 和 Tailwind 构建 Claude HTML 交互作品。",
@@ -26,21 +22,6 @@ MANUAL_DESCRIPTION_FIXES = {
     "cloudflare/commands": "用于查询和使用 Cloudflare 命令行相关能力。",
     "firecrawl-agent": "用于把 Firecrawl 网页抓取能力接入 Agent 工作流。",
 }
-
-
-def load_data() -> list[dict]:
-    raw = DATA_FILE.read_text(encoding="utf-8")
-    match = re.search(r"window\.skillsData\s*=\s*(\[[\s\S]*\]);?\s*$", raw)
-    if not match:
-        raise RuntimeError("Unable to parse data.js")
-    return json.loads(match.group(1))
-
-
-def write_data(items: list[dict]) -> None:
-    DATA_FILE.write_text(
-        "window.skillsData = " + json.dumps(items, ensure_ascii=False, indent=2) + ";\n",
-        encoding="utf-8",
-    )
 
 
 def normalize_existing_description(description: str) -> str:

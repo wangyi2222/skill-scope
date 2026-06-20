@@ -11,6 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from common import load_data, write_data
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DRAFTS_DIR = ROOT / "drafts"
@@ -464,18 +465,6 @@ def build_draft(repo_url: str) -> dict:
     }
 
 
-def extract_existing_data_array() -> list[dict]:
-    raw = DATA_FILE.read_text(encoding="utf-8")
-    match = re.search(r"window\.skillsData\s*=\s*(\[[\s\S]*\]);?\s*$", raw)
-    if not match:
-        raise RuntimeError("Unable to locate window.skillsData array in data.js")
-    return json.loads(match.group(1))
-
-
-def write_data_array(items: list[dict]) -> None:
-    DATA_FILE.write_text("window.skillsData = " + json.dumps(items, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
-
-
 def save_skill(items: list[dict], draft: dict, allow_update: bool) -> tuple[list[dict], str]:
     url = draft["github_url"]
     for index, item in enumerate(items):
@@ -506,10 +495,10 @@ def main() -> int:
 
     if args.append_data or args.update_data:
         public_draft = {key: value for key, value in draft.items() if not key.startswith("_")}
-        current_items = extract_existing_data_array()
+        current_items = load_data()
         current_items, action = save_skill(current_items, public_draft, allow_update=args.update_data)
         if action != "skipped":
-            write_data_array(current_items)
+            write_data(current_items)
         print(f"[ok] Draft {action} in {DATA_FILE}")
 
     if args.stdout:
