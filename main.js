@@ -9,23 +9,6 @@ const audienceFilter = document.getElementById("audienceFilter");
 const cardGrid = document.getElementById("cardGrid");
 const resultCount = document.getElementById("resultCount");
 
-function syncCardHeights() {
-  const cards = [...cardGrid.querySelectorAll(".card")];
-
-  cards.forEach((card) => {
-    card.style.height = "auto";
-  });
-
-  if (!cards.length) {
-    return;
-  }
-
-  const maxHeight = Math.max(...cards.map((card) => card.offsetHeight));
-  cards.forEach((card) => {
-    card.style.height = `${maxHeight}px`;
-  });
-}
-
 function getUniquePlatformValues() {
   return [
     ...new Set(
@@ -155,8 +138,6 @@ function renderCards() {
   filtered.forEach((skill) => {
     cardGrid.appendChild(createCard(skill));
   });
-
-  syncCardHeights();
 }
 
 fillSelect(platformFilter, getUniquePlatformValues());
@@ -167,6 +148,5 @@ searchInput.addEventListener("input", renderCards);
 platformFilter.addEventListener("change", renderCards);
 categoryFilter.addEventListener("change", renderCards);
 audienceFilter.addEventListener("change", renderCards);
-window.addEventListener("resize", syncCardHeights);
 
 renderCards();
