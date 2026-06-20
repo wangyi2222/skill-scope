@@ -472,6 +472,12 @@ code {
   background: var(--glass-strong);
 }
 
+.empty-state.is-data-error {
+  border-color: rgba(239, 139, 72, 0.34);
+  background: rgba(255, 241, 230, 0.48);
+  color: #b8601e;
+}
+
 @media (max-width: 980px) {
   .page-shell {
     grid-template-columns: 1fr;

@@ -67,6 +67,7 @@ const TRANSLATIONS = {
     cardsTitle: "浏览卡片列表",
     resultCount: (count) => `${count} 个 Skills`,
     emptyState: "没有找到匹配结果，试试其他关键词或筛选条件。",
+    dataEmpty: "数据加载失败，请刷新页面后重试。如果问题仍然存在，请联系维护者。",
     audienceMeta: "适用人群",
     sourceMeta: "来源",
     missingSource: "待补充",
@@ -95,6 +96,7 @@ const TRANSLATIONS = {
     cardsTitle: "Browse cards",
     resultCount: (count) => `${count} Skills`,
     emptyState: "No matching results. Try another keyword or filter.",
+    dataEmpty: "Failed to load skill data. Please refresh the page. If the issue persists, contact the maintainer.",
     audienceMeta: "Audience",
     sourceMeta: "Source",
     missingSource: "To be added",
@@ -107,6 +109,12 @@ const TRANSLATIONS = {
 };
 let activeSource = "all";
 let currentLanguage = "zh";
+
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
+}
 
 function t(key, ...args) {
   const value = TRANSLATIONS[currentLanguage][key] || TRANSLATIONS.zh[key] || key;
@@ -164,6 +172,7 @@ function updateSelectOptionLabels() {
 function syncCardHeights() {
   const cards = [...cardGrid.querySelectorAll(".card")];
 
+  // Phase 1: Reset heights and collect layout measurements (reads)
   cards.forEach((card) => {
     card.style.height = "auto";
   });
@@ -178,11 +187,30 @@ function syncCardHeights() {
     rows.set(rowTop, [...(rows.get(rowTop) || []), card]);
   });
 
-  rows.forEach((rowCards) => {
-    const rowHeight = Math.max(...rowCards.map((card) => card.offsetHeight));
+  // Phase 2: Compute row heights (reads after reset)
+  const rowHeights = new Map();
+  rows.forEach((rowCards, rowTop) => {
+    rowHeights.set(rowTop, Math.max(...rowCards.map((card) => card.offsetHeight)));
+  });
+
+  // Phase 3: Apply heights (writes)
+  rows.forEach((rowCards, rowTop) => {
+    const rowHeight = rowHeights.get(rowTop);
     rowCards.forEach((card) => {
       card.style.height = `${rowHeight}px`;
     });
+  });
+}
+
+let resizePending = false;
+function onResize() {
+  if (resizePending) {
+    return;
+  }
+  resizePending = true;
+  requestAnimationFrame(() => {
+    syncCardHeights();
+    resizePending = false;
   });
 }
 
@@ -257,15 +285,20 @@ function getLogoFallback(name) {
   return (name || "?").trim().charAt(0).toUpperCase();
 }
 
+function isSafeUrl(url) {
+  return typeof url === "string" && /^https:\/\//i.test(url);
+}
+
 function createCard(skill) {
   const article = document.createElement("article");
   article.className = "card";
 
-  const skillName = localizedField(skill.name);
-  const skillDescription = localizedField(skill.description);
+  const skillName = escapeHtml(localizedField(skill.name));
+  const skillDescription = escapeHtml(localizedField(skill.description));
   const tags = Array.isArray(skill.tags) ? skill.tags.map(createTag) : [];
-  const logo = skill.logo_url
-    ? `<img src="${skill.logo_url}" alt="${skillName} logo" loading="lazy">`
+  const logoSrc = isSafeUrl(skill.logo_url) ? escapeHtml(skill.logo_url) : "";
+  const logo = logoSrc
+    ? `<img src="${logoSrc}" alt="${skillName} logo" loading="lazy">`
     : `<span>${getLogoFallback(skillName)}</span>`;
 
   article.innerHTML = `
@@ -275,11 +308,11 @@ function createCard(skill) {
         <h3>${skillName}</h3>
         <p class="card-desc">${skillDescription}</p>
       </div>
-      <span class="badge">${formatCategory(skill.category)}</span>
+      <span class="badge">${escapeHtml(formatCategory(skill.category))}</span>
     </div>
     <div class="meta-list">
-      <p><strong>${t("audienceMeta")}</strong><span>${formatAudience(skill.audience)}</span></p>
-      <p><strong>${t("sourceMeta")}</strong><span>${skill.source || t("missingSource")}</span></p>
+      <p><strong>${t("audienceMeta")}</strong><span>${escapeHtml(formatAudience(skill.audience))}</span></p>
+      <p><strong>${t("sourceMeta")}</strong><span>${escapeHtml(skill.source || t("missingSource"))}</span></p>
     </div>
   `;
 
@@ -333,8 +366,19 @@ function filterSkills() {
 }
 
 function renderCards() {
-  const filtered = filterSkills();
   cardGrid.innerHTML = "";
+
+  if (!skills.length) {
+    const emptyState = document.createElement("div");
+    emptyState.className = "empty-state";
+    emptyState.classList.add("is-data-error");
+    emptyState.textContent = t("dataEmpty");
+    cardGrid.appendChild(emptyState);
+    resultCount.textContent = t("resultCount", 0);
+    return;
+  }
+
+  const filtered = filterSkills();
   resultCount.textContent = t("resultCount", filtered.length);
 
   if (!filtered.length) {
@@ -386,6 +430,6 @@ languageButtons.forEach((button) => {
     renderCards();
   });
 });
-window.addEventListener("resize", syncCardHeights);
+window.addEventListener("resize", onResize);
 
 renderCards();
