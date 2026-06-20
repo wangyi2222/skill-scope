@@ -205,16 +205,17 @@ code {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
   align-items: start;
 }
 
 .card {
   display: grid;
-  gap: 8px;
-  min-height: 184px;
-  padding: 13px;
+  grid-template-rows: auto auto 1fr;
+  gap: 9px;
+  height: 188px;
+  padding: 14px;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.72);
   background: var(--glass-strong);
@@ -262,8 +263,11 @@ code {
 
 .card h3 {
   margin: 0 0 3px;
+  overflow: hidden;
   font-size: 15px;
   line-height: 1.22;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .card p {
@@ -273,7 +277,7 @@ code {
 .card-desc {
   display: -webkit-box;
   overflow: hidden;
-  min-height: 38px;
+  min-height: 35px;
   font-size: 12px;
   line-height: 1.45;
   -webkit-box-orient: vertical;
@@ -324,6 +328,7 @@ code {
   justify-content: space-between;
   gap: 8px;
   align-items: end;
+  min-width: 0;
   margin-top: auto;
 }
 
@@ -331,6 +336,9 @@ code {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  max-height: 21px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .tag {
@@ -428,6 +436,10 @@ code {
 
   .controls-grid {
     grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(0, 1fr));
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
