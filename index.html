@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SkillScope - AI Skills 发现与筛选</title>
+  <title data-i18n="pageTitle">SkillScope - AI Skills 发现与筛选</title>
   <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css?v=20260620-4">
+  <link rel="stylesheet" href="./style.css?v=20260620-5">
 </head>
 <body>
   <div class="page-shell">
@@ -15,11 +15,11 @@
           <img src="./assets/logo.svg" alt="SkillScope logo">
           <div>
             <p class="brand-mark">SkillScope</p>
-            <p class="brand-subtitle">AI Skills 发现与筛选目录</p>
+            <p class="brand-subtitle" data-i18n="brandSubtitle">AI Skills 发现与筛选目录</p>
           </div>
         </div>
-        <h1>发现值得使用的 AI Skills</h1>
-        <p class="hero-copy">
+        <h1 data-i18n="heroTitle">发现值得使用的 AI Skills</h1>
+        <p class="hero-copy" data-i18n="heroCopy">
           汇集来自 GitHub 的优质 AI Skills，以卡片方式呈现核心能力、使用场景与来源，帮助你快速判断、比较并找到值得深入了解的工具。
         </p>
       </section>
@@ -27,32 +27,36 @@
       <section class="filter-panel" aria-labelledby="controls-title">
         <div class="panel-head">
           <div>
-            <p class="content-kicker">筛选</p>
-            <h2 id="controls-title">缩小范围</h2>
+            <p class="content-kicker" data-i18n="filterKicker">筛选</p>
+            <h2 id="controls-title" data-i18n="filterTitle">缩小范围</h2>
+          </div>
+          <div class="language-toggle" aria-label="Language">
+            <button class="language-button is-active" type="button" data-lang="zh">中文</button>
+            <button class="language-button" type="button" data-lang="en">English</button>
           </div>
         </div>
 
         <div class="controls-grid">
           <label class="field">
-            <span>搜索 Skill</span>
-            <input id="searchInput" type="search" placeholder="名称、场景或标签">
+            <span data-i18n="searchLabel">搜索 Skill</span>
+            <input id="searchInput" type="search" placeholder="名称、场景或标签" data-i18n-placeholder="searchPlaceholder">
           </label>
           <label class="field">
-            <span>类别</span>
+            <span data-i18n="categoryLabel">类别</span>
             <select id="categoryFilter">
-              <option value="all">全部类别</option>
+              <option value="all" data-i18n="allCategories">全部类别</option>
             </select>
           </label>
           <label class="field">
-            <span>适用人群</span>
+            <span data-i18n="audienceLabel">适用人群</span>
             <select id="audienceFilter">
-              <option value="all">全部人群</option>
+              <option value="all" data-i18n="allAudiences">全部人群</option>
             </select>
           </label>
         </div>
 
         <div id="sourceTagsPanel" class="source-tags-panel" hidden>
-          <p class="source-tags-title">高频来源</p>
+          <p class="source-tags-title" data-i18n="sourceTagsTitle">高频来源</p>
           <div id="sourceTags" class="source-tags" aria-label="高频来源筛选"></div>
         </div>
       </section>
@@ -62,8 +66,8 @@
       <section class="grid-wrap" aria-labelledby="cards-title">
         <div class="grid-head">
           <div>
-            <p class="content-kicker">全部 Skills</p>
-            <h2 id="cards-title">浏览卡片列表</h2>
+            <p class="content-kicker" data-i18n="cardsKicker">全部 Skills</p>
+            <h2 id="cards-title" data-i18n="cardsTitle">浏览卡片列表</h2>
           </div>
           <p id="resultCount" class="result-count">0 个 Skills</p>
         </div>
@@ -71,19 +75,19 @@
 
         <section class="feedback-panel" aria-labelledby="feedback-title">
           <div>
-            <p class="content-kicker">反馈</p>
-            <h2 id="feedback-title">想推荐新的 Skill？</h2>
-            <p>如果你发现值得收录的 AI Skill，可以通过 GitHub Discussions 留下项目链接和简要说明。</p>
+            <p class="content-kicker" data-i18n="feedbackKicker">反馈</p>
+            <h2 id="feedback-title" data-i18n="feedbackTitle">想推荐新的 Skill？</h2>
+            <p data-i18n="feedbackCopy">如果你发现值得收录的 AI Skill，可以通过 GitHub Discussions 留下项目链接和简要说明。</p>
           </div>
           <a class="feedback-link" href="https://github.com/wangyi2222/skill-scope/discussions" target="_blank" rel="noreferrer">
-            前往反馈
+            <span data-i18n="feedbackLink">前往反馈</span>
           </a>
         </section>
       </section>
     </main>
   </div>
 
-  <script src="./data.js?v=20260620-4"></script>
-  <script src="./main.js?v=20260620-4"></script>
+  <script src="./data.js?v=20260620-5"></script>
+  <script src="./main.js?v=20260620-5"></script>
 </body>
 </html>

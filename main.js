@@ -1,6 +1,40 @@
 const skills = window.skillsData || [];
 const CATEGORY_OPTIONS = ["文档", "开发", "嵌入式", "工作流", "插件", "图像", "自动化", "研究"];
 const AUDIENCE_OPTIONS = ["开发", "设计", "工作流"];
+const CATEGORY_LABELS = {
+  zh: {
+    文档: "文档",
+    开发: "开发",
+    嵌入式: "嵌入式",
+    工作流: "工作流",
+    插件: "插件",
+    图像: "图像",
+    自动化: "自动化",
+    研究: "研究",
+  },
+  en: {
+    文档: "Documents",
+    开发: "Development",
+    嵌入式: "Embedded",
+    工作流: "Workflow",
+    插件: "Plugins",
+    图像: "Images",
+    自动化: "Automation",
+    研究: "Research",
+  },
+};
+const AUDIENCE_LABELS = {
+  zh: {
+    开发: "开发",
+    设计: "设计",
+    工作流: "工作流",
+  },
+  en: {
+    开发: "Developers",
+    设计: "Designers",
+    工作流: "Workflow users",
+  },
+};
 
 const searchInput = document.getElementById("searchInput");
 const categoryFilter = document.getElementById("categoryFilter");
@@ -9,10 +43,115 @@ const cardGrid = document.getElementById("cardGrid");
 const resultCount = document.getElementById("resultCount");
 const sourceTagsPanel = document.getElementById("sourceTagsPanel");
 const sourceTags = document.getElementById("sourceTags");
+const languageButtons = [...document.querySelectorAll(".language-button")];
 
 const SOURCE_TAG_THRESHOLD = 15;
 const PINNED_SOURCE_TAGS = ["anthropics", "zuoliangyu"];
+const TRANSLATIONS = {
+  zh: {
+    pageTitle: "SkillScope - AI Skills 发现与筛选",
+    brandSubtitle: "AI Skills 发现与筛选目录",
+    heroTitle: "发现值得使用的 AI Skills",
+    heroCopy: "汇集来自 GitHub 的优质 AI Skills，以卡片方式呈现核心能力、使用场景与来源，帮助你快速判断、比较并找到值得深入了解的工具。",
+    filterKicker: "筛选",
+    filterTitle: "缩小范围",
+    searchLabel: "搜索 Skill",
+    searchPlaceholder: "名称、场景或标签",
+    categoryLabel: "类别",
+    audienceLabel: "适用人群",
+    allCategories: "全部类别",
+    allAudiences: "全部人群",
+    sourceTagsTitle: "高频来源",
+    allSources: "全部来源",
+    cardsKicker: "全部 Skills",
+    cardsTitle: "浏览卡片列表",
+    resultCount: (count) => `${count} 个 Skills`,
+    emptyState: "没有找到匹配结果，试试其他关键词或筛选条件。",
+    audienceMeta: "适用人群",
+    sourceMeta: "来源",
+    missingSource: "待补充",
+    githubLink: "查看 GitHub",
+    feedbackKicker: "反馈",
+    feedbackTitle: "想推荐新的 Skill？",
+    feedbackCopy: "如果你发现值得收录的 AI Skill，可以通过 GitHub Discussions 留下项目链接和简要说明。",
+    feedbackLink: "前往反馈",
+  },
+  en: {
+    pageTitle: "SkillScope - Discover and Filter AI Skills",
+    brandSubtitle: "AI Skills discovery directory",
+    heroTitle: "Discover useful AI Skills",
+    heroCopy: "A curated directory of AI Skills from GitHub, presented as compact cards so you can quickly compare capabilities, use cases, and sources.",
+    filterKicker: "Filters",
+    filterTitle: "Narrow results",
+    searchLabel: "Search Skill",
+    searchPlaceholder: "Name, use case, or tag",
+    categoryLabel: "Category",
+    audienceLabel: "Audience",
+    allCategories: "All categories",
+    allAudiences: "All audiences",
+    sourceTagsTitle: "Frequent sources",
+    allSources: "All sources",
+    cardsKicker: "All Skills",
+    cardsTitle: "Browse cards",
+    resultCount: (count) => `${count} Skills`,
+    emptyState: "No matching results. Try another keyword or filter.",
+    audienceMeta: "Audience",
+    sourceMeta: "Source",
+    missingSource: "To be added",
+    githubLink: "View GitHub",
+    feedbackKicker: "Feedback",
+    feedbackTitle: "Want to suggest a Skill?",
+    feedbackCopy: "If you find an AI Skill worth adding, leave its project link and a short note in GitHub Discussions.",
+    feedbackLink: "Send feedback",
+  },
+};
 let activeSource = "all";
+let currentLanguage = "zh";
+
+function t(key, ...args) {
+  const value = TRANSLATIONS[currentLanguage][key] || TRANSLATIONS.zh[key] || key;
+  return typeof value === "function" ? value(...args) : value;
+}
+
+function applyTranslations() {
+  document.documentElement.lang = currentLanguage === "zh" ? "zh-CN" : "en";
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    element.placeholder = t(element.dataset.i18nPlaceholder);
+  });
+
+  languageButtons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.lang === currentLanguage);
+  });
+
+  updateSelectOptionLabels();
+}
+
+function formatCategory(value) {
+  return CATEGORY_LABELS[currentLanguage][value] || value;
+}
+
+function formatAudience(value) {
+  return AUDIENCE_LABELS[currentLanguage][value] || value;
+}
+
+function updateSelectOptionLabels() {
+  [...categoryFilter.options].forEach((option) => {
+    if (option.value !== "all") {
+      option.textContent = formatCategory(option.value);
+    }
+  });
+
+  [...audienceFilter.options].forEach((option) => {
+    if (option.value !== "all") {
+      option.textContent = formatAudience(option.value);
+    }
+  });
+}
 
 function syncCardHeights() {
   const cards = [...cardGrid.querySelectorAll(".card")];
@@ -92,7 +231,7 @@ function renderSourceTags() {
 
   sourceTagsPanel.hidden = false;
   sourceTags.innerHTML = "";
-  sourceTags.appendChild(createSourceTag("全部来源", 0, "all"));
+  sourceTags.appendChild(createSourceTag(t("allSources"), 0, "all"));
 
   frequentSources.forEach(([owner, count]) => {
     sourceTags.appendChild(createSourceTag(owner, count, owner));
@@ -126,11 +265,11 @@ function createCard(skill) {
         <h3>${skill.name}</h3>
         <p class="card-desc">${skill.description}</p>
       </div>
-      <span class="badge">${skill.category}</span>
+      <span class="badge">${formatCategory(skill.category)}</span>
     </div>
     <div class="meta-list">
-      <p><strong>适用人群</strong><span>${skill.audience}</span></p>
-      <p><strong>来源</strong><span>${skill.source || "待补充"}</span></p>
+      <p><strong>${t("audienceMeta")}</strong><span>${formatAudience(skill.audience)}</span></p>
+      <p><strong>${t("sourceMeta")}</strong><span>${skill.source || t("missingSource")}</span></p>
     </div>
   `;
 
@@ -146,7 +285,7 @@ function createCard(skill) {
   link.href = skill.github_url;
   link.target = "_blank";
   link.rel = "noreferrer";
-  link.textContent = "查看 GitHub";
+  link.textContent = t("githubLink");
 
   footer.appendChild(tagList);
   footer.appendChild(link);
@@ -184,12 +323,12 @@ function filterSkills() {
 function renderCards() {
   const filtered = filterSkills();
   cardGrid.innerHTML = "";
-  resultCount.textContent = `${filtered.length} 个 Skills`;
+  resultCount.textContent = t("resultCount", filtered.length);
 
   if (!filtered.length) {
     const emptyState = document.createElement("div");
     emptyState.className = "empty-state";
-    emptyState.textContent = "没有找到匹配结果，试试其他关键词或筛选条件。";
+    emptyState.textContent = t("emptyState");
     cardGrid.appendChild(emptyState);
     return;
   }
@@ -211,6 +350,7 @@ function renderCards() {
 
 fillSelect(categoryFilter, CATEGORY_OPTIONS);
 fillSelect(audienceFilter, AUDIENCE_OPTIONS);
+applyTranslations();
 renderSourceTags();
 
 searchInput.addEventListener("input", renderCards);
@@ -225,6 +365,14 @@ sourceTags.addEventListener("click", (event) => {
   activeSource = button.dataset.source || "all";
   renderSourceTags();
   renderCards();
+});
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    currentLanguage = button.dataset.lang || "zh";
+    applyTranslations();
+    renderSourceTags();
+    renderCards();
+  });
 });
 window.addEventListener("resize", syncCardHeights);
 
