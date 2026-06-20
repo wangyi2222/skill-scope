@@ -516,7 +516,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-mcp-tools-expert",
-    "description": "用于指导 n8n MCP 工具选择和节点格式配置。",
+    "description": "用于MCP tools guide with tool selection and node formats。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -533,7 +533,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-workflow-patterns",
-    "description": "用于构建 webhook、HTTP、数据库和 AI 任务相关的 n8n 工作流模式。",
+    "description": "用于Workflow patterns for webhook, HTTP, database, and AI tasks。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -737,7 +737,7 @@ window.skillsData = [
   },
   {
     "name": "doc-coauthoring",
-    "description": "用于协作文档编辑和共同写作。",
+    "description": "用于协作文档编辑和共同写作，帮助多人围绕同一文档进行内容组织、修改建议和版本协同。",
     "audience": "工作流",
     "level": "高级",
     "category": "文档",
@@ -856,7 +856,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-code-javascript",
-    "description": "用于在 n8n Code 节点中编写 JavaScript 并处理数据访问。",
+    "description": "用于JavaScript in n8n Code nodes with data access patterns。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -873,7 +873,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-code-python",
-    "description": "用于在 n8n Code 节点中编写 Python 并理解限制。",
+    "description": "用于Python coding in n8n Code nodes with limitations。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -890,7 +890,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-expression-syntax",
-    "description": "用于理解 n8n 表达式语法和节点变量。",
+    "description": "用于n8n expression syntax with {{}} and $json/$node variables。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -907,7 +907,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-node-configuration",
-    "description": "用于配置 n8n 节点依赖规则和 AI 连接。",
+    "description": "用于Node configuration with dependency rules and AI connections。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -924,7 +924,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-validation-expert",
-    "description": "用于根据错误目录修复 n8n 工作流校验问题。",
+    "description": "用于Fix n8n validation errors with error catalog。",
     "audience": "开发",
     "level": "高级",
     "category": "自动化",
@@ -958,7 +958,7 @@ window.skillsData = [
   },
   {
     "name": "getsentry/code-review",
-    "description": "用于执行代码审查并发现实现风险。",
+    "description": "用于执行代码审查，帮助发现实现风险、潜在缺陷和需要补充验证的代码改动。",
     "audience": "开发",
     "level": "基础",
     "category": "开发",
@@ -975,7 +975,7 @@ window.skillsData = [
   },
   {
     "name": "getsentry/find-bugs",
-    "description": "用于在代码中定位和识别缺陷。",
+    "description": "用于在代码中定位和识别缺陷，帮助分析异常行为、错误来源和需要修复的实现问题。",
     "audience": "开发",
     "level": "基础",
     "category": "开发",
@@ -1077,7 +1077,7 @@ window.skillsData = [
   },
   {
     "name": "obra/using-git-worktrees",
-    "description": "用于管理多个 Git worktree 并行开发环境。",
+    "description": "用于Manage multiple Git working trees。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1196,7 +1196,7 @@ window.skillsData = [
   },
   {
     "name": "best-practices",
-    "description": "用于best-practices 相关的 Agent Skill 场景，原始说明为：Best practices for Better Auth integration。",
+    "description": "用于Best practices for Better Auth integration。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1213,7 +1213,7 @@ window.skillsData = [
   },
   {
     "name": "create-auth",
-    "description": "用于create-auth 相关的 Agent Skill 场景，原始说明为：Create authentication setup with Better Auth。",
+    "description": "用于Create authentication setup with Better Auth。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1230,7 +1230,7 @@ window.skillsData = [
   },
   {
     "name": "explain-error",
-    "description": "用于explain-error 相关的 Agent Skill 场景，原始说明为：Explain Better Auth error messages。",
+    "description": "用于Explain Better Auth error messages。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1247,7 +1247,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/agent-platform-skill-registry",
-    "description": "用于google/cloud/agent-platform-skill-registry 相关的 Agent Skill 场景，原始说明为：**** - Interact with the Gemini Enterprise Agent。",
+    "description": "用于Interact with the Gemini Enterprise Agent Platform Skill Registry to create and search for available skills。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1264,7 +1264,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/alloydb-basics",
-    "description": "用于google/cloud/alloydb-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages clusters, instances, and backups 。",
+    "description": "用于Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model conte。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1281,7 +1281,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/bigquery-basics",
-    "description": "用于google/cloud/bigquery-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages datasets, tables, and jobs in Big。",
+    "description": "用于Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1298,7 +1298,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/cloud-run-basics",
-    "description": "用于google/cloud/cloud-run-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages Cloud Run services, jobs, and wor。",
+    "description": "用于Manages Cloud Run services, jobs, and worker pools。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1315,7 +1315,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/cloud-sql-basics",
-    "description": "用于google/cloud/cloud-sql-basics 相关的 Agent Skill 场景，原始说明为：**** - This file generates or explains Cloud SQL。",
+    "description": "用于This file generates or explains Cloud SQL resources。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1332,7 +1332,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/firebase-basics",
-    "description": "用于google/cloud/firebase-basics 相关的 Agent Skill 场景，原始说明为：**** - Use this skill whenever you are working o。",
+    "description": "用于Use this skill whenever you are working on a project that uses Firebase products or services, especially for。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1349,7 +1349,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/gemini-agents-api",
-    "description": "用于google/cloud/gemini-agents-api 相关的 Agent Skill 场景，原始说明为：**** - Manages custom Agent resources on Gemini 。",
+    "description": "用于Manages custom Agent resources on Gemini Enterprise Agent Platform。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1366,7 +1366,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/gemini-api",
-    "description": "用于google/cloud/gemini-api 相关的 Agent Skill 场景，原始说明为：**** - Guides the usage of the Gemini API on Age。",
+    "description": "用于Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1383,7 +1383,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/gemini-interactions-api",
-    "description": "用于google/cloud/gemini-interactions-api 相关的 Agent Skill 场景，原始说明为：**** - Guides the usage of Gemini Interactions A。",
+    "description": "用于Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1400,7 +1400,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/gke-basics",
-    "description": "用于google/cloud/gke-basics 相关的 Agent Skill 场景，原始说明为：**** - Plan, create, and configure production-re。",
+    "description": "用于Plan, create, and configure production-ready Google Kubernetes Engine (GKE) clusters using the golden path A。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1417,7 +1417,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-networking-observability",
-    "description": "用于google/cloud/google-cloud-networking-observability 相关的 Agent Skill 场景，原始说明为：**** - Investigates Google Cloud networking issu。",
+    "description": "用于Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1434,7 +1434,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-recipe-onboarding",
-    "description": "用于google/cloud/google-cloud-recipe-onboarding 相关的 Agent Skill 场景，原始说明为：**** - Guidance for a developer's first steps on。",
+    "description": "用于Guidance for a developer's first steps on Google Cloud, covering account creation, billing setup, project ma。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1451,7 +1451,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-cost-optimization",
-    "description": "用于google/cloud/google-cloud-waf-cost-optimization 相关的 Agent Skill 场景，原始说明为：**** - Generates cost optimization guidance for 。",
+    "description": "用于Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected F。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1468,7 +1468,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-operational-excellence",
-    "description": "用于google/cloud/google-cloud-waf-operational-excellence 相关的 Agent Skill 场景，原始说明为：**** - Generates operations-focused guidance for。",
+    "description": "用于Generates operations-focused guidance for Google Cloud workloads based on the design principles and recommen。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1485,7 +1485,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-performance-optimization",
-    "description": "用于google/cloud/google-cloud-waf-performance-optimization 相关的 Agent Skill 场景，原始说明为：**** - Generates performance-focused guidance fo。",
+    "description": "用于Generates performance-focused guidance for Google Cloud workloads based on the design principles and recomme。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1502,7 +1502,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-reliability",
-    "description": "用于google/cloud/google-cloud-waf-reliability 相关的 Agent Skill 场景，原始说明为：**** - Generates reliability-focused guidance fo。",
+    "description": "用于Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recomme。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1519,7 +1519,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-security",
-    "description": "用于google/cloud/google-cloud-waf-security 相关的 Agent Skill 场景，原始说明为：**** - Generates security-focused guidance for G。",
+    "description": "用于Generates security-focused guidance for Google Cloud workloads based on the design principles and recommenda。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1536,7 +1536,7 @@ window.skillsData = [
   },
   {
     "name": "google/cloud/google-cloud-waf-sustainability",
-    "description": "用于google/cloud/google-cloud-waf-sustainability 相关的 Agent Skill 场景，原始说明为：**** - Generates sustainability-focused guidance。",
+    "description": "用于Generates sustainability-focused guidance for Google Cloud workloads based on the design principles and reco。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1553,7 +1553,7 @@ window.skillsData = [
   },
   {
     "name": "obra/commands",
-    "description": "用于obra/commands 相关的 Agent Skill 场景，原始说明为：**** - Create and manage command structures。",
+    "description": "用于Create and manage command structures。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1570,7 +1570,7 @@ window.skillsData = [
   },
   {
     "name": "twoFactor",
-    "description": "用于twoFactor 相关的 Agent Skill 场景，原始说明为：Two-factor authentication with Better Auth。",
+    "description": "用于Two-factor authentication with Better Auth。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -1587,7 +1587,7 @@ window.skillsData = [
   },
   {
     "name": "content-modeling-best-practices",
-    "description": "用于content-modeling-best-practices 相关的 Agent Skill 场景，原始说明为：Guidelines for designing scalable content models。",
+    "description": "用于Guidelines for designing scalable content models in Sanity。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -1604,7 +1604,7 @@ window.skillsData = [
   },
   {
     "name": "sanity-best-practices",
-    "description": "用于sanity-best-practices 相关的 Agent Skill 场景，原始说明为：Best practices for Sanity Studio, GROQ queries, 。",
+    "description": "用于Best practices for Sanity Studio, GROQ queries, and content workflows。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1621,7 +1621,7 @@ window.skillsData = [
   },
   {
     "name": "seo-aeo-best-practices",
-    "description": "用于seo-aeo-best-practices 相关的 Agent Skill 场景，原始说明为：SEO and answer engine optimization patterns for 。",
+    "description": "用于SEO and answer engine optimization patterns for content sites。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1638,7 +1638,7 @@ window.skillsData = [
   },
   {
     "name": "AvdLee/swiftui-expert-skill",
-    "description": "用于AvdLee/swiftui-expert-skill 相关的 Agent Skill 场景，原始说明为：**** - Modern SwiftUI best practices and iOS 26+。",
+    "description": "用于Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1655,7 +1655,7 @@ window.skillsData = [
   },
   {
     "name": "better-auth/skills",
-    "description": "用于better-auth/skills 相关的 Agent Skill 场景，原始说明为：Install from 。",
+    "description": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1671,7 +1671,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/ab-test-setup",
-    "description": "用于coreyhaines31/ab-test-setup 相关的 Agent Skill 场景，原始说明为：**** - Plan and implement A/B tests or experimen。",
+    "description": "用于Plan and implement A/B tests or experiments for any digital experience。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -1688,7 +1688,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/ad-creative",
-    "description": "用于coreyhaines31/ad-creative 相关的 Agent Skill 场景，原始说明为：**** - Generate and iterate ad creative includin。",
+    "description": "用于Generate and iterate ad creative including headlines, descriptions, and primary text。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1705,7 +1705,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/ai-seo",
-    "description": "用于coreyhaines31/ai-seo 相关的 Agent Skill 场景，原始说明为：**** - Optimize content to appear in AI-generate。",
+    "description": "用于Optimize content to appear in AI-generated answers and LLM search results。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1722,7 +1722,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/analytics-tracking",
-    "description": "用于coreyhaines31/analytics-tracking 相关的 Agent Skill 场景，原始说明为：**** - Set up and audit analytics tracking and m。",
+    "description": "用于Set up and audit analytics tracking and measurement pipelines。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1739,7 +1739,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/churn-prevention",
-    "description": "用于coreyhaines31/churn-prevention 相关的 Agent Skill 场景，原始说明为：**** - Build cancellation flows, save offers, an。",
+    "description": "用于Build cancellation flows, save offers, and recover failed payments。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1756,7 +1756,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/cold-email",
-    "description": "用于coreyhaines31/cold-email 相关的 Agent Skill 场景，原始说明为：**** - Write B2B cold emails and follow-up seque。",
+    "description": "用于Write B2B cold emails and follow-up sequences that convert。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1773,7 +1773,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/competitor-alternatives",
-    "description": "用于coreyhaines31/competitor-alternatives 相关的 Agent Skill 场景，原始说明为：**** - Build competitor comparison and alternati。",
+    "description": "用于Build competitor comparison and alternative landing pages for SEO。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1790,7 +1790,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/content-strategy",
-    "description": "用于coreyhaines31/content-strategy 相关的 Agent Skill 场景，原始说明为：**** - Plan content strategy and decide what top。",
+    "description": "用于Plan content strategy and decide what topics and formats to prioritize。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1807,7 +1807,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/copy-editing",
-    "description": "用于coreyhaines31/copy-editing 相关的 Agent Skill 场景，原始说明为：**** - Edit and improve existing marketing copy 。",
+    "description": "用于Edit and improve existing marketing copy for clarity and impact。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1824,7 +1824,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/copywriting",
-    "description": "用于coreyhaines31/copywriting 相关的 Agent Skill 场景，原始说明为：**** - Write and rewrite marketing copy for land。",
+    "description": "用于Write and rewrite marketing copy for landing pages, homepages, and ads。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1841,7 +1841,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/email-sequence",
-    "description": "用于coreyhaines31/email-sequence 相关的 Agent Skill 场景，原始说明为：**** - Build email sequences, drip campaigns, an。",
+    "description": "用于Build email sequences, drip campaigns, and lifecycle email flows。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1858,7 +1858,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/form-cro",
-    "description": "用于coreyhaines31/form-cro 相关的 Agent Skill 场景，原始说明为：**** - Optimize lead capture and contact forms t。",
+    "description": "用于Optimize lead capture and contact forms to improve conversion。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1875,7 +1875,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/free-tool-strategy",
-    "description": "用于coreyhaines31/free-tool-strategy 相关的 Agent Skill 场景，原始说明为：**** - Plan and build free tools for lead genera。",
+    "description": "用于Plan and build free tools for lead generation and SEO value。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1892,7 +1892,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/launch-strategy",
-    "description": "用于coreyhaines31/launch-strategy 相关的 Agent Skill 场景，原始说明为：**** - Plan product launches, feature announceme。",
+    "description": "用于Plan product launches, feature announcements, and go-to-market strategies。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1909,7 +1909,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/marketing-ideas",
-    "description": "用于coreyhaines31/marketing-ideas 相关的 Agent Skill 场景，原始说明为：**** - Generate marketing strategies and campaig。",
+    "description": "用于Generate marketing strategies and campaign ideas for SaaS products。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1926,7 +1926,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/marketing-psychology",
-    "description": "用于coreyhaines31/marketing-psychology 相关的 Agent Skill 场景，原始说明为：**** - Apply psychological principles and behavi。",
+    "description": "用于Apply psychological principles and behavioral science to copy and design。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1943,7 +1943,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/onboarding-cro",
-    "description": "用于coreyhaines31/onboarding-cro 相关的 Agent Skill 场景，原始说明为：**** - Optimize post-signup onboarding and user 。",
+    "description": "用于Optimize post-signup onboarding and user activation to improve time-to-value。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1960,7 +1960,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/page-cro",
-    "description": "用于coreyhaines31/page-cro 相关的 Agent Skill 场景，原始说明为：**** - Improve conversion rates on any marketing。",
+    "description": "用于Improve conversion rates on any marketing page including homepages and landing pages。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1977,7 +1977,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/paid-ads",
-    "description": "用于coreyhaines31/paid-ads 相关的 Agent Skill 场景，原始说明为：**** - Create and optimize paid campaigns on Goo。",
+    "description": "用于Create and optimize paid campaigns on Google, Meta, LinkedIn, and more。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -1994,7 +1994,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/paywall-upgrade-cro",
-    "description": "用于coreyhaines31/paywall-upgrade-cro 相关的 Agent Skill 场景，原始说明为：**** - Design and optimize upgrade screens, payw。",
+    "description": "用于Design and optimize upgrade screens, paywalls, and upsell modals。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2011,7 +2011,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/popup-cro",
-    "description": "用于coreyhaines31/popup-cro 相关的 Agent Skill 场景，原始说明为：**** - Create and optimize popups, modals, and s。",
+    "description": "用于Create and optimize popups, modals, and slide-ins for conversions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2028,7 +2028,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/pricing-strategy",
-    "description": "用于coreyhaines31/pricing-strategy 相关的 Agent Skill 场景，原始说明为：**** - Define pricing, packaging, and monetizati。",
+    "description": "用于Define pricing, packaging, and monetization strategy for SaaS products。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2045,7 +2045,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/product-marketing-context",
-    "description": "用于coreyhaines31/product-marketing-context 相关的 Agent Skill 场景，原始说明为：**** - Create and maintain a product marketing c。",
+    "description": "用于Create and maintain a product marketing context document for consistent messaging。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2062,7 +2062,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/programmatic-seo",
-    "description": "用于coreyhaines31/programmatic-seo 相关的 Agent Skill 场景，原始说明为：**** - Build SEO-driven page templates for large。",
+    "description": "用于Build SEO-driven page templates for large-scale content generation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2079,7 +2079,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/referral-program",
-    "description": "用于coreyhaines31/referral-program 相关的 Agent Skill 场景，原始说明为：**** - Design and optimize referral, affiliate, 。",
+    "description": "用于Design and optimize referral, affiliate, and word-of-mouth programs。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2096,7 +2096,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/revops",
-    "description": "用于coreyhaines31/revops 相关的 Agent Skill 场景，原始说明为：**** - Streamline revenue operations, lead lifec。",
+    "description": "用于Streamline revenue operations, lead lifecycle, and marketing-to-sales handoff。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2113,7 +2113,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/sales-enablement",
-    "description": "用于coreyhaines31/sales-enablement 相关的 Agent Skill 场景，原始说明为：**** - Create pitch decks, one-pagers, objection。",
+    "description": "用于Create pitch decks, one-pagers, objection handling docs, and demo scripts。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -2130,7 +2130,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/schema-markup",
-    "description": "用于coreyhaines31/schema-markup 相关的 Agent Skill 场景，原始说明为：**** - Add and optimize schema markup and struct。",
+    "description": "用于Add and optimize schema markup and structured data for better SEO。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2147,7 +2147,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/seo-audit",
-    "description": "用于coreyhaines31/seo-audit 相关的 Agent Skill 场景，原始说明为：**** - Audit and diagnose technical and on-page 。",
+    "description": "用于Audit and diagnose technical and on-page SEO issues on a site。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2164,7 +2164,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/signup-flow-cro",
-    "description": "用于coreyhaines31/signup-flow-cro 相关的 Agent Skill 场景，原始说明为：**** - Optimize signup, registration, and trial 。",
+    "description": "用于Optimize signup, registration, and trial activation flows for higher conversion。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2181,7 +2181,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/site-architecture",
-    "description": "用于coreyhaines31/site-architecture 相关的 Agent Skill 场景，原始说明为：**** - Plan and restructure page hierarchy, navi。",
+    "description": "用于Plan and restructure page hierarchy, navigation, and URL structure。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2198,7 +2198,7 @@ window.skillsData = [
   },
   {
     "name": "coreyhaines31/social-content",
-    "description": "用于coreyhaines31/social-content 相关的 Agent Skill 场景，原始说明为：**** - Create and schedule social media content 。",
+    "description": "用于Create and schedule social media content for LinkedIn, Twitter/X, and Instagram。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2215,7 +2215,7 @@ window.skillsData = [
   },
   {
     "name": "cypress-io/cypress-author",
-    "description": "用于cypress-io/cypress-author 相关的 Agent Skill 场景，原始说明为：**** - Creates, updates, and fixes Cypress E2E a。",
+    "description": "用于Creates, updates, and fixes Cypress E2E and component tests。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2232,7 +2232,7 @@ window.skillsData = [
   },
   {
     "name": "cypress-io/cypress-docs",
-    "description": "用于cypress-io/cypress-docs 相关的 Agent Skill 场景，原始说明为：**** - Search and extract Cypress information fr。",
+    "description": "用于Search and extract Cypress information from official documentation。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -2249,7 +2249,7 @@ window.skillsData = [
   },
   {
     "name": "cypress-io/cypress-explain",
-    "description": "用于cypress-io/cypress-explain 相关的 Agent Skill 场景，原始说明为：**** - Explains Cypress E2E and component tests,。",
+    "description": "用于Explains Cypress E2E and component tests, and answers questions about Cypress use and behavior。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2266,7 +2266,7 @@ window.skillsData = [
   },
   {
     "name": "czlonkowski/n8n-skills",
-    "description": "用于czlonkowski/n8n-skills 相关的 Agent Skill 场景，原始说明为：****: n8n workflow-building skills for Claude Co。",
+    "description": "用于n8n workflow-building skills for Claude Code (MIT)。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2283,7 +2283,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/acquisition-channel-advisor",
-    "description": "用于deanpeters/acquisition-channel-advisor 相关的 Agent Skill 场景，原始说明为：**** - Evaluate channels using unit economics an。",
+    "description": "用于Evaluate channels using unit economics and recommend scale/test/kill decisions。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2300,7 +2300,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/ai-shaped-readiness-advisor",
-    "description": "用于deanpeters/ai-shaped-readiness-advisor 相关的 Agent Skill 场景，原始说明为：**** - Assess automation vs. redesign opportunit。",
+    "description": "用于Assess automation vs. redesign opportunities across five competencies。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2317,7 +2317,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/altitude-horizon-framework",
-    "description": "用于deanpeters/altitude-horizon-framework 相关的 Agent Skill 场景，原始说明为：**** - Navigate the PM→Director mindset shift co。",
+    "description": "用于Navigate the PM→Director mindset shift covering scope, time horizons, and failure modes。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2334,7 +2334,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/company-research",
-    "description": "用于deanpeters/company-research 相关的 Agent Skill 场景，原始说明为：**** - Deep-dive competitor or company analysis。",
+    "description": "用于Deep-dive competitor or company analysis。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2351,7 +2351,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/context-engineering-advisor",
-    "description": "用于deanpeters/context-engineering-advisor 相关的 Agent Skill 场景，原始说明为：**** - Diagnose context stuffing vs. engineering。",
+    "description": "用于Diagnose context stuffing vs. engineering and guide memory and retrieval design。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2368,7 +2368,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/customer-journey-map",
-    "description": "用于deanpeters/customer-journey-map 相关的 Agent Skill 场景，原始说明为：**** - Map customer experience across touchpoint。",
+    "description": "用于Map customer experience across touchpoints using the NNGroup framework。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2385,7 +2385,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/customer-journey-mapping-workshop",
-    "description": "用于deanpeters/customer-journey-mapping-workshop 相关的 Agent Skill 场景，原始说明为：**** - Guide journey mapping sessions with pain 。",
+    "description": "用于Guide journey mapping sessions with pain point identification。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2402,7 +2402,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/director-readiness-advisor",
-    "description": "用于deanpeters/director-readiness-advisor 相关的 Agent Skill 场景，原始说明为：**** - Coach the PM→Director transition across f。",
+    "description": "用于Coach the PM→Director transition across four key situations。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2419,7 +2419,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/discovery-interview-prep",
-    "description": "用于deanpeters/discovery-interview-prep 相关的 Agent Skill 场景，原始说明为：**** - Plan customer interviews using Mom Test s。",
+    "description": "用于Plan customer interviews using Mom Test style based on research goals。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2436,7 +2436,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/discovery-process",
-    "description": "用于deanpeters/discovery-process 相关的 Agent Skill 场景，原始说明为：**** - Full discovery cycle: frame problem → res。",
+    "description": "用于Full discovery cycle: frame problem → research → synthesize → validate (3-4 weeks)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2453,7 +2453,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/eol-message",
-    "description": "用于deanpeters/eol-message 相关的 Agent Skill 场景，原始说明为：**** - Communicate product or feature deprecatio。",
+    "description": "用于Communicate product or feature deprecation gracefully。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2470,7 +2470,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/epic-breakdown-advisor",
-    "description": "用于deanpeters/epic-breakdown-advisor 相关的 Agent Skill 场景，原始说明为：**** - Split epics into stories using Richard La。",
+    "description": "用于Split epics into stories using Richard Lawrence's 9 splitting patterns。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2487,7 +2487,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/epic-hypothesis",
-    "description": "用于deanpeters/epic-hypothesis 相关的 Agent Skill 场景，原始说明为：**** - Turn initiatives into testable hypotheses。",
+    "description": "用于Turn initiatives into testable hypotheses with measurable success metrics。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2504,7 +2504,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/executive-onboarding-playbook",
-    "description": "用于deanpeters/executive-onboarding-playbook 相关的 Agent Skill 场景，原始说明为：**** - 30-60-90 day diagnostic playbook for VP/C。",
+    "description": "用于30-60-90 day diagnostic playbook for VP/CPO onboarding transitions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2521,7 +2521,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/feature-investment-advisor",
-    "description": "用于deanpeters/feature-investment-advisor 相关的 Agent Skill 场景，原始说明为：**** - Evaluate features using ROI and strategic。",
+    "description": "用于Evaluate features using ROI and strategic value scoring。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2538,7 +2538,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/finance-based-pricing-advisor",
-    "description": "用于deanpeters/finance-based-pricing-advisor 相关的 Agent Skill 场景，原始说明为：**** - Evaluate pricing changes using financial 。",
+    "description": "用于Evaluate pricing changes using financial impact analysis。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2555,7 +2555,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/finance-metrics-quickref",
-    "description": "用于deanpeters/finance-metrics-quickref 相关的 Agent Skill 场景，原始说明为：**** - Reference guide for 32+ SaaS finance metr。",
+    "description": "用于Reference guide for 32+ SaaS finance metrics with formulas and benchmarks。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2572,7 +2572,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/jobs-to-be-done",
-    "description": "用于deanpeters/jobs-to-be-done 相关的 Agent Skill 场景，原始说明为：**** - Understand customer objectives using the 。",
+    "description": "用于Understand customer objectives using the JTBD framework。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2589,7 +2589,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/lean-ux-canvas",
-    "description": "用于deanpeters/lean-ux-canvas 相关的 Agent Skill 场景，原始说明为：**** - Set up hypothesis-driven planning using J。",
+    "description": "用于Set up hypothesis-driven planning using Jeff Gothelf's Lean UX Canvas v2。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2606,7 +2606,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/opportunity-solution-tree",
-    "description": "用于deanpeters/opportunity-solution-tree 相关的 Agent Skill 场景，原始说明为：**** - Generate opportunities and solutions and 。",
+    "description": "用于Generate opportunities and solutions and recommend proof-of-concept tests。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2623,7 +2623,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/pestel-analysis",
-    "description": "用于deanpeters/pestel-analysis 相关的 Agent Skill 场景，原始说明为：**** - Analyze external factors across Political。",
+    "description": "用于Analyze external factors across Political, Economic, Social, Tech, Environmental, and Legal dimensions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2640,7 +2640,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/pol-probe",
-    "description": "用于deanpeters/pol-probe 相关的 Agent Skill 场景，原始说明为：**** - Define lightweight validation experiments。",
+    "description": "用于Define lightweight validation experiments to test hypotheses。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2657,7 +2657,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/pol-probe-advisor",
-    "description": "用于deanpeters/pol-probe-advisor 相关的 Agent Skill 场景，原始说明为：**** - Recommend prototype type: Feasibility, Ta。",
+    "description": "用于Recommend prototype type: Feasibility, Task-Focused, Narrative, Synthetic, or Vibe。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2674,7 +2674,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/positioning-statement",
-    "description": "用于deanpeters/positioning-statement 相关的 Agent Skill 场景，原始说明为：**** - Define target audience, problem solved, a。",
+    "description": "用于Define target audience, problem solved, and differentiation using Geoffrey Moore's framework。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2691,7 +2691,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/positioning-workshop",
-    "description": "用于deanpeters/positioning-workshop 相关的 Agent Skill 场景，原始说明为：**** - Guide positioning definition with adaptiv。",
+    "description": "用于Guide positioning definition with adaptive discovery questions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2708,7 +2708,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/prd-development",
-    "description": "用于deanpeters/prd-development 相关的 Agent Skill 场景，原始说明为：**** - Structured PRD process: problem → persona。",
+    "description": "用于Structured PRD process: problem → personas → solution → metrics → stories (2-4 days)。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2725,7 +2725,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/press-release",
-    "description": "用于deanpeters/press-release 相关的 Agent Skill 场景，原始说明为：**** - Clarify product vision with a future pres。",
+    "description": "用于Clarify product vision with a future press release using Amazon's Working Backwards method。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2742,7 +2742,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/prioritization-advisor",
-    "description": "用于deanpeters/prioritization-advisor 相关的 Agent Skill 场景，原始说明为：**** - Recommend the right prioritization framew。",
+    "description": "用于Recommend the right prioritization framework (RICE, ICE, Kano, etc.) for your situation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2759,7 +2759,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/problem-framing-canvas",
-    "description": "用于deanpeters/problem-framing-canvas 相关的 Agent Skill 场景，原始说明为：**** - Lead through MITRE Problem Framing: Look 。",
+    "description": "用于Lead through MITRE Problem Framing: Look Inward, Outward, and Reframe。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2776,7 +2776,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/problem-statement",
-    "description": "用于deanpeters/problem-statement 相关的 Agent Skill 场景，原始说明为：**** - Frame customer problems with evidence bef。",
+    "description": "用于Frame customer problems with evidence before jumping to solutions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2793,7 +2793,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/product-strategy-session",
-    "description": "用于deanpeters/product-strategy-session 相关的 Agent Skill 场景，原始说明为：**** - Full strategy session: positioning → fram。",
+    "description": "用于Full strategy session: positioning → framing → exploration → roadmap (2-4 weeks)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2810,7 +2810,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/proto-persona",
-    "description": "用于deanpeters/proto-persona 相关的 Agent Skill 场景，原始说明为：**** - Create hypothesis-driven personas before 。",
+    "description": "用于Create hypothesis-driven personas before conducting full research。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2827,7 +2827,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/recommendation-canvas",
-    "description": "用于deanpeters/recommendation-canvas 相关的 Agent Skill 场景，原始说明为：**** - Document AI-powered product recommendatio。",
+    "description": "用于Document AI-powered product recommendations。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -2844,7 +2844,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/roadmap-planning",
-    "description": "用于deanpeters/roadmap-planning 相关的 Agent Skill 场景，原始说明为：**** - Strategic roadmap process: inputs → epics。",
+    "description": "用于Strategic roadmap process: inputs → epics → prioritize → sequence → communicate (1-2 weeks)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2861,7 +2861,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/saas-economics-efficiency-metrics",
-    "description": "用于deanpeters/saas-economics-efficiency-metrics 相关的 Agent Skill 场景，原始说明为：**** - Calculate unit economics and capital effi。",
+    "description": "用于Calculate unit economics and capital efficiency including CAC, LTV, payback, and Rule of 40。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -2878,7 +2878,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/saas-revenue-growth-metrics",
-    "description": "用于deanpeters/saas-revenue-growth-metrics 相关的 Agent Skill 场景，原始说明为：**** - Track revenue, retention, and growth metr。",
+    "description": "用于Track revenue, retention, and growth metrics including MRR/ARR, churn, NRR, and expansion。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2895,7 +2895,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/skill-authoring-workflow",
-    "description": "用于deanpeters/skill-authoring-workflow 相关的 Agent Skill 场景，原始说明为：**** - Meta workflow for authoring skills: choos。",
+    "description": "用于Meta workflow for authoring skills: choose path → validate → update docs → package。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -2912,7 +2912,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/storyboard",
-    "description": "用于deanpeters/storyboard 相关的 Agent Skill 场景，原始说明为：**** - Visualize user journeys with 6-frame narr。",
+    "description": "用于Visualize user journeys with 6-frame narrative storyboards。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2929,7 +2929,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/tam-sam-som-calculator",
-    "description": "用于deanpeters/tam-sam-som-calculator 相关的 Agent Skill 场景，原始说明为：**** - Project market size with real-world data 。",
+    "description": "用于Project market size with real-world data and citations。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2946,7 +2946,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/user-story",
-    "description": "用于deanpeters/user-story 相关的 Agent Skill 场景，原始说明为：**** - Write user stories with acceptance criter。",
+    "description": "用于Write user stories with acceptance criteria using Mike Cohn and Gherkin formats。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2963,7 +2963,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/user-story-mapping",
-    "description": "用于deanpeters/user-story-mapping 相关的 Agent Skill 场景，原始说明为：**** - Organize stories by user workflow using J。",
+    "description": "用于Organize stories by user workflow using Jeff Patton's story mapping approach。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2980,7 +2980,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/user-story-mapping-workshop",
-    "description": "用于deanpeters/user-story-mapping-workshop 相关的 Agent Skill 场景，原始说明为：**** - Walk through creating story maps with bac。",
+    "description": "用于Walk through creating story maps with backbone and release slices。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -2997,7 +2997,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/user-story-splitting",
-    "description": "用于deanpeters/user-story-splitting 相关的 Agent Skill 场景，原始说明为：**** - Break down large stories using 8 proven s。",
+    "description": "用于Break down large stories using 8 proven splitting patterns。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3014,7 +3014,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/vp-cpo-readiness-advisor",
-    "description": "用于deanpeters/vp-cpo-readiness-advisor 相关的 Agent Skill 场景，原始说明为：**** - Coach the Director→VP/CPO transition incl。",
+    "description": "用于Coach the Director→VP/CPO transition including a CEO interview framework。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3031,7 +3031,7 @@ window.skillsData = [
   },
   {
     "name": "deanpeters/workshop-facilitation",
-    "description": "用于deanpeters/workshop-facilitation 相关的 Agent Skill 场景，原始说明为：**** - Add step-by-step facilitation with number。",
+    "description": "用于Add step-by-step facilitation with numbered recommendations to any workshop。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3048,7 +3048,7 @@ window.skillsData = [
   },
   {
     "name": "efremidze/swift-patterns-skill",
-    "description": "用于efremidze/swift-patterns-skill 相关的 Agent Skill 场景，原始说明为：**** - Modern Swift/SwiftUI best practices。",
+    "description": "用于Modern Swift/SwiftUI best practices。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3065,7 +3065,7 @@ window.skillsData = [
   },
   {
     "name": "expo/skills",
-    "description": "用于expo/skills 相关的 Agent Skill 场景，原始说明为：****: Official Expo skills - Expo project workfl。",
+    "description": "用于Official Expo skills - Expo project workflows and Expo Application Services guidance。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3081,7 +3081,7 @@ window.skillsData = [
   },
   {
     "name": "firecrawl-agent",
-    "description": "用于firecrawl-agent 相关的 Agent Skill 场景，原始说明为：AI agent for autonomous web scraping and data ex。",
+    "description": "用于AI agent for autonomous web scraping and data extraction。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3098,7 +3098,7 @@ window.skillsData = [
   },
   {
     "name": "firecrawl-cli",
-    "description": "用于firecrawl-cli 相关的 Agent Skill 场景，原始说明为：Scrape, crawl, search, and map the web via CLI。",
+    "description": "用于Scrape, crawl, search, and map the web via CLI。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3115,7 +3115,7 @@ window.skillsData = [
   },
   {
     "name": "firecrawl-scrape",
-    "description": "用于firecrawl-scrape 相关的 Agent Skill 场景，原始说明为：Scrape web pages and extract content。",
+    "description": "用于Scrape web pages and extract content。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3132,7 +3132,7 @@ window.skillsData = [
   },
   {
     "name": "firecrawl-search",
-    "description": "用于firecrawl-search 相关的 Agent Skill 场景，原始说明为：Search the web and extract results。",
+    "description": "用于Search the web and extract results。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3149,7 +3149,7 @@ window.skillsData = [
   },
   {
     "name": "gokapso/automate-whatsapp",
-    "description": "用于gokapso/automate-whatsapp 相关的 Agent Skill 场景，原始说明为：**** - Build WhatsApp automations with workflows。",
+    "description": "用于Build WhatsApp automations with workflows and agents。",
     "audience": "开发",
     "level": "进阶",
     "category": "自动化",
@@ -3166,7 +3166,7 @@ window.skillsData = [
   },
   {
     "name": "gokapso/integrate-whatsapp",
-    "description": "用于gokapso/integrate-whatsapp 相关的 Agent Skill 场景，原始说明为：**** - Connect WhatsApp, set up webhooks, and se。",
+    "description": "用于Connect WhatsApp, set up webhooks, and send messages。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3183,7 +3183,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/build-review-interface",
-    "description": "用于hamelsmu/build-review-interface 相关的 Agent Skill 场景，原始说明为：**** - Build annotation interfaces for reviewing。",
+    "description": "用于Build annotation interfaces for reviewing LLM traces。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3200,7 +3200,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/error-analysis",
-    "description": "用于hamelsmu/error-analysis 相关的 Agent Skill 场景，原始说明为：**** - Systematically identify failure modes in 。",
+    "description": "用于Systematically identify failure modes in LLM pipelines。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3217,7 +3217,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/eval-audit",
-    "description": "用于hamelsmu/eval-audit 相关的 Agent Skill 场景，原始说明为：**** - Audit LLM eval pipelines and surface prob。",
+    "description": "用于Audit LLM eval pipelines and surface problems。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3234,7 +3234,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/evaluate-rag",
-    "description": "用于hamelsmu/evaluate-rag 相关的 Agent Skill 场景，原始说明为：**** - Evaluate RAG retrieval and generation qua。",
+    "description": "用于Evaluate RAG retrieval and generation quality。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3251,7 +3251,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/generate-synthetic-data",
-    "description": "用于hamelsmu/generate-synthetic-data 相关的 Agent Skill 场景，原始说明为：**** - Create diverse synthetic test inputs for 。",
+    "description": "用于Create diverse synthetic test inputs for LLM evals。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3268,7 +3268,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/validate-evaluator",
-    "description": "用于hamelsmu/validate-evaluator 相关的 Agent Skill 场景，原始说明为：**** - Calibrate LLM judges against human labels。",
+    "description": "用于Calibrate LLM judges against human labels。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3285,7 +3285,7 @@ window.skillsData = [
   },
   {
     "name": "hamelsmu/write-judge-prompt",
-    "description": "用于hamelsmu/write-judge-prompt 相关的 Agent Skill 场景，原始说明为：**** - Design LLM-as-Judge evaluators for subjec。",
+    "description": "用于Design LLM-as-Judge evaluators for subjective criteria。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3302,7 +3302,7 @@ window.skillsData = [
   },
   {
     "name": "Hugging Face skills",
-    "description": "用于Hugging Face skills 相关的 Agent Skill 场景，原始说明为：Community skills catalog with broad compatibilit。",
+    "description": "用于Community skills catalog with broad compatibility。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3318,7 +3318,7 @@ window.skillsData = [
   },
   {
     "name": "huggingface/upskill",
-    "description": "用于huggingface/upskill 相关的 Agent Skill 场景，原始说明为：Library: Use Upskill to Generate and evaluate ag。",
+    "description": "用于Library: Use Upskill to Generate and evaluate agent skills for code agents。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3334,7 +3334,7 @@ window.skillsData = [
   },
   {
     "name": "kreuzberg-dev/kreuzberg",
-    "description": "用于kreuzberg-dev/kreuzberg 相关的 Agent Skill 场景，原始说明为：**** - Extract text, tables, and metadata from 6。",
+    "description": "用于Extract text, tables, and metadata from 62+ document formats。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3350,7 +3350,7 @@ window.skillsData = [
   },
   {
     "name": "mcollina/skills",
-    "description": "用于mcollina/skills 相关的 Agent Skill 场景，原始说明为：**** - 11 skills by Matteo Collina: Node.js, Fas。",
+    "description": "用于11 skills by Matteo Collina: Node.js, Fastify, TypeScript, OAuth, Git/GitHub, ESLint neostandard, documentat。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -3366,7 +3366,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/context-compression",
-    "description": "用于muratcankoylan/context-compression 相关的 Agent Skill 场景，原始说明为：**** - Design and evaluate compression strategie。",
+    "description": "用于Design and evaluate compression strategies for long-running sessions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3383,7 +3383,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/context-degradation",
-    "description": "用于muratcankoylan/context-degradation 相关的 Agent Skill 场景，原始说明为：**** - Recognize patterns of context failure: lo。",
+    "description": "用于Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3400,7 +3400,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/context-fundamentals",
-    "description": "用于muratcankoylan/context-fundamentals 相关的 Agent Skill 场景，原始说明为：**** - Understand what context is, why it matter。",
+    "description": "用于Understand what context is, why it matters, and the anatomy of context in agent systems。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3417,7 +3417,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/context-optimization",
-    "description": "用于muratcankoylan/context-optimization 相关的 Agent Skill 场景，原始说明为：**** - Apply compaction, masking, and caching st。",
+    "description": "用于Apply compaction, masking, and caching strategies。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3434,7 +3434,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/evaluation",
-    "description": "用于muratcankoylan/evaluation 相关的 Agent Skill 场景，原始说明为：**** - Build evaluation frameworks for agent sys。",
+    "description": "用于Build evaluation frameworks for agent systems。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -3451,7 +3451,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/memory-systems",
-    "description": "用于muratcankoylan/memory-systems 相关的 Agent Skill 场景，原始说明为：**** - Design short-term, long-term, and graph-b。",
+    "description": "用于Design short-term, long-term, and graph-based memory architectures。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3468,7 +3468,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/multi-agent-patterns",
-    "description": "用于muratcankoylan/multi-agent-patterns 相关的 Agent Skill 场景，原始说明为：**** - Master orchestrator, peer-to-peer, and hi。",
+    "description": "用于Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3485,7 +3485,7 @@ window.skillsData = [
   },
   {
     "name": "muratcankoylan/tool-design",
-    "description": "用于muratcankoylan/tool-design 相关的 Agent Skill 场景，原始说明为：**** - Build tools that agents can use effective。",
+    "description": "用于Build tools that agents can use effectively, including architectural reduction patterns。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3502,7 +3502,7 @@ window.skillsData = [
   },
   {
     "name": "NeoLabHQ/prompt-engineering",
-    "description": "用于NeoLabHQ/prompt-engineering 相关的 Agent Skill 场景，原始说明为：**** - Widely used prompt engineering techniques。",
+    "description": "用于Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuas。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3519,7 +3519,7 @@ window.skillsData = [
   },
   {
     "name": "NeoLabHQ/write-concisely",
-    "description": "用于NeoLabHQ/write-concisely 相关的 Agent Skill 场景，原始说明为：*** - Applies the famous The Elements of Style* 。",
+    "description": "用于Applies the famous The Elements of Style book principles to make documentation and writing clearer and more。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -3536,7 +3536,7 @@ window.skillsData = [
   },
   {
     "name": "neondatabase/agent-skills",
-    "description": "用于neondatabase/agent-skills 相关的 Agent Skill 场景，原始说明为：****: Official Neon skills - Serverless Postgres。",
+    "description": "用于Official Neon skills - Serverless Postgres workflows and Neon platform guidance。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -3552,7 +3552,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/CUDA-Q/cudaq-guide",
-    "description": "用于NVIDIA/CUDA-Q/cudaq-guide 相关的 Agent Skill 场景，原始说明为：**** - CUDA-Q onboarding guide for installation,。",
+    "description": "用于CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applicati。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3569,7 +3569,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-developer",
-    "description": "用于NVIDIA/cuopt/cuopt-developer 相关的 Agent Skill 场景，原始说明为：**** - Modify, build, test, debug, and contribut。",
+    "description": "用于Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI)。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3586,7 +3586,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-install",
-    "description": "用于NVIDIA/cuopt/cuopt-install 相关的 Agent Skill 场景，原始说明为：**** - Install cuOpt for Python, C, or as a serv。",
+    "description": "用于Install cuOpt for Python, C, or as a server (pip, conda, Docker) — system requirements, install commands, an。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3603,7 +3603,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-numerical-optimization-api-c",
-    "description": "用于NVIDIA/cuopt/cuopt-numerical-optimization-api-c 相关的 Agent Skill 场景，原始说明为：**** - LP, MILP, and QP (beta) with cuOpt — C AP。",
+    "description": "用于LP, MILP, and QP (beta) with cuOpt — C API only。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3620,7 +3620,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-numerical-optimization-api-cli",
-    "description": "用于NVIDIA/cuopt/cuopt-numerical-optimization-api-cli 相关的 Agent Skill 场景，原始说明为：**** - LP, MILP, and QP (beta) with cuOpt — CLI 。",
+    "description": "用于LP, MILP, and QP (beta) with cuOpt — CLI only (MPS files, cuopt_cli)。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3637,7 +3637,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-numerical-optimization-api-python",
-    "description": "用于NVIDIA/cuopt/cuopt-numerical-optimization-api-python 相关的 Agent Skill 场景，原始说明为：**** - Solve Linear Programming (LP), Mixed-Inte。",
+    "description": "用于Solve Linear Programming (LP), Mixed-Integer Linear Programming (MILP), and Quadratic Programming (QP, beta)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3654,7 +3654,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-routing-api-python",
-    "description": "用于NVIDIA/cuopt/cuopt-routing-api-python 相关的 Agent Skill 场景，原始说明为：**** - Vehicle routing (VRP, TSP, PDP) with cuOp。",
+    "description": "用于Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3671,7 +3671,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-server-api-python",
-    "description": "用于NVIDIA/cuopt/cuopt-server-api-python 相关的 Agent Skill 场景，原始说明为：**** - cuOpt REST server — start server, endpoin。",
+    "description": "用于cuOpt REST server — start server, endpoints, Python/curl client examples。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3688,7 +3688,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-server-common",
-    "description": "用于NVIDIA/cuopt/cuopt-server-common 相关的 Agent Skill 场景，原始说明为：**** - cuOpt REST server — what it does and how 。",
+    "description": "用于cuOpt REST server — what it does and how requests flow。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3705,7 +3705,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/cuopt-user-rules",
-    "description": "用于NVIDIA/cuopt/cuopt-user-rules 相关的 Agent Skill 场景，原始说明为：**** - Base rules for end users calling NVIDIA c。",
+    "description": "用于Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3722,7 +3722,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/numerical-optimization-formulation",
-    "description": "用于NVIDIA/cuopt/numerical-optimization-formulation 相关的 Agent Skill 场景，原始说明为：**** - Numerical optimization (LP, MILP, QP) — c。",
+    "description": "用于Numerical optimization (LP, MILP, QP) — concepts, problem-text parsing, and formulation patterns。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3739,7 +3739,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/routing-formulation",
-    "description": "用于NVIDIA/cuopt/routing-formulation 相关的 Agent Skill 场景，原始说明为：**** - Vehicle routing (VRP, TSP, PDP) — problem。",
+    "description": "用于Vehicle routing (VRP, TSP, PDP) — problem types and data requirements。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3756,7 +3756,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/cuopt/skill-evolution",
-    "description": "用于NVIDIA/cuopt/skill-evolution 相关的 Agent Skill 场景，原始说明为：**** - After solving a non-trivial problem, dete。",
+    "description": "用于After solving a non-trivial problem, detect generalizable learnings and propose skill updates so future inte。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3773,7 +3773,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/DALI/dali-dynamic-mode",
-    "description": "用于NVIDIA/DALI/dali-dynamic-mode 相关的 Agent Skill 场景，原始说明为：**** - Use when writing DALI data loading or pre。",
+    "description": "用于Use when writing DALI data loading or preprocessing code with nvidia.dali.experimental.dynamic (ndd), or whe。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3790,7 +3790,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/deepstream/deepstream-dev",
-    "description": "用于NVIDIA/deepstream/deepstream-dev 相关的 Agent Skill 场景，原始说明为：**** - NVIDIA DeepStream SDK 9.0 development wit。",
+    "description": "用于NVIDIA DeepStream SDK 9.0 development with Python pyservicemaker API。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3807,7 +3807,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/deepstream/deepstream-import-vision-model",
-    "description": "用于NVIDIA/deepstream/deepstream-import-vision-model 相关的 Agent Skill 场景，原始说明为：**** - > Use this skill to bring any vision mode。",
+    "description": "用于> Use this skill to bring any vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline。",
     "audience": "工作流",
     "level": "进阶",
     "category": "研究",
@@ -3824,7 +3824,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/adding-model-support",
-    "description": "用于NVIDIA/Megatron-Bridge/adding-model-support 相关的 Agent Skill 场景，原始说明为：**** - Guide for adding support for new LLM or V。",
+    "description": "用于Guide for adding support for new LLM or VLM models in Megatron-Bridge。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3841,7 +3841,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/build-and-dependency",
-    "description": "用于NVIDIA/Megatron-Bridge/build-and-dependency 相关的 Agent Skill 场景，原始说明为：**** - Dev environment setup for Megatron Bridge。",
+    "description": "用于Dev environment setup for Megatron Bridge — container-based development, uv package management, lockfile reg。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3858,7 +3858,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/bump-dependency",
-    "description": "用于NVIDIA/Megatron-Bridge/bump-dependency 相关的 Agent Skill 场景，原始说明为：**** - Bump a pinned dependency (TransformerEngi。",
+    "description": "用于Bump a pinned dependency (TransformerEngine, Megatron-LM, NRX, etc.), regenerate the lockfile, open a PR, an。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3875,7 +3875,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/cicd",
-    "description": "用于NVIDIA/Megatron-Bridge/cicd 相关的 Agent Skill 场景，原始说明为：**** - CI/CD reference for Megatron Bridge — pip。",
+    "description": "用于CI/CD reference for Megatron Bridge — pipeline structure, commit and PR workflow, CI failure investigation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3892,7 +3892,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/linting-and-formatting",
-    "description": "用于NVIDIA/Megatron-Bridge/linting-and-formatting 相关的 Agent Skill 场景，原始说明为：**** - Code style and quality rules for Megatron。",
+    "description": "用于Code style and quality rules for Megatron Bridge — ruff configuration, naming conventions, type hints, mypy。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3909,7 +3909,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/mlm-bridge-training",
-    "description": "用于NVIDIA/Megatron-Bridge/mlm-bridge-training 相关的 Agent Skill 场景，原始说明为：**** - Run Megatron-LM (MLM) and Megatron Bridge。",
+    "description": "用于Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -3926,7 +3926,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/multi-node-slurm",
-    "description": "用于NVIDIA/Megatron-Bridge/multi-node-slurm 相关的 Agent Skill 场景，原始说明为：**** - Convert single-node scripts to multi-node。",
+    "description": "用于Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3943,7 +3943,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/nemo-rl-e2e-testing",
-    "description": "用于NVIDIA/Megatron-Bridge/nemo-rl-e2e-testing 相关的 Agent Skill 场景，原始说明为：**** - External NeMo-RL end-to-end validation wo。",
+    "description": "用于External NeMo-RL end-to-end validation workflow for Megatron-Bridge model/provider changes, including downst。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3960,7 +3960,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/parity-testing",
-    "description": "用于NVIDIA/Megatron-Bridge/parity-testing 相关的 Agent Skill 场景，原始说明为：**** - Structured framework for verifying numeri。",
+    "description": "用于Structured framework for verifying numerical parity of HFMCore weight conversions。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -3977,7 +3977,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-activation-recompute",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-activation-recompute 相关的 Agent Skill 场景，原始说明为：**** - Validate and use selective and full activ。",
+    "description": "用于Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at th。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -3994,7 +3994,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-cpu-offloading",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-cpu-offloading 相关的 Agent Skill 场景，原始说明为：**** - Validate and use CPU offloading in Megatr。",
+    "description": "用于Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fraction。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4011,7 +4011,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-cuda-graphs",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-cuda-graphs 相关的 Agent Skill 场景，原始说明为：**** - Validate and use CUDA graph capture in Me。",
+    "description": "用于Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transforme。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4028,7 +4028,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-expert-parallel-overlap",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-expert-parallel-overlap 相关的 Agent Skill 场景，原始说明为：**** - Validate and use MoE expert-parallel comm。",
+    "description": "用于Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4045,7 +4045,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-hierarchical-context-parallel",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-hierarchical-context-parallel 相关的 Agent Skill 场景，原始说明为：**** - Operational guide for enabling hierarchic。",
+    "description": "用于Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4062,7 +4062,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-megatron-fsdp",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-megatron-fsdp 相关的 Agent Skill 场景，原始说明为：**** - Operational guide for enabling Megatron F。",
+    "description": "用于Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfa。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4079,7 +4079,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-memory-tuning",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-memory-tuning 相关的 Agent Skill 场景，原始说明为：**** - Techniques for reducing peak GPU memory i。",
+    "description": "用于Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, parallelism resizing, acti。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4096,7 +4096,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-moe-comm-overlap",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-moe-comm-overlap 相关的 Agent Skill 场景，原始说明为：**** - MoE expert-parallel communication overlap。",
+    "description": "用于MoE expert-parallel communication overlap in Megatron Bridge。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4113,7 +4113,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-moe-hardware-configs",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-moe-hardware-configs 相关的 Agent Skill 场景，原始说明为：**** - Representative MoE training playbooks by 。",
+    "description": "用于Representative MoE training playbooks by hardware platform and model family。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4130,7 +4130,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-moe-long-context",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-moe-long-context 相关的 Agent Skill 场景，原始说明为：**** - Long-context MoE training guidance for Me。",
+    "description": "用于Long-context MoE training guidance for Megatron Bridge。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4147,7 +4147,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-moe-optimization-workflow",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-moe-optimization-workflow 相关的 Agent Skill 场景，原始说明为：**** - Systematic workflow for MoE training opti。",
+    "description": "用于Systematic workflow for MoE training optimization in Megatron Bridge, based on the Megatron-Core MoE paper。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4164,7 +4164,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-moe-vlm-training",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-moe-vlm-training 相关的 Agent Skill 场景，原始说明为：**** - Practical guidance for training MoE VLMs 。",
+    "description": "用于Practical guidance for training MoE VLMs in Megatron Bridge。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4181,7 +4181,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-parallelism-strategies",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-parallelism-strategies 相关的 Agent Skill 场景，原始说明为：**** - Operational guide for choosing and combin。",
+    "description": "用于Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rul。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4198,7 +4198,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-sequence-packing",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-sequence-packing 相关的 Agent Skill 场景，原始说明为：**** - Validate and use packed sequences and lon。",
+    "description": "用于Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packe。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4215,7 +4215,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/perf-tp-dp-comm-overlap",
-    "description": "用于NVIDIA/Megatron-Bridge/perf-tp-dp-comm-overlap 相关的 Agent Skill 场景，原始说明为：**** - Operational guide for enabling TP, DP, an。",
+    "description": "用于Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config kno。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4232,7 +4232,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/recipe-recommender",
-    "description": "用于NVIDIA/Megatron-Bridge/recipe-recommender 相关的 Agent Skill 场景，原始说明为：**** - Recommend and customize Megatron Bridge r。",
+    "description": "用于Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4249,7 +4249,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/resiliency",
-    "description": "用于NVIDIA/Megatron-Bridge/resiliency 相关的 Agent Skill 场景，原始说明为：**** - Resiliency features in Megatron Bridge in。",
+    "description": "用于Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, p。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4266,7 +4266,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/testing",
-    "description": "用于NVIDIA/Megatron-Bridge/testing 相关的 Agent Skill 场景，原始说明为：**** - Testing reference for Megatron Bridge — u。",
+    "description": "用于Testing reference for Megatron Bridge — unit and functional test layout, tier semantics (L0/L1/L2/flaky), sc。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4283,7 +4283,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Bridge/verl-e2e-testing",
-    "description": "用于NVIDIA/Megatron-Bridge/verl-e2e-testing 相关的 Agent Skill 场景，原始说明为：**** - External verl end-to-end validation workf。",
+    "description": "用于External verl end-to-end validation workflow for Megatron-Bridge model/provider changes。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4300,7 +4300,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/build-and-dependency",
-    "description": "用于NVIDIA/Megatron-Core/build-and-dependency 相关的 Agent Skill 场景，原始说明为：**** - Container-based dev environment setup and。",
+    "description": "用于Container-based dev environment setup and dependency management for Megatron-LM。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4317,7 +4317,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/bump-base-image",
-    "description": "用于NVIDIA/Megatron-Core/bump-base-image 相关的 Agent Skill 场景，原始说明为：**** - Bump the NVIDIA PyTorch base image (nvcr。",
+    "description": "用于Bump the NVIDIA PyTorch base image (nvcr.io/nvidia/pytorch:-py3) used by Megatron-LM CI。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4334,7 +4334,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/cicd",
-    "description": "用于NVIDIA/Megatron-Core/cicd 相关的 Agent Skill 场景，原始说明为：**** - CI/CD reference for Megatron-LM。",
+    "description": "用于CI/CD reference for Megatron-LM。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4351,7 +4351,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/create-issue",
-    "description": "用于NVIDIA/Megatron-Core/create-issue 相关的 Agent Skill 场景，原始说明为：**** - Investigate a failing GitHub Actions run 。",
+    "description": "用于Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4368,7 +4368,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/linting-and-formatting",
-    "description": "用于NVIDIA/Megatron-Core/linting-and-formatting 相关的 Agent Skill 场景，原始说明为：**** - Linting and formatting for Megatron-LM。",
+    "description": "用于Linting and formatting for Megatron-LM。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4385,7 +4385,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/nightly-sync",
-    "description": "用于NVIDIA/Megatron-Core/nightly-sync 相关的 Agent Skill 场景，原始说明为：**** - Domain knowledge for the nightly main-to-。",
+    "description": "用于Domain knowledge for the nightly main-to-dev sync workflow。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4402,7 +4402,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/onboard-gb200-1node-tests",
-    "description": "用于NVIDIA/Megatron-Core/onboard-gb200-1node-tests 相关的 Agent Skill 场景，原始说明为：**** - Onboard 1-node GitHub MR functional tests。",
+    "description": "用于Onboard 1-node GitHub MR functional tests for GB200 from existing mr-scoped 2-node tests。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4419,7 +4419,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/respond-to-issue",
-    "description": "用于NVIDIA/Megatron-Core/respond-to-issue 相关的 Agent Skill 场景，原始说明为：**** - Research and draft a response to a GitHub。",
+    "description": "用于Research and draft a response to a GitHub issue or question from an external contributor。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4436,7 +4436,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/run-on-slurm",
-    "description": "用于NVIDIA/Megatron-Core/run-on-slurm 相关的 Agent Skill 场景，原始说明为：**** - How to launch distributed Megatron-LM tra。",
+    "description": "用于How to launch distributed Megatron-LM training jobs on a SLURM cluster。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4453,7 +4453,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/split-pr",
-    "description": "用于NVIDIA/Megatron-Core/split-pr 相关的 Agent Skill 场景，原始说明为：**** - Split a PR into multiple PRs to reduce th。",
+    "description": "用于Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4470,7 +4470,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/testing",
-    "description": "用于NVIDIA/Megatron-Core/testing 相关的 Agent Skill 场景，原始说明为：**** - Test system for Megatron-LM。",
+    "description": "用于Test system for Megatron-LM。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4487,7 +4487,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Megatron-Core/update-golden-values",
-    "description": "用于NVIDIA/Megatron-Core/update-golden-values 相关的 Agent Skill 场景，原始说明为：**** - Refresh golden values from a GitHub Actio。",
+    "description": "用于Refresh golden values from a GitHub Actions workflow run (failing-only or all jobs), score the change with a。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4504,7 +4504,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/accessing-mlflow",
-    "description": "用于NVIDIA/Model-Optimizer/accessing-mlflow 相关的 Agent Skill 场景，原始说明为：**** - Query and browse evaluation results store。",
+    "description": "用于Query and browse evaluation results stored in MLflow。",
     "audience": "工作流",
     "level": "高级",
     "category": "研究",
@@ -4521,7 +4521,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/debug",
-    "description": "用于NVIDIA/Model-Optimizer/debug 相关的 Agent Skill 场景，原始说明为：**** - Run commands inside a remote Docker conta。",
+    "description": "用于Run commands inside a remote Docker container via the file-based command relay (tools/debugger)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4538,7 +4538,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/deployment",
-    "description": "用于NVIDIA/Model-Optimizer/deployment 相关的 Agent Skill 场景，原始说明为：**** - Serve a quantized or unquantized LLM chec。",
+    "description": "用于Serve a quantized or unquantized LLM checkpoint as an OpenAI-compatible API endpoint using vLLM, SGLang, or。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4555,7 +4555,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/evaluation",
-    "description": "用于NVIDIA/Model-Optimizer/evaluation 相关的 Agent Skill 场景，原始说明为：**** - Evaluates accuracy of quantized or unquan。",
+    "description": "用于Evaluates accuracy of quantized or unquantized LLMs using NeMo Evaluator Launcher (NEL)。",
     "audience": "工作流",
     "level": "进阶",
     "category": "研究",
@@ -4572,7 +4572,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/launching-evals",
-    "description": "用于NVIDIA/Model-Optimizer/launching-evals 相关的 Agent Skill 场景，原始说明为：**** - Run, monitor, analyze, and debug LLM eval。",
+    "description": "用于Run, monitor, analyze, and debug LLM evaluations via nemo-evaluator-launcher。",
     "audience": "工作流",
     "level": "高级",
     "category": "研究",
@@ -4589,7 +4589,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/monitor",
-    "description": "用于NVIDIA/Model-Optimizer/monitor 相关的 Agent Skill 场景，原始说明为：**** - Monitor submitted jobs (PTQ, evaluation, 。",
+    "description": "用于Monitor submitted jobs (PTQ, evaluation, deployment) on SLURM clusters。",
     "audience": "工作流",
     "level": "高级",
     "category": "研究",
@@ -4606,7 +4606,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/ptq",
-    "description": "用于NVIDIA/Model-Optimizer/ptq 相关的 Agent Skill 场景，原始说明为：**** - This skill should be used when the user a。",
+    "description": "用于This skill should be used when the user asks to \"quantize a model\", \"run PTQ\", \"post-training quantization\"。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4623,7 +4623,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/Model-Optimizer/release-cherry-pick",
-    "description": "用于NVIDIA/Model-Optimizer/release-cherry-pick 相关的 Agent Skill 场景，原始说明为：**** - Cherry-pick merged PRs labeled for a rele。",
+    "description": "用于Cherry-pick merged PRs labeled for a release branch into that branch, then open a PR and apply the cherry-pi。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4640,7 +4640,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Evaluator-Launcher/accessing-mlflow",
-    "description": "用于NVIDIA/NeMo-Evaluator-Launcher/accessing-mlflow 相关的 Agent Skill 场景，原始说明为：**** - Query and browse evaluation results store。",
+    "description": "用于Query and browse evaluation results stored in MLflow。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4657,7 +4657,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Evaluator-Launcher/launching-evals",
-    "description": "用于NVIDIA/NeMo-Evaluator-Launcher/launching-evals 相关的 Agent Skill 场景，原始说明为：**** - Run, monitor, analyze, and debug LLM eval。",
+    "description": "用于Run, monitor, analyze, and debug LLM evaluations via nemo-evaluator-launcher。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4674,7 +4674,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Evaluator-Launcher/nel-assistant",
-    "description": "用于NVIDIA/NeMo-Evaluator-Launcher/nel-assistant 相关的 Agent Skill 场景，原始说明为：**** - Interactive config wizard for NeMo Evalua。",
+    "description": "用于Interactive config wizard for NeMo Evaluator Launcher (NEL)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4691,7 +4691,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Evaluator/byob",
-    "description": "用于NVIDIA/NeMo-Evaluator/byob 相关的 Agent Skill 场景，原始说明为：**** - Create custom LLM evaluation benchmarks u。",
+    "description": "用于Create custom LLM evaluation benchmarks using the BYOB decorator framework。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4708,7 +4708,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Gym/add-benchmark",
-    "description": "用于NVIDIA/NeMo-Gym/add-benchmark 相关的 Agent Skill 场景，原始说明为：**** - > Guide for adding a new benchmark or tra。",
+    "description": "用于> Guide for adding a new benchmark or training environment to NeMo-Gym。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -4725,7 +4725,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Gym/nemo-gym-debugging",
-    "description": "用于NVIDIA/NeMo-Gym/nemo-gym-debugging 相关的 Agent Skill 场景，原始说明为：**** - >- Use when debugging a Nemo Gym run or r。",
+    "description": "用于>- Use when debugging a Nemo Gym run or reward profiling job。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4742,7 +4742,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Gym/nemo-gym-docs",
-    "description": "用于NVIDIA/NeMo-Gym/nemo-gym-docs 相关的 Agent Skill 场景，原始说明为：**** - > Maintain the NeMo Gym Fern docs site — 。",
+    "description": "用于> Maintain the NeMo Gym Fern docs site — add, update, move, or remove pages under fern/。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -4759,7 +4759,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Gym/nemo-gym-pivot-datasets",
-    "description": "用于NVIDIA/NeMo-Gym/nemo-gym-pivot-datasets 相关的 Agent Skill 场景，原始说明为：**** - >- Use when creating, validating, or docu。",
+    "description": "用于>- Use when creating, validating, or documenting Nemo Gym pivot datasets from rollout, trajectory, chat-comp。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4776,7 +4776,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-Gym/nemo-gym-reward-profiling",
-    "description": "用于NVIDIA/NeMo-Gym/nemo-gym-reward-profiling 相关的 Agent Skill 场景，原始说明为：**** - >- Use to help users get started with Nem。",
+    "description": "用于>- Use to help users get started with Nemo Gym reward profiling。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4793,7 +4793,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/auto-research",
-    "description": "用于NVIDIA/NeMo-RL/auto-research 相关的 Agent Skill 场景，原始说明为：**** - Autonomous NeMo-RL research agent workflo。",
+    "description": "用于Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4810,7 +4810,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/build-and-dependency",
-    "description": "用于NVIDIA/NeMo-RL/build-and-dependency 相关的 Agent Skill 场景，原始说明为：**** - Build and dependency management for NeMo-。",
+    "description": "用于Build and dependency management for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4827,7 +4827,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/cicd",
-    "description": "用于NVIDIA/NeMo-RL/cicd 相关的 Agent Skill 场景，原始说明为：**** - CI/CD reference for NeMo-RL。",
+    "description": "用于CI/CD reference for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4844,7 +4844,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/config-conventions",
-    "description": "用于NVIDIA/NeMo-RL/config-conventions 相关的 Agent Skill 场景，原始说明为：**** - Configuration conventions for NeMo-RL。",
+    "description": "用于Configuration conventions for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4861,7 +4861,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/contributing",
-    "description": "用于NVIDIA/NeMo-RL/contributing 相关的 Agent Skill 场景，原始说明为：**** - Contribution conventions for NeMo-RL。",
+    "description": "用于Contribution conventions for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4878,7 +4878,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/copyright",
-    "description": "用于NVIDIA/NeMo-RL/copyright 相关的 Agent Skill 场景，原始说明为：**** - NVIDIA copyright header requirements for 。",
+    "description": "用于NVIDIA copyright header requirements for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4895,7 +4895,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/docs",
-    "description": "用于NVIDIA/NeMo-RL/docs 相关的 Agent Skill 场景，原始说明为：**** - Documentation conventions for NeMo-RL。",
+    "description": "用于Documentation conventions for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -4912,7 +4912,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/error-handling",
-    "description": "用于NVIDIA/NeMo-RL/error-handling 相关的 Agent Skill 场景，原始说明为：**** - Error handling guidelines for NeMo-RL。",
+    "description": "用于Error handling guidelines for NeMo-RL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4929,7 +4929,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/launch-nemo-rl",
-    "description": "用于NVIDIA/NeMo-RL/launch-nemo-rl 相关的 Agent Skill 场景，原始说明为：**** - Playbook for launching, monitoring, stopp。",
+    "description": "用于Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4946,7 +4946,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/linting-and-formatting",
-    "description": "用于NVIDIA/NeMo-RL/linting-and-formatting 相关的 Agent Skill 场景，原始说明为：**** - Code style guidelines for NeMo-RL (Python。",
+    "description": "用于Code style guidelines for NeMo-RL (Python and shell)。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -4963,7 +4963,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/review-pr",
-    "description": "用于NVIDIA/NeMo-RL/review-pr 相关的 Agent Skill 场景，原始说明为：**** - Interactive code review for NVIDIA-NeMo/R。",
+    "description": "用于Interactive code review for NVIDIA-NeMo/RL pull requests。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4980,7 +4980,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/session-memory",
-    "description": "用于NVIDIA/NeMo-RL/session-memory 相关的 Agent Skill 场景，原始说明为：**** - Manage durable working-session memory for。",
+    "description": "用于Manage durable working-session memory for coding agents。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -4997,7 +4997,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NeMo-RL/testing",
-    "description": "用于NVIDIA/NeMo-RL/testing 相关的 Agent Skill 场景，原始说明为：**** - Testing conventions for NeMo-RL。",
+    "description": "用于Testing conventions for NeMo-RL。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5014,7 +5014,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-contributor-create-pr",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-contributor-create-pr 相关的 Agent Skill 场景，原始说明为：**** - Create GitHub pull requests that follow t。",
+    "description": "用于Create GitHub pull requests that follow the NemoClaw PR template。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5031,7 +5031,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-contributor-update-docs",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-contributor-update-docs 相关的 Agent Skill 场景，原始说明为：**** - Scan recent git commits for changes that 。",
+    "description": "用于Scan recent git commits for changes that affect user-facing behavior, then draft or update the corresponding。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -5048,7 +5048,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-cross-issue-sweep",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-cross-issue-sweep 相关的 Agent Skill 场景，原始说明为：**** - Scans other open issues to find ones a gi。",
+    "description": "用于Scans other open issues to find ones a given PR may also fix or accidentally break。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5065,7 +5065,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-cut-release-tag",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-cut-release-tag 相关的 Agent Skill 场景，原始说明为：**** - Cut a new semver release — bump all versi。",
+    "description": "用于Cut a new semver release — bump all version strings via bump-version.ts, open a release PR, and after merge。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5082,7 +5082,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-day",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-day 相关的 Agent Skill 场景，原始说明为：**** - Runs the daytime maintainer loop for Nemo。",
+    "description": "用于Runs the daytime maintainer loop for NemoClaw, prioritizing items labeled with the current version target。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5099,7 +5099,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-evening",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-evening 相关的 Agent Skill 场景，原始说明为：**** - Runs the end-of-day maintainer handoff fo。",
+    "description": "用于Runs the end-of-day maintainer handoff for NemoClaw。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5116,7 +5116,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-find-review-pr",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-find-review-pr 相关的 Agent Skill 场景，原始说明为：**** - Finds open GitHub PRs with security and p。",
+    "description": "用于Finds open GitHub PRs with security and priority-high labels, links each to its issue, detects duplicates (m。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -5133,7 +5133,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-morning",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-morning 相关的 Agent Skill 场景，原始说明为：**** - Runs the morning maintainer standup for N。",
+    "description": "用于Runs the morning maintainer standup for NemoClaw。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5150,7 +5150,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-normalize-title-tags",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-normalize-title-tags 相关的 Agent Skill 场景，原始说明为：**** - Normalizes GitHub issue and PR titles by 。",
+    "description": "用于Normalizes GitHub issue and PR titles by removing any bracketed [NemoClaw] tag case-insensitively, even when。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5167,7 +5167,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-pr-comparator",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-pr-comparator 相关的 Agent Skill 场景，原始说明为：**** - Compares competing PRs that target the sa。",
+    "description": "用于Compares competing PRs that target the same issue and recommends which one to merge。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5184,7 +5184,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-security-code-review",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-security-code-review 相关的 Agent Skill 场景，原始说明为：**** - Performs a comprehensive security review 。",
+    "description": "用于Performs a comprehensive security review of code changes in a GitHub PR or issue。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -5201,7 +5201,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-maintainer-triage",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-maintainer-triage 相关的 Agent Skill 场景，原始说明为：**** - AI-assisted label triage for NVIDIA/NemoC。",
+    "description": "用于AI-assisted label triage for NVIDIA/NemoClaw issues and PRs。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5218,7 +5218,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-skills-guide",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-skills-guide 相关的 Agent Skill 场景，原始说明为：**** - Start here。",
+    "description": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -5235,7 +5235,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-agent-skills",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-agent-skills 相关的 Agent Skill 场景，原始说明为：**** - Describes the agent skills shipped with N。",
+    "description": "用于Describes the agent skills shipped with NemoClaw and how to access them by cloning the repository。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5252,7 +5252,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-configure-inference",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-configure-inference 相关的 Agent Skill 场景，原始说明为：**** - Connects NemoClaw to a local inference se。",
+    "description": "用于Connects NemoClaw to a local inference server。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5269,7 +5269,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-configure-security",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-configure-security 相关的 Agent Skill 场景，原始说明为：**** - Presents a risk framework for every confi。",
+    "description": "用于Presents a risk framework for every configurable security control in NemoClaw。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -5286,7 +5286,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-deploy-remote",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-deploy-remote 相关的 Agent Skill 场景，原始说明为：**** - Explains how to run NemoClaw on a remote 。",
+    "description": "用于Explains how to run NemoClaw on a remote GPU instance, including the deprecated Brev compatibility path and。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5303,7 +5303,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-get-started",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-get-started 相关的 Agent Skill 场景，原始说明为：**** - Installs NemoClaw, launches a sandbox, an。",
+    "description": "用于Installs NemoClaw, launches a sandbox, and runs the first agent prompt。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5320,7 +5320,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-manage-policy",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-manage-policy 相关的 Agent Skill 场景，原始说明为：**** - Adds, removes, or modifies allowed endpoi。",
+    "description": "用于Adds, removes, or modifies allowed endpoints in the sandbox policy。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5337,7 +5337,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-overview",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-overview 相关的 Agent Skill 场景，原始说明为：**** - Explains how OpenClaw, OpenShell, and Nem。",
+    "description": "用于Explains how OpenClaw, OpenShell, and NemoClaw form the ecosystem, NemoClaw's position in the stack, what Ne。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5354,7 +5354,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/NemoClaw/nemoclaw-user-reference",
-    "description": "用于NVIDIA/NemoClaw/nemoclaw-user-reference 相关的 Agent Skill 场景，原始说明为：**** - Describes the NemoClaw plugin and bluepri。",
+    "description": "用于Describes the NemoClaw plugin and blueprint architecture and how they orchestrate the OpenClaw sandbox。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5371,7 +5371,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/nemotron-voice-agent/nemotron-voice-agent-deploy",
-    "description": "用于NVIDIA/nemotron-voice-agent/nemotron-voice-agent-deploy 相关的 Agent Skill 场景，原始说明为：**** - Deploy Nemotron Voice Agent on Workstatio。",
+    "description": "用于Deploy Nemotron Voice Agent on Workstation (x86), Jetson Thor, or Cloud NIMs。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5388,7 +5388,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/rag/rag-blueprint",
-    "description": "用于NVIDIA/rag/rag-blueprint 相关的 Agent Skill 场景，原始说明为：**** - \"NVIDIA RAG Blueprint — deploy, configure。",
+    "description": "用于\"NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5405,7 +5405,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-accuracy-debug",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-accuracy-debug 相关的 Agent Skill 场景，原始说明为：**** - > Debug AutoDeploy accuracy regressions v。",
+    "description": "用于> Debug AutoDeploy accuracy regressions vs a reference score (PyTorch backend or published baseline)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5422,7 +5422,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-add-fusion-transformation",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-add-fusion-transformation 相关的 Agent Skill 场景，原始说明为：**** - > Claude Code skill (trtllm-agent-toolkit。",
+    "description": "用于> Claude Code skill (trtllm-agent-toolkit): implement or extend TensorRT-LLM AutoDeploy fusion transforms un。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5439,7 +5439,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-conf-check",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-conf-check 相关的 Agent Skill 场景，原始说明为：**** - > Check whether AutoDeploy YAML configs w。",
+    "description": "用于> Check whether AutoDeploy YAML configs were actually applied by analyzing server logs and optionally graph。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5456,7 +5456,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-graph-dump",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-graph-dump 相关的 Agent Skill 场景，原始说明为：**** - > Enable and interpret TensorRT-LLM AutoD。",
+    "description": "用于> Enable and interpret TensorRT-LLM AutoDeploy FX graph text dumps via AD_DUMP_GRAPHS_DIR。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5473,7 +5473,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-layer-visualizer",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-layer-visualizer 相关的 Agent Skill 场景，原始说明为：**** - > Visualize a specific transformer decode。",
+    "description": "用于> Visualize a specific transformer decoder layer from an AutoDeploy FX graph text dump as a hierarchical DOT。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5490,7 +5490,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/ad-model-onboard",
-    "description": "用于NVIDIA/TensorRT-LLM/ad-model-onboard 相关的 Agent Skill 场景，原始说明为：**** - > Translates a HuggingFace model into a p。",
+    "description": "用于> Translates a HuggingFace model into a prefill-only AutoDeploy custom model using reference custom ops, val。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5507,7 +5507,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/exec-local-compile",
-    "description": "用于NVIDIA/TensorRT-LLM/exec-local-compile 相关的 Agent Skill 场景，原始说明为：**** - Compile TensorRT-LLM on a compute node in。",
+    "description": "用于Compile TensorRT-LLM on a compute node inside a Docker container。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5524,7 +5524,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/exec-slurm-compile",
-    "description": "用于NVIDIA/TensorRT-LLM/exec-slurm-compile 相关的 Agent Skill 场景，原始说明为：**** - Compile TensorRT-LLM on a SLURM cluster。",
+    "description": "用于Compile TensorRT-LLM on a SLURM cluster。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5541,7 +5541,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/kernel-cute-writing",
-    "description": "用于NVIDIA/TensorRT-LLM/kernel-cute-writing 相关的 Agent Skill 场景，原始说明为：**** - > Write and implement GPU kernels using N。",
+    "description": "用于> Write and implement GPU kernels using NVIDIA CuTe DSL (CUTLASS 4.x Python API) — NOT for Triton, CUDA C++。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5558,7 +5558,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/kernel-tileir-optimization",
-    "description": "用于NVIDIA/TensorRT-LLM/kernel-tileir-optimization 相关的 Agent Skill 场景，原始说明为：**** - > Optimize existing Triton kernels for NV。",
+    "description": "用于> Optimize existing Triton kernels for NVIDIA TileIR backend on Blackwell GPUs (sm_100+)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5575,7 +5575,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/kernel-triton-writing",
-    "description": "用于NVIDIA/TensorRT-LLM/kernel-triton-writing 相关的 Agent Skill 场景，原始说明为：**** - > ONLY for OpenAI Triton (@triton.jit) ke。",
+    "description": "用于> ONLY for OpenAI Triton (@triton.jit) kernel development。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5592,7 +5592,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-analysis",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-analysis 相关的 Agent Skill 场景，原始说明为：**** - > Performance analysis coordination workf。",
+    "description": "用于> Performance analysis coordination workflow。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5609,7 +5609,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-host-analysis",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-host-analysis 相关的 Agent Skill 场景，原始说明为：**** - > Analyze host/CPU overhead in TensorRT-L。",
+    "description": "用于> Analyze host/CPU overhead in TensorRT-LLM inference from nsys traces。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5626,7 +5626,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-host-optimization",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-host-optimization 相关的 Agent Skill 场景，原始说明为：**** - Profiles and optimizes TensorRT-LLM host/。",
+    "description": "用于Profiles and optimizes TensorRT-LLM host/CPU overhead using line_profiler (with nsys support planned)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5643,7 +5643,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-nsight-compute-analysis",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-nsight-compute-analysis 相关的 Agent Skill 场景，原始说明为：**** - > Analyze ncu (NVIDIA Nsight Compute) pro。",
+    "description": "用于> Analyze ncu (NVIDIA Nsight Compute) profiling output: SOL% bottleneck classification, roofline analysis, o。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5660,7 +5660,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-nsight-systems",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-nsight-systems 相关的 Agent Skill 场景，原始说明为：**** - >- Nsight Systems (nsys) CLI for system-l。",
+    "description": "用于>- Nsight Systems (nsys) CLI for system-level timeline profiling。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5677,7 +5677,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-optimization",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-optimization 相关的 Agent Skill 场景，原始说明为：**** - > Performance optimization coordination p。",
+    "description": "用于> Performance optimization coordination playbook。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5694,7 +5694,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-torch-cuda-graphs",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-torch-cuda-graphs 相关的 Agent Skill 场景，原始说明为：**** - >- Apply CUDA Graphs to PyTorch workloads。",
+    "description": "用于>- Apply CUDA Graphs to PyTorch workloads — API selection (torch.compile, PyTorch make_graphed_callables, TE。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5711,7 +5711,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-torch-sync-free",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-torch-sync-free 相关的 Agent Skill 场景，原始说明为：**** - >- Identify and eliminate host-device syn。",
+    "description": "用于>- Identify and eliminate host-device synchronizations in PyTorch code。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5728,7 +5728,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/perf-workload-profiling",
-    "description": "用于NVIDIA/TensorRT-LLM/perf-workload-profiling 相关的 Agent Skill 场景，原始说明为：**** - > Code instrumentation for timing workloa。",
+    "description": "用于> Code instrumentation for timing workloads。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5745,7 +5745,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/trtllm-code-contribution",
-    "description": "用于NVIDIA/TensorRT-LLM/trtllm-code-contribution 相关的 Agent Skill 场景，原始说明为：**** - > Best practices for contributing code to。",
+    "description": "用于> Best practices for contributing code to TensorRT-LLM。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5762,7 +5762,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/trtllm-codebase-exploration",
-    "description": "用于NVIDIA/TensorRT-LLM/trtllm-codebase-exploration 相关的 Agent Skill 场景，原始说明为：**** - > Systematic approach to exploring the Te。",
+    "description": "用于> Systematic approach to exploring the TensorRT-LLM codebase before implementing new features or optimizatio。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5779,7 +5779,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/trtllm-flashinfer-upgrade",
-    "description": "用于NVIDIA/TensorRT-LLM/trtllm-flashinfer-upgrade 相关的 Agent Skill 场景，原始说明为：**** - >- Upgrade flashinfer-python version in T。",
+    "description": "用于>- Upgrade flashinfer-python version in TensorRT-LLM。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5796,7 +5796,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/trtllm-moe-develop",
-    "description": "用于NVIDIA/TensorRT-LLM/trtllm-moe-develop 相关的 Agent Skill 场景，原始说明为：**** - >- Review, design, and refactor TensorRT-。",
+    "description": "用于>- Review, design, and refactor TensorRT-LLM PyTorch MoE code for architecture fit, clean code, maintainabil。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5813,7 +5813,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TensorRT-LLM/trtllm-serve-config-guide",
-    "description": "用于NVIDIA/TensorRT-LLM/trtllm-serve-config-guide 相关的 Agent Skill 场景，原始说明为：**** - Generate a source-backed starting trtllm-。",
+    "description": "用于Generate a source-backed starting trtllm-serve --config YAML for basic aggregate single-node PyTorch serving。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -5830,7 +5830,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/adding-cutile-kernel",
-    "description": "用于NVIDIA/TileGym/adding-cutile-kernel 相关的 Agent Skill 场景，原始说明为：**** - Add a new cuTile GPU kernel operator to T。",
+    "description": "用于Add a new cuTile GPU kernel operator to TileGym。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5847,7 +5847,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/converting-cutile-to-julia",
-    "description": "用于NVIDIA/TileGym/converting-cutile-to-julia 相关的 Agent Skill 场景，原始说明为：**** - Converts cuTile Python GPU kernels (@ct.k。",
+    "description": "用于Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5864,7 +5864,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/converting-cutile-to-triton",
-    "description": "用于NVIDIA/TileGym/converting-cutile-to-triton 相关的 Agent Skill 场景，原始说明为：**** - Converts cuTile GPU kernels (@ct.kernel) 。",
+    "description": "用于Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5881,7 +5881,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/cutile-autotuning",
-    "description": "用于NVIDIA/TileGym/cutile-autotuning 相关的 Agent Skill 场景，原始说明为：**** - Use when adding, modifying, optimizing, o。",
+    "description": "用于Use when adding, modifying, optimizing, or debugging CuTile autotuning code。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -5898,7 +5898,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/cutile-python",
-    "description": "用于NVIDIA/TileGym/cutile-python 相关的 Agent Skill 场景，原始说明为：**** - Expert cuTile programming assistant。",
+    "description": "用于Expert cuTile programming assistant。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5915,7 +5915,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/improve-cutile-kernel-perf",
-    "description": "用于NVIDIA/TileGym/improve-cutile-kernel-perf 相关的 Agent Skill 场景，原始说明为：**** - Iteratively optimize cuTile kernel perfor。",
+    "description": "用于Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR compari。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5932,7 +5932,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/TileGym/monkey-patch-kernels-to-transformers",
-    "description": "用于NVIDIA/TileGym/monkey-patch-kernels-to-transformers 相关的 Agent Skill 场景，原始说明为：**** - Integrate TileGym kernels into Hugging Fa。",
+    "description": "用于Integrate TileGym kernels into Hugging Face transformers models by replacing the library's submodule(s) and。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5949,7 +5949,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/alerts",
-    "description": "用于NVIDIA/video-search-and-summarization/alerts 相关的 Agent Skill 场景，原始说明为：**** - Manage and monitor VSS alerts after the a。",
+    "description": "用于Manage and monitor VSS alerts after the alerts profile is deployed。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5966,7 +5966,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/deploy",
-    "description": "用于NVIDIA/video-search-and-summarization/deploy 相关的 Agent Skill 场景，原始说明为：**** - Deploy, debug, or tear down any VSS profi。",
+    "description": "用于Deploy, debug, or tear down any VSS profile using a compose-centric workflow — config (dry-run) with env ove。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -5983,7 +5983,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/report",
-    "description": "用于NVIDIA/video-search-and-summarization/report 相关的 Agent Skill 场景，原始说明为：**** - Produce video analysis reports by discove。",
+    "description": "用于Produce video analysis reports by discovering the deployed VSS agent, querying POST /generate for a timestam。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6000,7 +6000,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/rt-vlm",
-    "description": "用于NVIDIA/video-search-and-summarization/rt-vlm 相关的 Agent Skill 场景，原始说明为：**** - > Use this skill when working with the RT。",
+    "description": "用于> Use this skill when working with the RTVI VLM or RT-VLM microservice API on VSS 3.1。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6017,7 +6017,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/video-analytics",
-    "description": "用于NVIDIA/video-search-and-summarization/video-analytics 相关的 Agent Skill 场景，原始说明为：**** - Query video analytics data and metrics fr。",
+    "description": "用于Query video analytics data and metrics from Elastic search via the VA-MCP server (port 9901)。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -6034,7 +6034,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/video-search",
-    "description": "用于NVIDIA/video-search-and-summarization/video-search 相关的 Agent Skill 场景，原始说明为：**** - Search video archives using natural langu。",
+    "description": "用于Search video archives using natural language — find events, objects, actions, and people across recorded vid。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6051,7 +6051,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/video-summarization",
-    "description": "用于NVIDIA/video-search-and-summarization/video-summarization 相关的 Agent Skill 场景，原始说明为：**** - Summarize a video by calling the VLM NIM 。",
+    "description": "用于Summarize a video by calling the VLM NIM or the Long Video Summarization (LVS) microservice directly。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6068,7 +6068,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/video-understanding",
-    "description": "用于NVIDIA/video-search-and-summarization/video-understanding 相关的 Agent Skill 场景，原始说明为：**** - Call the vss agent to run video understan。",
+    "description": "用于Call the vss agent to run video understanding on video to answer a text question。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6085,7 +6085,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/vios",
-    "description": "用于NVIDIA/video-search-and-summarization/vios 相关的 Agent Skill 场景，原始说明为：**** - Query VIOS REST APIs: sensor list, record。",
+    "description": "用于Query VIOS REST APIs: sensor list, recording timelines, video clip extraction, snapshot capture, add/delete。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6102,7 +6102,7 @@ window.skillsData = [
   },
   {
     "name": "NVIDIA/video-search-and-summarization/vss-frag",
-    "description": "用于NVIDIA/video-search-and-summarization/vss-frag 相关的 Agent Skill 场景，原始说明为：**** - Generate video summary reports using the 。",
+    "description": "用于Generate video summary reports using the VSS video_search_frag extension with Long Video Summarization (LVS)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6119,7 +6119,7 @@ window.skillsData = [
   },
   {
     "name": "obra/brainstorming",
-    "description": "用于obra/brainstorming 相关的 Agent Skill 场景，原始说明为：**** - Generate and explore ideas。",
+    "description": "用于Generate and explore ideas。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6136,7 +6136,7 @@ window.skillsData = [
   },
   {
     "name": "obra/condition-based-waiting",
-    "description": "用于obra/condition-based-waiting 相关的 Agent Skill 场景，原始说明为：**** - Manage conditional pauses or delays。",
+    "description": "用于Manage conditional pauses or delays。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6153,7 +6153,7 @@ window.skillsData = [
   },
   {
     "name": "obra/defense-in-depth",
-    "description": "用于obra/defense-in-depth 相关的 Agent Skill 场景，原始说明为：**** - Multi-layered security approaches。",
+    "description": "用于Multi-layered security approaches。",
     "audience": "工作流",
     "level": "高级",
     "category": "工作流",
@@ -6170,7 +6170,7 @@ window.skillsData = [
   },
   {
     "name": "obra/dispatching-parallel-agents",
-    "description": "用于obra/dispatching-parallel-agents 相关的 Agent Skill 场景，原始说明为：**** - Coordinate multiple simultaneous agents。",
+    "description": "用于Coordinate multiple simultaneous agents。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6187,7 +6187,7 @@ window.skillsData = [
   },
   {
     "name": "obra/executing-plans",
-    "description": "用于obra/executing-plans 相关的 Agent Skill 场景，原始说明为：**** - Implement and run strategic plans。",
+    "description": "用于Implement and run strategic plans。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6204,7 +6204,7 @@ window.skillsData = [
   },
   {
     "name": "obra/finishing-a-development-branch",
-    "description": "用于obra/finishing-a-development-branch 相关的 Agent Skill 场景，原始说明为：**** - Complete Git code branches。",
+    "description": "用于Complete Git code branches。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6221,7 +6221,7 @@ window.skillsData = [
   },
   {
     "name": "obra/receiving-code-review",
-    "description": "用于obra/receiving-code-review 相关的 Agent Skill 场景，原始说明为：**** - Process and incorporate code feedback。",
+    "description": "用于Process and incorporate code feedback。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6238,7 +6238,7 @@ window.skillsData = [
   },
   {
     "name": "obra/requesting-code-review",
-    "description": "用于obra/requesting-code-review 相关的 Agent Skill 场景，原始说明为：**** - Initiate code review processes。",
+    "description": "用于Initiate code review processes。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6255,7 +6255,7 @@ window.skillsData = [
   },
   {
     "name": "obra/root-cause-tracing",
-    "description": "用于obra/root-cause-tracing 相关的 Agent Skill 场景，原始说明为：**** - Investigate and identify fundamental prob。",
+    "description": "用于Investigate and identify fundamental problems。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6272,7 +6272,7 @@ window.skillsData = [
   },
   {
     "name": "obra/sharing-skills",
-    "description": "用于obra/sharing-skills 相关的 Agent Skill 场景，原始说明为：**** - Distribute and communicate capabilities。",
+    "description": "用于Distribute and communicate capabilities。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6289,7 +6289,7 @@ window.skillsData = [
   },
   {
     "name": "obra/subagent-driven-development",
-    "description": "用于obra/subagent-driven-development 相关的 Agent Skill 场景，原始说明为：**** - Development using multiple sub-agents。",
+    "description": "用于Development using multiple sub-agents。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6306,7 +6306,7 @@ window.skillsData = [
   },
   {
     "name": "obra/systematic-debugging",
-    "description": "用于obra/systematic-debugging 相关的 Agent Skill 场景，原始说明为：**** - Methodical problem-solving in code。",
+    "description": "用于Methodical problem-solving in code。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6323,7 +6323,7 @@ window.skillsData = [
   },
   {
     "name": "obra/test-driven-development",
-    "description": "用于obra/test-driven-development 相关的 Agent Skill 场景，原始说明为：**** - Write tests before implementing code。",
+    "description": "用于Write tests before implementing code。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6340,7 +6340,7 @@ window.skillsData = [
   },
   {
     "name": "obra/testing-anti-patterns",
-    "description": "用于obra/testing-anti-patterns 相关的 Agent Skill 场景，原始说明为：**** - Identify ineffective testing practices。",
+    "description": "用于Identify ineffective testing practices。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6357,7 +6357,7 @@ window.skillsData = [
   },
   {
     "name": "obra/testing-skills-with-subagents",
-    "description": "用于obra/testing-skills-with-subagents 相关的 Agent Skill 场景，原始说明为：**** - Collaborative testing approaches。",
+    "description": "用于Collaborative testing approaches。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6374,7 +6374,7 @@ window.skillsData = [
   },
   {
     "name": "obra/using-superpowers",
-    "description": "用于obra/using-superpowers 相关的 Agent Skill 场景，原始说明为：**** - Leverage core platform capabilities。",
+    "description": "用于Leverage core platform capabilities。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6391,7 +6391,7 @@ window.skillsData = [
   },
   {
     "name": "obra/verification-before-completion",
-    "description": "用于obra/verification-before-completion 相关的 Agent Skill 场景，原始说明为：**** - Validate work before finalizing。",
+    "description": "用于Validate work before finalizing。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6408,7 +6408,7 @@ window.skillsData = [
   },
   {
     "name": "obra/writing-plans",
-    "description": "用于obra/writing-plans 相关的 Agent Skill 场景，原始说明为：**** - Create strategic documentation。",
+    "description": "用于Create strategic documentation。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -6425,7 +6425,7 @@ window.skillsData = [
   },
   {
     "name": "obra/writing-skills",
-    "description": "用于obra/writing-skills 相关的 Agent Skill 场景，原始说明为：**** - Develop and document capabilities。",
+    "description": "用于Develop and document capabilities。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6442,7 +6442,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/ab-test-analysis",
-    "description": "用于phuryn/ab-test-analysis 相关的 Agent Skill 场景，原始说明为：**** - Analyze A/B test results with statistical。",
+    "description": "用于Analyze A/B test results with statistical significance and recommendations。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6459,7 +6459,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/analyze-feature-requests",
-    "description": "用于phuryn/analyze-feature-requests 相关的 Agent Skill 场景，原始说明为：**** - Prioritize feature requests by theme, imp。",
+    "description": "用于Prioritize feature requests by theme, impact, effort, and risk。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6476,7 +6476,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/ansoff-matrix",
-    "description": "用于phuryn/ansoff-matrix 相关的 Agent Skill 场景，原始说明为：**** - Ansoff Matrix analysis across 4 growth st。",
+    "description": "用于Ansoff Matrix analysis across 4 growth strategy quadrants。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6493,7 +6493,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/beachhead-segment",
-    "description": "用于phuryn/beachhead-segment 相关的 Agent Skill 场景，原始说明为：**** - Identify the first beachhead market segme。",
+    "description": "用于Identify the first beachhead market segment for product launch。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6510,7 +6510,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/brainstorm-experiments-existing",
-    "description": "用于phuryn/brainstorm-experiments-existing 相关的 Agent Skill 场景，原始说明为：**** - Design experiments to test assumptions fo。",
+    "description": "用于Design experiments to test assumptions for existing products。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -6527,7 +6527,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/brainstorm-experiments-new",
-    "description": "用于phuryn/brainstorm-experiments-new 相关的 Agent Skill 场景，原始说明为：**** - Design lean pretotypes for new product va。",
+    "description": "用于Design lean pretotypes for new product validation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6544,7 +6544,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/brainstorm-ideas-existing",
-    "description": "用于phuryn/brainstorm-ideas-existing 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm product ideas from PM, Designe。",
+    "description": "用于Brainstorm product ideas from PM, Designer, Engineer perspectives。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6561,7 +6561,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/brainstorm-ideas-new",
-    "description": "用于phuryn/brainstorm-ideas-new 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm feature ideas for new products。",
+    "description": "用于Brainstorm feature ideas for new products in early discovery。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6578,7 +6578,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/brainstorm-okrs",
-    "description": "用于phuryn/brainstorm-okrs 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm team OKRs aligned with company。",
+    "description": "用于Brainstorm team OKRs aligned with company objectives。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6595,7 +6595,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/business-model",
-    "description": "用于phuryn/business-model 相关的 Agent Skill 场景，原始说明为：**** - Generate Business Model Canvas with all 9。",
+    "description": "用于Generate Business Model Canvas with all 9 building blocks。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -6612,7 +6612,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/cohort-analysis",
-    "description": "用于phuryn/cohort-analysis 相关的 Agent Skill 场景，原始说明为：**** - Cohort retention curves, feature adoption。",
+    "description": "用于Cohort retention curves, feature adoption, and segment insights。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6629,7 +6629,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/competitive-battlecard",
-    "description": "用于phuryn/competitive-battlecard 相关的 Agent Skill 场景，原始说明为：**** - Create sales-ready battlecards against sp。",
+    "description": "用于Create sales-ready battlecards against specific competitors。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6646,7 +6646,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/competitor-analysis",
-    "description": "用于phuryn/competitor-analysis 相关的 Agent Skill 场景，原始说明为：**** - Analyze competitors with strengths, weakn。",
+    "description": "用于Analyze competitors with strengths, weaknesses, and differentiation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6663,7 +6663,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/create-prd",
-    "description": "用于phuryn/create-prd 相关的 Agent Skill 场景，原始说明为：**** - Create a PRD with 8-section template cove。",
+    "description": "用于Create a PRD with 8-section template covering problem to release。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6680,7 +6680,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/customer-journey-map",
-    "description": "用于phuryn/customer-journey-map 相关的 Agent Skill 场景，原始说明为：**** - Map customer journeys with touchpoints, e。",
+    "description": "用于Map customer journeys with touchpoints, emotions, and opportunities。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6697,7 +6697,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/draft-nda",
-    "description": "用于phuryn/draft-nda 相关的 Agent Skill 场景，原始说明为：**** - Draft NDAs covering information types, ju。",
+    "description": "用于Draft NDAs covering information types, jurisdiction, and clauses。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6714,7 +6714,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/dummy-dataset",
-    "description": "用于phuryn/dummy-dataset 相关的 Agent Skill 场景，原始说明为：**** - Generate realistic dummy datasets in CSV,。",
+    "description": "用于Generate realistic dummy datasets in CSV, JSON, or SQL。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6731,7 +6731,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/grammar-check",
-    "description": "用于phuryn/grammar-check 相关的 Agent Skill 场景，原始说明为：**** - Identify grammar and flow errors with tar。",
+    "description": "用于Identify grammar and flow errors with targeted fix suggestions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6748,7 +6748,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/growth-loops",
-    "description": "用于phuryn/growth-loops 相关的 Agent Skill 场景，原始说明为：**** - Identify growth loops across 5 flywheel t。",
+    "description": "用于Identify growth loops across 5 flywheel types for traction。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6765,7 +6765,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/gtm-motions",
-    "description": "用于phuryn/gtm-motions 相关的 Agent Skill 场景，原始说明为：**** - Identify best GTM motions across 7 types 。",
+    "description": "用于Identify best GTM motions across 7 types including PLG and ABM。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6782,7 +6782,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/gtm-strategy",
-    "description": "用于phuryn/gtm-strategy 相关的 Agent Skill 场景，原始说明为：**** - Create GTM strategy with channels, messag。",
+    "description": "用于Create GTM strategy with channels, messaging, and launch timeline。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6799,7 +6799,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/ideal-customer-profile",
-    "description": "用于phuryn/ideal-customer-profile 相关的 Agent Skill 场景，原始说明为：**** - Identify ICP with demographics, behaviors。",
+    "description": "用于Identify ICP with demographics, behaviors, and JTBD。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6816,7 +6816,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/identify-assumptions-existing",
-    "description": "用于phuryn/identify-assumptions-existing 相关的 Agent Skill 场景，原始说明为：**** - Identify risky assumptions across Value, 。",
+    "description": "用于Identify risky assumptions across Value, Usability, Viability, Feasibility。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6833,7 +6833,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/identify-assumptions-new",
-    "description": "用于phuryn/identify-assumptions-new 相关的 Agent Skill 场景，原始说明为：**** - Identify risky assumptions for new produc。",
+    "description": "用于Identify risky assumptions for new products across 8 risk categories。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6850,7 +6850,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/interview-script",
-    "description": "用于phuryn/interview-script 相关的 Agent Skill 场景，原始说明为：**** - Create structured customer interview scri。",
+    "description": "用于Create structured customer interview scripts with JTBD probing。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6867,7 +6867,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/job-stories",
-    "description": "用于phuryn/job-stories 相关的 Agent Skill 场景，原始说明为：**** - Create job stories with acceptance criter。",
+    "description": "用于Create job stories with acceptance criteria in JTBD format。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6884,7 +6884,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/lean-canvas",
-    "description": "用于phuryn/lean-canvas 相关的 Agent Skill 场景，原始说明为：**** - Generate Lean Canvas with problem, soluti。",
+    "description": "用于Generate Lean Canvas with problem, solution, UVP, and metrics。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6901,7 +6901,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/market-segments",
-    "description": "用于phuryn/market-segments 相关的 Agent Skill 场景，原始说明为：**** - Identify 3-5 customer segments with JTBD 。",
+    "description": "用于Identify 3-5 customer segments with JTBD and product fit。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6918,7 +6918,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/market-sizing",
-    "description": "用于phuryn/market-sizing 相关的 Agent Skill 场景，原始说明为：**** - Estimate TAM, SAM, SOM with top-down and 。",
+    "description": "用于Estimate TAM, SAM, SOM with top-down and bottom-up approaches。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6935,7 +6935,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/marketing-ideas",
-    "description": "用于phuryn/marketing-ideas 相关的 Agent Skill 场景，原始说明为：**** - Generate 5 creative, cost-effective marke。",
+    "description": "用于Generate 5 creative, cost-effective marketing ideas with rationale。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6952,7 +6952,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/metrics-dashboard",
-    "description": "用于phuryn/metrics-dashboard 相关的 Agent Skill 场景，原始说明为：**** - Define product metrics dashboard with sou。",
+    "description": "用于Define product metrics dashboard with sources and alert thresholds。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6969,7 +6969,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/monetization-strategy",
-    "description": "用于phuryn/monetization-strategy 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm 3-5 monetization strategies wi。",
+    "description": "用于Brainstorm 3-5 monetization strategies with validation experiments。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -6986,7 +6986,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/north-star-metric",
-    "description": "用于phuryn/north-star-metric 相关的 Agent Skill 场景，原始说明为：**** - Define North Star Metric and input metric。",
+    "description": "用于Define North Star Metric and input metrics constellation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7003,7 +7003,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/opportunity-solution-tree",
-    "description": "用于phuryn/opportunity-solution-tree 相关的 Agent Skill 场景，原始说明为：**** - Build Opportunity Solution Trees based on。",
+    "description": "用于Build Opportunity Solution Trees based on Teresa Torres' method。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7020,7 +7020,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/outcome-roadmap",
-    "description": "用于phuryn/outcome-roadmap 相关的 Agent Skill 场景，原始说明为：**** - Transform output roadmaps into outcome-fo。",
+    "description": "用于Transform output roadmaps into outcome-focused strategic plans。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7037,7 +7037,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/pestle-analysis",
-    "description": "用于phuryn/pestle-analysis 相关的 Agent Skill 场景，原始说明为：**** - PESTLE analysis across Political, Economi。",
+    "description": "用于PESTLE analysis across Political, Economic, Social, Tech, Legal, Environmental。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7054,7 +7054,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/porters-five-forces",
-    "description": "用于phuryn/porters-five-forces 相关的 Agent Skill 场景，原始说明为：**** - Porter's Five Forces competitive analysis。",
+    "description": "用于Porter's Five Forces competitive analysis with strategic insights。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7071,7 +7071,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/positioning-ideas",
-    "description": "用于phuryn/positioning-ideas 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm positioning ideas differentiat。",
+    "description": "用于Brainstorm positioning ideas differentiated from competitors。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7088,7 +7088,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/pre-mortem",
-    "description": "用于phuryn/pre-mortem 相关的 Agent Skill 场景，原始说明为：**** - Run pre-mortem risk analysis on PRDs and 。",
+    "description": "用于Run pre-mortem risk analysis on PRDs and launch plans。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7105,7 +7105,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/pricing-strategy",
-    "description": "用于phuryn/pricing-strategy 相关的 Agent Skill 场景，原始说明为：**** - Design pricing strategies with competitiv。",
+    "description": "用于Design pricing strategies with competitive analysis and WTP estimation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7122,7 +7122,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/prioritization-frameworks",
-    "description": "用于phuryn/prioritization-frameworks 相关的 Agent Skill 场景，原始说明为：**** - Reference guide to 9 prioritization frame。",
+    "description": "用于Reference guide to 9 prioritization frameworks with templates。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7139,7 +7139,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/prioritize-assumptions",
-    "description": "用于phuryn/prioritize-assumptions 相关的 Agent Skill 场景，原始说明为：**** - Prioritize assumptions with Impact × Risk。",
+    "description": "用于Prioritize assumptions with Impact × Risk matrix and experiments。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7156,7 +7156,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/prioritize-features",
-    "description": "用于phuryn/prioritize-features 相关的 Agent Skill 场景，原始说明为：**** - Prioritize backlog by impact, effort, ris。",
+    "description": "用于Prioritize backlog by impact, effort, risk, and strategic alignment。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7173,7 +7173,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/privacy-policy",
-    "description": "用于phuryn/privacy-policy 相关的 Agent Skill 场景，原始说明为：**** - Draft privacy policies with GDPR complian。",
+    "description": "用于Draft privacy policies with GDPR compliance considerations。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7190,7 +7190,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/product-name",
-    "description": "用于phuryn/product-name 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm 5 memorable product names alig。",
+    "description": "用于Brainstorm 5 memorable product names aligned to brand values。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7207,7 +7207,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/product-strategy",
-    "description": "用于phuryn/product-strategy 相关的 Agent Skill 场景，原始说明为：**** - Create product strategy using 9-section P。",
+    "description": "用于Create product strategy using 9-section Product Strategy Canvas。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7224,7 +7224,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/product-vision",
-    "description": "用于phuryn/product-vision 相关的 Agent Skill 场景，原始说明为：**** - Brainstorm inspiring, achievable product 。",
+    "description": "用于Brainstorm inspiring, achievable product vision statements。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7241,7 +7241,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/release-notes",
-    "description": "用于phuryn/release-notes 相关的 Agent Skill 场景，原始说明为：**** - Generate user-facing release notes from t。",
+    "description": "用于Generate user-facing release notes from tickets or changelogs。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7258,7 +7258,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/retro",
-    "description": "用于phuryn/retro 相关的 Agent Skill 场景，原始说明为：**** - Facilitate structured sprint retrospectiv。",
+    "description": "用于Facilitate structured sprint retrospectives with action items。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7275,7 +7275,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/review-resume",
-    "description": "用于phuryn/review-resume 相关的 Agent Skill 场景，原始说明为：**** - PM resume review against 10 best practice。",
+    "description": "用于PM resume review against 10 best practices including XYZ+S formula。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7292,7 +7292,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/sentiment-analysis",
-    "description": "用于phuryn/sentiment-analysis 相关的 Agent Skill 场景，原始说明为：**** - Analyze user feedback with sentiment scor。",
+    "description": "用于Analyze user feedback with sentiment scores and JTBD insights。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7309,7 +7309,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/sprint-plan",
-    "description": "用于phuryn/sprint-plan 相关的 Agent Skill 场景，原始说明为：**** - Plan sprints with capacity, story selecti。",
+    "description": "用于Plan sprints with capacity, story selection, and risk mapping。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7326,7 +7326,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/sql-queries",
-    "description": "用于phuryn/sql-queries 相关的 Agent Skill 场景，原始说明为：**** - Generate SQL queries from natural languag。",
+    "description": "用于Generate SQL queries from natural language across major dialects。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7343,7 +7343,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/stakeholder-map",
-    "description": "用于phuryn/stakeholder-map 相关的 Agent Skill 场景，原始说明为：**** - Build stakeholder maps with power/interes。",
+    "description": "用于Build stakeholder maps with power/interest grid and comms plan。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7360,7 +7360,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/startup-canvas",
-    "description": "用于phuryn/startup-canvas 相关的 Agent Skill 场景，原始说明为：**** - Generate Startup Canvas combining Product。",
+    "description": "用于Generate Startup Canvas combining Product Strategy and Business Model。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -7377,7 +7377,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/summarize-interview",
-    "description": "用于phuryn/summarize-interview 相关的 Agent Skill 场景，原始说明为：**** - Summarize interview transcripts with JTBD。",
+    "description": "用于Summarize interview transcripts with JTBD and action items。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7394,7 +7394,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/summarize-meeting",
-    "description": "用于phuryn/summarize-meeting 相关的 Agent Skill 场景，原始说明为：**** - Summarize meeting transcripts into struct。",
+    "description": "用于Summarize meeting transcripts into structured notes and actions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7411,7 +7411,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/swot-analysis",
-    "description": "用于phuryn/swot-analysis 相关的 Agent Skill 场景，原始说明为：**** - SWOT analysis with actionable recommendat。",
+    "description": "用于SWOT analysis with actionable recommendations per quadrant。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7428,7 +7428,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/test-scenarios",
-    "description": "用于phuryn/test-scenarios 相关的 Agent Skill 场景，原始说明为：**** - Create comprehensive test scenarios from 。",
+    "description": "用于Create comprehensive test scenarios from user stories。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7445,7 +7445,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/user-personas",
-    "description": "用于phuryn/user-personas 相关的 Agent Skill 场景，原始说明为：**** - Create 3 user personas with JTBD, pains, 。",
+    "description": "用于Create 3 user personas with JTBD, pains, and gains。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7462,7 +7462,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/user-segmentation",
-    "description": "用于phuryn/user-segmentation 相关的 Agent Skill 场景，原始说明为：**** - Segment users by behavior, JTBD, and need。",
+    "description": "用于Segment users by behavior, JTBD, and needs from feedback data。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7479,7 +7479,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/user-stories",
-    "description": "用于phuryn/user-stories 相关的 Agent Skill 场景，原始说明为：**** - Create INVEST-compliant user stories with。",
+    "description": "用于Create INVEST-compliant user stories with 3 C's structure。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7496,7 +7496,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/value-prop-statements",
-    "description": "用于phuryn/value-prop-statements 相关的 Agent Skill 场景，原始说明为：**** - Generate value prop statements for market。",
+    "description": "用于Generate value prop statements for marketing, sales, and onboarding。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7513,7 +7513,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/value-proposition",
-    "description": "用于phuryn/value-proposition 相关的 Agent Skill 场景，原始说明为：**** - Design value propositions using 6-part JT。",
+    "description": "用于Design value propositions using 6-part JTBD template。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -7530,7 +7530,7 @@ window.skillsData = [
   },
   {
     "name": "phuryn/wwas",
-    "description": "用于phuryn/wwas 相关的 Agent Skill 场景，原始说明为：**** - Create backlog items in Why-What-Acceptan。",
+    "description": "用于Create backlog items in Why-What-Acceptance format。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7547,7 +7547,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/ad-angle-multiplier",
-    "description": "用于realkimbarrett/ad-angle-multiplier 相关的 Agent Skill 场景，原始说明为：**** - Expand a core idea into multiple distinct。",
+    "description": "用于Expand a core idea into multiple distinct ad angles for creative testing。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7564,7 +7564,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/avatar-extraction",
-    "description": "用于realkimbarrett/avatar-extraction 相关的 Agent Skill 场景，原始说明为：**** - Define exactly who the buyer is, what the。",
+    "description": "用于Define exactly who the buyer is, what they want, what they've tried, and what's driving their decisions。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7581,7 +7581,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/conversion-path-builder",
-    "description": "用于realkimbarrett/conversion-path-builder 相关的 Agent Skill 场景，原始说明为：**** - Design the optimal funnel from click to c。",
+    "description": "用于Design the optimal funnel from click to conversion and booked calls。",
     "audience": "设计",
     "level": "基础",
     "category": "图像",
@@ -7598,7 +7598,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/full-funnel-campaign-orchestrator",
-    "description": "用于realkimbarrett/full-funnel-campaign-orchestrator 相关的 Agent Skill 场景，原始说明为：**** - Coordinate all skills to build a complete。",
+    "description": "用于Coordinate all skills to build a complete ads + funnel campaign end-to-end。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7615,7 +7615,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/generic-language-killer",
-    "description": "用于realkimbarrett/generic-language-killer 相关的 Agent Skill 场景，原始说明为：**** - Remove vague, corporate, or AI-sounding l。",
+    "description": "用于Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7632,7 +7632,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/headline-matrix",
-    "description": "用于realkimbarrett/headline-matrix 相关的 Agent Skill 场景，原始说明为：**** - Generate high-performing headline variati。",
+    "description": "用于Generate high-performing headline variations across different angles。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7649,7 +7649,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/mechanism-builder",
-    "description": "用于realkimbarrett/mechanism-builder 相关的 Agent Skill 场景，原始说明为：**** - Explain why your solution works and other。",
+    "description": "用于Explain why your solution works and others failed with a unique mechanism。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7666,7 +7666,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/objection-crusher",
-    "description": "用于realkimbarrett/objection-crusher 相关的 Agent Skill 场景，原始说明为：**** - Identify and neutralize buyer objections 。",
+    "description": "用于Identify and neutralize buyer objections and hesitation。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7683,7 +7683,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/offer-extraction",
-    "description": "用于realkimbarrett/offer-extraction 相关的 Agent Skill 场景，原始说明为：**** - Turn a product or service into a compelli。",
+    "description": "用于Turn a product or service into a compelling, high-converting offer。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7700,7 +7700,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/performance-diagnosis",
-    "description": "用于realkimbarrett/performance-diagnosis 相关的 Agent Skill 场景，原始说明为：**** - Diagnose why campaigns are underperformin。",
+    "description": "用于Diagnose why campaigns are underperforming — low conversion, high CPL, bad ads。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7717,7 +7717,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/schwartz-awareness-mapper",
-    "description": "用于realkimbarrett/schwartz-awareness-mapper 相关的 Agent Skill 场景，原始说明为：**** - Determine audience awareness level and th。",
+    "description": "用于Determine audience awareness level and the correct messaging approach。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7734,7 +7734,7 @@ window.skillsData = [
   },
   {
     "name": "realkimbarrett/scroll-stopping-creative",
-    "description": "用于realkimbarrett/scroll-stopping-creative 相关的 Agent Skill 场景，原始说明为：**** - Create ad concepts that stop attention in。",
+    "description": "用于Create ad concepts that stop attention in the first 3 seconds。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7751,7 +7751,7 @@ window.skillsData = [
   },
   {
     "name": "redis/redis-development",
-    "description": "用于redis/redis-development 相关的 Agent Skill 场景，原始说明为：**** - Redis development best practices — data s。",
+    "description": "用于Redis development best practices — data structures, query engine, vector search, caching, and performance op。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7768,7 +7768,7 @@ window.skillsData = [
   },
   {
     "name": "remotion-dev/skills",
-    "description": "用于remotion-dev/skills 相关的 Agent Skill 场景，原始说明为：****: Official Remotion skills - Video creation 。",
+    "description": "用于Official Remotion skills - Video creation in React with 28 modular rules。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7784,7 +7784,7 @@ window.skillsData = [
   },
   {
     "name": "resend/agent-email-inbox",
-    "description": "用于resend/agent-email-inbox 相关的 Agent Skill 场景，原始说明为：**** - AI agent email inbox management。",
+    "description": "用于AI agent email inbox management。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7801,7 +7801,7 @@ window.skillsData = [
   },
   {
     "name": "resend/email-best-practices",
-    "description": "用于resend/email-best-practices 相关的 Agent Skill 场景，原始说明为：**** - Email deliverability and design best prac。",
+    "description": "用于Email deliverability and design best practices。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7818,7 +7818,7 @@ window.skillsData = [
   },
   {
     "name": "resend/react-email",
-    "description": "用于resend/react-email 相关的 Agent Skill 场景，原始说明为：**** - Build emails with React Email components。",
+    "description": "用于Build emails with React Email components。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7835,7 +7835,7 @@ window.skillsData = [
   },
   {
     "name": "resend/resend",
-    "description": "用于resend/resend 相关的 Agent Skill 场景，原始说明为：**** - Send and manage emails via the Resend API。",
+    "description": "用于Send and manage emails via the Resend API。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7851,7 +7851,7 @@ window.skillsData = [
   },
   {
     "name": "resend/resend-cli",
-    "description": "用于resend/resend-cli 相关的 Agent Skill 场景，原始说明为：**** - Resend CLI commands and workflows。",
+    "description": "用于Resend CLI commands and workflows。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7868,7 +7868,7 @@ window.skillsData = [
   },
   {
     "name": "sanjay3290/deep-research",
-    "description": "用于sanjay3290/deep-research 相关的 Agent Skill 场景，原始说明为：**** - Autonomous multi-step research using Gemi。",
+    "description": "用于Autonomous multi-step research using Gemini Deep Research Agent。",
     "audience": "工作流",
     "level": "进阶",
     "category": "研究",
@@ -7885,7 +7885,7 @@ window.skillsData = [
   },
   {
     "name": "sanjay3290/imagen",
-    "description": "用于sanjay3290/imagen 相关的 Agent Skill 场景，原始说明为：**** - Generate images using Google Gemini's API。",
+    "description": "用于Generate images using Google Gemini's API。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7902,7 +7902,7 @@ window.skillsData = [
   },
   {
     "name": "sanjay3290/postgres",
-    "description": "用于sanjay3290/postgres 相关的 Agent Skill 场景，原始说明为：**** - Execute safe read-only SQL queries agains。",
+    "description": "用于Execute safe read-only SQL queries against PostgreSQL databases。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -7919,7 +7919,7 @@ window.skillsData = [
   },
   {
     "name": "sentry-skills",
-    "description": "用于sentry-skills 相关的 Agent Skill 场景，原始说明为：Debug errors, performance issues, and traces dir。",
+    "description": "用于Debug errors, performance issues, and traces directly with Sentry integration。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7935,7 +7935,7 @@ window.skillsData = [
   },
   {
     "name": "Shpigford/readme",
-    "description": "用于Shpigford/readme 相关的 Agent Skill 场景，原始说明为：**** - Generate comprehensive project documentat。",
+    "description": "用于Generate comprehensive project documentation。",
     "audience": "工作流",
     "level": "基础",
     "category": "文档",
@@ -7952,7 +7952,7 @@ window.skillsData = [
   },
   {
     "name": "Shpigford/screenshots",
-    "description": "用于Shpigford/screenshots 相关的 Agent Skill 场景，原始说明为：**** - Generate marketing screenshots with Playw。",
+    "description": "用于Generate marketing screenshots with Playwright。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -7969,7 +7969,7 @@ window.skillsData = [
   },
   {
     "name": "Supabase skills",
-    "description": "用于Supabase skills 相关的 Agent Skill 场景，原始说明为：Agent Skills to help developers using AI agents 。",
+    "description": "用于Agent Skills to help developers using AI agents with Supabase。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -7985,7 +7985,7 @@ window.skillsData = [
   },
   {
     "name": "transloadit/skills",
-    "description": "用于transloadit/skills 相关的 Agent Skill 场景，原始说明为：**** - Transloadit skill collection (6)。",
+    "description": "用于Transloadit skill collection (6)。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8001,7 +8001,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-api-keys",
-    "description": "用于veniceai/venice-api-keys 相关的 Agent Skill 场景，原始说明为：**** - API key CRUD, rate limits, and Web3 keys。",
+    "description": "用于API key CRUD, rate limits, and Web3 keys。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -8018,7 +8018,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-api-overview",
-    "description": "用于veniceai/venice-api-overview 相关的 Agent Skill 场景，原始说明为：**** - API basics, auth modes, pricing, and vers。",
+    "description": "用于API basics, auth modes, pricing, and versioning。",
     "audience": "开发",
     "level": "高级",
     "category": "开发",
@@ -8035,7 +8035,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-audio-music",
-    "description": "用于veniceai/venice-audio-music 相关的 Agent Skill 场景，原始说明为：**** - Music generation queueing, retrieval, and。",
+    "description": "用于Music generation queueing, retrieval, and completion endpoints。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8052,7 +8052,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-audio-speech",
-    "description": "用于veniceai/venice-audio-speech 相关的 Agent Skill 场景，原始说明为：**** - Text-to-speech models, voices, formats, a。",
+    "description": "用于Text-to-speech models, voices, formats, and streaming。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8069,7 +8069,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-audio-transcription",
-    "description": "用于veniceai/venice-audio-transcription 相关的 Agent Skill 场景，原始说明为：**** - Audio transcription models and speech-to-。",
+    "description": "用于Audio transcription models and speech-to-text options。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8086,7 +8086,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-augment",
-    "description": "用于veniceai/venice-augment 相关的 Agent Skill 场景，原始说明为：**** - Search, scraping, and text parsing endpoi。",
+    "description": "用于Search, scraping, and text parsing endpoints。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -8103,7 +8103,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-billing",
-    "description": "用于veniceai/venice-billing 相关的 Agent Skill 场景，原始说明为：**** - Balance, usage, and billing analytics end。",
+    "description": "用于Balance, usage, and billing analytics endpoints。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8120,7 +8120,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-characters",
-    "description": "用于veniceai/venice-characters 相关的 Agent Skill 场景，原始说明为：**** - Character endpoints and character_slug us。",
+    "description": "用于Character endpoints and character_slug usage。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8137,7 +8137,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-chat",
-    "description": "用于veniceai/venice-chat 相关的 Agent Skill 场景，原始说明为：**** - Chat completions, multimodal inputs, tool。",
+    "description": "用于Chat completions, multimodal inputs, tools, and streaming。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8154,7 +8154,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-crypto-rpc",
-    "description": "用于veniceai/venice-crypto-rpc 相关的 Agent Skill 场景，原始说明为：**** - JSON-RPC proxying for supported crypto ne。",
+    "description": "用于JSON-RPC proxying for supported crypto networks。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8171,7 +8171,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-embeddings",
-    "description": "用于veniceai/venice-embeddings 相关的 Agent Skill 场景，原始说明为：**** - Embeddings models, dimensions, and encodi。",
+    "description": "用于Embeddings models, dimensions, and encoding formats。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8188,7 +8188,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-errors",
-    "description": "用于veniceai/venice-errors 相关的 Agent Skill 场景，原始说明为：**** - Error handling, retries, and API status c。",
+    "description": "用于Error handling, retries, and API status codes。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -8205,7 +8205,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-image-edit",
-    "description": "用于veniceai/venice-image-edit 相关的 Agent Skill 场景，原始说明为：**** - Image edits, upscaling, and background re。",
+    "description": "用于Image edits, upscaling, and background removal。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8222,7 +8222,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-image-generate",
-    "description": "用于veniceai/venice-image-generate 相关的 Agent Skill 场景，原始说明为：**** - Image generation endpoints and available 。",
+    "description": "用于Image generation endpoints and available styles。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8239,7 +8239,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-models",
-    "description": "用于veniceai/venice-models 相关的 Agent Skill 场景，原始说明为：**** - Model catalog, traits, and compatibility 。",
+    "description": "用于Model catalog, traits, and compatibility mappings。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8256,7 +8256,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-responses",
-    "description": "用于veniceai/venice-responses 相关的 Agent Skill 场景，原始说明为：**** - OpenAI-compatible Responses API for Venic。",
+    "description": "用于OpenAI-compatible Responses API for Venice。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -8273,7 +8273,7 @@ window.skillsData = [
   },
   {
     "name": "veniceai/venice-video",
-    "description": "用于veniceai/venice-video 相关的 Agent Skill 场景，原始说明为：**** - Video generation and transcription workfl。",
+    "description": "用于Video generation and transcription workflows。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",
@@ -8290,7 +8290,7 @@ window.skillsData = [
   },
   {
     "name": "vercel-labs/agent-skills",
-    "description": "用于vercel-labs/agent-skills 相关的 Agent Skill 场景，原始说明为：****: Vercel Labs official skills - React Best P。",
+    "description": "用于Vercel Labs official skills - React Best Practices, Web Design Guidelines。",
     "audience": "开发",
     "level": "进阶",
     "category": "开发",
@@ -8306,7 +8306,7 @@ window.skillsData = [
   },
   {
     "name": "vercel-labs/skills",
-    "description": "用于vercel-labs/skills 相关的 Agent Skill 场景，原始说明为：For specific skills, use the npx skills command-。",
+    "description": "用于For specific skills, use the npx skills command-line tool to quickly discover, add, and manage skills. For d。",
     "audience": "工作流",
     "level": "基础",
     "category": "工作流",

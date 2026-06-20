@@ -174,6 +174,7 @@ def clean_text(text: str) -> str:
     value = re.sub(r"`([^`]+)`", r"\1", text)
     value = re.sub(r"\*\*([^*]+)\*\*", r"\1", value)
     value = re.sub(r"\*([^*]+)\*", r"\1", value)
+    value = re.sub(r"\*{2,}", " ", value)
     value = re.sub(r"<[^>]+>", "", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" -:|")
@@ -285,7 +286,7 @@ def infer_level(category: str, description: str) -> str:
 
 
 def translate_description(item: dict) -> str:
-    description = str(item.get("description") or "").strip()
+    description = clean_text(str(item.get("description") or "").strip())
     name = str(item.get("name") or slug_from_url(str(item.get("link") or "")))
     if description in DESC_TRANSLATIONS:
         return DESC_TRANSLATIONS[description]
@@ -295,8 +296,19 @@ def translate_description(item: dict) -> str:
             text = "用于" + text
         return text[:90] + "。"
     if description:
-        return f"用于{name} 相关的 Agent Skill 场景，原始说明为：{description[:48].rstrip('.')}。"
-    return f"用于{name} 相关的 Agent Skill 场景，适合按需跳转到原仓库继续了解。"
+        return normalize_english_description(description)
+    return f"用于 {name} 相关的 Agent Skill，帮助用户按需调用该仓库提供的能力。"
+
+
+def normalize_english_description(description: str) -> str:
+    text = clean_text(description).rstrip(".")
+    if len(text) < 18 or text.lower() in {"install from", "start here", "read more", "learn more"}:
+        return "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。"
+    if re.match(r"^[A-Za-z0-9 .,+/&():'_\-—>]+$", text):
+        text = "用于" + text
+    elif not text.startswith(("用于", "帮助", "适合", "提供", "支持")):
+        text = "用于" + text
+    return text[:110].rstrip(" ,，;；:：") + "。"
 
 
 def risk_level(item: dict) -> tuple[str, list[str]]:
