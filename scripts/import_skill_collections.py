@@ -356,7 +356,7 @@ def score_item(item: dict) -> dict:
         score -= 4
         reasons.append("合集首页或泛目录，不直接制成卡片")
 
-    status = "selected" if score >= 9 and risk == "low" and not is_generic_collection_url(url) else "candidate"
+    status = "selected" if score > 7 and risk == "low" and not is_generic_collection_url(url) else "candidate"
     return {
         **item,
         "canonical_url": canonical_url(url),

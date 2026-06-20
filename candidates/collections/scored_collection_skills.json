@@ -697,7 +697,7 @@
     "canonical_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -717,7 +717,7 @@
     "canonical_url": "https://github.com/better-auth/skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -737,7 +737,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -757,7 +757,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -777,7 +777,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -797,7 +797,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -817,7 +817,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -837,7 +837,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -857,7 +857,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -877,7 +877,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -897,7 +897,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -917,7 +917,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -937,7 +937,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -957,7 +957,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -977,7 +977,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -997,7 +997,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1017,7 +1017,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1037,7 +1037,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1057,7 +1057,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1077,7 +1077,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1097,7 +1097,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1117,7 +1117,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1137,7 +1137,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1157,7 +1157,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1177,7 +1177,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1197,7 +1197,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1217,7 +1217,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1237,7 +1237,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/revops",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1257,7 +1257,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1277,7 +1277,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1297,7 +1297,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1317,7 +1317,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1337,7 +1337,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1357,7 +1357,7 @@
     "canonical_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1377,7 +1377,7 @@
     "canonical_url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-author",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1397,7 +1397,7 @@
     "canonical_url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-docs",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1417,7 +1417,7 @@
     "canonical_url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-explain",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1437,7 +1437,7 @@
     "canonical_url": "https://github.com/czlonkowski/n8n-skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1457,7 +1457,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/acquisition-channel-advisor",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1477,7 +1477,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/ai-shaped-readiness-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1497,7 +1497,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/altitude-horizon-framework",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1517,7 +1517,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/company-research",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1537,7 +1537,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/context-engineering-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1557,7 +1557,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1577,7 +1577,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-mapping-workshop",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1597,7 +1597,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/director-readiness-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1617,7 +1617,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-interview-prep",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1637,7 +1637,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-process",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1657,7 +1657,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1677,7 +1677,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-breakdown-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1697,7 +1697,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-hypothesis",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1717,7 +1717,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/executive-onboarding-playbook",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1737,7 +1737,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1757,7 +1757,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-based-pricing-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1777,7 +1777,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-metrics-quickref",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1797,7 +1797,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1817,7 +1817,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/lean-ux-canvas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1837,7 +1837,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1857,7 +1857,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pestel-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1877,7 +1877,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1897,7 +1897,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1917,7 +1917,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1937,7 +1937,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-workshop",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1957,7 +1957,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1977,7 +1977,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/press-release",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -1997,7 +1997,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prioritization-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2017,7 +2017,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-framing-canvas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2037,7 +2037,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-statement",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2057,7 +2057,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/product-strategy-session",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2077,7 +2077,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/proto-persona",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2097,7 +2097,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/recommendation-canvas",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2117,7 +2117,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2137,7 +2137,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/saas-economics-efficiency-metrics",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2157,7 +2157,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/saas-revenue-growth-metrics",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2177,7 +2177,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/skill-authoring-workflow",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2197,7 +2197,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/storyboard",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2217,7 +2217,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/tam-sam-som-calculator",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2237,7 +2237,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2257,7 +2257,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2277,7 +2277,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping-workshop",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2297,7 +2297,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-splitting",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2317,7 +2317,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/vp-cpo-readiness-advisor",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2337,7 +2337,7 @@
     "canonical_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/workshop-facilitation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2357,7 +2357,7 @@
     "canonical_url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2377,7 +2377,7 @@
     "canonical_url": "https://github.com/expo/skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2397,7 +2397,7 @@
     "canonical_url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-agent",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2417,7 +2417,7 @@
     "canonical_url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-cli",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2437,7 +2437,7 @@
     "canonical_url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2457,7 +2457,7 @@
     "canonical_url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-search",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2477,7 +2477,7 @@
     "canonical_url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
     "category": "自动化",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2497,7 +2497,7 @@
     "canonical_url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2539,7 +2539,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2559,7 +2559,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2579,7 +2579,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2599,7 +2599,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2619,7 +2619,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2639,7 +2639,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2659,7 +2659,7 @@
     "canonical_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2679,7 +2679,7 @@
     "canonical_url": "https://github.com/huggingface/skills",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2699,7 +2699,7 @@
     "canonical_url": "https://github.com/huggingface/upskill",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2719,7 +2719,7 @@
     "canonical_url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2739,7 +2739,7 @@
     "canonical_url": "https://github.com/mcollina/skills/tree/main/skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2759,7 +2759,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2779,7 +2779,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2799,7 +2799,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2819,7 +2819,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2839,7 +2839,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2859,7 +2859,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2879,7 +2879,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2899,7 +2899,7 @@
     "canonical_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2919,7 +2919,7 @@
     "canonical_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2939,7 +2939,7 @@
     "canonical_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2959,7 +2959,7 @@
     "canonical_url": "https://github.com/neondatabase/agent-skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2979,7 +2979,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/CUDA-Q/cudaq-guide",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -2999,7 +2999,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-developer",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3019,7 +3019,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-install",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3039,7 +3039,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-c",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3059,7 +3059,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-cli",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3079,7 +3079,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-python",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3099,7 +3099,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-routing-api-python",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3119,7 +3119,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-server-api-python",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3139,7 +3139,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-server-common",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3159,7 +3159,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-user-rules",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3179,7 +3179,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/numerical-optimization-formulation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3199,7 +3199,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3219,7 +3219,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3239,7 +3239,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/DALI/dali-dynamic-mode",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3259,7 +3259,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/deepstream/deepstream-dev",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3279,7 +3279,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/deepstream/deepstream-import-vision-model",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3299,7 +3299,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3319,7 +3319,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/build-and-dependency",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3339,7 +3339,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/bump-dependency",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3359,7 +3359,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/cicd",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3379,7 +3379,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/linting-and-formatting",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3399,7 +3399,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3419,7 +3419,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/multi-node-slurm",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3439,7 +3439,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/nemo-rl-e2e-testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3459,7 +3459,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/parity-testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3479,7 +3479,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-activation-recompute",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3499,7 +3499,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cpu-offloading",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3519,7 +3519,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3539,7 +3539,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-expert-parallel-overlap",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3559,7 +3559,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-hierarchical-context-parallel",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3579,7 +3579,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-megatron-fsdp",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3599,7 +3599,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-memory-tuning",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3619,7 +3619,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-comm-overlap",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3639,7 +3639,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3659,7 +3659,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3679,7 +3679,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3699,7 +3699,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3719,7 +3719,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-parallelism-strategies",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3739,7 +3739,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3759,7 +3759,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-tp-dp-comm-overlap",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3779,7 +3779,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3799,7 +3799,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/resiliency",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3819,7 +3819,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3839,7 +3839,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/verl-e2e-testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3859,7 +3859,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/build-and-dependency",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3879,7 +3879,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/bump-base-image",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3899,7 +3899,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/cicd",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3919,7 +3919,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/create-issue",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3939,7 +3939,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/linting-and-formatting",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3959,7 +3959,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/nightly-sync",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3979,7 +3979,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/onboard-gb200-1node-tests",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -3999,7 +3999,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/respond-to-issue",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4019,7 +4019,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4039,7 +4039,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/split-pr",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4059,7 +4059,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4079,7 +4079,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/update-golden-values",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4099,7 +4099,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4119,7 +4119,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/debug",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4139,7 +4139,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/deployment",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4159,7 +4159,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4179,7 +4179,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4199,7 +4199,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/monitor",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4219,7 +4219,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4239,7 +4239,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4259,7 +4259,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4279,7 +4279,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/launching-evals",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4299,7 +4299,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4319,7 +4319,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator/byob",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4339,7 +4339,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4359,7 +4359,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-debugging",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4379,7 +4379,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-docs",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4399,7 +4399,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-pivot-datasets",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4419,7 +4419,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-reward-profiling",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4439,7 +4439,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/auto-research",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4459,7 +4459,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/build-and-dependency",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4479,7 +4479,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/cicd",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4499,7 +4499,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/config-conventions",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4519,7 +4519,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/contributing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4539,7 +4539,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/copyright",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4559,7 +4559,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/docs",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4579,7 +4579,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/error-handling",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4599,7 +4599,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/launch-nemo-rl",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4619,7 +4619,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/linting-and-formatting",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4639,7 +4639,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/review-pr",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4659,7 +4659,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/session-memory",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4679,7 +4679,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/testing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4699,7 +4699,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-contributor-create-pr",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4719,7 +4719,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-contributor-update-docs",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4739,7 +4739,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-cross-issue-sweep",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4759,7 +4759,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-cut-release-tag",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4779,7 +4779,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-day",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4799,7 +4799,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-evening",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4819,7 +4819,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4839,7 +4839,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-morning",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4859,7 +4859,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-normalize-title-tags",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4879,7 +4879,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-pr-comparator",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4899,7 +4899,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-security-code-review",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4919,7 +4919,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-triage",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4939,7 +4939,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-skills-guide",
     "category": "图像",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4959,7 +4959,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-agent-skills",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4979,7 +4979,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-configure-inference",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -4999,7 +4999,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-configure-security",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5019,7 +5019,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-deploy-remote",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5039,7 +5039,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-get-started",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5059,7 +5059,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-manage-policy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5079,7 +5079,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-overview",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5099,7 +5099,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-reference",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5119,7 +5119,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/nemotron-voice-agent/nemotron-voice-agent-deploy",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5139,7 +5139,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/rag/rag-blueprint",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5159,7 +5159,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-accuracy-debug",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5179,7 +5179,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-add-fusion-transformation",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5199,7 +5199,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-conf-check",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5219,7 +5219,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-graph-dump",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5239,7 +5239,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-layer-visualizer",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5259,7 +5259,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-model-onboard",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5279,7 +5279,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/exec-local-compile",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5299,7 +5299,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/exec-slurm-compile",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5319,7 +5319,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-cute-writing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5339,7 +5339,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-tileir-optimization",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5359,7 +5359,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-triton-writing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5379,7 +5379,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5399,7 +5399,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-host-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5419,7 +5419,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-host-optimization",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5439,7 +5439,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-nsight-compute-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5459,7 +5459,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-nsight-systems",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5479,7 +5479,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-optimization",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5499,7 +5499,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-torch-cuda-graphs",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5519,7 +5519,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-torch-sync-free",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5539,7 +5539,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-workload-profiling",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5559,7 +5559,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-code-contribution",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5579,7 +5579,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-codebase-exploration",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5599,7 +5599,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-flashinfer-upgrade",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5619,7 +5619,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-moe-develop",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5639,7 +5639,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-serve-config-guide",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5659,7 +5659,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/adding-cutile-kernel",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5679,7 +5679,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/converting-cutile-to-julia",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5699,7 +5699,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/converting-cutile-to-triton",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5719,7 +5719,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/cutile-autotuning",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5739,7 +5739,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/cutile-python",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5759,7 +5759,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/improve-cutile-kernel-perf",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5779,7 +5779,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/monkey-patch-kernels-to-transformers",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5799,7 +5799,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/alerts",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5819,7 +5819,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/deploy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5839,7 +5839,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/report",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5859,7 +5859,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/rt-vlm",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5879,7 +5879,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5899,7 +5899,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-search",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5919,7 +5919,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-summarization",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5939,7 +5939,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-understanding",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5959,7 +5959,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vios",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5979,7 +5979,7 @@
     "canonical_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -5999,7 +5999,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6019,7 +6019,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/condition-based-waiting/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6039,7 +6039,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/defense-in-depth/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6059,7 +6059,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6079,7 +6079,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6099,7 +6099,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6119,7 +6119,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6139,7 +6139,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6159,7 +6159,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6179,7 +6179,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/sharing-skills/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6199,7 +6199,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6219,7 +6219,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6239,7 +6239,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6259,7 +6259,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/testing-anti-patterns/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6279,7 +6279,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/testing-skills-with-subagents/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6299,7 +6299,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6319,7 +6319,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6339,7 +6339,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion/SKILL.md",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6359,7 +6359,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/writing-plans/SKILL.md",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6379,7 +6379,7 @@
     "canonical_url": "https://github.com/obra/superpowers/tree/main/skills/writing-skills/SKILL.md",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6399,7 +6399,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6419,7 +6419,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/analyze-feature-requests",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6439,7 +6439,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/ansoff-matrix",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6459,7 +6459,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/beachhead-segment",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6479,7 +6479,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-existing",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6499,7 +6499,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-new",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6519,7 +6519,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-existing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6539,7 +6539,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-new",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6559,7 +6559,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6579,7 +6579,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model",
     "category": "图像",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6599,7 +6599,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6619,7 +6619,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/competitive-battlecard",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6639,7 +6639,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6659,7 +6659,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6679,7 +6679,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6699,7 +6699,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6719,7 +6719,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6739,7 +6739,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6759,7 +6759,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/growth-loops",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6779,7 +6779,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6799,7 +6799,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6819,7 +6819,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/ideal-customer-profile",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6839,7 +6839,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-existing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6859,7 +6859,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-new",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6879,7 +6879,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6899,7 +6899,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6919,7 +6919,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/lean-canvas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6939,7 +6939,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6959,7 +6959,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6979,7 +6979,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/marketing-ideas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -6999,7 +6999,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7019,7 +7019,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/monetization-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7039,7 +7039,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7059,7 +7059,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7079,7 +7079,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/outcome-roadmap",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7099,7 +7099,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pestle-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7119,7 +7119,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7139,7 +7139,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/positioning-ideas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7159,7 +7159,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7179,7 +7179,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pricing-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7199,7 +7199,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/prioritization-frameworks",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7219,7 +7219,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7239,7 +7239,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7259,7 +7259,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/privacy-policy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7279,7 +7279,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7299,7 +7299,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7319,7 +7319,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-vision",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7339,7 +7339,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7359,7 +7359,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/retro",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7379,7 +7379,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/review-resume",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7399,7 +7399,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7419,7 +7419,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/sprint-plan",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7439,7 +7439,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/sql-queries",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7459,7 +7459,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/stakeholder-map",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7479,7 +7479,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/startup-canvas",
     "category": "图像",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7499,7 +7499,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7519,7 +7519,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7539,7 +7539,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7559,7 +7559,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7579,7 +7579,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7599,7 +7599,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7619,7 +7619,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7639,7 +7639,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7659,7 +7659,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/value-proposition",
     "category": "图像",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7679,7 +7679,7 @@
     "canonical_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7699,7 +7699,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/ad-angle-multiplier",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7719,7 +7719,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/foundations/avatar-extraction",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7739,7 +7739,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/conversion-path-builder",
     "category": "图像",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7759,7 +7759,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/orchestrators/full-funnel-campaign-orchestrator",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7779,7 +7779,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/qa/generic-language-killer",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7799,7 +7799,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/headline-matrix",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7819,7 +7819,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/mechanism-builder",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7839,7 +7839,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/objection-crusher",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7859,7 +7859,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/foundations/offer-extraction",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7879,7 +7879,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/performance-diagnosis",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7899,7 +7899,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/schwartz-awareness-mapper",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7919,7 +7919,7 @@
     "canonical_url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/scroll-stopping-creative",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7939,7 +7939,7 @@
     "canonical_url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7959,7 +7959,7 @@
     "canonical_url": "https://github.com/remotion-dev/skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7979,7 +7979,7 @@
     "canonical_url": "https://github.com/resend/resend-skills/tree/main/skills/agent-email-inbox",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -7999,7 +7999,7 @@
     "canonical_url": "https://github.com/resend/resend-skills/tree/main/skills/email-best-practices",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8019,7 +8019,7 @@
     "canonical_url": "https://github.com/resend/resend-skills/tree/main/skills/react-email",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8039,7 +8039,7 @@
     "canonical_url": "https://github.com/resend/resend-skills/tree/main/skills/resend",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8059,7 +8059,7 @@
     "canonical_url": "https://github.com/resend/resend-skills/tree/main/skills/resend-cli",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8079,7 +8079,7 @@
     "canonical_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
     "category": "研究",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8099,7 +8099,7 @@
     "canonical_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8119,7 +8119,7 @@
     "canonical_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8139,7 +8139,7 @@
     "canonical_url": "https://github.com/getsentry/skills",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8159,7 +8159,7 @@
     "canonical_url": "https://github.com/Shpigford/skills/tree/main/readme",
     "category": "文档",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8179,7 +8179,7 @@
     "canonical_url": "https://github.com/Shpigford/skills/tree/main/screenshots",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8199,7 +8199,7 @@
     "canonical_url": "https://github.com/supabase/agent-skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8219,7 +8219,7 @@
     "canonical_url": "https://github.com/transloadit/skills/tree/main/skills",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8239,7 +8239,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-api-keys",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8259,7 +8259,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-api-overview",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8279,7 +8279,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-audio-music",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8299,7 +8299,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-audio-speech",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8319,7 +8319,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-audio-transcription",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8339,7 +8339,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-augment",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8359,7 +8359,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-billing",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8379,7 +8379,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-characters",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8399,7 +8399,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-chat",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8419,7 +8419,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-crypto-rpc",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8439,7 +8439,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-embeddings",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8459,7 +8459,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-errors",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8479,7 +8479,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-image-edit",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8499,7 +8499,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-image-generate",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8519,7 +8519,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-models",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8539,7 +8539,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-responses",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8559,7 +8559,7 @@
     "canonical_url": "https://github.com/veniceai/skills/tree/main/skills/venice-video",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8579,7 +8579,7 @@
     "canonical_url": "https://github.com/vercel-labs/agent-skills",
     "category": "开发",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",
@@ -8599,7 +8599,7 @@
     "canonical_url": "https://github.com/vercel-labs/skills",
     "category": "工作流",
     "score": 8,
-    "status": "candidate",
+    "status": "selected",
     "risk_level": "low",
     "score_reasons": [
       "GitHub 链接明确",

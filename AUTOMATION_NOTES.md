@@ -223,6 +223,7 @@ python scripts/import_skill_collections.py --append-data --limit 60
 写入规则：
 
 - 只追加 `status=selected` 的条目。
+- `score > 7`、`risk_level=low` 且不是合集首页 / 泛目录的条目会被标记为 `selected`。
 - 通过 canonical GitHub URL 去重，已存在的卡片自动跳过。
 - 合集首页、泛目录、高风险词条只保留为候选，不直接上线。
 - 正式卡片仍写入 `data.js`，维护者可以继续手动修正文案、分类和标签。
