@@ -7,6 +7,11 @@ const categoryFilter = document.getElementById("categoryFilter");
 const audienceFilter = document.getElementById("audienceFilter");
 const cardGrid = document.getElementById("cardGrid");
 const resultCount = document.getElementById("resultCount");
+const sourceTagsPanel = document.getElementById("sourceTagsPanel");
+const sourceTags = document.getElementById("sourceTags");
+
+const SOURCE_TAG_THRESHOLD = 15;
+let activeSource = "all";
 
 function syncCardHeights() {
   const cards = [...cardGrid.querySelectorAll(".card")];
@@ -39,6 +44,57 @@ function fillSelect(select, values) {
     option.value = value;
     option.textContent = value;
     select.appendChild(option);
+  });
+}
+
+function getSourceOwner(source) {
+  if (!source) {
+    return "";
+  }
+
+  return String(source).replace(/^gitee:/, "").split("/")[0].trim();
+}
+
+function getFrequentSources() {
+  const counts = new Map();
+
+  skills.forEach((skill) => {
+    const owner = getSourceOwner(skill.source);
+    if (!owner) {
+      return;
+    }
+
+    counts.set(owner, (counts.get(owner) || 0) + 1);
+  });
+
+  return [...counts.entries()]
+    .filter(([, count]) => count > SOURCE_TAG_THRESHOLD)
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]));
+}
+
+function createSourceTag(label, count, value) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `source-tag${activeSource === value ? " is-active" : ""}`;
+  button.dataset.source = value;
+  button.textContent = count ? `${label} ${count}` : label;
+  return button;
+}
+
+function renderSourceTags() {
+  const frequentSources = getFrequentSources();
+
+  if (!frequentSources.length) {
+    sourceTagsPanel.hidden = true;
+    return;
+  }
+
+  sourceTagsPanel.hidden = false;
+  sourceTags.innerHTML = "";
+  sourceTags.appendChild(createSourceTag("全部来源", 0, "all"));
+
+  frequentSources.forEach(([owner, count]) => {
+    sourceTags.appendChild(createSourceTag(owner, count, owner));
   });
 }
 
@@ -118,8 +174,9 @@ function filterSkills() {
     const matchesQuery = !query || searchable.includes(query);
     const matchesCategory = category === "all" || skill.category === category;
     const matchesAudience = audience === "all" || skill.audience === audience;
+    const matchesSource = activeSource === "all" || getSourceOwner(skill.source) === activeSource;
 
-    return matchesQuery && matchesCategory && matchesAudience;
+    return matchesQuery && matchesCategory && matchesAudience && matchesSource;
   });
 }
 
@@ -153,10 +210,21 @@ function renderCards() {
 
 fillSelect(categoryFilter, CATEGORY_OPTIONS);
 fillSelect(audienceFilter, AUDIENCE_OPTIONS);
+renderSourceTags();
 
 searchInput.addEventListener("input", renderCards);
 categoryFilter.addEventListener("change", renderCards);
 audienceFilter.addEventListener("change", renderCards);
+sourceTags.addEventListener("click", (event) => {
+  const button = event.target.closest(".source-tag");
+  if (!button) {
+    return;
+  }
+
+  activeSource = button.dataset.source || "all";
+  renderSourceTags();
+  renderCards();
+});
 window.addEventListener("resize", syncCardHeights);
 
 renderCards();
