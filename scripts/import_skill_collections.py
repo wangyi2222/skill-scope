@@ -170,6 +170,15 @@ def slug_from_url(url: str) -> str:
     return "unknown-skill"
 
 
+def source_from_url(url: str) -> str:
+    parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
+    if len(parts) >= 5 and parts[2] in ("tree", "blob"):
+        return f"{parts[0]}/{parts[1]}/{'/'.join(parts[4:])}"
+    if len(parts) >= 2:
+        return f"{parts[0]}/{parts[1]}"
+    return ""
+
+
 def clean_text(text: str) -> str:
     value = re.sub(r"`([^`]+)`", r"\1", text)
     value = re.sub(r"\*\*([^*]+)\*\*", r"\1", value)
@@ -274,15 +283,6 @@ def infer_platforms(item: dict) -> list[str]:
     if "antigravity" in text:
         platforms.append("Antigravity")
     return platforms or ["Claude"]
-
-
-def infer_level(category: str, description: str) -> str:
-    text = f"{category} {description}".lower()
-    if any(word in text for word in ("security", "mcp", "infrastructure", "evaluation", "training", "cloudflare", "stripe", "postgres", "auth")):
-        return "高级"
-    if category in ("开发", "嵌入式", "自动化", "研究"):
-        return "进阶"
-    return "基础"
 
 
 def translate_description(item: dict) -> str:
@@ -665,22 +665,23 @@ def score_item(item: dict) -> dict:
 
 def build_card(item: dict) -> dict:
     category = str(item.get("category") or "工作流")
+    link = str(item.get("link") or "")
     name = str(item.get("name") or slug_from_url(str(item.get("link") or ""))).strip()
     if name.lower() in ("github", "repository", "repo"):
         name = slug_from_url(str(item.get("link") or ""))
     tags = []
-    for tag in (owner_from_url(str(item.get("link") or "")), repo_from_url(str(item.get("link") or "")), slug_from_url(str(item.get("link") or "")), category):
+    for tag in (owner_from_url(link), repo_from_url(link), slug_from_url(link), category):
         if tag and tag not in tags:
             tags.append(tag)
     return {
         "name": name,
         "description": translate_description(item),
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
-        "level": infer_level(category, str(item.get("description") or "")),
+        "source": source_from_url(link),
         "category": category,
         "platforms": infer_platforms(item),
         "tags": tags[:5],
-        "github_url": str(item.get("link") or ""),
+        "github_url": link,
     }
 
 

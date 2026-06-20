@@ -79,9 +79,6 @@ ZH_DOC = decode_escapes("\u6587\u6863")
 ZH_AUTO = decode_escapes("\u81ea\u52a8\u5316")
 ZH_RESEARCH = decode_escapes("\u7814\u7a76")
 ZH_EMBEDDED = decode_escapes("\u5d4c\u5165\u5f0f")
-ZH_ADVANCED = decode_escapes("\u8fdb\u9636")
-ZH_EXPERT = decode_escapes("\u9ad8\u7ea7")
-ZH_BASIC = decode_escapes("\u57fa\u7840")
 
 CATEGORY_RULES = [
     (ZH_EMBEDDED, ["embedded", "stm32", "gd32", "mspm0", "firmware", "probe", "openocd", "rtt", "ble", "spice", "multisim", "ngspice", "simulink", "\u5d4c\u5165\u5f0f", "\u56fa\u4ef6", "\u70e7\u5f55", "\u7535\u8def", "\u4eff\u771f"]),
@@ -94,31 +91,6 @@ CATEGORY_RULES = [
     (ZH_RESEARCH, ["research", "search", "paper", "analysis", "knowledge", "rag", ZH_RESEARCH]),
 ]
 
-ADVANCED_KEYWORDS = [
-    "embedded", "stm32", "probe", "debugger", "openocd", "rtt", "ble", "firmware",
-    "compiler", "kernel", "driver", "schema", "infrastructure",
-]
-INTERMEDIATE_KEYWORDS = [
-    "cli", "api", "sdk", "config", "plugin", "extension", "provider", "agent",
-    "workflow", "automation", "vscode", "token", "environment",
-]
-LEVEL_ALIASES = {
-    ZH_BASIC: ZH_BASIC,
-    "basic": ZH_BASIC,
-    "beginner": ZH_BASIC,
-    "easy": ZH_BASIC,
-    ZH_ADVANCED: ZH_ADVANCED,
-    "intermediate": ZH_ADVANCED,
-    "advanced": ZH_ADVANCED,
-    "medium": ZH_ADVANCED,
-    ZH_EXPERT: ZH_EXPERT,
-    "expert": ZH_EXPERT,
-    "hard": ZH_EXPERT,
-    "professional": ZH_EXPERT,
-    ZH_PENDING: ZH_PENDING,
-    "unknown": ZH_PENDING,
-    "todo": ZH_PENDING,
-}
 
 def http_get(url: str, headers: dict[str, str] | None = None) -> str | None:
     request = urllib.request.Request(url, headers=headers or {})
@@ -364,25 +336,6 @@ def joined_content(*values: str | None) -> str:
     return " ".join(value for value in values if value).lower()
 
 
-def normalize_level(value: str) -> str:
-    normalized = value.strip().lower()
-    return LEVEL_ALIASES.get(value.strip(), LEVEL_ALIASES.get(normalized, ZH_PENDING))
-
-
-def infer_level(project_meta: dict | None, repo_description: str, readme_text: str | None, category: str) -> str:
-    if project_meta and isinstance(project_meta.get("level"), str) and project_meta["level"].strip():
-        return normalize_level(project_meta["level"])
-
-    text = joined_content(repo_description, readme_text)
-    if any(keyword in text for keyword in ADVANCED_KEYWORDS):
-        return ZH_EXPERT
-    if any(keyword in text for keyword in INTERMEDIATE_KEYWORDS):
-        return ZH_ADVANCED
-    if category in (ZH_DEV, ZH_AUTO, ZH_EMBEDDED):
-        return ZH_ADVANCED
-    return ZH_BASIC
-
-
 def infer_category(project_meta: dict | None, repo_description: str, readme_text: str | None, repo_topics: list[str]) -> str:
     if project_meta and isinstance(project_meta.get("category"), str) and project_meta["category"].strip():
         return project_meta["category"].strip()
@@ -459,7 +412,7 @@ def load_project_meta(owner: str, repo: str) -> dict | None:
             key, value = line.split(":", 1)
             key = key.strip()
             value = value.strip()
-            if key in ("name", "summary", "category", "audience", "level"):
+            if key in ("name", "summary", "category", "audience"):
                 simple_meta[key] = value.strip("'\"")
             if key == "tags":
                 tags = re.findall(r"[\w\u4e00-\u9fff-]+", value)
@@ -506,13 +459,12 @@ def build_draft(repo_url: str) -> dict:
     inferred_platforms = infer_platforms(project_meta, repo_description, readme_text)
     inferred_audience = infer_audience_from_content(project_meta, repo_description, readme_text, inferred_platforms)
     inferred_category = infer_category(project_meta, repo_description, readme_text, [str(topic) for topic in repo_topics])
-    inferred_level = infer_level(project_meta, repo_description, readme_text, inferred_category)
 
     return {
         "name": name,
         "description": infer_description(project_meta, readme_text, repo_description, name),
         "audience": inferred_audience,
-        "level": inferred_level,
+        "source": f"{owner}/{repo}",
         "category": inferred_category,
         "platforms": inferred_platforms,
         "tags": inferred_tags,

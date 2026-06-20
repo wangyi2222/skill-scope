@@ -78,7 +78,7 @@ function createCard(skill) {
     <div class="meta-list">
       <p><strong>支持平台</strong><span>${platforms.length ? platforms.join(" / ") : "待补充"}</span></p>
       <p><strong>适用人群</strong><span>${skill.audience}</span></p>
-      <p><strong>难度</strong><span>${skill.level}</span></p>
+      <p><strong>来源</strong><span>${skill.source || "待补充"}</span></p>
     </div>
   `;
 
@@ -115,6 +115,7 @@ function filterSkills() {
       skill.description,
       skill.audience,
       skill.category,
+      skill.source,
       ...(skill.platforms || []),
       ...(skill.tags || [])
     ]

@@ -75,7 +75,7 @@
 - `name`
 - `description`
 - `audience`
-- `level`
+- `source`
 - `category`
 - `platforms`
 - `tags`
@@ -121,13 +121,21 @@
     en: "English description"
   },
   audience: "开发",
-  level: "基础",
+  source: "owner/repo",
   category: "工作流",
   platforms: ["Claude", "Codex"],
   tags: ["session", "viewer"],
   github_url: "https://github.com/owner/repo"
 }
 ```
+
+### 4.3 来源字段规则
+
+- 公开卡片不再展示 `level` / 难度
+- `source` 用来标注 GitHub 来源作者、组织或仓库路径
+- 普通仓库使用 `owner/repo`
+- 仓库内具体 Skill 目录使用 `owner/repo/path`
+- `source` 只用于展示和追溯来源，当前不作为筛选维度
 
 规则：
 

@@ -212,6 +212,15 @@ def repo_from_link(link: str) -> str:
     return parts[1].lower() if len(parts) > 1 else ""
 
 
+def source_from_link(link: str) -> str:
+    parts = [part for part in urlparse(link).path.strip("/").split("/") if part]
+    if len(parts) >= 5 and parts[2] in ("tree", "blob"):
+        return f"{parts[0]}/{parts[1]}/{'/'.join(parts[4:])}"
+    if len(parts) >= 2:
+        return f"{parts[0]}/{parts[1]}"
+    return ""
+
+
 def skill_slug(name: str, link: str) -> str:
     if "/" in name:
         return name.split("/")[-1]
@@ -248,15 +257,6 @@ def infer_platforms(link: str, name: str, description: str) -> list[str]:
     if not platforms:
         platforms.append("Claude")
     return platforms
-
-
-def infer_level(category: str, description: str) -> str:
-    text = f"{category} {description}".lower()
-    if any(word in text for word in ("security", "mcp", "cloudflare", "infrastructure", "evaluation", "training", "postgres", "stripe", "auth", "n8n")):
-        return "高级"
-    if any(word in text for word in ("development", "testing", "context", "automation", "api", "react", "next")):
-        return "进阶"
-    return "基础"
 
 
 def risk_level(item: dict) -> tuple[str, list[str]]:
@@ -331,7 +331,7 @@ def build_card(item: dict) -> dict:
         "name": name,
         "description": description,
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
-        "level": infer_level(str(item.get("category") or ""), str(item.get("description") or "")),
+        "source": source_from_link(str(item.get("link") or "")),
         "category": category,
         "platforms": infer_platforms(str(item.get("link") or ""), str(item.get("name") or ""), str(item.get("description") or "")),
         "tags": tags[:5],

@@ -91,7 +91,7 @@
 - 支持平台
 - 类别
 - 适用人群
-- 难度
+- 来源
 - 标签
 - GitHub 链接
 
@@ -103,7 +103,7 @@
 name
 description
 audience
-level
+source
 category
 platforms
 tags
@@ -127,7 +127,7 @@ github_url
     en: "A local tool for viewing and organizing Claude Code and Codex session records."
   },
   audience: "开发",
-  level: "基础",
+  source: "owner/repo",
   category: "工作流",
   platforms: ["Claude", "Codex"],
   tags: ["session", "viewer"],
@@ -240,7 +240,7 @@ github_url
 
 维护者给出一个 GitHub 仓库地址，系统自动提取公开信息，生成卡片数据，并直接写入或更新 `data.js`。
 
-自动生成只是降低维护者手动录入成本，不代表数据不可修改。写入后维护者仍然可以手动调整名称、简介、平台、类别、适用人群、难度、标签和 GitHub 链接。
+自动生成只是降低维护者手动录入成本，不代表数据不可修改。写入后维护者仍然可以手动调整名称、简介、平台、类别、适用人群、来源、标签和 GitHub 链接。
 
 ### 7.2 流程
 
