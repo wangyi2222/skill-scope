@@ -313,8 +313,14 @@ def build_card(item: dict) -> dict:
         if tag and tag not in tags:
             tags.append(tag)
     return {
-        "name": name,
-        "description": description,
+        "name": {
+            "zh": name,
+            "en": name,
+        },
+        "description": {
+            "zh": description,
+            "en": description,
+        },
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
         "source": source_from_link(str(item.get("link") or "")),
         "category": category,

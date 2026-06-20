@@ -113,6 +113,14 @@ function t(key, ...args) {
   return typeof value === "function" ? value(...args) : value;
 }
 
+function localizedField(value) {
+  if (value && typeof value === "object" && !Array.isArray(value)) {
+    return value[currentLanguage] || value.zh || value.en || "";
+  }
+
+  return value || "";
+}
+
 function applyTranslations() {
   document.documentElement.lang = currentLanguage === "zh" ? "zh-CN" : "en";
 
@@ -253,17 +261,19 @@ function createCard(skill) {
   const article = document.createElement("article");
   article.className = "card";
 
+  const skillName = localizedField(skill.name);
+  const skillDescription = localizedField(skill.description);
   const tags = Array.isArray(skill.tags) ? skill.tags.map(createTag) : [];
   const logo = skill.logo_url
-    ? `<img src="${skill.logo_url}" alt="${skill.name} logo" loading="lazy">`
-    : `<span>${getLogoFallback(skill.name)}</span>`;
+    ? `<img src="${skill.logo_url}" alt="${skillName} logo" loading="lazy">`
+    : `<span>${getLogoFallback(skillName)}</span>`;
 
   article.innerHTML = `
     <div class="card-top">
       <div class="card-logo">${logo}</div>
       <div class="card-headline">
-        <h3>${skill.name}</h3>
-        <p class="card-desc">${skill.description}</p>
+        <h3>${skillName}</h3>
+        <p class="card-desc">${skillDescription}</p>
       </div>
       <span class="badge">${formatCategory(skill.category)}</span>
     </div>
@@ -300,9 +310,11 @@ function filterSkills() {
   const audience = audienceFilter.value;
 
   return skills.filter((skill) => {
+    const skillName = localizedField(skill.name);
+    const skillDescription = localizedField(skill.description);
     const searchable = [
-      skill.name,
-      skill.description,
+      skillName,
+      skillDescription,
       skill.audience,
       skill.category,
       skill.source,
@@ -335,7 +347,7 @@ function renderCards() {
 
   filtered.sort((left, right) => {
     if (left.category === right.category) {
-      return left.name.localeCompare(right.name);
+      return localizedField(left.name).localeCompare(localizedField(right.name));
     }
 
     return left.category.localeCompare(right.category);

@@ -658,13 +658,20 @@ def build_card(item: dict) -> dict:
     category = str(item.get("category") or "工作流")
     link = str(item.get("link") or "")
     name = display_name_from_source_name(str(item.get("name") or ""), link)
+    description = translate_description(item)
     tags = []
     for tag in (owner_from_url(link), repo_from_url(link), slug_from_url(link), category):
         if tag and tag not in tags:
             tags.append(tag)
     return {
-        "name": name,
-        "description": translate_description(item),
+        "name": {
+            "zh": name,
+            "en": name,
+        },
+        "description": {
+            "zh": description,
+            "en": description,
+        },
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
         "source": source_from_url(link),
         "category": category,

@@ -439,9 +439,17 @@ def build_draft(repo_url: str) -> dict:
     inferred_audience = infer_audience_from_content(project_meta, repo_description, readme_text)
     inferred_category = infer_category(project_meta, repo_description, readme_text, [str(topic) for topic in repo_topics])
 
+    description = infer_description(project_meta, readme_text, repo_description, name)
+
     return {
-        "name": name,
-        "description": infer_description(project_meta, readme_text, repo_description, name),
+        "name": {
+            "zh": name,
+            "en": name,
+        },
+        "description": {
+            "zh": description,
+            "en": description,
+        },
         "audience": inferred_audience,
         "source": f"{owner}/{repo}",
         "category": inferred_category,
