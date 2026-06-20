@@ -211,7 +211,8 @@ code {
 
 .card {
   display: grid;
-  gap: 10px;
+  align-content: start;
+  gap: 8px;
   min-height: 230px;
   padding: 16px;
   border-radius: 18px;
@@ -272,7 +273,7 @@ code {
 .card-desc {
   display: -webkit-box;
   overflow: hidden;
-  min-height: 58px;
+  min-height: 48px;
   font-size: 13px;
   line-height: 1.45;
   -webkit-box-orient: vertical;
@@ -291,12 +292,12 @@ code {
 
 .meta-list {
   display: grid;
-  gap: 5px;
+  gap: 3px;
 }
 
 .meta-list p {
   display: flex;
-  gap: 8px;
+  gap: 7px;
   align-items: baseline;
   font-size: 12px;
 }
@@ -316,15 +317,15 @@ code {
 .card-footer {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   align-items: end;
-  margin-top: auto;
+  margin-top: 2px;
 }
 
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
 }
 
 .tag {
