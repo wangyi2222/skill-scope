@@ -170,6 +170,15 @@ def slug_from_url(url: str) -> str:
     return "unknown-skill"
 
 
+def display_name_from_source_name(name: str, link: str) -> str:
+    value = clean_text(name)
+    if "/" in value:
+        return value.split("/")[-1].strip() or slug_from_url(link)
+    if value.lower() in ("github", "repository", "repo"):
+        return slug_from_url(link)
+    return value or slug_from_url(link)
+
+
 def source_from_url(url: str) -> str:
     parts = [part for part in urlparse(url).path.strip("/").split("/") if part]
     if len(parts) >= 5 and parts[2] in ("tree", "blob"):
@@ -648,9 +657,7 @@ def score_item(item: dict) -> dict:
 def build_card(item: dict) -> dict:
     category = str(item.get("category") or "工作流")
     link = str(item.get("link") or "")
-    name = str(item.get("name") or slug_from_url(str(item.get("link") or ""))).strip()
-    if name.lower() in ("github", "repository", "repo"):
-        name = slug_from_url(str(item.get("link") or ""))
+    name = display_name_from_source_name(str(item.get("name") or ""), link)
     tags = []
     for tag in (owner_from_url(link), repo_from_url(link), slug_from_url(link), category):
         if tag and tag not in tags:

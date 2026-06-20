@@ -80,6 +80,13 @@
 - `tags`
 - `github_url`
 
+### 4.1.1 名称与来源边界
+
+- `name` 只展示 Skill 本身的名称，不重复展示作者、组织或仓库路径
+- 如果原始名称是 `owner/repo/skill`、`owner/skill` 或类似路径形式，公开卡片名称只保留最后一段
+- 作者、组织、仓库和目录路径统一放在 `source`
+- 示例：`NVIDIA/video-search-and-summarization/report` 的 `name` 应为 `report`，`source` 保留完整来源路径
+
 ### 4.2 文案规则
 
 - 只保留一句简介

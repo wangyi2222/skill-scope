@@ -229,11 +229,10 @@ def skill_slug(name: str, link: str) -> str:
 
 
 def normalize_name(name: str, link: str) -> str:
-    owner = owner_from_link(link)
     slug = skill_slug(name, link)
-    if owner == "anthropics":
+    if "/" in name:
         return slug
-    return name
+    return name.strip() or slug
 
 
 def translate_description(description: str, name: str) -> str:
