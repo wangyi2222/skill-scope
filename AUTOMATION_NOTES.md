@@ -200,3 +200,29 @@ python scripts/import_anbeime_skills.py --append-data --limit 100
 - 已存在的 `github_url` 自动跳过，避免重复卡片。
 - 有明显风险词或无法稳定生成中文简介的条目先保留为候选，不直接上线。
 - 正式卡片仍写入 `data.js`，维护者可以继续手动修改。
+
+## 从 awesome skill 合集仓库导入
+
+多个 awesome 仓库本质上是 Skill 候选池，不能把合集仓库本身直接做成卡片。当前使用独立脚本解析 README 和目录结构：
+
+```bash
+python scripts/import_skill_collections.py
+```
+
+这个命令会读取 `candidates/collections/*README.md` 和 `*contents.json`，输出：
+
+- `candidates/collections/scored_collection_skills.json`：完整评分结果。
+- 不修改 `data.js`。
+
+确认后再执行：
+
+```bash
+python scripts/import_skill_collections.py --append-data --limit 60
+```
+
+写入规则：
+
+- 只追加 `status=selected` 的条目。
+- 通过 canonical GitHub URL 去重，已存在的卡片自动跳过。
+- 合集首页、泛目录、高风险词条只保留为候选，不直接上线。
+- 正式卡片仍写入 `data.js`，维护者可以继续手动修正文案、分类和标签。

@@ -1193,5 +1193,447 @@ window.skillsData = [
       "开发"
     ],
     "github_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable"
+  },
+  {
+    "name": "best-practices",
+    "description": "用于best-practices 相关的 Agent Skill 场景，原始说明为：Best practices for Better Auth integration。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "better-auth",
+      "skills",
+      "best-practices",
+      "开发"
+    ],
+    "github_url": "https://github.com/better-auth/skills/tree/main/best-practices"
+  },
+  {
+    "name": "create-auth",
+    "description": "用于create-auth 相关的 Agent Skill 场景，原始说明为：Create authentication setup with Better Auth。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "better-auth",
+      "skills",
+      "create-auth",
+      "开发"
+    ],
+    "github_url": "https://github.com/better-auth/skills/tree/main/create-auth"
+  },
+  {
+    "name": "explain-error",
+    "description": "用于explain-error 相关的 Agent Skill 场景，原始说明为：Explain Better Auth error messages。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "better-auth",
+      "skills",
+      "explain-error",
+      "开发"
+    ],
+    "github_url": "https://github.com/better-auth/skills/tree/main/explain-error"
+  },
+  {
+    "name": "google/cloud/agent-platform-skill-registry",
+    "description": "用于google/cloud/agent-platform-skill-registry 相关的 Agent Skill 场景，原始说明为：**** - Interact with the Gemini Enterprise Agent。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "agent-platform-skill-registry",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-skill-registry"
+  },
+  {
+    "name": "google/cloud/alloydb-basics",
+    "description": "用于google/cloud/alloydb-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages clusters, instances, and backups 。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "alloydb-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics"
+  },
+  {
+    "name": "google/cloud/bigquery-basics",
+    "description": "用于google/cloud/bigquery-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages datasets, tables, and jobs in Big。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "bigquery-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics"
+  },
+  {
+    "name": "google/cloud/cloud-run-basics",
+    "description": "用于google/cloud/cloud-run-basics 相关的 Agent Skill 场景，原始说明为：**** - Manages Cloud Run services, jobs, and wor。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "cloud-run-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/cloud-run-basics"
+  },
+  {
+    "name": "google/cloud/cloud-sql-basics",
+    "description": "用于google/cloud/cloud-sql-basics 相关的 Agent Skill 场景，原始说明为：**** - This file generates or explains Cloud SQL。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "cloud-sql-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/cloud-sql-basics"
+  },
+  {
+    "name": "google/cloud/firebase-basics",
+    "description": "用于google/cloud/firebase-basics 相关的 Agent Skill 场景，原始说明为：**** - Use this skill whenever you are working o。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "firebase-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/firebase-basics"
+  },
+  {
+    "name": "google/cloud/gemini-agents-api",
+    "description": "用于google/cloud/gemini-agents-api 相关的 Agent Skill 场景，原始说明为：**** - Manages custom Agent resources on Gemini 。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "gemini-agents-api",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-agents-api"
+  },
+  {
+    "name": "google/cloud/gemini-api",
+    "description": "用于google/cloud/gemini-api 相关的 Agent Skill 场景，原始说明为：**** - Guides the usage of the Gemini API on Age。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "gemini-api",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-api"
+  },
+  {
+    "name": "google/cloud/gemini-interactions-api",
+    "description": "用于google/cloud/gemini-interactions-api 相关的 Agent Skill 场景，原始说明为：**** - Guides the usage of Gemini Interactions A。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "gemini-interactions-api",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-interactions-api"
+  },
+  {
+    "name": "google/cloud/gke-basics",
+    "description": "用于google/cloud/gke-basics 相关的 Agent Skill 场景，原始说明为：**** - Plan, create, and configure production-re。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "gke-basics",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/gke-basics"
+  },
+  {
+    "name": "google/cloud/google-cloud-networking-observability",
+    "description": "用于google/cloud/google-cloud-networking-observability 相关的 Agent Skill 场景，原始说明为：**** - Investigates Google Cloud networking issu。",
+    "audience": "工作流",
+    "level": "基础",
+    "category": "工作流",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-networking-observability",
+      "工作流"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-networking-observability"
+  },
+  {
+    "name": "google/cloud/google-cloud-recipe-onboarding",
+    "description": "用于google/cloud/google-cloud-recipe-onboarding 相关的 Agent Skill 场景，原始说明为：**** - Guidance for a developer's first steps on。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-recipe-onboarding",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-recipe-onboarding"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-cost-optimization",
+    "description": "用于google/cloud/google-cloud-waf-cost-optimization 相关的 Agent Skill 场景，原始说明为：**** - Generates cost optimization guidance for 。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-cost-optimization",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-cost-optimization"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-operational-excellence",
+    "description": "用于google/cloud/google-cloud-waf-operational-excellence 相关的 Agent Skill 场景，原始说明为：**** - Generates operations-focused guidance for。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-operational-excellence",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-operational-excellence"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-performance-optimization",
+    "description": "用于google/cloud/google-cloud-waf-performance-optimization 相关的 Agent Skill 场景，原始说明为：**** - Generates performance-focused guidance fo。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-performance-optimization",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-performance-optimization"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-reliability",
+    "description": "用于google/cloud/google-cloud-waf-reliability 相关的 Agent Skill 场景，原始说明为：**** - Generates reliability-focused guidance fo。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-reliability",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-reliability"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-security",
+    "description": "用于google/cloud/google-cloud-waf-security 相关的 Agent Skill 场景，原始说明为：**** - Generates security-focused guidance for G。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-security",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-security"
+  },
+  {
+    "name": "google/cloud/google-cloud-waf-sustainability",
+    "description": "用于google/cloud/google-cloud-waf-sustainability 相关的 Agent Skill 场景，原始说明为：**** - Generates sustainability-focused guidance。",
+    "audience": "开发",
+    "level": "进阶",
+    "category": "开发",
+    "platforms": [
+      "Gemini"
+    ],
+    "tags": [
+      "google",
+      "skills",
+      "google-cloud-waf-sustainability",
+      "开发"
+    ],
+    "github_url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-sustainability"
+  },
+  {
+    "name": "obra/commands",
+    "description": "用于obra/commands 相关的 Agent Skill 场景，原始说明为：**** - Create and manage command structures。",
+    "audience": "工作流",
+    "level": "基础",
+    "category": "工作流",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "obra",
+      "superpowers",
+      "commands",
+      "工作流"
+    ],
+    "github_url": "https://github.com/obra/superpowers/tree/main/skills/commands"
+  },
+  {
+    "name": "twoFactor",
+    "description": "用于twoFactor 相关的 Agent Skill 场景，原始说明为：Two-factor authentication with Better Auth。",
+    "audience": "开发",
+    "level": "高级",
+    "category": "开发",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "better-auth",
+      "skills",
+      "twoFactor",
+      "开发"
+    ],
+    "github_url": "https://github.com/better-auth/skills/tree/main/twoFactor"
+  },
+  {
+    "name": "content-modeling-best-practices",
+    "description": "用于content-modeling-best-practices 相关的 Agent Skill 场景，原始说明为：Guidelines for designing scalable content models。",
+    "audience": "设计",
+    "level": "基础",
+    "category": "图像",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "sanity-io",
+      "agent-toolkit",
+      "content-modeling-best-practices",
+      "图像"
+    ],
+    "github_url": "https://github.com/sanity-io/agent-toolkit/tree/main/content-modeling-best-practices"
+  },
+  {
+    "name": "sanity-best-practices",
+    "description": "用于sanity-best-practices 相关的 Agent Skill 场景，原始说明为：Best practices for Sanity Studio, GROQ queries, 。",
+    "audience": "工作流",
+    "level": "基础",
+    "category": "工作流",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "sanity-io",
+      "agent-toolkit",
+      "sanity-best-practices",
+      "工作流"
+    ],
+    "github_url": "https://github.com/sanity-io/agent-toolkit/tree/main/sanity-best-practices"
+  },
+  {
+    "name": "seo-aeo-best-practices",
+    "description": "用于seo-aeo-best-practices 相关的 Agent Skill 场景，原始说明为：SEO and answer engine optimization patterns for 。",
+    "audience": "工作流",
+    "level": "基础",
+    "category": "工作流",
+    "platforms": [
+      "Claude"
+    ],
+    "tags": [
+      "sanity-io",
+      "agent-toolkit",
+      "seo-aeo-best-practices",
+      "工作流"
+    ],
+    "github_url": "https://github.com/sanity-io/agent-toolkit/tree/main/seo-aeo-best-practices"
   }
 ];
