@@ -19,9 +19,17 @@ function syncCardHeights() {
     return;
   }
 
-  const maxHeight = Math.max(...cards.map((card) => card.offsetHeight));
+  const rows = new Map();
   cards.forEach((card) => {
-    card.style.height = `${maxHeight}px`;
+    const rowTop = Math.round(card.offsetTop);
+    rows.set(rowTop, [...(rows.get(rowTop) || []), card]);
+  });
+
+  rows.forEach((rowCards) => {
+    const rowHeight = Math.max(...rowCards.map((card) => card.offsetHeight));
+    rowCards.forEach((card) => {
+      card.style.height = `${rowHeight}px`;
+    });
   });
 }
 
