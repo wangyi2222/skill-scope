@@ -105,21 +105,6 @@ python -m http.server 8000
 # → http://localhost:8000
 ```
 
-## 部署
-
-网站目录使用 Git 仓库部署：
-
-```bash
-# 服务器端
-cd /opt/1panel/www/sites/www.lean.wang/index
-git pull
-
-# 本地提交
-git add . && git commit -m "更新说明" && git push
-```
-
-> 如果页面更新后浏览器仍显示旧内容，使用 `Ctrl + F5` 强制刷新。
-
 ## 安全
 
 - 前端对所有动态数据字段做 HTML 实体转义
