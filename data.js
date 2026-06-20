@@ -2,11 +2,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "AI-Session-Viewer",
-      "en": ""
+      "en": "AI-Session-Viewer"
     },
     "description": {
       "zh": "用于统一查看和整理 Claude Code 与 Codex CLI 本地会话记录的可视化工具。",
-      "en": ""
+      "en": "Helps with organizing Claude Code, Codex CLI, api, codex for AI agent workflows."
     },
     "audience": "开发",
     "category": "工作流",
@@ -23,11 +23,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "STM32-Debug-Configurator",
-      "en": ""
+      "en": "STM32-Debug-Configurator"
     },
     "description": {
       "zh": "用于在 Visual Studio Code 中快速生成和管理 STM32 调试配置的扩展工具。",
-      "en": ""
+      "en": "Helps with generating, managing, configuring Visual Studio Code, STM32, openocd, stm32 for embedded development workflows."
     },
     "audience": "开发",
     "category": "嵌入式",
@@ -44,11 +44,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "EK-OmniProbe",
-      "en": ""
+      "en": "EK-OmniProbe"
     },
     "description": {
       "zh": "用于嵌入式开发的一体化工具，集成固件烧录、源码级调试、RTT 输出、串口终端和 BLE 调试能力。",
-      "en": ""
+      "en": "Helps with integrating, debugging BLE, RTT, probe-rs, Tauri for embedded development workflows."
     },
     "audience": "开发",
     "category": "嵌入式",
@@ -69,11 +69,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cc-switch",
-      "en": ""
+      "en": "cc-switch"
     },
     "description": {
       "zh": "用于统一管理 Claude Code、Claude Desktop、Codex、Gemini CLI 等多种 Agent 与客户端配置的切换工具。",
-      "en": ""
+      "en": "Helps with managing, configuring Claude Code, Claude Desktop, Gemini CLI, claude for AI agent workflows."
     },
     "audience": "开发",
     "category": "工作流",
@@ -90,11 +90,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "DeepTutor",
-      "en": ""
+      "en": "DeepTutor"
     },
     "description": {
       "zh": "用于为 AI Agent 提供个性化学习辅导能力，支持围绕学习目标组织资料、任务和反馈流程。",
-      "en": ""
+      "en": "Helps users work with Agent in research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -110,11 +110,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "LaTeX Thesis Writing",
-      "en": ""
+      "en": "LaTeX Thesis Writing"
     },
     "description": {
       "zh": "用于辅助中文学位论文写作，结合 LaTeX 模板和 Claude 写作 Skill 完成格式检查、配图和定稿复盘。",
-      "en": ""
+      "en": "Helps with checking LaTeX, Claude for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -130,11 +130,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Taffy-Studio",
-      "en": ""
+      "en": "Taffy-Studio"
     },
     "description": {
       "zh": "用于构建多端可用的大模型工作台，将桌面端、移动端和 Web 端的 AI 使用流程统一到同一套应用中。",
-      "en": ""
+      "en": "Helps with building Tauri for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -151,11 +151,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "qiushi-skill",
-      "en": ""
+      "en": "qiushi-skill"
     },
     "description": {
       "zh": "用于让 AI Agent 先调查、抓主要矛盾并在实践中验证结果，适合构建更稳健的问题分析和任务执行工作流。",
-      "en": ""
+      "en": "Helps with analyzing, building Agent for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -172,11 +172,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Anthropic DOCX Skill",
-      "en": ""
+      "en": "Anthropic DOCX Skill"
     },
     "description": {
       "zh": "用于创建、读取、编辑和整理 Word 文档，适合处理报告、信件、模板、目录、页码、批注和图文排版等 .docx 场景。",
-      "en": ""
+      "en": "Helps with creating, reading, editing Word, DOCX for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -192,11 +192,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Anthropic PPTX Skill",
-      "en": ""
+      "en": "Anthropic PPTX Skill"
     },
     "description": {
       "zh": "用于创建、读取、编辑和整理演示文稿，适合处理幻灯片、模板、讲稿、备注、提取内容和生成演示文件等 .pptx 场景。",
-      "en": ""
+      "en": "Helps with creating, reading, editing PPTX for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -212,11 +212,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Anthropic XLSX Skill",
-      "en": ""
+      "en": "Anthropic XLSX Skill"
     },
     "description": {
       "zh": "用于读取、清洗、编辑和生成电子表格，适合处理 Excel、CSV、TSV、公式、图表、格式整理和表格数据转换。",
-      "en": ""
+      "en": "Helps with reading, editing, organizing Excel, CSV, TSV, XLSX for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -232,11 +232,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Anthropic PDF Skill",
-      "en": ""
+      "en": "Anthropic PDF Skill"
     },
     "description": {
       "zh": "用于读取、拆分、合并、旋转、加水印、填表、加密和 OCR 处理 PDF，适合各类 PDF 文档分析与加工场景。",
-      "en": ""
+      "en": "Helps with reading, analyzing PDF, OCR for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -252,11 +252,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "CET-6 翻译批改 Skill",
-      "en": ""
+      "en": "CET4-CET-6-skills"
     },
     "description": {
       "zh": "用于大学英语六级翻译训练的 AI 批改 Skill，提供评分、逐句点评和翻译思路反馈。",
-      "en": ""
+      "en": "Helps with reviewing CET6 for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -272,11 +272,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "校园通知爬虫推送系统",
-      "en": ""
+      "en": "auto-get-schoolinformation-scri"
     },
     "description": {
       "zh": "用于自动抓取高校网站通知公告，并通过邮件、钉钉、飞书等渠道推送，适合校园信息自动化提醒场景。",
-      "en": ""
+      "en": "Helps with automating, collecting, delivering notifications Playwright, GitHub Actions for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -292,11 +292,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "考研逐页填空复习系统",
-      "en": ""
+      "en": "kaoyan-king"
     },
     "description": {
       "zh": "用于把考研教材内容转换成逐页填空题卡，并根据反馈安排后续复习，适合本地化备考训练。",
-      "en": ""
+      "en": "Helps with converting tasks in document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -312,11 +312,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "auto-embedded",
-      "en": ""
+      "en": "auto-embedded"
     },
     "description": {
       "zh": "用于嵌入式开发的多 Agent 工作流 Skill，覆盖 STM32、GD32、MSPM0、电赛和分层架构规范等工程场景。",
-      "en": ""
+      "en": "Helps users work with STM32, GD32, MSPM0 in embedded development workflows."
     },
     "audience": "开发",
     "category": "嵌入式",
@@ -332,11 +332,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trellis-micu",
-      "en": ""
+      "en": "trellis-micu"
     },
     "description": {
       "zh": "用于规范 AI 编程流程的 Trellis 工作流配置，帮助减少上下文漂移和编程幻觉。",
-      "en": ""
+      "en": "Helps with configuring Trellis for AI agent workflows."
     },
     "audience": "开发",
     "category": "工作流",
@@ -352,11 +352,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "SimuBridge Skills",
-      "en": ""
+      "en": "SimuBridge Skills"
     },
     "description": {
       "zh": "用于让 Claude 通过 MCP 创建、修改和仿真 MATLAB Simulink 模型，适合控制、仿真和模型驱动开发场景。",
-      "en": ""
+      "en": "Helps with creating, simulating Simulink, MATLAB, MCP for embedded development workflows."
     },
     "audience": "开发",
     "category": "嵌入式",
@@ -372,11 +372,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "SolidWorks Automation Skill",
-      "en": ""
+      "en": "SolidWorks Automation Skill"
     },
     "description": {
       "zh": "用于通过 Agent 自动化 SolidWorks 零件建模、装配、工程图、导出和本地 MCP 工具调用。",
-      "en": ""
+      "en": "Helps with calling, automating SolidWorks, MCP, CAD for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -392,11 +392,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "multisim-spice",
-      "en": ""
+      "en": "multisim-spice"
     },
     "description": {
       "zh": "用于把自然语言电路描述转换成可在 NI Multisim 打开的 SPICE 网表，并通过 ngspice 自检。",
-      "en": ""
+      "en": "Helps with converting Multisim, SPICE, ngspice for embedded development workflows."
     },
     "audience": "开发",
     "category": "嵌入式",
@@ -412,11 +412,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "algorithmic-art",
-      "en": ""
+      "en": "algorithmic-art"
     },
     "description": {
       "zh": "用于基于 p5.js 和随机种子创建生成式艺术。",
-      "en": ""
+      "en": "Helps with creating, generating p5.js, anthropics, skills, algorithmic-art for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -432,11 +432,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "mcp-builder",
-      "en": ""
+      "en": "mcp-builder"
     },
     "description": {
       "zh": "用于创建 MCP 服务，把外部 API 和服务接入 Agent 工作流。",
-      "en": ""
+      "en": "Helps with creating MCP, API, anthropics, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -452,11 +452,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "slack-gif-creator",
-      "en": ""
+      "en": "slack-gif-creator"
     },
     "description": {
       "zh": "用于创建适合 Slack 体积限制的动画 GIF。",
-      "en": ""
+      "en": "Helps with creating Slack, anthropics, skills, slack-gif-creator for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -472,11 +472,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "web-artifacts-builder",
-      "en": ""
+      "en": "web-artifacts-builder"
     },
     "description": {
       "zh": "用于使用 React 和 Tailwind 构建 Claude HTML 交互作品。",
-      "en": ""
+      "en": "Helps with building React, Tailwind, anthropics, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -492,11 +492,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "best-practices",
-      "en": ""
+      "en": "best-practices"
     },
     "description": {
       "zh": "用于为 Better Auth 集成提供最佳实践。",
-      "en": ""
+      "en": "Helps with integrating better-auth, skills, best-practices for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -512,11 +512,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "create-auth",
-      "en": ""
+      "en": "create-auth"
     },
     "description": {
       "zh": "用于基于 Better Auth 创建认证配置。",
-      "en": ""
+      "en": "Helps with creating, configuring better-auth, skills, create-auth for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -532,11 +532,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "building-ai-agent-on-cloudflare",
-      "en": ""
+      "en": "building-ai-agent-on-cloudflare"
     },
     "description": {
       "zh": "用于在 Cloudflare 上构建具备状态管理和实时通信能力的 AI Agent。",
-      "en": ""
+      "en": "Helps with managing, building Cloudflare, cloudflare, skills, building-ai-agent-on-cloudflare for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -552,11 +552,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "building-mcp-server-on-cloudflare",
-      "en": ""
+      "en": "building-mcp-server-on-cloudflare"
     },
     "description": {
       "zh": "用于在 Cloudflare 上构建支持工具调用和 OAuth 的远程 MCP 服务。",
-      "en": ""
+      "en": "Helps with calling, building MCP, OAuth, Cloudflare, cloudflare for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -572,11 +572,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "wrangler",
-      "en": ""
+      "en": "wrangler"
     },
     "description": {
       "zh": "用于部署和管理 Cloudflare Workers、KV、R2、D1、Vectorize、Queues 与工作流资源。",
-      "en": ""
+      "en": "Helps with managing, deploying Cloudflare, Cloudflare Workers, cloudflare, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -592,11 +592,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-mcp-tools-expert",
-      "en": ""
+      "en": "n8n-mcp-tools-expert"
     },
     "description": {
       "zh": "用于调用、集成或管理 n8n MCP 工具 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating MCP, API, n8n, czlonkowski for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -612,11 +612,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-workflow-patterns",
-      "en": ""
+      "en": "n8n-workflow-patterns"
     },
     "description": {
       "zh": "用于构建和优化 n8n 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing n8n, czlonkowski, n8n-skills, n8n-workflow-patterns for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -632,11 +632,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "design-md",
-      "en": ""
+      "en": "design-md"
     },
     "description": {
       "zh": "用于创建和维护 DESIGN.md 设计说明文件。",
-      "en": ""
+      "en": "Helps with creating google-labs-code, stitch-skills, design-md for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -652,11 +652,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-datasets",
-      "en": ""
+      "en": "hugging-face-datasets"
     },
     "description": {
       "zh": "用于创建和管理 Hugging Face 数据集，并支持配置和 SQL 查询。",
-      "en": ""
+      "en": "Helps with creating, managing, configuring huggingface, skills, hugging-face-datasets for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -672,11 +672,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-tool-builder",
-      "en": ""
+      "en": "hugging-face-tool-builder"
     },
     "description": {
       "zh": "用于构建可复用的 Hugging Face API 操作脚本。",
-      "en": ""
+      "en": "Helps with building API, huggingface, skills, hugging-face-tool-builder for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -692,11 +692,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "content-modeling-best-practices",
-      "en": ""
+      "en": "content-modeling-best-practices"
     },
     "description": {
       "zh": "用于设计可扩展的 Sanity 内容模型。",
-      "en": ""
+      "en": "Helps users work with sanity-io, agent-toolkit, content-modeling-best-practices in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -712,11 +712,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sanity-best-practices",
-      "en": ""
+      "en": "sanity-best-practices"
     },
     "description": {
       "zh": "用于为 Sanity Studio、GROQ 查询和内容工作流提供最佳实践。",
-      "en": ""
+      "en": "Helps users work with sanity-io, agent-toolkit, sanity-best-practices in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -732,11 +732,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "stripe-best-practices",
-      "en": ""
+      "en": "stripe-best-practices"
     },
     "description": {
       "zh": "用于为 Stripe 集成开发提供最佳实践。",
-      "en": ""
+      "en": "Helps with integrating stripe, ai, stripe-best-practices for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -752,11 +752,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "postgres-best-practices",
-      "en": ""
+      "en": "postgres-best-practices"
     },
     "description": {
       "zh": "用于为 Supabase PostgreSQL 项目提供数据库最佳实践建议。",
-      "en": ""
+      "en": "Helps users work with supabase, agent-skills, postgres-best-practices in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -772,11 +772,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "next-best-practices",
-      "en": ""
+      "en": "next-best-practices"
     },
     "description": {
       "zh": "用于为 Next.js 项目提供最佳实践和推荐模式。",
-      "en": ""
+      "en": "Helps users work with vercel-labs, next-skills, next-best-practices in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -792,11 +792,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "react-best-practices",
-      "en": ""
+      "en": "react-best-practices"
     },
     "description": {
       "zh": "用于为 React 项目提供最佳实践和常用模式指导。",
-      "en": ""
+      "en": "Helps users work with React, vercel-labs, agent-skills, react-best-practices in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -812,11 +812,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "web-design-guidelines",
-      "en": ""
+      "en": "web-design-guidelines"
     },
     "description": {
       "zh": "用于提供网页设计规范和视觉标准指导。",
-      "en": ""
+      "en": "Helps users work with vercel-labs, agent-skills, web-design-guidelines in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -832,11 +832,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "canvas-design",
-      "en": ""
+      "en": "canvas-design"
     },
     "description": {
       "zh": "用于设计并输出 PNG 和 PDF 格式的视觉作品。",
-      "en": ""
+      "en": "Helps users work with PDF, anthropics, skills, canvas-design in image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -852,11 +852,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "doc-coauthoring",
-      "en": ""
+      "en": "doc-coauthoring"
     },
     "description": {
       "zh": "用于协作文档编辑和共同写作，帮助多人围绕同一文档进行内容组织、修改建议和版本协同。",
-      "en": ""
+      "en": "Helps with editing OAuth, anthropics, skills, doc-coauthoring for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -872,11 +872,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "frontend-design",
-      "en": ""
+      "en": "frontend-design"
     },
     "description": {
       "zh": "用于辅助前端界面设计和 UI/UX 开发。",
-      "en": ""
+      "en": "Helps users work with anthropics, skills, frontend-design in image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -892,11 +892,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "theme-factory",
-      "en": ""
+      "en": "theme-factory"
     },
     "description": {
       "zh": "用于为作品应用专业主题或生成自定义主题。",
-      "en": ""
+      "en": "Helps with generating anthropics, skills, theme-factory for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -912,11 +912,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "webapp-testing",
-      "en": ""
+      "en": "webapp-testing"
     },
     "description": {
       "zh": "用于通过 Playwright 检查和测试本地 Web 应用。",
-      "en": ""
+      "en": "Helps with testing, checking anthropics, skills, webapp-testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -932,11 +932,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "commands",
-      "en": ""
+      "en": "commands"
     },
     "description": {
       "zh": "用于查询和使用 Better Auth CLI 命令。",
-      "en": ""
+      "en": "Helps users work with better-auth, skills, commands in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -952,11 +952,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "commands",
-      "en": ""
+      "en": "commands"
     },
     "description": {
       "zh": "用于查询和使用 Cloudflare 命令行相关能力。",
-      "en": ""
+      "en": "Helps users work with Cloudflare, cloudflare, skills, commands in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -972,11 +972,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "web-perf",
-      "en": ""
+      "en": "web-perf"
     },
     "description": {
       "zh": "用于审查 Core Web Vitals 和阻塞渲染资源。",
-      "en": ""
+      "en": "Helps users work with cloudflare, skills, web-perf in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -992,11 +992,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-code-javascript",
-      "en": ""
+      "en": "n8n-code-javascript"
     },
     "description": {
       "zh": "用于构建和优化 n8n JavaScript 代码节点 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing n8n, czlonkowski, n8n-skills, n8n-code-javascript for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -1012,11 +1012,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-code-python",
-      "en": ""
+      "en": "n8n-code-python"
     },
     "description": {
       "zh": "用于构建和优化 n8n Python 代码节点 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing n8n, czlonkowski, n8n-skills, n8n-code-python for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -1032,11 +1032,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-expression-syntax",
-      "en": ""
+      "en": "n8n-expression-syntax"
     },
     "description": {
       "zh": "用于构建和优化 n8n 表达式语法 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing n8n, czlonkowski, n8n-skills, n8n-expression-syntax for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -1052,11 +1052,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-node-configuration",
-      "en": ""
+      "en": "n8n-node-configuration"
     },
     "description": {
       "zh": "用于辅助 n8n 节点配置的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with configuring, calling n8n, czlonkowski, n8n-skills, n8n-node-configuration for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -1072,11 +1072,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-validation-expert",
-      "en": ""
+      "en": "n8n-validation-expert"
     },
     "description": {
       "zh": "用于构建和优化 n8n 校验错误修复 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing n8n, czlonkowski, n8n-skills, n8n-validation-expert for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -1092,11 +1092,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "fal-workflow",
-      "en": ""
+      "en": "fal-workflow"
     },
     "description": {
       "zh": "用于生成串联 AI 模型的工作流 JSON。",
-      "en": ""
+      "en": "Helps with generating fal-ai-community, skills, fal-workflow for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -1112,11 +1112,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "code-review",
-      "en": ""
+      "en": "code-review"
     },
     "description": {
       "zh": "用于执行代码审查，帮助发现实现风险、潜在缺陷和需要补充验证的代码改动。",
-      "en": ""
+      "en": "Helps users work with getsentry, skills, code-review in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1132,11 +1132,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "find-bugs",
-      "en": ""
+      "en": "find-bugs"
     },
     "description": {
       "zh": "用于在代码中定位和识别缺陷，帮助分析异常行为、错误来源和需要修复的实现问题。",
-      "en": ""
+      "en": "Helps with analyzing getsentry, skills, find-bugs for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1152,11 +1152,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "react-components",
-      "en": ""
+      "en": "react-components"
     },
     "description": {
       "zh": "用于把 Stitch 设计结果转换为 React 组件。",
-      "en": ""
+      "en": "Helps with converting React, google-labs-code, stitch-skills, react-components for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -1172,11 +1172,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-cli",
-      "en": ""
+      "en": "hugging-face-cli"
     },
     "description": {
       "zh": "用于操作 Hugging Face Hub 的模型、数据集、仓库和计算任务。",
-      "en": ""
+      "en": "Helps users work with huggingface, skills, hugging-face-cli in research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -1192,11 +1192,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-evaluation",
-      "en": ""
+      "en": "hugging-face-evaluation"
     },
     "description": {
       "zh": "用于使用 vLLM、lighteval 和评测表进行模型评估。",
-      "en": ""
+      "en": "Helps users work with huggingface, skills, hugging-face-evaluation in research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -1212,11 +1212,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-jobs",
-      "en": ""
+      "en": "hugging-face-jobs"
     },
     "description": {
       "zh": "用于在 Hugging Face 基础设施上运行计算任务和 Python 脚本。",
-      "en": ""
+      "en": "Helps users work with huggingface, skills, hugging-face-jobs in research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -1232,11 +1232,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "hugging-face-model-trainer",
-      "en": ""
+      "en": "hugging-face-model-trainer"
     },
     "description": {
       "zh": "用于基于 TRL 进行 SFT、DPO、GRPO 训练和 GGUF 转换。",
-      "en": ""
+      "en": "Helps with converting huggingface, skills, hugging-face-model-trainer for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -1252,11 +1252,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "using-git-worktrees",
-      "en": ""
+      "en": "using-git-worktrees"
     },
     "description": {
       "zh": "用于管理和配置 Git worktree 多工作区，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring Git, obra, superpowers, using-git-worktrees for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1272,11 +1272,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "remotion",
-      "en": ""
+      "en": "remotion"
     },
     "description": {
       "zh": "用于基于 React 进行程序化视频创作。",
-      "en": ""
+      "en": "Helps users work with React, remotion-dev, skills, remotion in image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -1292,11 +1292,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "upgrade-stripe",
-      "en": ""
+      "en": "upgrade-stripe"
     },
     "description": {
       "zh": "用于辅助升级 Stripe SDK 和 API 版本。",
-      "en": ""
+      "en": "Helps users work with API, stripe, ai, upgrade-stripe in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1312,11 +1312,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "composition-patterns",
-      "en": ""
+      "en": "composition-patterns"
     },
     "description": {
       "zh": "用于指导 React 组件组合和可复用模式。",
-      "en": ""
+      "en": "Helps users work with React, vercel-labs, agent-skills, composition-patterns in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1332,11 +1332,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "next-cache-components",
-      "en": ""
+      "en": "next-cache-components"
     },
     "description": {
       "zh": "用于处理 Next.js 缓存策略和缓存感知组件设计。",
-      "en": ""
+      "en": "Helps users work with vercel-labs, next-skills, next-cache-components in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1352,11 +1352,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "next-upgrade",
-      "en": ""
+      "en": "next-upgrade"
     },
     "description": {
       "zh": "用于辅助 Next.js 项目升级到新版本。",
-      "en": ""
+      "en": "Helps users work with vercel-labs, next-skills, next-upgrade in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1372,11 +1372,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "vercel-deploy-claimable",
-      "en": ""
+      "en": "vercel-deploy-claimable"
     },
     "description": {
       "zh": "用于辅助把项目部署到 Vercel。",
-      "en": ""
+      "en": "Helps with deploying BLE, vercel-labs, agent-skills, vercel-deploy-claimable for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1392,11 +1392,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "best-practices",
-      "en": ""
+      "en": "best-practices"
     },
     "description": {
       "zh": "用于提供 Better Auth 认证 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with better-auth, skills, best-practices in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1412,11 +1412,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "create-auth",
-      "en": ""
+      "en": "create-auth"
     },
     "description": {
       "zh": "用于创建和配置 Better Auth 认证，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring better-auth, skills, create-auth for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1432,11 +1432,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "explain-error",
-      "en": ""
+      "en": "explain-error"
     },
     "description": {
       "zh": "用于撰写和优化 Better Auth 认证内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing better-auth, skills, explain-error for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1452,11 +1452,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "agent-platform-skill-registry",
-      "en": ""
+      "en": "agent-platform-skill-registry"
     },
     "description": {
       "zh": "用于创建和配置 Gemini Enterprise Skill 注册表，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, agent-platform-skill-registry for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1472,11 +1472,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "alloydb-basics",
-      "en": ""
+      "en": "alloydb-basics"
     },
     "description": {
       "zh": "用于管理和配置 AlloyDB 数据库资源，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring google, skills, alloydb-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1492,11 +1492,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "bigquery-basics",
-      "en": ""
+      "en": "bigquery-basics"
     },
     "description": {
       "zh": "用于分析和评估 BigQuery 数据分析资源，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing google, skills, bigquery-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1512,11 +1512,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cloud-run-basics",
-      "en": ""
+      "en": "cloud-run-basics"
     },
     "description": {
       "zh": "用于管理和配置 Cloud Run 服务，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring google, skills, cloud-run-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1532,11 +1532,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cloud-sql-basics",
-      "en": ""
+      "en": "cloud-sql-basics"
     },
     "description": {
       "zh": "用于创建和配置 Cloud SQL 资源，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, cloud-sql-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1552,11 +1552,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "firebase-basics",
-      "en": ""
+      "en": "firebase-basics"
     },
     "description": {
       "zh": "用于辅助 Firebase 产品与服务的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling google, skills, firebase-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1572,11 +1572,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gemini-agents-api",
-      "en": ""
+      "en": "gemini-agents-api"
     },
     "description": {
       "zh": "用于管理和配置 Gemini Agent 资源，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring API, google, skills, gemini-agents-api for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1592,11 +1592,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gemini-api",
-      "en": ""
+      "en": "gemini-api"
     },
     "description": {
       "zh": "用于调用、集成或管理 Gemini API API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, google, skills, gemini-api for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1612,11 +1612,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gemini-interactions-api",
-      "en": ""
+      "en": "gemini-interactions-api"
     },
     "description": {
       "zh": "用于调用、集成或管理 Gemini 交互 API API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, google, skills, gemini-interactions-api for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1632,11 +1632,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gke-basics",
-      "en": ""
+      "en": "gke-basics"
     },
     "description": {
       "zh": "用于规划 GKE 集群，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning google, skills, gke-basics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1652,11 +1652,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-networking-observability",
-      "en": ""
+      "en": "google-cloud-networking-observability"
     },
     "description": {
       "zh": "用于分析和评估 Google Cloud 网络观测，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing google, skills, google-cloud-networking-observability for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1672,11 +1672,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-recipe-onboarding",
-      "en": ""
+      "en": "google-cloud-recipe-onboarding"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 新手上手，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-recipe-onboarding for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1692,11 +1692,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-cost-optimization",
-      "en": ""
+      "en": "google-cloud-waf-cost-optimization"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 成本优化，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-waf-cost-optimization for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1712,11 +1712,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-operational-excellence",
-      "en": ""
+      "en": "google-cloud-waf-operational-excellence"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 运维卓越，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring Excel, google, skills, google-cloud-waf-operational-excellence for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1732,11 +1732,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-performance-optimization",
-      "en": ""
+      "en": "google-cloud-waf-performance-optimization"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 性能优化，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-waf-performance-optimization for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1752,11 +1752,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-reliability",
-      "en": ""
+      "en": "google-cloud-waf-reliability"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 可靠性，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-waf-reliability for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1772,11 +1772,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-security",
-      "en": ""
+      "en": "google-cloud-waf-security"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 安全，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-waf-security for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1792,11 +1792,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "google-cloud-waf-sustainability",
-      "en": ""
+      "en": "google-cloud-waf-sustainability"
     },
     "description": {
       "zh": "用于创建和配置 Google Cloud 可持续性，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring google, skills, google-cloud-waf-sustainability for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1812,11 +1812,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "commands",
-      "en": ""
+      "en": "commands"
     },
     "description": {
       "zh": "用于创建和配置 命令结构管理，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, managing obra, superpowers, commands for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1832,11 +1832,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "twoFactor",
-      "en": ""
+      "en": "twoFactor"
     },
     "description": {
       "zh": "用于辅助 Better Auth 认证的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling better-auth, skills, twoFactor for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1852,11 +1852,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "content-modeling-best-practices",
-      "en": ""
+      "en": "content-modeling-best-practices"
     },
     "description": {
       "zh": "用于提供 Sanity 内容平台 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with sanity-io, agent-toolkit, content-modeling-best-practices in image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -1872,11 +1872,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sanity-best-practices",
-      "en": ""
+      "en": "sanity-best-practices"
     },
     "description": {
       "zh": "用于提供 Sanity 内容平台 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with sanity-io, agent-toolkit, sanity-best-practices in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1892,11 +1892,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "seo-aeo-best-practices",
-      "en": ""
+      "en": "seo-aeo-best-practices"
     },
     "description": {
       "zh": "用于撰写和优化 Sanity 内容平台内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing sanity-io, agent-toolkit, seo-aeo-best-practices for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1912,11 +1912,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "swiftui-expert-skill",
-      "en": ""
+      "en": "swiftui-expert-skill"
     },
     "description": {
       "zh": "用于提供 SwiftUI 开发 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with avdlee, swiftui-agent-skill, swiftui-expert-skill in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1932,11 +1932,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
-      "en": ""
+      "en": "Helps with calling better-auth, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1951,11 +1951,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ab-test-setup",
-      "en": ""
+      "en": "ab-test-setup"
     },
     "description": {
       "zh": "用于编写、检查或解释 A/B 测试测试。",
-      "en": ""
+      "en": "Helps with testing, checking coreyhaines31, marketingskills, ab-test-setup for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -1971,11 +1971,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-creative",
-      "en": ""
+      "en": "ad-creative"
     },
     "description": {
       "zh": "用于创建和配置 ad creative，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, ad-creative for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -1991,11 +1991,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ai-seo",
-      "en": ""
+      "en": "ai-seo"
     },
     "description": {
       "zh": "用于撰写和优化 ai seo内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, ai-seo for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2011,11 +2011,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "analytics-tracking",
-      "en": ""
+      "en": "analytics-tracking"
     },
     "description": {
       "zh": "用于分析和评估 数据分析埋点，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing coreyhaines31, marketingskills, analytics-tracking for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2031,11 +2031,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "churn-prevention",
-      "en": ""
+      "en": "churn-prevention"
     },
     "description": {
       "zh": "用于创建和配置 用户流失预防，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, churn-prevention for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2051,11 +2051,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cold-email",
-      "en": ""
+      "en": "cold-email"
     },
     "description": {
       "zh": "用于撰写和优化 B2B 冷邮件内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, cold-email for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2071,11 +2071,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "competitor-alternatives",
-      "en": ""
+      "en": "competitor-alternatives"
     },
     "description": {
       "zh": "用于创建和配置 竞品对比页面，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, competitor-alternatives for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2091,11 +2091,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "content-strategy",
-      "en": ""
+      "en": "content-strategy"
     },
     "description": {
       "zh": "用于规划 内容策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning coreyhaines31, marketingskills, content-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2111,11 +2111,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "copy-editing",
-      "en": ""
+      "en": "copy-editing"
     },
     "description": {
       "zh": "用于撰写和优化 营销文案编辑内容。",
-      "en": ""
+      "en": "Helps with editing, optimizing, writing coreyhaines31, marketingskills, copy-editing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2131,11 +2131,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "copywriting",
-      "en": ""
+      "en": "copywriting"
     },
     "description": {
       "zh": "用于撰写和优化 营销文案写作内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, copywriting for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2151,11 +2151,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "email-sequence",
-      "en": ""
+      "en": "email-sequence"
     },
     "description": {
       "zh": "用于撰写和优化 邮件序列内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, email-sequence for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2171,11 +2171,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "form-cro",
-      "en": ""
+      "en": "form-cro"
     },
     "description": {
       "zh": "用于优化 表单转化优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, form-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2191,11 +2191,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "free-tool-strategy",
-      "en": ""
+      "en": "free-tool-strategy"
     },
     "description": {
       "zh": "用于规划 免费工具增长策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning coreyhaines31, marketingskills, free-tool-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2211,11 +2211,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "launch-strategy",
-      "en": ""
+      "en": "launch-strategy"
     },
     "description": {
       "zh": "用于规划 产品发布策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning coreyhaines31, marketingskills, launch-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2231,11 +2231,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "marketing-ideas",
-      "en": ""
+      "en": "marketing-ideas"
     },
     "description": {
       "zh": "用于创建和配置 营销创意，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, marketing-ideas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2251,11 +2251,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "marketing-psychology",
-      "en": ""
+      "en": "marketing-psychology"
     },
     "description": {
       "zh": "用于撰写和优化 营销心理学内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, marketing-psychology for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2271,11 +2271,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "onboarding-cro",
-      "en": ""
+      "en": "onboarding-cro"
     },
     "description": {
       "zh": "用于优化 用户激活流程优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, onboarding-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2291,11 +2291,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "page-cro",
-      "en": ""
+      "en": "page-cro"
     },
     "description": {
       "zh": "用于优化 页面转化率优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, page-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2311,11 +2311,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "paid-ads",
-      "en": ""
+      "en": "paid-ads"
     },
     "description": {
       "zh": "用于创建和配置 付费广告，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, paid-ads for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2331,11 +2331,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "paywall-upgrade-cro",
-      "en": ""
+      "en": "paywall-upgrade-cro"
     },
     "description": {
       "zh": "用于优化 付费升级转化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, paywall-upgrade-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2351,11 +2351,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "popup-cro",
-      "en": ""
+      "en": "popup-cro"
     },
     "description": {
       "zh": "用于创建和配置 弹窗转化优化，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, popup-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2371,11 +2371,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pricing-strategy",
-      "en": ""
+      "en": "pricing-strategy"
     },
     "description": {
       "zh": "用于规划 定价策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning coreyhaines31, marketingskills, pricing-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2391,11 +2391,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "product-marketing-context",
-      "en": ""
+      "en": "product-marketing-context"
     },
     "description": {
       "zh": "用于创建和配置 产品营销上下文，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring coreyhaines31, marketingskills, product-marketing-context for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2411,11 +2411,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "programmatic-seo",
-      "en": ""
+      "en": "programmatic-seo"
     },
     "description": {
       "zh": "用于撰写和优化 程序化 SEO内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, programmatic-seo for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2431,11 +2431,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "referral-program",
-      "en": ""
+      "en": "referral-program"
     },
     "description": {
       "zh": "用于优化 推荐与联盟计划，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, referral-program for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2451,11 +2451,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "revops",
-      "en": ""
+      "en": "revops"
     },
     "description": {
       "zh": "用于辅助 收入运营的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling coreyhaines31, marketingskills, revops for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2471,11 +2471,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sales-enablement",
-      "en": ""
+      "en": "sales-enablement"
     },
     "description": {
       "zh": "用于撰写和优化 销售赋能材料内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing BLE, coreyhaines31, marketingskills, sales-enablement for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -2491,11 +2491,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "schema-markup",
-      "en": ""
+      "en": "schema-markup"
     },
     "description": {
       "zh": "用于优化 结构化数据标记，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, schema-markup for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2511,11 +2511,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "seo-audit",
-      "en": ""
+      "en": "seo-audit"
     },
     "description": {
       "zh": "用于分析和评估 SEO 审计，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing coreyhaines31, marketingskills, seo-audit for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2531,11 +2531,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "signup-flow-cro",
-      "en": ""
+      "en": "signup-flow-cro"
     },
     "description": {
       "zh": "用于优化 注册流程转化优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing coreyhaines31, marketingskills, signup-flow-cro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2551,11 +2551,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "site-architecture",
-      "en": ""
+      "en": "site-architecture"
     },
     "description": {
       "zh": "用于规划 网站信息架构，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning coreyhaines31, marketingskills, site-architecture for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2571,11 +2571,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "social-content",
-      "en": ""
+      "en": "social-content"
     },
     "description": {
       "zh": "用于撰写和优化 社交媒体内容内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing coreyhaines31, marketingskills, social-content for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2591,11 +2591,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cypress-author",
-      "en": ""
+      "en": "cypress-author"
     },
     "description": {
       "zh": "用于编写、检查或解释 Cypress 测试编写测试。",
-      "en": ""
+      "en": "Helps with testing, checking cypress-io, ai-toolkit, cypress-author for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2611,11 +2611,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cypress-docs",
-      "en": ""
+      "en": "cypress-docs"
     },
     "description": {
       "zh": "用于编写、检查或解释 Cypress 文档检索测试。",
-      "en": ""
+      "en": "Helps with testing, checking cypress-io, ai-toolkit, cypress-docs for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -2631,11 +2631,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cypress-explain",
-      "en": ""
+      "en": "cypress-explain"
     },
     "description": {
       "zh": "用于编写、检查或解释 Cypress 测试解释测试。",
-      "en": ""
+      "en": "Helps with testing, checking cypress-io, ai-toolkit, cypress-explain for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2651,11 +2651,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "n8n-skills",
-      "en": ""
+      "en": "n8n-skills"
     },
     "description": {
       "zh": "用于创建和配置 n8n，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring n8n, czlonkowski, n8n-skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2670,11 +2670,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "acquisition-channel-advisor",
-      "en": ""
+      "en": "acquisition-channel-advisor"
     },
     "description": {
       "zh": "用于编写、检查或解释 获客渠道评估测试。",
-      "en": ""
+      "en": "Helps with testing, checking deanpeters, product-manager-skills, acquisition-channel-advisor for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2690,11 +2690,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ai-shaped-readiness-advisor",
-      "en": ""
+      "en": "ai-shaped-readiness-advisor"
     },
     "description": {
       "zh": "用于分析和评估 AI 转型准备度评估，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, ai-shaped-readiness-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2710,11 +2710,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "altitude-horizon-framework",
-      "en": ""
+      "en": "altitude-horizon-framework"
     },
     "description": {
       "zh": "用于辅助 产品管理层级转型的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with managing, calling deanpeters, product-manager-skills, altitude-horizon-framework for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2730,11 +2730,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "company-research",
-      "en": ""
+      "en": "company-research"
     },
     "description": {
       "zh": "用于分析和评估 公司与竞品研究，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, company-research for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2750,11 +2750,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "context-engineering-advisor",
-      "en": ""
+      "en": "context-engineering-advisor"
     },
     "description": {
       "zh": "用于分析和评估 上下文工程诊断，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, context-engineering-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2770,11 +2770,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "customer-journey-map",
-      "en": ""
+      "en": "customer-journey-map"
     },
     "description": {
       "zh": "用于优化 客户旅程地图，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing deanpeters, product-manager-skills, customer-journey-map for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2790,11 +2790,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "customer-journey-mapping-workshop",
-      "en": ""
+      "en": "customer-journey-mapping-workshop"
     },
     "description": {
       "zh": "用于梳理 客户旅程地图研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with deanpeters, product-manager-skills, customer-journey-mapping-workshop in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2810,11 +2810,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "director-readiness-advisor",
-      "en": ""
+      "en": "director-readiness-advisor"
     },
     "description": {
       "zh": "用于优化 产品负责人晋升准备，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing deanpeters, product-manager-skills, director-readiness-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2830,11 +2830,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "discovery-interview-prep",
-      "en": ""
+      "en": "discovery-interview-prep"
     },
     "description": {
       "zh": "用于编写、检查或解释 用户访谈准备测试。",
-      "en": ""
+      "en": "Helps with testing, checking deanpeters, product-manager-skills, discovery-interview-prep for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2850,11 +2850,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "discovery-process",
-      "en": ""
+      "en": "discovery-process"
     },
     "description": {
       "zh": "用于梳理 产品发现流程研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with deanpeters, product-manager-skills, discovery-process in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2870,11 +2870,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "eol-message",
-      "en": ""
+      "en": "eol-message"
     },
     "description": {
       "zh": "用于辅助 产品下线沟通的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, eol-message for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2890,11 +2890,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "epic-breakdown-advisor",
-      "en": ""
+      "en": "epic-breakdown-advisor"
     },
     "description": {
       "zh": "用于辅助 史诗任务拆分的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, epic-breakdown-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2910,11 +2910,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "epic-hypothesis",
-      "en": ""
+      "en": "epic-hypothesis"
     },
     "description": {
       "zh": "用于编写、检查或解释 产品假设设计测试。",
-      "en": ""
+      "en": "Helps with testing, checking deanpeters, product-manager-skills, epic-hypothesis for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -2930,11 +2930,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "executive-onboarding-playbook",
-      "en": ""
+      "en": "executive-onboarding-playbook"
     },
     "description": {
       "zh": "用于分析和评估 高管入职诊断，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, executive-onboarding-playbook for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2950,11 +2950,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "feature-investment-advisor",
-      "en": ""
+      "en": "feature-investment-advisor"
     },
     "description": {
       "zh": "用于分析和评估 功能投资评估，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, feature-investment-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2970,11 +2970,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "finance-based-pricing-advisor",
-      "en": ""
+      "en": "finance-based-pricing-advisor"
     },
     "description": {
       "zh": "用于分析和评估 财务视角定价评估，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, finance-based-pricing-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -2990,11 +2990,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "finance-metrics-quickref",
-      "en": ""
+      "en": "finance-metrics-quickref"
     },
     "description": {
       "zh": "用于辅助 SaaS 财务指标的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, finance-metrics-quickref for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3010,11 +3010,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "jobs-to-be-done",
-      "en": ""
+      "en": "jobs-to-be-done"
     },
     "description": {
       "zh": "用于梳理 JTBD 用户目标分析研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, jobs-to-be-done for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3030,11 +3030,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "lean-ux-canvas",
-      "en": ""
+      "en": "lean-ux-canvas"
     },
     "description": {
       "zh": "用于规划 Lean UX 假设画布，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning deanpeters, product-manager-skills, lean-ux-canvas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3050,11 +3050,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "opportunity-solution-tree",
-      "en": ""
+      "en": "opportunity-solution-tree"
     },
     "description": {
       "zh": "用于编写、检查或解释 机会解决方案树测试。",
-      "en": ""
+      "en": "Helps with testing, checking deanpeters, product-manager-skills, opportunity-solution-tree for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3070,11 +3070,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pestel-analysis",
-      "en": ""
+      "en": "pestel-analysis"
     },
     "description": {
       "zh": "用于分析和评估 PESTEL 外部环境分析，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing deanpeters, product-manager-skills, pestel-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3090,11 +3090,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pol-probe",
-      "en": ""
+      "en": "pol-probe"
     },
     "description": {
       "zh": "用于编写、检查或解释 轻量验证实验测试。",
-      "en": ""
+      "en": "Helps with testing, checking deanpeters, product-manager-skills, pol-probe for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3110,11 +3110,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pol-probe-advisor",
-      "en": ""
+      "en": "pol-probe-advisor"
     },
     "description": {
       "zh": "用于辅助 轻量验证实验的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, pol-probe-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3130,11 +3130,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "positioning-statement",
-      "en": ""
+      "en": "positioning-statement"
     },
     "description": {
       "zh": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, positioning-statement for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3150,11 +3150,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "positioning-workshop",
-      "en": ""
+      "en": "positioning-workshop"
     },
     "description": {
       "zh": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, positioning-workshop for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3170,11 +3170,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prd-development",
-      "en": ""
+      "en": "prd-development"
     },
     "description": {
       "zh": "用于辅助 PRD 编写流程的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, prd-development for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3190,11 +3190,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "press-release",
-      "en": ""
+      "en": "press-release"
     },
     "description": {
       "zh": "用于辅助 未来新闻稿的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, press-release for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3210,11 +3210,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prioritization-advisor",
-      "en": ""
+      "en": "prioritization-advisor"
     },
     "description": {
       "zh": "用于规划 优先级决策，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning deanpeters, product-manager-skills, prioritization-advisor for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3230,11 +3230,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "problem-framing-canvas",
-      "en": ""
+      "en": "problem-framing-canvas"
     },
     "description": {
       "zh": "用于辅助 问题框定的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling BLE, deanpeters, product-manager-skills, problem-framing-canvas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3250,11 +3250,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "problem-statement",
-      "en": ""
+      "en": "problem-statement"
     },
     "description": {
       "zh": "用于梳理 问题陈述研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with BLE, deanpeters, product-manager-skills, problem-statement in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3270,11 +3270,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "product-strategy-session",
-      "en": ""
+      "en": "product-strategy-session"
     },
     "description": {
       "zh": "用于规划 产品定位，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning deanpeters, product-manager-skills, product-strategy-session for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3290,11 +3290,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "proto-persona",
-      "en": ""
+      "en": "proto-persona"
     },
     "description": {
       "zh": "用于创建和配置 假设用户画像，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring deanpeters, product-manager-skills, proto-persona for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3310,11 +3310,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "recommendation-canvas",
-      "en": ""
+      "en": "recommendation-canvas"
     },
     "description": {
       "zh": "用于辅助 AI 推荐方案画布的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, recommendation-canvas for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -3330,11 +3330,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "roadmap-planning",
-      "en": ""
+      "en": "roadmap-planning"
     },
     "description": {
       "zh": "用于规划 路线图规划，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning deanpeters, product-manager-skills, roadmap-planning for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3350,11 +3350,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "saas-economics-efficiency-metrics",
-      "en": ""
+      "en": "saas-economics-efficiency-metrics"
     },
     "description": {
       "zh": "用于调用、集成或管理 SaaS 单位经济模型 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, deanpeters, product-manager-skills, saas-economics-efficiency-metrics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3370,11 +3370,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "saas-revenue-growth-metrics",
-      "en": ""
+      "en": "saas-revenue-growth-metrics"
     },
     "description": {
       "zh": "用于辅助 SaaS 收入增长指标的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, saas-revenue-growth-metrics for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3390,11 +3390,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skill-authoring-workflow",
-      "en": ""
+      "en": "skill-authoring-workflow"
     },
     "description": {
       "zh": "用于撰写和优化 Skill 编写流程内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing deanpeters, product-manager-skills, skill-authoring-workflow for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3410,11 +3410,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "storyboard",
-      "en": ""
+      "en": "storyboard"
     },
     "description": {
       "zh": "用于梳理 用户旅程故事板研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with deanpeters, product-manager-skills, storyboard in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3430,11 +3430,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "tam-sam-som-calculator",
-      "en": ""
+      "en": "tam-sam-som-calculator"
     },
     "description": {
       "zh": "用于辅助 市场规模测算的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, tam-sam-som-calculator for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3450,11 +3450,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-story",
-      "en": ""
+      "en": "user-story"
     },
     "description": {
       "zh": "用于撰写和优化 用户故事内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing deanpeters, product-manager-skills, user-story for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3470,11 +3470,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-story-mapping",
-      "en": ""
+      "en": "user-story-mapping"
     },
     "description": {
       "zh": "用于构建和优化 用户故事地图 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing deanpeters, product-manager-skills, user-story-mapping for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3490,11 +3490,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-story-mapping-workshop",
-      "en": ""
+      "en": "user-story-mapping-workshop"
     },
     "description": {
       "zh": "用于辅助 用户故事地图的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, user-story-mapping-workshop for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3510,11 +3510,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-story-splitting",
-      "en": ""
+      "en": "user-story-splitting"
     },
     "description": {
       "zh": "用于辅助 用户故事的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, user-story-splitting for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3530,11 +3530,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "vp-cpo-readiness-advisor",
-      "en": ""
+      "en": "vp-cpo-readiness-advisor"
     },
     "description": {
       "zh": "用于梳理 vp cpo readiness研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with deanpeters, product-manager-skills, vp-cpo-readiness-advisor in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3550,11 +3550,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "workshop-facilitation",
-      "en": ""
+      "en": "workshop-facilitation"
     },
     "description": {
       "zh": "用于辅助 工作坊引导的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling deanpeters, product-manager-skills, workshop-facilitation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3570,11 +3570,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "swift-patterns-skill",
-      "en": ""
+      "en": "swift-patterns-skill"
     },
     "description": {
       "zh": "用于提供 SwiftUI 开发 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with efremidze, swift-patterns-skill, swift-patterns in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3590,11 +3590,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于构建和优化 Expo 官方 Skill 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing expo, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3609,11 +3609,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "firecrawl-agent",
-      "en": ""
+      "en": "firecrawl-agent"
     },
     "description": {
       "zh": "用于把 Firecrawl 网页抓取能力接入 Agent 工作流。",
-      "en": ""
+      "en": "Helps with collecting firecrawl, cli, firecrawl-agent for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3629,11 +3629,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "firecrawl-cli",
-      "en": ""
+      "en": "firecrawl-cli"
     },
     "description": {
       "zh": "用于辅助 firecrawl cli的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling firecrawl, cli, firecrawl-cli for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3649,11 +3649,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "firecrawl-scrape",
-      "en": ""
+      "en": "firecrawl-scrape"
     },
     "description": {
       "zh": "用于撰写和优化 Firecrawl 网页抓取内容。",
-      "en": ""
+      "en": "Helps with optimizing, collecting, writing firecrawl, cli, firecrawl-scrape for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3669,11 +3669,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "firecrawl-search",
-      "en": ""
+      "en": "firecrawl-search"
     },
     "description": {
       "zh": "用于辅助 firecrawl search的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling firecrawl, cli, firecrawl-search for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3689,11 +3689,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "automate-whatsapp",
-      "en": ""
+      "en": "automate-whatsapp"
     },
     "description": {
       "zh": "用于创建和配置 automate whatsapp，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring gokapso, agent-skills, automate-whatsapp for automation workflows."
     },
     "audience": "开发",
     "category": "自动化",
@@ -3709,11 +3709,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "integrate-whatsapp",
-      "en": ""
+      "en": "integrate-whatsapp"
     },
     "description": {
       "zh": "用于撰写和优化 WhatsApp 集成内容。",
-      "en": ""
+      "en": "Helps with integrating, optimizing, writing gokapso, agent-skills, integrate-whatsapp for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3729,11 +3729,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "build-review-interface",
-      "en": ""
+      "en": "build-review-interface"
     },
     "description": {
       "zh": "用于创建和配置 评审界面搭建，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring hamelsmu, prompts, build-review-interface for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3749,11 +3749,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "error-analysis",
-      "en": ""
+      "en": "error-analysis"
     },
     "description": {
       "zh": "用于辅助 error analysis的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling hamelsmu, prompts, error-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3769,11 +3769,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "eval-audit",
-      "en": ""
+      "en": "eval-audit"
     },
     "description": {
       "zh": "用于分析和评估 eval audit，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing hamelsmu, prompts, eval-audit for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3789,11 +3789,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "evaluate-rag",
-      "en": ""
+      "en": "evaluate-rag"
     },
     "description": {
       "zh": "用于分析和评估 evaluate rag，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing hamelsmu, prompts, evaluate-rag for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3809,11 +3809,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "generate-synthetic-data",
-      "en": ""
+      "en": "generate-synthetic-data"
     },
     "description": {
       "zh": "用于编写、检查或解释 合成数据生成测试。",
-      "en": ""
+      "en": "Helps with generating, testing, checking hamelsmu, prompts, generate-synthetic-data for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3829,11 +3829,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "validate-evaluator",
-      "en": ""
+      "en": "validate-evaluator"
     },
     "description": {
       "zh": "用于辅助 评估器校验的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling hamelsmu, prompts, validate-evaluator for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3849,11 +3849,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "write-judge-prompt",
-      "en": ""
+      "en": "write-judge-prompt"
     },
     "description": {
       "zh": "用于辅助 write judge prompt的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling hamelsmu, prompts, write-judge-prompt for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3869,11 +3869,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Hugging Face skills",
-      "en": ""
+      "en": "Hugging Face skills"
     },
     "description": {
       "zh": "用于辅助 Hugging Face的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling huggingface, skills for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3888,11 +3888,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "upskill",
-      "en": ""
+      "en": "upskill"
     },
     "description": {
       "zh": "用于分析和评估 upskill，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing huggingface, upskill for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3907,11 +3907,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "kreuzberg",
-      "en": ""
+      "en": "kreuzberg"
     },
     "description": {
       "zh": "用于辅助 kreuzberg的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling kreuzberg-dev, kreuzberg for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3926,11 +3926,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于优化 skills Matteo Collina，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing mcollina, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -3945,11 +3945,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "context-compression",
-      "en": ""
+      "en": "context-compression"
     },
     "description": {
       "zh": "用于分析和评估 上下文工程诊断，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing muratcankoylan, agent-skills-for-context-engineering, context-compression for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3965,11 +3965,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "context-degradation",
-      "en": ""
+      "en": "context-degradation"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling muratcankoylan, agent-skills-for-context-engineering, context-degradation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -3985,11 +3985,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "context-fundamentals",
-      "en": ""
+      "en": "context-fundamentals"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling muratcankoylan, agent-skills-for-context-engineering, context-fundamentals for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4005,11 +4005,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "context-optimization",
-      "en": ""
+      "en": "context-optimization"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling muratcankoylan, agent-skills-for-context-engineering, context-optimization for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4025,11 +4025,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "evaluation",
-      "en": ""
+      "en": "evaluation"
     },
     "description": {
       "zh": "用于创建和配置 上下文工程诊断，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring muratcankoylan, agent-skills-for-context-engineering, evaluation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4045,11 +4045,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "memory-systems",
-      "en": ""
+      "en": "memory-systems"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling muratcankoylan, agent-skills-for-context-engineering, memory-systems for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4065,11 +4065,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "multi-agent-patterns",
-      "en": ""
+      "en": "multi-agent-patterns"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling muratcankoylan, agent-skills-for-context-engineering, multi-agent-patterns for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4085,11 +4085,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "tool-design",
-      "en": ""
+      "en": "tool-design"
     },
     "description": {
       "zh": "用于创建和配置 上下文工程诊断，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring muratcankoylan, agent-skills-for-context-engineering, tool-design for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4105,11 +4105,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prompt-engineering",
-      "en": ""
+      "en": "prompt-engineering"
     },
     "description": {
       "zh": "用于提供 上下文工程诊断 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with neolabhq, context-engineering-kit, prompt-engineering in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4125,11 +4125,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "write-concisely",
-      "en": ""
+      "en": "write-concisely"
     },
     "description": {
       "zh": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling neolabhq, context-engineering-kit, write-concisely for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -4145,11 +4145,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "agent-skills",
-      "en": ""
+      "en": "agent-skills"
     },
     "description": {
       "zh": "用于构建和优化 agent 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing neondatabase, agent-skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4164,11 +4164,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cudaq-guide",
-      "en": ""
+      "en": "cudaq-guide"
     },
     "description": {
       "zh": "用于编写、检查或解释 cudaq guide测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, cudaq-guide for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4184,11 +4184,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-developer",
-      "en": ""
+      "en": "cuopt-developer"
     },
     "description": {
       "zh": "用于编写、检查或解释 cuOpt 开发测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, cuopt-developer for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4204,11 +4204,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-install",
-      "en": ""
+      "en": "cuopt-install"
     },
     "description": {
       "zh": "用于调用、集成或管理 命令结构管理 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-install for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4224,11 +4224,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-numerical-optimization-api-c",
-      "en": ""
+      "en": "cuopt-numerical-optimization-api-c"
     },
     "description": {
       "zh": "用于调用、集成或管理 数值优化 API API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-numerical-optimization-api-c for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4244,11 +4244,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-numerical-optimization-api-cli",
-      "en": ""
+      "en": "cuopt-numerical-optimization-api-cli"
     },
     "description": {
       "zh": "用于辅助 数值优化 API的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing API, nvidia, skills, cuopt-numerical-optimization-api-cli for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4264,11 +4264,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-numerical-optimization-api-python",
-      "en": ""
+      "en": "cuopt-numerical-optimization-api-python"
     },
     "description": {
       "zh": "用于调用、集成或管理 数值优化 API API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-numerical-optimization-api-python for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4284,11 +4284,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-routing-api-python",
-      "en": ""
+      "en": "cuopt-routing-api-python"
     },
     "description": {
       "zh": "用于调用、集成或管理 cuopt routing api python API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-routing-api-python for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4304,11 +4304,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-server-api-python",
-      "en": ""
+      "en": "cuopt-server-api-python"
     },
     "description": {
       "zh": "用于调用、集成或管理 cuopt server api python API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-server-api-python for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4324,11 +4324,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-server-common",
-      "en": ""
+      "en": "cuopt-server-common"
     },
     "description": {
       "zh": "用于调用、集成或管理 cuopt server common API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-server-common for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4344,11 +4344,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cuopt-user-rules",
-      "en": ""
+      "en": "cuopt-user-rules"
     },
     "description": {
       "zh": "用于调用、集成或管理 cuopt user rules API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, cuopt-user-rules for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4364,11 +4364,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "numerical-optimization-formulation",
-      "en": ""
+      "en": "numerical-optimization-formulation"
     },
     "description": {
       "zh": "用于优化 数值优化建模，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, numerical-optimization-formulation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4384,11 +4384,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "routing-formulation",
-      "en": ""
+      "en": "routing-formulation"
     },
     "description": {
       "zh": "用于辅助 路径规划建模的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, planning nvidia, skills, routing-formulation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4404,11 +4404,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skill-evolution",
-      "en": ""
+      "en": "skill-evolution"
     },
     "description": {
       "zh": "用于辅助 evolution的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, skill-evolution for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4424,11 +4424,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "dali-dynamic-mode",
-      "en": ""
+      "en": "dali-dynamic-mode"
     },
     "description": {
       "zh": "用于辅助 dali dynamic mode的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, dali-dynamic-mode for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4444,11 +4444,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "deepstream-dev",
-      "en": ""
+      "en": "deepstream-dev"
     },
     "description": {
       "zh": "用于调用、集成或管理 DeepStream 开发 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, deepstream-dev for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4464,11 +4464,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "deepstream-import-vision-model",
-      "en": ""
+      "en": "deepstream-import-vision-model"
     },
     "description": {
       "zh": "用于构建和优化 DeepStream 视觉模型导入 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, deepstream-import-vision-model for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -4484,11 +4484,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "adding-model-support",
-      "en": ""
+      "en": "adding-model-support"
     },
     "description": {
       "zh": "用于辅助 adding model support的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, adding-model-support for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4504,11 +4504,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "build-and-dependency",
-      "en": ""
+      "en": "build-and-dependency"
     },
     "description": {
       "zh": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, build-and-dependency for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4524,11 +4524,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "bump-dependency",
-      "en": ""
+      "en": "bump-dependency"
     },
     "description": {
       "zh": "用于创建和配置 bump dependency，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, bump-dependency for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4544,11 +4544,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cicd",
-      "en": ""
+      "en": "cicd"
     },
     "description": {
       "zh": "用于构建和优化 cicd 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, cicd for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4564,11 +4564,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "linting-and-formatting",
-      "en": ""
+      "en": "linting-and-formatting"
     },
     "description": {
       "zh": "用于撰写和优化 代码检查与格式化内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing, checking nvidia, skills, linting-and-formatting for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4584,11 +4584,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "mlm-bridge-training",
-      "en": ""
+      "en": "mlm-bridge-training"
     },
     "description": {
       "zh": "用于辅助 MLM Bridge 训练的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, mlm-bridge-training for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4604,11 +4604,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "multi-node-slurm",
-      "en": ""
+      "en": "multi-node-slurm"
     },
     "description": {
       "zh": "用于辅助 multi node slurm的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, multi-node-slurm for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4624,11 +4624,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemo-rl-e2e-testing",
-      "en": ""
+      "en": "nemo-rl-e2e-testing"
     },
     "description": {
       "zh": "用于构建和优化 nemo rl e2e testing 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, nemo-rl-e2e-testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4644,11 +4644,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "parity-testing",
-      "en": ""
+      "en": "parity-testing"
     },
     "description": {
       "zh": "用于优化 parity testing，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, parity-testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4664,11 +4664,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-activation-recompute",
-      "en": ""
+      "en": "perf-activation-recompute"
     },
     "description": {
       "zh": "用于辅助 激活重计算性能优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing nvidia, skills, perf-activation-recompute for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4684,11 +4684,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-cpu-offloading",
-      "en": ""
+      "en": "perf-cpu-offloading"
     },
     "description": {
       "zh": "用于优化 CPU 卸载性能优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, perf-cpu-offloading for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4704,11 +4704,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-cuda-graphs",
-      "en": ""
+      "en": "perf-cuda-graphs"
     },
     "description": {
       "zh": "用于辅助 perf cuda graphs的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-cuda-graphs for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4724,11 +4724,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-expert-parallel-overlap",
-      "en": ""
+      "en": "perf-expert-parallel-overlap"
     },
     "description": {
       "zh": "用于辅助 专家并行重叠优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing nvidia, skills, perf-expert-parallel-overlap for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4744,11 +4744,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-hierarchical-context-parallel",
-      "en": ""
+      "en": "perf-hierarchical-context-parallel"
     },
     "description": {
       "zh": "用于辅助 分层上下文并行优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing nvidia, skills, perf-hierarchical-context-parallel for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4764,11 +4764,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-megatron-fsdp",
-      "en": ""
+      "en": "perf-megatron-fsdp"
     },
     "description": {
       "zh": "用于辅助 Megatron FSDP 性能优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing nvidia, skills, perf-megatron-fsdp for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4784,11 +4784,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-memory-tuning",
-      "en": ""
+      "en": "perf-memory-tuning"
     },
     "description": {
       "zh": "用于辅助 perf memory tuning的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-memory-tuning for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4804,11 +4804,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-moe-comm-overlap",
-      "en": ""
+      "en": "perf-moe-comm-overlap"
     },
     "description": {
       "zh": "用于辅助 perf moe comm overlap的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-moe-comm-overlap for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4824,11 +4824,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-moe-hardware-configs",
-      "en": ""
+      "en": "perf-moe-hardware-configs"
     },
     "description": {
       "zh": "用于辅助 MoE 硬件配置的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with configuring, calling nvidia, skills, perf-moe-hardware-configs for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4844,11 +4844,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-moe-long-context",
-      "en": ""
+      "en": "perf-moe-long-context"
     },
     "description": {
       "zh": "用于辅助 perf moe long context的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-moe-long-context for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4864,11 +4864,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-moe-optimization-workflow",
-      "en": ""
+      "en": "perf-moe-optimization-workflow"
     },
     "description": {
       "zh": "用于构建和优化 MoE 优化工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, perf-moe-optimization-workflow for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4884,11 +4884,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-moe-vlm-training",
-      "en": ""
+      "en": "perf-moe-vlm-training"
     },
     "description": {
       "zh": "用于辅助 MoE 视觉语言模型训练的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-moe-vlm-training for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4904,11 +4904,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-parallelism-strategies",
-      "en": ""
+      "en": "perf-parallelism-strategies"
     },
     "description": {
       "zh": "用于辅助 并行策略的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-parallelism-strategies for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4924,11 +4924,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-sequence-packing",
-      "en": ""
+      "en": "perf-sequence-packing"
     },
     "description": {
       "zh": "用于辅助 序列打包优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing nvidia, skills, perf-sequence-packing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4944,11 +4944,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-tp-dp-comm-overlap",
-      "en": ""
+      "en": "perf-tp-dp-comm-overlap"
     },
     "description": {
       "zh": "用于辅助 perf tp dp comm overlap的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-tp-dp-comm-overlap for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -4964,11 +4964,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "recipe-recommender",
-      "en": ""
+      "en": "recipe-recommender"
     },
     "description": {
       "zh": "用于辅助 训练配方推荐的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, recipe-recommender for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -4984,11 +4984,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "resiliency",
-      "en": ""
+      "en": "resiliency"
     },
     "description": {
       "zh": "用于辅助 resiliency的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, resiliency for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5004,11 +5004,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "testing",
-      "en": ""
+      "en": "testing"
     },
     "description": {
       "zh": "用于编写、检查或解释 testing测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5024,11 +5024,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "verl-e2e-testing",
-      "en": ""
+      "en": "verl-e2e-testing"
     },
     "description": {
       "zh": "用于构建和优化 verl e2e testing 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, verl-e2e-testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5044,11 +5044,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "build-and-dependency",
-      "en": ""
+      "en": "build-and-dependency"
     },
     "description": {
       "zh": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, build-and-dependency for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5064,11 +5064,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "bump-base-image",
-      "en": ""
+      "en": "bump-base-image"
     },
     "description": {
       "zh": "用于辅助 bump base image的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, bump-base-image for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5084,11 +5084,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cicd",
-      "en": ""
+      "en": "cicd"
     },
     "description": {
       "zh": "用于辅助 cicd的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, cicd for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5104,11 +5104,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "create-issue",
-      "en": ""
+      "en": "create-issue"
     },
     "description": {
       "zh": "用于创建和配置 create issue，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, create-issue for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5124,11 +5124,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "linting-and-formatting",
-      "en": ""
+      "en": "linting-and-formatting"
     },
     "description": {
       "zh": "用于辅助 代码检查与格式化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, checking nvidia, skills, linting-and-formatting for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5144,11 +5144,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nightly-sync",
-      "en": ""
+      "en": "nightly-sync"
     },
     "description": {
       "zh": "用于构建和优化 nightly sync 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, nightly-sync for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5164,11 +5164,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "onboard-gb200-1node-tests",
-      "en": ""
+      "en": "onboard-gb200-1node-tests"
     },
     "description": {
       "zh": "用于编写、检查或解释 onboard gb200 1node tests测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, onboard-gb200-1node-tests for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5184,11 +5184,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "respond-to-issue",
-      "en": ""
+      "en": "respond-to-issue"
     },
     "description": {
       "zh": "用于梳理 respond to issue研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with nvidia, skills, respond-to-issue in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5204,11 +5204,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "run-on-slurm",
-      "en": ""
+      "en": "run-on-slurm"
     },
     "description": {
       "zh": "用于规划 run on slurm，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, run-on-slurm for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5224,11 +5224,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "split-pr",
-      "en": ""
+      "en": "split-pr"
     },
     "description": {
       "zh": "用于辅助 split pr的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, split-pr for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5244,11 +5244,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "testing",
-      "en": ""
+      "en": "testing"
     },
     "description": {
       "zh": "用于编写、检查或解释 testing测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5264,11 +5264,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "update-golden-values",
-      "en": ""
+      "en": "update-golden-values"
     },
     "description": {
       "zh": "用于构建和优化 update golden values 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing nvidia, skills, update-golden-values for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5284,11 +5284,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "accessing-mlflow",
-      "en": ""
+      "en": "accessing-mlflow"
     },
     "description": {
       "zh": "用于辅助 accessing mlflow的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, accessing-mlflow for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -5304,11 +5304,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "debug",
-      "en": ""
+      "en": "debug"
     },
     "description": {
       "zh": "用于辅助 命令结构管理的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with managing, calling nvidia, skills, debug for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5324,11 +5324,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "deployment",
-      "en": ""
+      "en": "deployment"
     },
     "description": {
       "zh": "用于调用、集成或管理 模型部署 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, deployment for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5344,11 +5344,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "evaluation",
-      "en": ""
+      "en": "evaluation"
     },
     "description": {
       "zh": "用于分析和评估 evaluation，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, evaluation for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -5364,11 +5364,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "launching-evals",
-      "en": ""
+      "en": "launching-evals"
     },
     "description": {
       "zh": "用于分析和评估 launching evals，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, launching-evals for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -5384,11 +5384,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "monitor",
-      "en": ""
+      "en": "monitor"
     },
     "description": {
       "zh": "用于管理和配置 模型部署，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring, deploying nvidia, skills, monitor for research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -5404,11 +5404,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ptq",
-      "en": ""
+      "en": "ptq"
     },
     "description": {
       "zh": "用于辅助 ptq的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, ptq for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5424,11 +5424,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "release-cherry-pick",
-      "en": ""
+      "en": "release-cherry-pick"
     },
     "description": {
       "zh": "用于辅助 release cherry pick的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, release-cherry-pick for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5444,11 +5444,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "accessing-mlflow",
-      "en": ""
+      "en": "accessing-mlflow"
     },
     "description": {
       "zh": "用于辅助 accessing mlflow的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, accessing-mlflow for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5464,11 +5464,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "launching-evals",
-      "en": ""
+      "en": "launching-evals"
     },
     "description": {
       "zh": "用于分析和评估 launching evals，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, launching-evals for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5484,11 +5484,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nel-assistant",
-      "en": ""
+      "en": "nel-assistant"
     },
     "description": {
       "zh": "用于规划 nel assistant，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, nel-assistant for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5504,11 +5504,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "byob",
-      "en": ""
+      "en": "byob"
     },
     "description": {
       "zh": "用于创建和配置 byob，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, byob for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5524,11 +5524,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "add-benchmark",
-      "en": ""
+      "en": "add-benchmark"
     },
     "description": {
       "zh": "用于辅助 add benchmark的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, add-benchmark for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5544,11 +5544,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemo-gym-debugging",
-      "en": ""
+      "en": "nemo-gym-debugging"
     },
     "description": {
       "zh": "用于辅助 NeMo Gym 调试的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, debugging nvidia, skills, nemo-gym-debugging for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5564,11 +5564,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemo-gym-docs",
-      "en": ""
+      "en": "nemo-gym-docs"
     },
     "description": {
       "zh": "用于撰写和优化 nemo gym docs内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing nvidia, skills, nemo-gym-docs for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -5584,11 +5584,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemo-gym-pivot-datasets",
-      "en": ""
+      "en": "nemo-gym-pivot-datasets"
     },
     "description": {
       "zh": "用于调用、集成或管理 NeMo Gym 数据集切换 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, nemo-gym-pivot-datasets for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5604,11 +5604,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemo-gym-reward-profiling",
-      "en": ""
+      "en": "nemo-gym-reward-profiling"
     },
     "description": {
       "zh": "用于辅助 NeMo Gym 奖励分析的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with analyzing, calling nvidia, skills, nemo-gym-reward-profiling for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5624,11 +5624,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "auto-research",
-      "en": ""
+      "en": "auto-research"
     },
     "description": {
       "zh": "用于编写、检查或解释 自动研究流程测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, auto-research for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5644,11 +5644,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "build-and-dependency",
-      "en": ""
+      "en": "build-and-dependency"
     },
     "description": {
       "zh": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, build-and-dependency for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5664,11 +5664,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cicd",
-      "en": ""
+      "en": "cicd"
     },
     "description": {
       "zh": "用于辅助 cicd的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, cicd for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5684,11 +5684,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "config-conventions",
-      "en": ""
+      "en": "config-conventions"
     },
     "description": {
       "zh": "用于辅助 配置规范的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with configuring, calling nvidia, skills, config-conventions for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5704,11 +5704,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "contributing",
-      "en": ""
+      "en": "contributing"
     },
     "description": {
       "zh": "用于辅助 contributing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, contributing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5724,11 +5724,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "copyright",
-      "en": ""
+      "en": "copyright"
     },
     "description": {
       "zh": "用于撰写和优化 copyright内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing nvidia, skills, copyright for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5744,11 +5744,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "docs",
-      "en": ""
+      "en": "docs"
     },
     "description": {
       "zh": "用于辅助 docs的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, docs for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -5764,11 +5764,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "error-handling",
-      "en": ""
+      "en": "error-handling"
     },
     "description": {
       "zh": "用于提供 error handling 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with nvidia, skills, error-handling in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5784,11 +5784,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "launch-nemo-rl",
-      "en": ""
+      "en": "launch-nemo-rl"
     },
     "description": {
       "zh": "用于规划 launch nemo rl，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, launch-nemo-rl for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5804,11 +5804,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "linting-and-formatting",
-      "en": ""
+      "en": "linting-and-formatting"
     },
     "description": {
       "zh": "用于提供 代码检查与格式化 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps with checking nvidia, skills, linting-and-formatting for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5824,11 +5824,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "review-pr",
-      "en": ""
+      "en": "review-pr"
     },
     "description": {
       "zh": "用于辅助 review pr的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, review-pr for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5844,11 +5844,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "session-memory",
-      "en": ""
+      "en": "session-memory"
     },
     "description": {
       "zh": "用于管理和配置 session memory，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, session-memory for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5864,11 +5864,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "testing",
-      "en": ""
+      "en": "testing"
     },
     "description": {
       "zh": "用于编写、检查或解释 testing测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, testing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -5884,11 +5884,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-contributor-create-pr",
-      "en": ""
+      "en": "nemoclaw-contributor-create-pr"
     },
     "description": {
       "zh": "用于创建和配置 贡献者 PR 创建，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, nemoclaw-contributor-create-pr for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5904,11 +5904,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-contributor-update-docs",
-      "en": ""
+      "en": "nemoclaw-contributor-update-docs"
     },
     "description": {
       "zh": "用于创建和配置 贡献者文档更新，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, nemoclaw-contributor-update-docs for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -5924,11 +5924,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-cross-issue-sweep",
-      "en": ""
+      "en": "nemoclaw-maintainer-cross-issue-sweep"
     },
     "description": {
       "zh": "用于辅助 维护者跨 Issue 排查的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-cross-issue-sweep for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5944,11 +5944,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-cut-release-tag",
-      "en": ""
+      "en": "nemoclaw-maintainer-cut-release-tag"
     },
     "description": {
       "zh": "用于辅助 维护者发布标签创建的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with creating, calling nvidia, skills, nemoclaw-maintainer-cut-release-tag for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5964,11 +5964,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-day",
-      "en": ""
+      "en": "nemoclaw-maintainer-day"
     },
     "description": {
       "zh": "用于规划 维护者日间工作流，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, nemoclaw-maintainer-day for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -5984,11 +5984,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-evening",
-      "en": ""
+      "en": "nemoclaw-maintainer-evening"
     },
     "description": {
       "zh": "用于辅助 维护者晚间工作流的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-evening for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6004,11 +6004,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-find-review-pr",
-      "en": ""
+      "en": "nemoclaw-maintainer-find-review-pr"
     },
     "description": {
       "zh": "用于规划 维护者 PR 评审筛选，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, nemoclaw-maintainer-find-review-pr for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6024,11 +6024,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-morning",
-      "en": ""
+      "en": "nemoclaw-maintainer-morning"
     },
     "description": {
       "zh": "用于辅助 维护者晨间工作流的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-morning for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6044,11 +6044,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-normalize-title-tags",
-      "en": ""
+      "en": "nemoclaw-maintainer-normalize-title-tags"
     },
     "description": {
       "zh": "用于辅助 维护者标题标签规范化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-normalize-title-tags for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6064,11 +6064,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-pr-comparator",
-      "en": ""
+      "en": "nemoclaw-maintainer-pr-comparator"
     },
     "description": {
       "zh": "用于辅助 维护者 PR 对比的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-pr-comparator for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6084,11 +6084,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-security-code-review",
-      "en": ""
+      "en": "nemoclaw-maintainer-security-code-review"
     },
     "description": {
       "zh": "用于辅助 维护者安全代码审查的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-security-code-review for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6104,11 +6104,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-maintainer-triage",
-      "en": ""
+      "en": "nemoclaw-maintainer-triage"
     },
     "description": {
       "zh": "用于辅助 维护者任务分诊的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-maintainer-triage for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6124,11 +6124,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-skills-guide",
-      "en": ""
+      "en": "nemoclaw-skills-guide"
     },
     "description": {
       "zh": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-skills-guide for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -6144,11 +6144,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-agent-skills",
-      "en": ""
+      "en": "nemoclaw-user-agent-skills"
     },
     "description": {
       "zh": "用于辅助 用户 Agent Skill的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-user-agent-skills for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6164,11 +6164,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-configure-inference",
-      "en": ""
+      "en": "nemoclaw-user-configure-inference"
     },
     "description": {
       "zh": "用于调用、集成或管理 用户推理配置 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, configuring, calling API, nvidia, skills, nemoclaw-user-configure-inference for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6184,11 +6184,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-configure-security",
-      "en": ""
+      "en": "nemoclaw-user-configure-security"
     },
     "description": {
       "zh": "用于辅助 用户安全配置的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with configuring, calling nvidia, skills, nemoclaw-user-configure-security for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6204,11 +6204,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-deploy-remote",
-      "en": ""
+      "en": "nemoclaw-user-deploy-remote"
     },
     "description": {
       "zh": "用于辅助 用户远程部署的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, deploying nvidia, skills, nemoclaw-user-deploy-remote for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6224,11 +6224,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-get-started",
-      "en": ""
+      "en": "nemoclaw-user-get-started"
     },
     "description": {
       "zh": "用于规划 用户上手引导，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, nemoclaw-user-get-started for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6244,11 +6244,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-manage-policy",
-      "en": ""
+      "en": "nemoclaw-user-manage-policy"
     },
     "description": {
       "zh": "用于辅助 用户策略管理的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with managing, calling nvidia, skills, nemoclaw-user-manage-policy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6264,11 +6264,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-overview",
-      "en": ""
+      "en": "nemoclaw-user-overview"
     },
     "description": {
       "zh": "用于辅助 用户概览的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-user-overview for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6284,11 +6284,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemoclaw-user-reference",
-      "en": ""
+      "en": "nemoclaw-user-reference"
     },
     "description": {
       "zh": "用于辅助 用户参考资料的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, nemoclaw-user-reference for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6304,11 +6304,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "nemotron-voice-agent-deploy",
-      "en": ""
+      "en": "nemotron-voice-agent-deploy"
     },
     "description": {
       "zh": "用于管理和配置 语音 Agent 部署，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring, deploying nvidia, skills, nemotron-voice-agent-deploy for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6324,11 +6324,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "rag-blueprint",
-      "en": ""
+      "en": "rag-blueprint"
     },
     "description": {
       "zh": "用于管理和配置 rag blueprint，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, rag-blueprint for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6344,11 +6344,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-accuracy-debug",
-      "en": ""
+      "en": "ad-accuracy-debug"
     },
     "description": {
       "zh": "用于管理和配置 ad accuracy debug，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, ad-accuracy-debug for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6364,11 +6364,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-add-fusion-transformation",
-      "en": ""
+      "en": "ad-add-fusion-transformation"
     },
     "description": {
       "zh": "用于创建和配置 算子融合变换，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, ad-add-fusion-transformation for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6384,11 +6384,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-conf-check",
-      "en": ""
+      "en": "ad-conf-check"
     },
     "description": {
       "zh": "用于分析和评估 ad conf check，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, ad-conf-check for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6404,11 +6404,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-graph-dump",
-      "en": ""
+      "en": "ad-graph-dump"
     },
     "description": {
       "zh": "用于管理和配置 ad graph dump，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, ad-graph-dump for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6424,11 +6424,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-layer-visualizer",
-      "en": ""
+      "en": "ad-layer-visualizer"
     },
     "description": {
       "zh": "用于管理和配置 ad layer visualizer，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, ad-layer-visualizer for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6444,11 +6444,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-model-onboard",
-      "en": ""
+      "en": "ad-model-onboard"
     },
     "description": {
       "zh": "用于编写、检查或解释 ad model onboard测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, ad-model-onboard for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6464,11 +6464,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "exec-local-compile",
-      "en": ""
+      "en": "exec-local-compile"
     },
     "description": {
       "zh": "用于辅助 exec local compile的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, exec-local-compile for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6484,11 +6484,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "exec-slurm-compile",
-      "en": ""
+      "en": "exec-slurm-compile"
     },
     "description": {
       "zh": "用于辅助 exec slurm compile的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, exec-slurm-compile for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6504,11 +6504,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "kernel-cute-writing",
-      "en": ""
+      "en": "kernel-cute-writing"
     },
     "description": {
       "zh": "用于规划 kernel cute writing，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning nvidia, skills, kernel-cute-writing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6524,11 +6524,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "kernel-tileir-optimization",
-      "en": ""
+      "en": "kernel-tileir-optimization"
     },
     "description": {
       "zh": "用于优化 TileIR 内核优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, kernel-tileir-optimization for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6544,11 +6544,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "kernel-triton-writing",
-      "en": ""
+      "en": "kernel-triton-writing"
     },
     "description": {
       "zh": "用于辅助 kernel triton writing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, kernel-triton-writing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6564,11 +6564,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-analysis",
-      "en": ""
+      "en": "perf-analysis"
     },
     "description": {
       "zh": "用于分析和评估 perf analysis，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, perf-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6584,11 +6584,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-host-analysis",
-      "en": ""
+      "en": "perf-host-analysis"
     },
     "description": {
       "zh": "用于分析和评估 perf host analysis，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, perf-host-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6604,11 +6604,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-host-optimization",
-      "en": ""
+      "en": "perf-host-optimization"
     },
     "description": {
       "zh": "用于规划 主机侧性能优化，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with optimizing, planning nvidia, skills, perf-host-optimization for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6624,11 +6624,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-nsight-compute-analysis",
-      "en": ""
+      "en": "perf-nsight-compute-analysis"
     },
     "description": {
       "zh": "用于分析和评估 Nsight Compute 性能分析，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, perf-nsight-compute-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6644,11 +6644,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-nsight-systems",
-      "en": ""
+      "en": "perf-nsight-systems"
     },
     "description": {
       "zh": "用于辅助 perf nsight systems的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-nsight-systems for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6664,11 +6664,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-optimization",
-      "en": ""
+      "en": "perf-optimization"
     },
     "description": {
       "zh": "用于优化 性能优化，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, perf-optimization for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6684,11 +6684,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-torch-cuda-graphs",
-      "en": ""
+      "en": "perf-torch-cuda-graphs"
     },
     "description": {
       "zh": "用于管理和配置 perf torch cuda graphs，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, perf-torch-cuda-graphs for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6704,11 +6704,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-torch-sync-free",
-      "en": ""
+      "en": "perf-torch-sync-free"
     },
     "description": {
       "zh": "用于辅助 perf torch sync free的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, perf-torch-sync-free for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6724,11 +6724,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "perf-workload-profiling",
-      "en": ""
+      "en": "perf-workload-profiling"
     },
     "description": {
       "zh": "用于辅助 工作负载性能分析的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with analyzing, calling nvidia, skills, perf-workload-profiling for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6744,11 +6744,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trtllm-code-contribution",
-      "en": ""
+      "en": "trtllm-code-contribution"
     },
     "description": {
       "zh": "用于提供 代码贡献 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with nvidia, skills, trtllm-code-contribution in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6764,11 +6764,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trtllm-codebase-exploration",
-      "en": ""
+      "en": "trtllm-codebase-exploration"
     },
     "description": {
       "zh": "用于创建和配置 代码库探索，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, trtllm-codebase-exploration for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6784,11 +6784,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trtllm-flashinfer-upgrade",
-      "en": ""
+      "en": "trtllm-flashinfer-upgrade"
     },
     "description": {
       "zh": "用于辅助 FlashInfer 升级的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, trtllm-flashinfer-upgrade for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6804,11 +6804,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trtllm-moe-develop",
-      "en": ""
+      "en": "trtllm-moe-develop"
     },
     "description": {
       "zh": "用于编写、检查或解释 trtllm moe develop测试。",
-      "en": ""
+      "en": "Helps with testing, checking nvidia, skills, trtllm-moe-develop for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6824,11 +6824,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "trtllm-serve-config-guide",
-      "en": ""
+      "en": "trtllm-serve-config-guide"
     },
     "description": {
       "zh": "用于撰写和优化 模型部署内容。",
-      "en": ""
+      "en": "Helps with optimizing, deploying, writing nvidia, skills, trtllm-serve-config-guide for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -6844,11 +6844,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "adding-cutile-kernel",
-      "en": ""
+      "en": "adding-cutile-kernel"
     },
     "description": {
       "zh": "用于辅助 adding cutile kernel的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, adding-cutile-kernel for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6864,11 +6864,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "converting-cutile-to-julia",
-      "en": ""
+      "en": "converting-cutile-to-julia"
     },
     "description": {
       "zh": "用于辅助 CuTe DSL 到 Julia 转换的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, converting nvidia, skills, converting-cutile-to-julia for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6884,11 +6884,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "converting-cutile-to-triton",
-      "en": ""
+      "en": "converting-cutile-to-triton"
     },
     "description": {
       "zh": "用于辅助 CuTe DSL 到 Triton 转换的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, converting nvidia, skills, converting-cutile-to-triton for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6904,11 +6904,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cutile-autotuning",
-      "en": ""
+      "en": "cutile-autotuning"
     },
     "description": {
       "zh": "用于优化 CuTe DSL 自动调优，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, cutile-autotuning for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -6924,11 +6924,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cutile-python",
-      "en": ""
+      "en": "cutile-python"
     },
     "description": {
       "zh": "用于辅助 cutile python的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, cutile-python for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6944,11 +6944,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "improve-cutile-kernel-perf",
-      "en": ""
+      "en": "improve-cutile-kernel-perf"
     },
     "description": {
       "zh": "用于分析和评估 improve cutile kernel perf，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, improve-cutile-kernel-perf for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6964,11 +6964,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "monkey-patch-kernels-to-transformers",
-      "en": ""
+      "en": "monkey-patch-kernels-to-transformers"
     },
     "description": {
       "zh": "用于创建和配置 内核猴子补丁改造，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, monkey-patch-kernels-to-transformers for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -6984,11 +6984,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "alerts",
-      "en": ""
+      "en": "alerts"
     },
     "description": {
       "zh": "用于管理和配置 alerts，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, alerts for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7004,11 +7004,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "deploy",
-      "en": ""
+      "en": "deploy"
     },
     "description": {
       "zh": "用于管理和配置 deploy，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring nvidia, skills, deploy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7024,11 +7024,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "report",
-      "en": ""
+      "en": "report"
     },
     "description": {
       "zh": "用于分析和评估 report，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, report for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7044,11 +7044,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "rt-vlm",
-      "en": ""
+      "en": "rt-vlm"
     },
     "description": {
       "zh": "用于调用、集成或管理 rt vlm API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, rt-vlm for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7064,11 +7064,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "video-analytics",
-      "en": ""
+      "en": "video-analytics"
     },
     "description": {
       "zh": "用于分析和评估 video analytics，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing nvidia, skills, video-analytics for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7084,11 +7084,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "video-search",
-      "en": ""
+      "en": "video-search"
     },
     "description": {
       "zh": "用于优化 video search，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, video-search for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7104,11 +7104,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "video-summarization",
-      "en": ""
+      "en": "video-summarization"
     },
     "description": {
       "zh": "用于优化 视频摘要，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing nvidia, skills, video-summarization for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7124,11 +7124,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "video-understanding",
-      "en": ""
+      "en": "video-understanding"
     },
     "description": {
       "zh": "用于辅助 视频理解的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling nvidia, skills, video-understanding for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7144,11 +7144,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "vios",
-      "en": ""
+      "en": "vios"
     },
     "description": {
       "zh": "用于调用、集成或管理 vios API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, nvidia, skills, vios for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7164,11 +7164,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "vss-frag",
-      "en": ""
+      "en": "vss-frag"
     },
     "description": {
       "zh": "用于创建和配置 vss frag，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring nvidia, skills, vss-frag for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7184,11 +7184,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorming",
-      "en": ""
+      "en": "brainstorming"
     },
     "description": {
       "zh": "用于创建和配置 brainstorming，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7204,11 +7204,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "condition-based-waiting",
-      "en": ""
+      "en": "condition-based-waiting"
     },
     "description": {
       "zh": "用于管理和配置 条件等待，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7224,11 +7224,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "defense-in-depth",
-      "en": ""
+      "en": "defense-in-depth"
     },
     "description": {
       "zh": "用于辅助 defense in depth的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7244,11 +7244,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "dispatching-parallel-agents",
-      "en": ""
+      "en": "dispatching-parallel-agents"
     },
     "description": {
       "zh": "用于辅助 并行 Agent 调度的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7264,11 +7264,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "executing-plans",
-      "en": ""
+      "en": "executing-plans"
     },
     "description": {
       "zh": "用于规划 executing plans，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7284,11 +7284,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "finishing-a-development-branch",
-      "en": ""
+      "en": "finishing-a-development-branch"
     },
     "description": {
       "zh": "用于辅助 开发分支收尾的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7304,11 +7304,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "receiving-code-review",
-      "en": ""
+      "en": "receiving-code-review"
     },
     "description": {
       "zh": "用于辅助 代码评审接收的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7324,11 +7324,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "requesting-code-review",
-      "en": ""
+      "en": "requesting-code-review"
     },
     "description": {
       "zh": "用于辅助 代码评审请求的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7344,11 +7344,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "root-cause-tracing",
-      "en": ""
+      "en": "root-cause-tracing"
     },
     "description": {
       "zh": "用于辅助 root cause tracing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7364,11 +7364,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sharing-skills",
-      "en": ""
+      "en": "sharing-skills"
     },
     "description": {
       "zh": "用于辅助 sharing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7384,11 +7384,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "subagent-driven-development",
-      "en": ""
+      "en": "subagent-driven-development"
     },
     "description": {
       "zh": "用于辅助 子 Agent 驱动开发的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7404,11 +7404,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "systematic-debugging",
-      "en": ""
+      "en": "systematic-debugging"
     },
     "description": {
       "zh": "用于辅助 系统化调试的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, debugging obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7424,11 +7424,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "test-driven-development",
-      "en": ""
+      "en": "test-driven-development"
     },
     "description": {
       "zh": "用于编写、检查或解释 测试驱动开发测试。",
-      "en": ""
+      "en": "Helps with testing, checking obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7444,11 +7444,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "testing-anti-patterns",
-      "en": ""
+      "en": "testing-anti-patterns"
     },
     "description": {
       "zh": "用于编写、检查或解释 测试反模式识别测试。",
-      "en": ""
+      "en": "Helps with testing, checking obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7464,11 +7464,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "testing-skills-with-subagents",
-      "en": ""
+      "en": "testing-skills-with-subagents"
     },
     "description": {
       "zh": "用于编写、检查或解释 子 Agent Skill 测试测试。",
-      "en": ""
+      "en": "Helps with testing, checking obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7484,11 +7484,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "using-superpowers",
-      "en": ""
+      "en": "using-superpowers"
     },
     "description": {
       "zh": "用于辅助 Superpowers 能力使用的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7504,11 +7504,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "verification-before-completion",
-      "en": ""
+      "en": "verification-before-completion"
     },
     "description": {
       "zh": "用于辅助 完成前验证的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7524,11 +7524,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "writing-plans",
-      "en": ""
+      "en": "writing-plans"
     },
     "description": {
       "zh": "用于创建和配置 writing plans，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring obra, superpowers, SKILL.md for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -7544,11 +7544,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "writing-skills",
-      "en": ""
+      "en": "writing-skills"
     },
     "description": {
       "zh": "用于辅助 writing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling obra, superpowers, SKILL.md for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7564,11 +7564,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ab-test-analysis",
-      "en": ""
+      "en": "ab-test-analysis"
     },
     "description": {
       "zh": "用于编写、检查或解释 A/B 测试测试。",
-      "en": ""
+      "en": "Helps with testing, checking phuryn, pm-skills, ab-test-analysis for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7584,11 +7584,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "analyze-feature-requests",
-      "en": ""
+      "en": "analyze-feature-requests"
     },
     "description": {
       "zh": "用于规划 功能请求分析，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with analyzing, planning phuryn, pm-skills, analyze-feature-requests for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7604,11 +7604,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ansoff-matrix",
-      "en": ""
+      "en": "ansoff-matrix"
     },
     "description": {
       "zh": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, ansoff-matrix for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7624,11 +7624,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "beachhead-segment",
-      "en": ""
+      "en": "beachhead-segment"
     },
     "description": {
       "zh": "用于规划 beachhead segment，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, beachhead-segment for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7644,11 +7644,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorm-experiments-existing",
-      "en": ""
+      "en": "brainstorm-experiments-existing"
     },
     "description": {
       "zh": "用于编写、检查或解释 已有实验头脑风暴测试。",
-      "en": ""
+      "en": "Helps with testing, checking phuryn, pm-skills, brainstorm-experiments-existing for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -7664,11 +7664,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorm-experiments-new",
-      "en": ""
+      "en": "brainstorm-experiments-new"
     },
     "description": {
       "zh": "用于辅助 新实验头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, brainstorm-experiments-new for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7684,11 +7684,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorm-ideas-existing",
-      "en": ""
+      "en": "brainstorm-ideas-existing"
     },
     "description": {
       "zh": "用于辅助 已有想法头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, brainstorm-ideas-existing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7704,11 +7704,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorm-ideas-new",
-      "en": ""
+      "en": "brainstorm-ideas-new"
     },
     "description": {
       "zh": "用于辅助 新想法头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, brainstorm-ideas-new for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7724,11 +7724,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "brainstorm-okrs",
-      "en": ""
+      "en": "brainstorm-okrs"
     },
     "description": {
       "zh": "用于辅助 brainstorm okrs的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, brainstorm-okrs for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7744,11 +7744,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "business-model",
-      "en": ""
+      "en": "business-model"
     },
     "description": {
       "zh": "用于创建和配置 产品策略，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, business-model for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -7764,11 +7764,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "cohort-analysis",
-      "en": ""
+      "en": "cohort-analysis"
     },
     "description": {
       "zh": "用于辅助 cohort analysis的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, cohort-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7784,11 +7784,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "competitive-battlecard",
-      "en": ""
+      "en": "competitive-battlecard"
     },
     "description": {
       "zh": "用于创建和配置 竞品战卡，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, competitive-battlecard for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7804,11 +7804,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "competitor-analysis",
-      "en": ""
+      "en": "competitor-analysis"
     },
     "description": {
       "zh": "用于分析和评估 competitor analysis，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, competitor-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7824,11 +7824,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "create-prd",
-      "en": ""
+      "en": "create-prd"
     },
     "description": {
       "zh": "用于创建和配置 create prd，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, create-prd for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7844,11 +7844,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "customer-journey-map",
-      "en": ""
+      "en": "customer-journey-map"
     },
     "description": {
       "zh": "用于梳理 客户旅程地图研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with phuryn, pm-skills, customer-journey-map in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7864,11 +7864,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "draft-nda",
-      "en": ""
+      "en": "draft-nda"
     },
     "description": {
       "zh": "用于辅助 draft nda的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, draft-nda for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7884,11 +7884,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "dummy-dataset",
-      "en": ""
+      "en": "dummy-dataset"
     },
     "description": {
       "zh": "用于创建和配置 dummy dataset，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, dummy-dataset for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7904,11 +7904,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "grammar-check",
-      "en": ""
+      "en": "grammar-check"
     },
     "description": {
       "zh": "用于辅助 grammar check的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, grammar-check for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7924,11 +7924,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "growth-loops",
-      "en": ""
+      "en": "growth-loops"
     },
     "description": {
       "zh": "用于优化 growth loops，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing phuryn, pm-skills, growth-loops for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7944,11 +7944,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gtm-motions",
-      "en": ""
+      "en": "gtm-motions"
     },
     "description": {
       "zh": "用于优化 gtm motions，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing phuryn, pm-skills, gtm-motions for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7964,11 +7964,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "gtm-strategy",
-      "en": ""
+      "en": "gtm-strategy"
     },
     "description": {
       "zh": "用于规划 gtm strategy，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, gtm-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -7984,11 +7984,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ideal-customer-profile",
-      "en": ""
+      "en": "ideal-customer-profile"
     },
     "description": {
       "zh": "用于辅助 理想客户画像的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, ideal-customer-profile for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8004,11 +8004,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "identify-assumptions-existing",
-      "en": ""
+      "en": "identify-assumptions-existing"
     },
     "description": {
       "zh": "用于优化 已有假设识别，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing phuryn, pm-skills, identify-assumptions-existing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8024,11 +8024,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "identify-assumptions-new",
-      "en": ""
+      "en": "identify-assumptions-new"
     },
     "description": {
       "zh": "用于优化 新假设识别，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing phuryn, pm-skills, identify-assumptions-new for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8044,11 +8044,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "interview-script",
-      "en": ""
+      "en": "interview-script"
     },
     "description": {
       "zh": "用于创建和配置 interview script，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, interview-script for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8064,11 +8064,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "job-stories",
-      "en": ""
+      "en": "job-stories"
     },
     "description": {
       "zh": "用于创建和配置 job stories，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, job-stories for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8084,11 +8084,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "lean-canvas",
-      "en": ""
+      "en": "lean-canvas"
     },
     "description": {
       "zh": "用于创建和配置 产品策略，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, lean-canvas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8104,11 +8104,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "market-segments",
-      "en": ""
+      "en": "market-segments"
     },
     "description": {
       "zh": "用于梳理 market segments研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with phuryn, pm-skills, market-segments in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8124,11 +8124,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "market-sizing",
-      "en": ""
+      "en": "market-sizing"
     },
     "description": {
       "zh": "用于辅助 market sizing的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, market-sizing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8144,11 +8144,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "marketing-ideas",
-      "en": ""
+      "en": "marketing-ideas"
     },
     "description": {
       "zh": "用于创建和配置 营销创意，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, marketing-ideas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8164,11 +8164,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "metrics-dashboard",
-      "en": ""
+      "en": "metrics-dashboard"
     },
     "description": {
       "zh": "用于辅助 指标看板的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, metrics-dashboard for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8184,11 +8184,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "monetization-strategy",
-      "en": ""
+      "en": "monetization-strategy"
     },
     "description": {
       "zh": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, monetization-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8204,11 +8204,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "north-star-metric",
-      "en": ""
+      "en": "north-star-metric"
     },
     "description": {
       "zh": "用于辅助 north star metric的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, north-star-metric for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8224,11 +8224,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "opportunity-solution-tree",
-      "en": ""
+      "en": "opportunity-solution-tree"
     },
     "description": {
       "zh": "用于创建和配置 机会解决方案树，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, opportunity-solution-tree for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8244,11 +8244,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "outcome-roadmap",
-      "en": ""
+      "en": "outcome-roadmap"
     },
     "description": {
       "zh": "用于规划 outcome roadmap，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, outcome-roadmap for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8264,11 +8264,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pestle-analysis",
-      "en": ""
+      "en": "pestle-analysis"
     },
     "description": {
       "zh": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, pestle-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8284,11 +8284,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "porters-five-forces",
-      "en": ""
+      "en": "porters-five-forces"
     },
     "description": {
       "zh": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, porters-five-forces for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8304,11 +8304,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "positioning-ideas",
-      "en": ""
+      "en": "positioning-ideas"
     },
     "description": {
       "zh": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, positioning-ideas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8324,11 +8324,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pre-mortem",
-      "en": ""
+      "en": "pre-mortem"
     },
     "description": {
       "zh": "用于分析和评估 pre mortem，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, pre-mortem for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8344,11 +8344,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "pricing-strategy",
-      "en": ""
+      "en": "pricing-strategy"
     },
     "description": {
       "zh": "用于分析和评估 定价策略，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, pricing-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8364,11 +8364,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prioritization-frameworks",
-      "en": ""
+      "en": "prioritization-frameworks"
     },
     "description": {
       "zh": "用于规划 优先级决策，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, prioritization-frameworks for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8384,11 +8384,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prioritize-assumptions",
-      "en": ""
+      "en": "prioritize-assumptions"
     },
     "description": {
       "zh": "用于规划 假设优先级排序，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, prioritize-assumptions for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8404,11 +8404,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "prioritize-features",
-      "en": ""
+      "en": "prioritize-features"
     },
     "description": {
       "zh": "用于规划 prioritize features，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, prioritize-features for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8424,11 +8424,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "privacy-policy",
-      "en": ""
+      "en": "privacy-policy"
     },
     "description": {
       "zh": "用于辅助 privacy policy的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, privacy-policy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8444,11 +8444,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "product-name",
-      "en": ""
+      "en": "product-name"
     },
     "description": {
       "zh": "用于辅助 product name的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, product-name for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8464,11 +8464,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "product-strategy",
-      "en": ""
+      "en": "product-strategy"
     },
     "description": {
       "zh": "用于规划 产品策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, product-strategy for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8484,11 +8484,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "product-vision",
-      "en": ""
+      "en": "product-vision"
     },
     "description": {
       "zh": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, product-vision for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8504,11 +8504,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "release-notes",
-      "en": ""
+      "en": "release-notes"
     },
     "description": {
       "zh": "用于创建和配置 release notes，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, release-notes for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8524,11 +8524,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "retro",
-      "en": ""
+      "en": "retro"
     },
     "description": {
       "zh": "用于辅助 retro的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, retro for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8544,11 +8544,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "review-resume",
-      "en": ""
+      "en": "review-resume"
     },
     "description": {
       "zh": "用于提供 review resume 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with phuryn, pm-skills, review-resume in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8564,11 +8564,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sentiment-analysis",
-      "en": ""
+      "en": "sentiment-analysis"
     },
     "description": {
       "zh": "用于分析和评估 sentiment analysis，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, sentiment-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8584,11 +8584,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sprint-plan",
-      "en": ""
+      "en": "sprint-plan"
     },
     "description": {
       "zh": "用于规划 sprint plan，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, sprint-plan for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8604,11 +8604,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sql-queries",
-      "en": ""
+      "en": "sql-queries"
     },
     "description": {
       "zh": "用于创建和配置 sql queries，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, sql-queries for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8624,11 +8624,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "stakeholder-map",
-      "en": ""
+      "en": "stakeholder-map"
     },
     "description": {
       "zh": "用于规划 stakeholder map，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, stakeholder-map for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8644,11 +8644,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "startup-canvas",
-      "en": ""
+      "en": "startup-canvas"
     },
     "description": {
       "zh": "用于规划 产品策略，帮助用户明确方向、步骤和优先级。",
-      "en": ""
+      "en": "Helps with planning phuryn, pm-skills, startup-canvas for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -8664,11 +8664,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "summarize-interview",
-      "en": ""
+      "en": "summarize-interview"
     },
     "description": {
       "zh": "用于梳理 访谈总结研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with phuryn, pm-skills, summarize-interview in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8684,11 +8684,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "summarize-meeting",
-      "en": ""
+      "en": "summarize-meeting"
     },
     "description": {
       "zh": "用于辅助 会议总结的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, summarize-meeting for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8704,11 +8704,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "swot-analysis",
-      "en": ""
+      "en": "swot-analysis"
     },
     "description": {
       "zh": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing phuryn, pm-skills, swot-analysis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8724,11 +8724,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "test-scenarios",
-      "en": ""
+      "en": "test-scenarios"
     },
     "description": {
       "zh": "用于编写、检查或解释 测试场景测试。",
-      "en": ""
+      "en": "Helps with testing, checking phuryn, pm-skills, test-scenarios for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -8744,11 +8744,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-personas",
-      "en": ""
+      "en": "user-personas"
     },
     "description": {
       "zh": "用于创建和配置 user personas，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, user-personas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8764,11 +8764,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-segmentation",
-      "en": ""
+      "en": "user-segmentation"
     },
     "description": {
       "zh": "用于辅助 用户分群的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, user-segmentation for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8784,11 +8784,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "user-stories",
-      "en": ""
+      "en": "user-stories"
     },
     "description": {
       "zh": "用于创建和配置 user stories，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, user-stories for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8804,11 +8804,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "value-prop-statements",
-      "en": ""
+      "en": "value-prop-statements"
     },
     "description": {
       "zh": "用于创建和配置 价值主张表达，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, value-prop-statements for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8824,11 +8824,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "value-proposition",
-      "en": ""
+      "en": "value-proposition"
     },
     "description": {
       "zh": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling phuryn, pm-skills, value-proposition for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -8844,11 +8844,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "wwas",
-      "en": ""
+      "en": "wwas"
     },
     "description": {
       "zh": "用于创建和配置 wwas，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring phuryn, pm-skills, wwas for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8864,11 +8864,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "ad-angle-multiplier",
-      "en": ""
+      "en": "ad-angle-multiplier"
     },
     "description": {
       "zh": "用于编写、检查或解释 广告角度扩展测试。",
-      "en": ""
+      "en": "Helps with testing, checking realkimbarrett, advertising-skills, ad-angle-multiplier for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -8884,11 +8884,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "avatar-extraction",
-      "en": ""
+      "en": "avatar-extraction"
     },
     "description": {
       "zh": "用于辅助 用户画像提取的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling realkimbarrett, advertising-skills, avatar-extraction for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8904,11 +8904,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "conversion-path-builder",
-      "en": ""
+      "en": "conversion-path-builder"
     },
     "description": {
       "zh": "用于优化 转化路径设计，提升转化、搜索或运营效果。",
-      "en": ""
+      "en": "Helps with optimizing realkimbarrett, advertising-skills, conversion-path-builder for image and visual creation workflows."
     },
     "audience": "设计",
     "category": "图像",
@@ -8924,11 +8924,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "full-funnel-campaign-orchestrator",
-      "en": ""
+      "en": "full-funnel-campaign-orchestrator"
     },
     "description": {
       "zh": "用于创建和配置 全漏斗营销活动编排，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring realkimbarrett, advertising-skills, full-funnel-campaign-orchestrator for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8944,11 +8944,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "generic-language-killer",
-      "en": ""
+      "en": "generic-language-killer"
     },
     "description": {
       "zh": "用于辅助 泛泛表达优化的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling, optimizing realkimbarrett, advertising-skills, generic-language-killer for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8964,11 +8964,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "headline-matrix",
-      "en": ""
+      "en": "headline-matrix"
     },
     "description": {
       "zh": "用于创建和配置 headline matrix，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring realkimbarrett, advertising-skills, headline-matrix for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -8984,11 +8984,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "mechanism-builder",
-      "en": ""
+      "en": "mechanism-builder"
     },
     "description": {
       "zh": "用于辅助 营销机制设计的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling realkimbarrett, advertising-skills, mechanism-builder for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9004,11 +9004,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "objection-crusher",
-      "en": ""
+      "en": "objection-crusher"
     },
     "description": {
       "zh": "用于辅助 销售异议处理的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling realkimbarrett, advertising-skills, objection-crusher for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9024,11 +9024,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "offer-extraction",
-      "en": ""
+      "en": "offer-extraction"
     },
     "description": {
       "zh": "用于辅助 offer extraction的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling realkimbarrett, advertising-skills, offer-extraction for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9044,11 +9044,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "performance-diagnosis",
-      "en": ""
+      "en": "performance-diagnosis"
     },
     "description": {
       "zh": "用于分析和评估 performance diagnosis，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing realkimbarrett, advertising-skills, performance-diagnosis for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9064,11 +9064,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "schwartz-awareness-mapper",
-      "en": ""
+      "en": "schwartz-awareness-mapper"
     },
     "description": {
       "zh": "用于辅助 Schwartz 认知阶段映射的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling realkimbarrett, advertising-skills, schwartz-awareness-mapper for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9084,11 +9084,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "scroll-stopping-creative",
-      "en": ""
+      "en": "scroll-stopping-creative"
     },
     "description": {
       "zh": "用于创建和配置 吸引停留的创意内容，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring realkimbarrett, advertising-skills, scroll-stopping-creative for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9104,11 +9104,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "redis-development",
-      "en": ""
+      "en": "redis-development"
     },
     "description": {
       "zh": "用于提供 Redis 开发 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with redis, agent-skills, redis-development in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9124,11 +9124,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于辅助 React 开发的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling React, remotion-dev, skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9143,11 +9143,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "agent-email-inbox",
-      "en": ""
+      "en": "agent-email-inbox"
     },
     "description": {
       "zh": "用于撰写和优化 agent email inbox内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing resend, resend-skills, agent-email-inbox for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9163,11 +9163,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "email-best-practices",
-      "en": ""
+      "en": "email-best-practices"
     },
     "description": {
       "zh": "用于提供 email 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with resend, resend-skills, email-best-practices in AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9183,11 +9183,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "react-email",
-      "en": ""
+      "en": "react-email"
     },
     "description": {
       "zh": "用于撰写和优化 React 开发内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing React, resend, resend-skills, react-email for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9203,11 +9203,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "resend",
-      "en": ""
+      "en": "resend"
     },
     "description": {
       "zh": "用于撰写和优化 resend内容。",
-      "en": ""
+      "en": "Helps with optimizing, writing resend, resend-skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9222,11 +9222,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "resend-cli",
-      "en": ""
+      "en": "resend-cli"
     },
     "description": {
       "zh": "用于构建和优化 命令结构管理 工作流。",
-      "en": ""
+      "en": "Helps with managing, building, optimizing resend, resend-skills, resend-cli for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9242,11 +9242,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "deep-research",
-      "en": ""
+      "en": "deep-research"
     },
     "description": {
       "zh": "用于梳理 deep research研究，帮助用户形成可执行结论。",
-      "en": ""
+      "en": "Helps users work with sanjay3290, ai-skills, deep-research in research workflows."
     },
     "audience": "工作流",
     "category": "研究",
@@ -9262,11 +9262,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "imagen",
-      "en": ""
+      "en": "imagen"
     },
     "description": {
       "zh": "用于创建和配置 imagen，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring sanjay3290, ai-skills, imagen for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9282,11 +9282,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "postgres",
-      "en": ""
+      "en": "postgres"
     },
     "description": {
       "zh": "用于辅助 postgres的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling sanjay3290, ai-skills, postgres for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9302,11 +9302,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "sentry-skills",
-      "en": ""
+      "en": "sentry-skills"
     },
     "description": {
       "zh": "用于管理和配置 sentry，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring getsentry, skills for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9321,11 +9321,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "readme",
-      "en": ""
+      "en": "readme"
     },
     "description": {
       "zh": "用于创建和配置 readme，减少从零搭建的整理成本。",
-      "en": ""
+      "en": "Helps with creating, organizing, configuring shpigford, skills, readme for document workflows."
     },
     "audience": "工作流",
     "category": "文档",
@@ -9341,11 +9341,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "screenshots",
-      "en": ""
+      "en": "screenshots"
     },
     "description": {
       "zh": "用于编写、检查或解释 screenshots测试。",
-      "en": ""
+      "en": "Helps with testing, checking shpigford, skills, screenshots for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9361,11 +9361,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "Supabase skills",
-      "en": ""
+      "en": "Supabase skills"
     },
     "description": {
       "zh": "用于辅助 Supabase的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling supabase, agent-skills for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9380,11 +9380,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于辅助 Transloadit 文件处理的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling transloadit, skills for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9399,11 +9399,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-api-keys",
-      "en": ""
+      "en": "venice-api-keys"
     },
     "description": {
       "zh": "用于调用、集成或管理 venice api keys API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, veniceai, skills, venice-api-keys for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9419,11 +9419,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-api-overview",
-      "en": ""
+      "en": "venice-api-overview"
     },
     "description": {
       "zh": "用于调用、集成或管理 Venice API 概览 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, veniceai, skills, venice-api-overview for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9439,11 +9439,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-audio-music",
-      "en": ""
+      "en": "venice-audio-music"
     },
     "description": {
       "zh": "用于辅助 venice audio music的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-audio-music for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9459,11 +9459,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-audio-speech",
-      "en": ""
+      "en": "venice-audio-speech"
     },
     "description": {
       "zh": "用于辅助 venice audio speech的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-audio-speech for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9479,11 +9479,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-audio-transcription",
-      "en": ""
+      "en": "venice-audio-transcription"
     },
     "description": {
       "zh": "用于辅助 Venice 音频转写的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-audio-transcription for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9499,11 +9499,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-augment",
-      "en": ""
+      "en": "venice-augment"
     },
     "description": {
       "zh": "用于调用、集成或管理 venice augment API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, veniceai, skills, venice-augment for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9519,11 +9519,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-billing",
-      "en": ""
+      "en": "venice-billing"
     },
     "description": {
       "zh": "用于分析和评估 venice billing，帮助用户发现问题并做出判断。",
-      "en": ""
+      "en": "Helps with analyzing veniceai, skills, venice-billing for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9539,11 +9539,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-characters",
-      "en": ""
+      "en": "venice-characters"
     },
     "description": {
       "zh": "用于辅助 Venice 角色配置的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with configuring, calling veniceai, skills, venice-characters for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9559,11 +9559,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-chat",
-      "en": ""
+      "en": "venice-chat"
     },
     "description": {
       "zh": "用于辅助 venice chat的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-chat for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9579,11 +9579,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-crypto-rpc",
-      "en": ""
+      "en": "venice-crypto-rpc"
     },
     "description": {
       "zh": "用于辅助 venice crypto rpc的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-crypto-rpc for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9599,11 +9599,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-embeddings",
-      "en": ""
+      "en": "venice-embeddings"
     },
     "description": {
       "zh": "用于辅助 Venice 向量嵌入的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-embeddings for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9619,11 +9619,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-errors",
-      "en": ""
+      "en": "venice-errors"
     },
     "description": {
       "zh": "用于调用、集成或管理 venice errors API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, veniceai, skills, venice-errors for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9639,11 +9639,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-image-edit",
-      "en": ""
+      "en": "venice-image-edit"
     },
     "description": {
       "zh": "用于辅助 venice image edit的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-image-edit for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9659,11 +9659,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-image-generate",
-      "en": ""
+      "en": "venice-image-generate"
     },
     "description": {
       "zh": "用于辅助 Venice 图像生成的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with generating, calling veniceai, skills, venice-image-generate for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9679,11 +9679,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-models",
-      "en": ""
+      "en": "venice-models"
     },
     "description": {
       "zh": "用于辅助 venice models的 Agent 工作流，帮助用户快速调用对应能力。",
-      "en": ""
+      "en": "Helps with calling veniceai, skills, venice-models for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9699,11 +9699,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-responses",
-      "en": ""
+      "en": "venice-responses"
     },
     "description": {
       "zh": "用于调用、集成或管理 Venice 响应接口 API 与服务。",
-      "en": ""
+      "en": "Helps with managing, calling, integrating API, veniceai, skills, venice-responses for development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9719,11 +9719,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "venice-video",
-      "en": ""
+      "en": "venice-video"
     },
     "description": {
       "zh": "用于构建和优化 venice video 工作流。",
-      "en": ""
+      "en": "Helps with building, optimizing veniceai, skills, venice-video for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
@@ -9739,11 +9739,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "agent-skills",
-      "en": ""
+      "en": "agent-skills"
     },
     "description": {
       "zh": "用于提供 React 开发 的最佳实践和规范建议。",
-      "en": ""
+      "en": "Helps users work with React, vercel-labs, agent-skills in development workflows."
     },
     "audience": "开发",
     "category": "开发",
@@ -9758,11 +9758,11 @@ window.skillsData = [
   {
     "name": {
       "zh": "skills",
-      "en": ""
+      "en": "skills"
     },
     "description": {
       "zh": "用于管理和配置 specific skills use，辅助完成相关开发或运维任务。",
-      "en": ""
+      "en": "Helps with managing, configuring vercel-labs, skills for AI agent workflows."
     },
     "audience": "工作流",
     "category": "工作流",
