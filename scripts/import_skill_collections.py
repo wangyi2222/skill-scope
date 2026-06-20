@@ -267,24 +267,6 @@ def infer_category(item: dict) -> str:
     return "工作流"
 
 
-def infer_platforms(item: dict) -> list[str]:
-    text = " ".join(str(item.get(key) or "") for key in ("name", "description", "link", "source_collection")).lower()
-    platforms = []
-    if "anthropic" in text or "claude" in text:
-        platforms.append("Claude")
-    if "copilot" in text or "github/awesome-copilot" in text:
-        platforms.append("Copilot")
-    if "codex" in text:
-        platforms.append("Codex")
-    if "cursor" in text:
-        platforms.append("Cursor")
-    if "gemini" in text or "google/skills" in text:
-        platforms.append("Gemini")
-    if "antigravity" in text:
-        platforms.append("Antigravity")
-    return platforms or ["Claude"]
-
-
 def translate_description(item: dict) -> str:
     description = clean_text(str(item.get("description") or "").strip())
     name = str(item.get("name") or slug_from_url(str(item.get("link") or "")))
@@ -639,7 +621,7 @@ def score_item(item: dict) -> dict:
         reasons.append("链接包含 Skill/Agent 信号")
     if source in ("google/skills", "github/awesome-copilot"):
         score += 1
-        reasons.append("平台官方或半官方合集来源")
+        reasons.append("官方或半官方合集来源")
 
     risk, risk_reasons = risk_level(item)
     if risk != "low":
@@ -679,7 +661,6 @@ def build_card(item: dict) -> dict:
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
         "source": source_from_url(link),
         "category": category,
-        "platforms": infer_platforms(item),
         "tags": tags[:5],
         "github_url": link,
     }

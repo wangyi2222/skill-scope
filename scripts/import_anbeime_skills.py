@@ -245,20 +245,6 @@ def translate_description(description: str, name: str) -> str:
     return f"用于{text}。"
 
 
-def infer_platforms(link: str, name: str, description: str) -> list[str]:
-    text = f"{link} {name} {description}".lower()
-    platforms: list[str] = []
-    if "anthropics" in text or "claude" in text:
-        platforms.append("Claude")
-    if "codex" in text:
-        platforms.append("Codex")
-    if "cursor" in text:
-        platforms.append("Cursor")
-    if not platforms:
-        platforms.append("Claude")
-    return platforms
-
-
 def risk_level(item: dict) -> tuple[str, list[str]]:
     text = f"{item.get('name', '')} {item.get('description', '')} {item.get('category', '')}".lower()
     reasons = [pattern.strip(r"\b") for pattern in HIGH_RISK_PATTERNS if re.search(pattern, text)]
@@ -333,7 +319,6 @@ def build_card(item: dict) -> dict:
         "audience": AUDIENCE_BY_CATEGORY.get(category, "工作流"),
         "source": source_from_link(str(item.get("link") or "")),
         "category": category,
-        "platforms": infer_platforms(str(item.get("link") or ""), str(item.get("name") or ""), str(item.get("description") or "")),
         "tags": tags[:5],
         "github_url": str(item.get("link") or ""),
     }

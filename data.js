@@ -4,10 +4,6 @@ window.skillsData = [
     "description": "用于统一查看和整理 Claude Code 与 Codex CLI 本地会话记录的可视化工具。",
     "audience": "开发",
     "category": "工作流",
-    "platforms": [
-      "Claude",
-      "Codex"
-    ],
     "tags": [
       "api",
       "codex",
@@ -23,9 +19,6 @@ window.skillsData = [
     "description": "用于在 Visual Studio Code 中快速生成和管理 STM32 调试配置的扩展工具。",
     "audience": "开发",
     "category": "嵌入式",
-    "platforms": [
-      "stm32"
-    ],
     "tags": [
       "openocd",
       "stm32",
@@ -41,9 +34,6 @@ window.skillsData = [
     "description": "用于嵌入式开发的一体化工具，集成固件烧录、源码级调试、RTT 输出、串口终端和 BLE 调试能力。",
     "audience": "开发",
     "category": "嵌入式",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "嵌入式",
       "调试器",
@@ -63,12 +53,6 @@ window.skillsData = [
     "description": "用于统一管理 Claude Code、Claude Desktop、Codex、Gemini CLI 等多种 Agent 与客户端配置的切换工具。",
     "audience": "开发",
     "category": "工作流",
-    "platforms": [
-      "Claude",
-      "Codex",
-      "Cursor",
-      "Gemini"
-    ],
     "tags": [
       "claude",
       "api",
@@ -84,10 +68,6 @@ window.skillsData = [
     "description": "用于为 AI Agent 提供个性化学习辅导能力，支持围绕学习目标组织资料、任务和反馈流程。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude",
-      "Codex"
-    ],
     "tags": [
       "学习",
       "Agent",
@@ -102,9 +82,6 @@ window.skillsData = [
     "description": "用于辅助中文学位论文写作，结合 LaTeX 模板和 Claude 写作 Skill 完成格式检查、配图和定稿复盘。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "LaTeX",
       "论文写作",
@@ -119,10 +96,6 @@ window.skillsData = [
     "description": "用于构建多端可用的大模型工作台，将桌面端、移动端和 Web 端的 AI 使用流程统一到同一套应用中。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude",
-      "Gemini"
-    ],
     "tags": [
       "多端",
       "大模型",
@@ -138,11 +111,6 @@ window.skillsData = [
     "description": "用于让 AI Agent 先调查、抓主要矛盾并在实践中验证结果，适合构建更稳健的问题分析和任务执行工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude",
-      "Codex",
-      "Cursor"
-    ],
     "tags": [
       "方法论",
       "Agent",
@@ -158,9 +126,6 @@ window.skillsData = [
     "description": "用于创建、读取、编辑和整理 Word 文档，适合处理报告、信件、模板、目录、页码、批注和图文排版等 .docx 场景。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "DOCX",
       "Word",
@@ -175,9 +140,6 @@ window.skillsData = [
     "description": "用于创建、读取、编辑和整理演示文稿，适合处理幻灯片、模板、讲稿、备注、提取内容和生成演示文件等 .pptx 场景。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "PPTX",
       "幻灯片",
@@ -192,9 +154,6 @@ window.skillsData = [
     "description": "用于读取、清洗、编辑和生成电子表格，适合处理 Excel、CSV、TSV、公式、图表、格式整理和表格数据转换。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "XLSX",
       "Excel",
@@ -209,9 +168,6 @@ window.skillsData = [
     "description": "用于读取、拆分、合并、旋转、加水印、填表、加密和 OCR 处理 PDF，适合各类 PDF 文档分析与加工场景。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "PDF",
       "OCR",
@@ -226,9 +182,6 @@ window.skillsData = [
     "description": "用于大学英语六级翻译训练的 AI 批改 Skill，提供评分、逐句点评和翻译思路反馈。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "CET6",
       "翻译",
@@ -243,7 +196,6 @@ window.skillsData = [
     "description": "用于自动抓取高校网站通知公告，并通过邮件、钉钉、飞书等渠道推送，适合校园信息自动化提醒场景。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [],
     "tags": [
       "爬虫",
       "通知推送",
@@ -258,9 +210,6 @@ window.skillsData = [
     "description": "用于把考研教材内容转换成逐页填空题卡，并根据反馈安排后续复习，适合本地化备考训练。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Codex"
-    ],
     "tags": [
       "考研",
       "间隔复习",
@@ -275,12 +224,6 @@ window.skillsData = [
     "description": "用于嵌入式开发的多 Agent 工作流 Skill，覆盖 STM32、GD32、MSPM0、电赛和分层架构规范等工程场景。",
     "audience": "开发",
     "category": "嵌入式",
-    "platforms": [
-      "Claude",
-      "Codex",
-      "Cursor",
-      "Gemini"
-    ],
     "tags": [
       "嵌入式",
       "STM32",
@@ -295,10 +238,6 @@ window.skillsData = [
     "description": "用于规范 AI 编程流程的 Trellis 工作流配置，帮助减少上下文漂移和编程幻觉。",
     "audience": "开发",
     "category": "工作流",
-    "platforms": [
-      "Claude",
-      "Codex"
-    ],
     "tags": [
       "Trellis",
       "编程工作流",
@@ -313,9 +252,6 @@ window.skillsData = [
     "description": "用于让 Claude 通过 MCP 创建、修改和仿真 MATLAB Simulink 模型，适合控制、仿真和模型驱动开发场景。",
     "audience": "开发",
     "category": "嵌入式",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "Simulink",
       "MATLAB",
@@ -330,11 +266,6 @@ window.skillsData = [
     "description": "用于通过 Agent 自动化 SolidWorks 零件建模、装配、工程图、导出和本地 MCP 工具调用。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude",
-      "Codex",
-      "Cursor"
-    ],
     "tags": [
       "SolidWorks",
       "CAD",
@@ -349,9 +280,6 @@ window.skillsData = [
     "description": "用于把自然语言电路描述转换成可在 NI Multisim 打开的 SPICE 网表，并通过 ngspice 自检。",
     "audience": "开发",
     "category": "嵌入式",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "Multisim",
       "SPICE",
@@ -366,9 +294,6 @@ window.skillsData = [
     "description": "用于基于 p5.js 和随机种子创建生成式艺术。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -383,9 +308,6 @@ window.skillsData = [
     "description": "用于创建 MCP 服务，把外部 API 和服务接入 Agent 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -400,9 +322,6 @@ window.skillsData = [
     "description": "用于创建适合 Slack 体积限制的动画 GIF。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -417,9 +336,6 @@ window.skillsData = [
     "description": "用于使用 React 和 Tailwind 构建 Claude HTML 交互作品。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -434,9 +350,6 @@ window.skillsData = [
     "description": "用于为 Better Auth 集成提供最佳实践。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -451,9 +364,6 @@ window.skillsData = [
     "description": "用于基于 Better Auth 创建认证配置。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -468,9 +378,6 @@ window.skillsData = [
     "description": "用于在 Cloudflare 上构建具备状态管理和实时通信能力的 AI Agent。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cloudflare",
       "skills",
@@ -485,9 +392,6 @@ window.skillsData = [
     "description": "用于在 Cloudflare 上构建支持工具调用和 OAuth 的远程 MCP 服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cloudflare",
       "skills",
@@ -502,9 +406,6 @@ window.skillsData = [
     "description": "用于部署和管理 Cloudflare Workers、KV、R2、D1、Vectorize、Queues 与工作流资源。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cloudflare",
       "skills",
@@ -519,9 +420,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 n8n MCP 工具 API 与服务。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -536,9 +434,6 @@ window.skillsData = [
     "description": "用于构建和优化 n8n 工作流。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -553,9 +448,6 @@ window.skillsData = [
     "description": "用于创建和维护 DESIGN.md 设计说明文件。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "google-labs-code",
       "stitch-skills",
@@ -570,9 +462,6 @@ window.skillsData = [
     "description": "用于创建和管理 Hugging Face 数据集，并支持配置和 SQL 查询。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -587,9 +476,6 @@ window.skillsData = [
     "description": "用于构建可复用的 Hugging Face API 操作脚本。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -604,9 +490,6 @@ window.skillsData = [
     "description": "用于设计可扩展的 Sanity 内容模型。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanity-io",
       "agent-toolkit",
@@ -621,9 +504,6 @@ window.skillsData = [
     "description": "用于为 Sanity Studio、GROQ 查询和内容工作流提供最佳实践。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanity-io",
       "agent-toolkit",
@@ -638,9 +518,6 @@ window.skillsData = [
     "description": "用于为 Stripe 集成开发提供最佳实践。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "stripe",
       "ai",
@@ -655,9 +532,6 @@ window.skillsData = [
     "description": "用于为 Supabase PostgreSQL 项目提供数据库最佳实践建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "supabase",
       "agent-skills",
@@ -672,9 +546,6 @@ window.skillsData = [
     "description": "用于为 Next.js 项目提供最佳实践和推荐模式。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "next-skills",
@@ -689,9 +560,6 @@ window.skillsData = [
     "description": "用于为 React 项目提供最佳实践和常用模式指导。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "agent-skills",
@@ -706,9 +574,6 @@ window.skillsData = [
     "description": "用于提供网页设计规范和视觉标准指导。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "agent-skills",
@@ -723,9 +588,6 @@ window.skillsData = [
     "description": "用于设计并输出 PNG 和 PDF 格式的视觉作品。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -740,9 +602,6 @@ window.skillsData = [
     "description": "用于协作文档编辑和共同写作，帮助多人围绕同一文档进行内容组织、修改建议和版本协同。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -757,9 +616,6 @@ window.skillsData = [
     "description": "用于辅助前端界面设计和 UI/UX 开发。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -774,9 +630,6 @@ window.skillsData = [
     "description": "用于为作品应用专业主题或生成自定义主题。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -791,9 +644,6 @@ window.skillsData = [
     "description": "用于通过 Playwright 检查和测试本地 Web 应用。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "anthropics",
       "skills",
@@ -808,9 +658,6 @@ window.skillsData = [
     "description": "用于查询和使用 Better Auth CLI 命令。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -825,9 +672,6 @@ window.skillsData = [
     "description": "用于查询和使用 Cloudflare 命令行相关能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cloudflare",
       "skills",
@@ -842,9 +686,6 @@ window.skillsData = [
     "description": "用于审查 Core Web Vitals 和阻塞渲染资源。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cloudflare",
       "skills",
@@ -859,9 +700,6 @@ window.skillsData = [
     "description": "用于构建和优化 n8n JavaScript 代码节点 工作流。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -876,9 +714,6 @@ window.skillsData = [
     "description": "用于构建和优化 n8n Python 代码节点 工作流。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -893,9 +728,6 @@ window.skillsData = [
     "description": "用于构建和优化 n8n 表达式语法 工作流。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -910,9 +742,6 @@ window.skillsData = [
     "description": "用于辅助 n8n 节点配置的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -927,9 +756,6 @@ window.skillsData = [
     "description": "用于构建和优化 n8n 校验错误修复 工作流。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -944,9 +770,6 @@ window.skillsData = [
     "description": "用于生成串联 AI 模型的工作流 JSON。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "fal-ai-community",
       "skills",
@@ -961,9 +784,6 @@ window.skillsData = [
     "description": "用于执行代码审查，帮助发现实现风险、潜在缺陷和需要补充验证的代码改动。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "getsentry",
       "skills",
@@ -978,9 +798,6 @@ window.skillsData = [
     "description": "用于在代码中定位和识别缺陷，帮助分析异常行为、错误来源和需要修复的实现问题。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "getsentry",
       "skills",
@@ -995,9 +812,6 @@ window.skillsData = [
     "description": "用于把 Stitch 设计结果转换为 React 组件。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "google-labs-code",
       "stitch-skills",
@@ -1012,9 +826,6 @@ window.skillsData = [
     "description": "用于操作 Hugging Face Hub 的模型、数据集、仓库和计算任务。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -1029,9 +840,6 @@ window.skillsData = [
     "description": "用于使用 vLLM、lighteval 和评测表进行模型评估。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -1046,9 +854,6 @@ window.skillsData = [
     "description": "用于在 Hugging Face 基础设施上运行计算任务和 Python 脚本。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -1063,9 +868,6 @@ window.skillsData = [
     "description": "用于基于 TRL 进行 SFT、DPO、GRPO 训练和 GGUF 转换。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -1080,9 +882,6 @@ window.skillsData = [
     "description": "用于管理和配置 Git worktree 多工作区，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -1097,9 +896,6 @@ window.skillsData = [
     "description": "用于基于 React 进行程序化视频创作。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "remotion-dev",
       "skills",
@@ -1114,9 +910,6 @@ window.skillsData = [
     "description": "用于辅助升级 Stripe SDK 和 API 版本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "stripe",
       "ai",
@@ -1131,9 +924,6 @@ window.skillsData = [
     "description": "用于指导 React 组件组合和可复用模式。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "agent-skills",
@@ -1148,9 +938,6 @@ window.skillsData = [
     "description": "用于处理 Next.js 缓存策略和缓存感知组件设计。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "next-skills",
@@ -1165,9 +952,6 @@ window.skillsData = [
     "description": "用于辅助 Next.js 项目升级到新版本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "next-skills",
@@ -1182,9 +966,6 @@ window.skillsData = [
     "description": "用于辅助把项目部署到 Vercel。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "agent-skills",
@@ -1199,9 +980,6 @@ window.skillsData = [
     "description": "用于提供 Better Auth 认证 的最佳实践和规范建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -1216,9 +994,6 @@ window.skillsData = [
     "description": "用于创建和配置 Better Auth 认证，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -1233,9 +1008,6 @@ window.skillsData = [
     "description": "用于撰写和优化 Better Auth 认证内容。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -1250,9 +1022,6 @@ window.skillsData = [
     "description": "用于创建和配置 Gemini Enterprise Skill 注册表，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1267,9 +1036,6 @@ window.skillsData = [
     "description": "用于管理和配置 AlloyDB 数据库资源，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1284,9 +1050,6 @@ window.skillsData = [
     "description": "用于分析和评估 BigQuery 数据分析资源，帮助用户发现问题并做出判断。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1301,9 +1064,6 @@ window.skillsData = [
     "description": "用于管理和配置 Cloud Run 服务，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1318,9 +1078,6 @@ window.skillsData = [
     "description": "用于创建和配置 Cloud SQL 资源，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1335,9 +1092,6 @@ window.skillsData = [
     "description": "用于辅助 Firebase 产品与服务的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1352,9 +1106,6 @@ window.skillsData = [
     "description": "用于管理和配置 Gemini Agent 资源，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1369,9 +1120,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 Gemini API API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1386,9 +1134,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 Gemini 交互 API API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1403,9 +1148,6 @@ window.skillsData = [
     "description": "用于规划 GKE 集群，帮助用户明确方向、步骤和优先级。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1420,9 +1162,6 @@ window.skillsData = [
     "description": "用于分析和评估 Google Cloud 网络观测，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1437,9 +1176,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 新手上手，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1454,9 +1190,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 成本优化，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1471,9 +1204,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 运维卓越，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1488,9 +1218,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 性能优化，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1505,9 +1232,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 可靠性，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1522,9 +1246,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 安全，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1539,9 +1260,6 @@ window.skillsData = [
     "description": "用于创建和配置 Google Cloud 可持续性，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "google",
       "skills",
@@ -1556,9 +1274,6 @@ window.skillsData = [
     "description": "用于创建和配置 命令结构管理，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -1573,9 +1288,6 @@ window.skillsData = [
     "description": "用于辅助 Better Auth 认证的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -1590,9 +1302,6 @@ window.skillsData = [
     "description": "用于提供 Sanity 内容平台 的最佳实践和规范建议。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanity-io",
       "agent-toolkit",
@@ -1607,9 +1316,6 @@ window.skillsData = [
     "description": "用于提供 Sanity 内容平台 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanity-io",
       "agent-toolkit",
@@ -1624,9 +1330,6 @@ window.skillsData = [
     "description": "用于撰写和优化 Sanity 内容平台内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanity-io",
       "agent-toolkit",
@@ -1641,9 +1344,6 @@ window.skillsData = [
     "description": "用于提供 SwiftUI 开发 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "avdlee",
       "swiftui-agent-skill",
@@ -1658,9 +1358,6 @@ window.skillsData = [
     "description": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "better-auth",
       "skills",
@@ -1674,9 +1371,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 A/B 测试测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1691,9 +1385,6 @@ window.skillsData = [
     "description": "用于创建和配置 ad creative，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1708,9 +1399,6 @@ window.skillsData = [
     "description": "用于撰写和优化 ai seo内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1725,9 +1413,6 @@ window.skillsData = [
     "description": "用于分析和评估 数据分析埋点，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1742,9 +1427,6 @@ window.skillsData = [
     "description": "用于创建和配置 用户流失预防，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1759,9 +1441,6 @@ window.skillsData = [
     "description": "用于撰写和优化 B2B 冷邮件内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1776,9 +1455,6 @@ window.skillsData = [
     "description": "用于创建和配置 竞品对比页面，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1793,9 +1469,6 @@ window.skillsData = [
     "description": "用于规划 内容策略，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1810,9 +1483,6 @@ window.skillsData = [
     "description": "用于撰写和优化 营销文案编辑内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1827,9 +1497,6 @@ window.skillsData = [
     "description": "用于撰写和优化 营销文案写作内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1844,9 +1511,6 @@ window.skillsData = [
     "description": "用于撰写和优化 邮件序列内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1861,9 +1525,6 @@ window.skillsData = [
     "description": "用于优化 表单转化优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1878,9 +1539,6 @@ window.skillsData = [
     "description": "用于规划 免费工具增长策略，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1895,9 +1553,6 @@ window.skillsData = [
     "description": "用于规划 产品发布策略，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1912,9 +1567,6 @@ window.skillsData = [
     "description": "用于创建和配置 营销创意，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1929,9 +1581,6 @@ window.skillsData = [
     "description": "用于撰写和优化 营销心理学内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1946,9 +1595,6 @@ window.skillsData = [
     "description": "用于优化 用户激活流程优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1963,9 +1609,6 @@ window.skillsData = [
     "description": "用于优化 页面转化率优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1980,9 +1623,6 @@ window.skillsData = [
     "description": "用于创建和配置 付费广告，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -1997,9 +1637,6 @@ window.skillsData = [
     "description": "用于优化 付费升级转化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2014,9 +1651,6 @@ window.skillsData = [
     "description": "用于创建和配置 弹窗转化优化，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2031,9 +1665,6 @@ window.skillsData = [
     "description": "用于规划 定价策略，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2048,9 +1679,6 @@ window.skillsData = [
     "description": "用于创建和配置 产品营销上下文，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2065,9 +1693,6 @@ window.skillsData = [
     "description": "用于撰写和优化 程序化 SEO内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2082,9 +1707,6 @@ window.skillsData = [
     "description": "用于优化 推荐与联盟计划，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2099,9 +1721,6 @@ window.skillsData = [
     "description": "用于辅助 收入运营的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2116,9 +1735,6 @@ window.skillsData = [
     "description": "用于撰写和优化 销售赋能材料内容。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2133,9 +1749,6 @@ window.skillsData = [
     "description": "用于优化 结构化数据标记，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2150,9 +1763,6 @@ window.skillsData = [
     "description": "用于分析和评估 SEO 审计，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2167,9 +1777,6 @@ window.skillsData = [
     "description": "用于优化 注册流程转化优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2184,9 +1791,6 @@ window.skillsData = [
     "description": "用于规划 网站信息架构，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2201,9 +1805,6 @@ window.skillsData = [
     "description": "用于撰写和优化 社交媒体内容内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "coreyhaines31",
       "marketingskills",
@@ -2218,9 +1819,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 Cypress 测试编写测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cypress-io",
       "ai-toolkit",
@@ -2235,9 +1833,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 Cypress 文档检索测试。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cypress-io",
       "ai-toolkit",
@@ -2252,9 +1847,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 Cypress 测试解释测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "cypress-io",
       "ai-toolkit",
@@ -2269,10 +1861,6 @@ window.skillsData = [
     "description": "用于创建和配置 n8n，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude",
-      "Antigravity"
-    ],
     "tags": [
       "czlonkowski",
       "n8n-skills",
@@ -2286,9 +1874,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 获客渠道评估测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2303,9 +1888,6 @@ window.skillsData = [
     "description": "用于分析和评估 AI 转型准备度评估，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2320,9 +1902,6 @@ window.skillsData = [
     "description": "用于辅助 产品管理层级转型的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2337,9 +1916,6 @@ window.skillsData = [
     "description": "用于分析和评估 公司与竞品研究，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2354,9 +1930,6 @@ window.skillsData = [
     "description": "用于分析和评估 上下文工程诊断，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2371,9 +1944,6 @@ window.skillsData = [
     "description": "用于优化 客户旅程地图，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2388,9 +1958,6 @@ window.skillsData = [
     "description": "用于梳理 客户旅程地图研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2405,9 +1972,6 @@ window.skillsData = [
     "description": "用于优化 产品负责人晋升准备，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2422,9 +1986,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 用户访谈准备测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2439,9 +2000,6 @@ window.skillsData = [
     "description": "用于梳理 产品发现流程研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2456,9 +2014,6 @@ window.skillsData = [
     "description": "用于辅助 产品下线沟通的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2473,9 +2028,6 @@ window.skillsData = [
     "description": "用于辅助 史诗任务拆分的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2490,9 +2042,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 产品假设设计测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2507,9 +2056,6 @@ window.skillsData = [
     "description": "用于分析和评估 高管入职诊断，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2524,9 +2070,6 @@ window.skillsData = [
     "description": "用于分析和评估 功能投资评估，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2541,9 +2084,6 @@ window.skillsData = [
     "description": "用于分析和评估 财务视角定价评估，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2558,9 +2098,6 @@ window.skillsData = [
     "description": "用于辅助 SaaS 财务指标的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2575,9 +2112,6 @@ window.skillsData = [
     "description": "用于梳理 JTBD 用户目标分析研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2592,9 +2126,6 @@ window.skillsData = [
     "description": "用于规划 Lean UX 假设画布，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2609,9 +2140,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 机会解决方案树测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2626,9 +2154,6 @@ window.skillsData = [
     "description": "用于分析和评估 PESTEL 外部环境分析，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2643,9 +2168,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 轻量验证实验测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2660,9 +2182,6 @@ window.skillsData = [
     "description": "用于辅助 轻量验证实验的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2677,9 +2196,6 @@ window.skillsData = [
     "description": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2694,9 +2210,6 @@ window.skillsData = [
     "description": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2711,9 +2224,6 @@ window.skillsData = [
     "description": "用于辅助 PRD 编写流程的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2728,9 +2238,6 @@ window.skillsData = [
     "description": "用于辅助 未来新闻稿的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2745,9 +2252,6 @@ window.skillsData = [
     "description": "用于规划 优先级决策，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2762,9 +2266,6 @@ window.skillsData = [
     "description": "用于辅助 问题框定的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2779,9 +2280,6 @@ window.skillsData = [
     "description": "用于梳理 问题陈述研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2796,9 +2294,6 @@ window.skillsData = [
     "description": "用于规划 产品定位，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2813,9 +2308,6 @@ window.skillsData = [
     "description": "用于创建和配置 假设用户画像，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2830,9 +2322,6 @@ window.skillsData = [
     "description": "用于辅助 AI 推荐方案画布的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2847,9 +2336,6 @@ window.skillsData = [
     "description": "用于规划 路线图规划，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2864,9 +2350,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 SaaS 单位经济模型 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2881,9 +2364,6 @@ window.skillsData = [
     "description": "用于辅助 SaaS 收入增长指标的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2898,9 +2378,6 @@ window.skillsData = [
     "description": "用于撰写和优化 Skill 编写流程内容。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2915,9 +2392,6 @@ window.skillsData = [
     "description": "用于梳理 用户旅程故事板研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2932,9 +2406,6 @@ window.skillsData = [
     "description": "用于辅助 市场规模测算的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2949,9 +2420,6 @@ window.skillsData = [
     "description": "用于撰写和优化 用户故事内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2966,9 +2434,6 @@ window.skillsData = [
     "description": "用于构建和优化 用户故事地图 工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -2983,9 +2448,6 @@ window.skillsData = [
     "description": "用于辅助 用户故事地图的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -3000,9 +2462,6 @@ window.skillsData = [
     "description": "用于辅助 用户故事的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -3017,9 +2476,6 @@ window.skillsData = [
     "description": "用于梳理 vp cpo readiness研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -3034,9 +2490,6 @@ window.skillsData = [
     "description": "用于辅助 工作坊引导的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "deanpeters",
       "product-manager-skills",
@@ -3051,9 +2504,6 @@ window.skillsData = [
     "description": "用于提供 SwiftUI 开发 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "efremidze",
       "swift-patterns-skill",
@@ -3068,9 +2518,6 @@ window.skillsData = [
     "description": "用于构建和优化 Expo 官方 Skill 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "expo",
       "skills",
@@ -3084,9 +2531,6 @@ window.skillsData = [
     "description": "用于把 Firecrawl 网页抓取能力接入 Agent 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "firecrawl",
       "cli",
@@ -3101,9 +2545,6 @@ window.skillsData = [
     "description": "用于辅助 firecrawl cli的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "firecrawl",
       "cli",
@@ -3118,9 +2559,6 @@ window.skillsData = [
     "description": "用于撰写和优化 Firecrawl 网页抓取内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "firecrawl",
       "cli",
@@ -3135,9 +2573,6 @@ window.skillsData = [
     "description": "用于辅助 firecrawl search的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "firecrawl",
       "cli",
@@ -3152,9 +2587,6 @@ window.skillsData = [
     "description": "用于创建和配置 automate whatsapp，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "自动化",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "gokapso",
       "agent-skills",
@@ -3169,9 +2601,6 @@ window.skillsData = [
     "description": "用于撰写和优化 WhatsApp 集成内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "gokapso",
       "agent-skills",
@@ -3186,9 +2615,6 @@ window.skillsData = [
     "description": "用于创建和配置 评审界面搭建，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3203,9 +2629,6 @@ window.skillsData = [
     "description": "用于辅助 error analysis的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3220,9 +2643,6 @@ window.skillsData = [
     "description": "用于分析和评估 eval audit，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3237,9 +2657,6 @@ window.skillsData = [
     "description": "用于分析和评估 evaluate rag，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3254,9 +2671,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 合成数据生成测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3271,9 +2685,6 @@ window.skillsData = [
     "description": "用于辅助 评估器校验的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3288,9 +2699,6 @@ window.skillsData = [
     "description": "用于辅助 write judge prompt的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "hamelsmu",
       "prompts",
@@ -3305,9 +2713,6 @@ window.skillsData = [
     "description": "用于辅助 Hugging Face的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "huggingface",
       "skills",
@@ -3321,9 +2726,6 @@ window.skillsData = [
     "description": "用于分析和评估 upskill，帮助用户发现问题并做出判断。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "huggingface",
       "upskill",
@@ -3337,9 +2739,6 @@ window.skillsData = [
     "description": "用于辅助 kreuzberg的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "kreuzberg-dev",
       "kreuzberg",
@@ -3353,9 +2752,6 @@ window.skillsData = [
     "description": "用于优化 skills Matteo Collina，提升转化、搜索或运营效果。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "mcollina",
       "skills",
@@ -3369,9 +2765,6 @@ window.skillsData = [
     "description": "用于分析和评估 上下文工程诊断，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3386,9 +2779,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3403,9 +2793,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3420,9 +2807,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3437,9 +2821,6 @@ window.skillsData = [
     "description": "用于创建和配置 上下文工程诊断，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3454,9 +2835,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3471,9 +2849,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3488,9 +2863,6 @@ window.skillsData = [
     "description": "用于创建和配置 上下文工程诊断，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "muratcankoylan",
       "agent-skills-for-context-engineering",
@@ -3505,9 +2877,6 @@ window.skillsData = [
     "description": "用于提供 上下文工程诊断 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "neolabhq",
       "context-engineering-kit",
@@ -3522,9 +2891,6 @@ window.skillsData = [
     "description": "用于辅助 上下文工程诊断的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "neolabhq",
       "context-engineering-kit",
@@ -3539,9 +2905,6 @@ window.skillsData = [
     "description": "用于构建和优化 agent 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "neondatabase",
       "agent-skills",
@@ -3555,9 +2918,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 cudaq guide测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3572,9 +2932,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 cuOpt 开发测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3589,9 +2946,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 命令结构管理 API 与服务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3606,9 +2960,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 数值优化 API API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3623,9 +2974,6 @@ window.skillsData = [
     "description": "用于辅助 数值优化 API的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3640,9 +2988,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 数值优化 API API 与服务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3657,9 +3002,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 cuopt routing api python API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3674,9 +3016,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 cuopt server api python API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3691,9 +3030,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 cuopt server common API 与服务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3708,9 +3044,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 cuopt user rules API 与服务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3725,9 +3058,6 @@ window.skillsData = [
     "description": "用于优化 数值优化建模，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3742,9 +3072,6 @@ window.skillsData = [
     "description": "用于辅助 路径规划建模的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3759,9 +3086,6 @@ window.skillsData = [
     "description": "用于辅助 evolution的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3776,9 +3100,6 @@ window.skillsData = [
     "description": "用于辅助 dali dynamic mode的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3793,9 +3114,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 DeepStream 开发 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3810,9 +3128,6 @@ window.skillsData = [
     "description": "用于构建和优化 DeepStream 视觉模型导入 工作流。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3827,9 +3142,6 @@ window.skillsData = [
     "description": "用于辅助 adding model support的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3844,9 +3156,6 @@ window.skillsData = [
     "description": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3861,9 +3170,6 @@ window.skillsData = [
     "description": "用于创建和配置 bump dependency，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3878,9 +3184,6 @@ window.skillsData = [
     "description": "用于构建和优化 cicd 工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3895,9 +3198,6 @@ window.skillsData = [
     "description": "用于撰写和优化 代码检查与格式化内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3912,9 +3212,6 @@ window.skillsData = [
     "description": "用于辅助 MLM Bridge 训练的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3929,9 +3226,6 @@ window.skillsData = [
     "description": "用于辅助 multi node slurm的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3946,9 +3240,6 @@ window.skillsData = [
     "description": "用于构建和优化 nemo rl e2e testing 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3963,9 +3254,6 @@ window.skillsData = [
     "description": "用于优化 parity testing，提升转化、搜索或运营效果。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3980,9 +3268,6 @@ window.skillsData = [
     "description": "用于辅助 激活重计算性能优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -3997,9 +3282,6 @@ window.skillsData = [
     "description": "用于优化 CPU 卸载性能优化，提升转化、搜索或运营效果。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4014,9 +3296,6 @@ window.skillsData = [
     "description": "用于辅助 perf cuda graphs的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4031,9 +3310,6 @@ window.skillsData = [
     "description": "用于辅助 专家并行重叠优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4048,9 +3324,6 @@ window.skillsData = [
     "description": "用于辅助 分层上下文并行优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4065,9 +3338,6 @@ window.skillsData = [
     "description": "用于辅助 Megatron FSDP 性能优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4082,9 +3352,6 @@ window.skillsData = [
     "description": "用于辅助 perf memory tuning的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4099,9 +3366,6 @@ window.skillsData = [
     "description": "用于辅助 perf moe comm overlap的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4116,9 +3380,6 @@ window.skillsData = [
     "description": "用于辅助 MoE 硬件配置的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4133,9 +3394,6 @@ window.skillsData = [
     "description": "用于辅助 perf moe long context的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4150,9 +3408,6 @@ window.skillsData = [
     "description": "用于构建和优化 MoE 优化工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4167,9 +3422,6 @@ window.skillsData = [
     "description": "用于辅助 MoE 视觉语言模型训练的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4184,9 +3436,6 @@ window.skillsData = [
     "description": "用于辅助 并行策略的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4201,9 +3450,6 @@ window.skillsData = [
     "description": "用于辅助 序列打包优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4218,9 +3464,6 @@ window.skillsData = [
     "description": "用于辅助 perf tp dp comm overlap的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4235,9 +3478,6 @@ window.skillsData = [
     "description": "用于辅助 训练配方推荐的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4252,9 +3492,6 @@ window.skillsData = [
     "description": "用于辅助 resiliency的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4269,9 +3506,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 testing测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4286,9 +3520,6 @@ window.skillsData = [
     "description": "用于构建和优化 verl e2e testing 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4303,9 +3534,6 @@ window.skillsData = [
     "description": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4320,9 +3548,6 @@ window.skillsData = [
     "description": "用于辅助 bump base image的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4337,9 +3562,6 @@ window.skillsData = [
     "description": "用于辅助 cicd的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4354,9 +3576,6 @@ window.skillsData = [
     "description": "用于创建和配置 create issue，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4371,9 +3590,6 @@ window.skillsData = [
     "description": "用于辅助 代码检查与格式化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4388,9 +3604,6 @@ window.skillsData = [
     "description": "用于构建和优化 nightly sync 工作流。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4405,9 +3618,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 onboard gb200 1node tests测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4422,9 +3632,6 @@ window.skillsData = [
     "description": "用于梳理 respond to issue研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4439,9 +3646,6 @@ window.skillsData = [
     "description": "用于规划 run on slurm，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4456,9 +3660,6 @@ window.skillsData = [
     "description": "用于辅助 split pr的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4473,9 +3674,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 testing测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4490,9 +3688,6 @@ window.skillsData = [
     "description": "用于构建和优化 update golden values 工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4507,9 +3702,6 @@ window.skillsData = [
     "description": "用于辅助 accessing mlflow的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4524,9 +3716,6 @@ window.skillsData = [
     "description": "用于辅助 命令结构管理的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4541,9 +3730,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 模型部署 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4558,9 +3744,6 @@ window.skillsData = [
     "description": "用于分析和评估 evaluation，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4575,9 +3758,6 @@ window.skillsData = [
     "description": "用于分析和评估 launching evals，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4592,9 +3772,6 @@ window.skillsData = [
     "description": "用于管理和配置 模型部署，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4609,9 +3786,6 @@ window.skillsData = [
     "description": "用于辅助 ptq的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4626,9 +3800,6 @@ window.skillsData = [
     "description": "用于辅助 release cherry pick的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4643,9 +3814,6 @@ window.skillsData = [
     "description": "用于辅助 accessing mlflow的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4660,9 +3828,6 @@ window.skillsData = [
     "description": "用于分析和评估 launching evals，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4677,9 +3842,6 @@ window.skillsData = [
     "description": "用于规划 nel assistant，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4694,9 +3856,6 @@ window.skillsData = [
     "description": "用于创建和配置 byob，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4711,9 +3870,6 @@ window.skillsData = [
     "description": "用于辅助 add benchmark的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4728,9 +3884,6 @@ window.skillsData = [
     "description": "用于辅助 NeMo Gym 调试的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4745,9 +3898,6 @@ window.skillsData = [
     "description": "用于撰写和优化 nemo gym docs内容。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4762,9 +3912,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 NeMo Gym 数据集切换 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4779,9 +3926,6 @@ window.skillsData = [
     "description": "用于辅助 NeMo Gym 奖励分析的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4796,9 +3940,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 自动研究流程测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4813,9 +3954,6 @@ window.skillsData = [
     "description": "用于创建和配置 build and dependency，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4830,9 +3968,6 @@ window.skillsData = [
     "description": "用于辅助 cicd的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4847,9 +3982,6 @@ window.skillsData = [
     "description": "用于辅助 配置规范的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4864,9 +3996,6 @@ window.skillsData = [
     "description": "用于辅助 contributing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4881,9 +4010,6 @@ window.skillsData = [
     "description": "用于撰写和优化 copyright内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4898,9 +4024,6 @@ window.skillsData = [
     "description": "用于辅助 docs的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4915,9 +4038,6 @@ window.skillsData = [
     "description": "用于提供 error handling 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4932,9 +4052,6 @@ window.skillsData = [
     "description": "用于规划 launch nemo rl，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4949,9 +4066,6 @@ window.skillsData = [
     "description": "用于提供 代码检查与格式化 的最佳实践和规范建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4966,9 +4080,6 @@ window.skillsData = [
     "description": "用于辅助 review pr的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -4983,9 +4094,6 @@ window.skillsData = [
     "description": "用于管理和配置 session memory，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5000,9 +4108,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 testing测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5017,9 +4122,6 @@ window.skillsData = [
     "description": "用于创建和配置 贡献者 PR 创建，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5034,9 +4136,6 @@ window.skillsData = [
     "description": "用于创建和配置 贡献者文档更新，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5051,9 +4150,6 @@ window.skillsData = [
     "description": "用于辅助 维护者跨 Issue 排查的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5068,9 +4164,6 @@ window.skillsData = [
     "description": "用于辅助 维护者发布标签创建的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5085,9 +4178,6 @@ window.skillsData = [
     "description": "用于规划 维护者日间工作流，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5102,9 +4192,6 @@ window.skillsData = [
     "description": "用于辅助 维护者晚间工作流的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5119,9 +4206,6 @@ window.skillsData = [
     "description": "用于规划 维护者 PR 评审筛选，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5136,9 +4220,6 @@ window.skillsData = [
     "description": "用于辅助 维护者晨间工作流的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5153,9 +4234,6 @@ window.skillsData = [
     "description": "用于辅助 维护者标题标签规范化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5170,9 +4248,6 @@ window.skillsData = [
     "description": "用于辅助 维护者 PR 对比的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5187,9 +4262,6 @@ window.skillsData = [
     "description": "用于辅助 维护者安全代码审查的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5204,9 +4276,6 @@ window.skillsData = [
     "description": "用于辅助 维护者任务分诊的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5221,9 +4290,6 @@ window.skillsData = [
     "description": "用于该仓库提供的 Agent Skill，帮助用户按需调用对应能力。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5238,9 +4304,6 @@ window.skillsData = [
     "description": "用于辅助 用户 Agent Skill的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5255,9 +4318,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 用户推理配置 API 与服务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5272,9 +4332,6 @@ window.skillsData = [
     "description": "用于辅助 用户安全配置的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5289,9 +4346,6 @@ window.skillsData = [
     "description": "用于辅助 用户远程部署的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5306,9 +4360,6 @@ window.skillsData = [
     "description": "用于规划 用户上手引导，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5323,9 +4374,6 @@ window.skillsData = [
     "description": "用于辅助 用户策略管理的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5340,9 +4388,6 @@ window.skillsData = [
     "description": "用于辅助 用户概览的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5357,9 +4402,6 @@ window.skillsData = [
     "description": "用于辅助 用户参考资料的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5374,9 +4416,6 @@ window.skillsData = [
     "description": "用于管理和配置 语音 Agent 部署，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5391,9 +4430,6 @@ window.skillsData = [
     "description": "用于管理和配置 rag blueprint，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5408,9 +4444,6 @@ window.skillsData = [
     "description": "用于管理和配置 ad accuracy debug，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5425,9 +4458,6 @@ window.skillsData = [
     "description": "用于创建和配置 算子融合变换，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5442,9 +4472,6 @@ window.skillsData = [
     "description": "用于分析和评估 ad conf check，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5459,9 +4486,6 @@ window.skillsData = [
     "description": "用于管理和配置 ad graph dump，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5476,9 +4500,6 @@ window.skillsData = [
     "description": "用于管理和配置 ad layer visualizer，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5493,9 +4514,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 ad model onboard测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5510,9 +4528,6 @@ window.skillsData = [
     "description": "用于辅助 exec local compile的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5527,9 +4542,6 @@ window.skillsData = [
     "description": "用于辅助 exec slurm compile的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5544,9 +4556,6 @@ window.skillsData = [
     "description": "用于规划 kernel cute writing，帮助用户明确方向、步骤和优先级。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5561,9 +4570,6 @@ window.skillsData = [
     "description": "用于优化 TileIR 内核优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5578,9 +4584,6 @@ window.skillsData = [
     "description": "用于辅助 kernel triton writing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5595,9 +4598,6 @@ window.skillsData = [
     "description": "用于分析和评估 perf analysis，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5612,9 +4612,6 @@ window.skillsData = [
     "description": "用于分析和评估 perf host analysis，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5629,9 +4626,6 @@ window.skillsData = [
     "description": "用于规划 主机侧性能优化，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5646,9 +4640,6 @@ window.skillsData = [
     "description": "用于分析和评估 Nsight Compute 性能分析，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5663,9 +4654,6 @@ window.skillsData = [
     "description": "用于辅助 perf nsight systems的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5680,9 +4668,6 @@ window.skillsData = [
     "description": "用于优化 性能优化，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5697,9 +4682,6 @@ window.skillsData = [
     "description": "用于管理和配置 perf torch cuda graphs，辅助完成相关开发或运维任务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5714,9 +4696,6 @@ window.skillsData = [
     "description": "用于辅助 perf torch sync free的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5731,9 +4710,6 @@ window.skillsData = [
     "description": "用于辅助 工作负载性能分析的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5748,9 +4724,6 @@ window.skillsData = [
     "description": "用于提供 代码贡献 的最佳实践和规范建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5765,9 +4738,6 @@ window.skillsData = [
     "description": "用于创建和配置 代码库探索，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5782,9 +4752,6 @@ window.skillsData = [
     "description": "用于辅助 FlashInfer 升级的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5799,9 +4766,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 trtllm moe develop测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5816,9 +4780,6 @@ window.skillsData = [
     "description": "用于撰写和优化 模型部署内容。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5833,9 +4794,6 @@ window.skillsData = [
     "description": "用于辅助 adding cutile kernel的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5850,9 +4808,6 @@ window.skillsData = [
     "description": "用于辅助 CuTe DSL 到 Julia 转换的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5867,9 +4822,6 @@ window.skillsData = [
     "description": "用于辅助 CuTe DSL 到 Triton 转换的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5884,9 +4836,6 @@ window.skillsData = [
     "description": "用于优化 CuTe DSL 自动调优，提升转化、搜索或运营效果。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5901,9 +4850,6 @@ window.skillsData = [
     "description": "用于辅助 cutile python的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5918,9 +4864,6 @@ window.skillsData = [
     "description": "用于分析和评估 improve cutile kernel perf，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5935,9 +4878,6 @@ window.skillsData = [
     "description": "用于创建和配置 内核猴子补丁改造，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5952,9 +4892,6 @@ window.skillsData = [
     "description": "用于管理和配置 alerts，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5969,9 +4906,6 @@ window.skillsData = [
     "description": "用于管理和配置 deploy，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -5986,9 +4920,6 @@ window.skillsData = [
     "description": "用于分析和评估 report，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6003,9 +4934,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 rt vlm API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6020,9 +4948,6 @@ window.skillsData = [
     "description": "用于分析和评估 video analytics，帮助用户发现问题并做出判断。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6037,9 +4962,6 @@ window.skillsData = [
     "description": "用于优化 video search，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6054,9 +4976,6 @@ window.skillsData = [
     "description": "用于优化 视频摘要，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6071,9 +4990,6 @@ window.skillsData = [
     "description": "用于辅助 视频理解的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6088,9 +5004,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 vios API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6105,9 +5018,6 @@ window.skillsData = [
     "description": "用于创建和配置 vss frag，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "nvidia",
       "skills",
@@ -6122,9 +5032,6 @@ window.skillsData = [
     "description": "用于创建和配置 brainstorming，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6139,9 +5046,6 @@ window.skillsData = [
     "description": "用于管理和配置 条件等待，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6156,9 +5060,6 @@ window.skillsData = [
     "description": "用于辅助 defense in depth的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6173,9 +5074,6 @@ window.skillsData = [
     "description": "用于辅助 并行 Agent 调度的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6190,9 +5088,6 @@ window.skillsData = [
     "description": "用于规划 executing plans，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6207,9 +5102,6 @@ window.skillsData = [
     "description": "用于辅助 开发分支收尾的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6224,9 +5116,6 @@ window.skillsData = [
     "description": "用于辅助 代码评审接收的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6241,9 +5130,6 @@ window.skillsData = [
     "description": "用于辅助 代码评审请求的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6258,9 +5144,6 @@ window.skillsData = [
     "description": "用于辅助 root cause tracing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6275,9 +5158,6 @@ window.skillsData = [
     "description": "用于辅助 sharing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6292,9 +5172,6 @@ window.skillsData = [
     "description": "用于辅助 子 Agent 驱动开发的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6309,9 +5186,6 @@ window.skillsData = [
     "description": "用于辅助 系统化调试的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6326,9 +5200,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 测试驱动开发测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6343,9 +5214,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 测试反模式识别测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6360,9 +5228,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 子 Agent Skill 测试测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6377,9 +5242,6 @@ window.skillsData = [
     "description": "用于辅助 Superpowers 能力使用的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6394,9 +5256,6 @@ window.skillsData = [
     "description": "用于辅助 完成前验证的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6411,9 +5270,6 @@ window.skillsData = [
     "description": "用于创建和配置 writing plans，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6428,9 +5284,6 @@ window.skillsData = [
     "description": "用于辅助 writing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "obra",
       "superpowers",
@@ -6445,9 +5298,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 A/B 测试测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6462,9 +5312,6 @@ window.skillsData = [
     "description": "用于规划 功能请求分析，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6479,9 +5326,6 @@ window.skillsData = [
     "description": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6496,9 +5340,6 @@ window.skillsData = [
     "description": "用于规划 beachhead segment，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6513,9 +5354,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 已有实验头脑风暴测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6530,9 +5368,6 @@ window.skillsData = [
     "description": "用于辅助 新实验头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6547,9 +5382,6 @@ window.skillsData = [
     "description": "用于辅助 已有想法头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6564,9 +5396,6 @@ window.skillsData = [
     "description": "用于辅助 新想法头脑风暴的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6581,9 +5410,6 @@ window.skillsData = [
     "description": "用于辅助 brainstorm okrs的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6598,9 +5424,6 @@ window.skillsData = [
     "description": "用于创建和配置 产品策略，减少从零搭建的整理成本。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6615,9 +5438,6 @@ window.skillsData = [
     "description": "用于辅助 cohort analysis的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6632,9 +5452,6 @@ window.skillsData = [
     "description": "用于创建和配置 竞品战卡，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6649,9 +5466,6 @@ window.skillsData = [
     "description": "用于分析和评估 competitor analysis，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6666,9 +5480,6 @@ window.skillsData = [
     "description": "用于创建和配置 create prd，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6683,9 +5494,6 @@ window.skillsData = [
     "description": "用于梳理 客户旅程地图研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6700,9 +5508,6 @@ window.skillsData = [
     "description": "用于辅助 draft nda的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6717,9 +5522,6 @@ window.skillsData = [
     "description": "用于创建和配置 dummy dataset，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6734,9 +5536,6 @@ window.skillsData = [
     "description": "用于辅助 grammar check的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6751,9 +5550,6 @@ window.skillsData = [
     "description": "用于优化 growth loops，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6768,9 +5564,6 @@ window.skillsData = [
     "description": "用于优化 gtm motions，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6785,9 +5578,6 @@ window.skillsData = [
     "description": "用于规划 gtm strategy，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6802,9 +5592,6 @@ window.skillsData = [
     "description": "用于辅助 理想客户画像的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6819,9 +5606,6 @@ window.skillsData = [
     "description": "用于优化 已有假设识别，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6836,9 +5620,6 @@ window.skillsData = [
     "description": "用于优化 新假设识别，提升转化、搜索或运营效果。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6853,9 +5634,6 @@ window.skillsData = [
     "description": "用于创建和配置 interview script，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6870,9 +5648,6 @@ window.skillsData = [
     "description": "用于创建和配置 job stories，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6887,9 +5662,6 @@ window.skillsData = [
     "description": "用于创建和配置 产品策略，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6904,9 +5676,6 @@ window.skillsData = [
     "description": "用于梳理 market segments研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6921,9 +5690,6 @@ window.skillsData = [
     "description": "用于辅助 market sizing的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6938,9 +5704,6 @@ window.skillsData = [
     "description": "用于创建和配置 营销创意，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6955,9 +5718,6 @@ window.skillsData = [
     "description": "用于辅助 指标看板的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6972,9 +5732,6 @@ window.skillsData = [
     "description": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -6989,9 +5746,6 @@ window.skillsData = [
     "description": "用于辅助 north star metric的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7006,9 +5760,6 @@ window.skillsData = [
     "description": "用于创建和配置 机会解决方案树，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7023,9 +5774,6 @@ window.skillsData = [
     "description": "用于规划 outcome roadmap，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7040,9 +5788,6 @@ window.skillsData = [
     "description": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7057,9 +5802,6 @@ window.skillsData = [
     "description": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7074,9 +5816,6 @@ window.skillsData = [
     "description": "用于辅助 产品定位的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7091,9 +5830,6 @@ window.skillsData = [
     "description": "用于分析和评估 pre mortem，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7108,9 +5844,6 @@ window.skillsData = [
     "description": "用于分析和评估 定价策略，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7125,9 +5858,6 @@ window.skillsData = [
     "description": "用于规划 优先级决策，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7142,9 +5872,6 @@ window.skillsData = [
     "description": "用于规划 假设优先级排序，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7159,9 +5886,6 @@ window.skillsData = [
     "description": "用于规划 prioritize features，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7176,9 +5900,6 @@ window.skillsData = [
     "description": "用于辅助 privacy policy的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7193,9 +5914,6 @@ window.skillsData = [
     "description": "用于辅助 product name的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7210,9 +5928,6 @@ window.skillsData = [
     "description": "用于规划 产品策略，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7227,9 +5942,6 @@ window.skillsData = [
     "description": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7244,9 +5956,6 @@ window.skillsData = [
     "description": "用于创建和配置 release notes，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7261,9 +5970,6 @@ window.skillsData = [
     "description": "用于辅助 retro的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7278,9 +5984,6 @@ window.skillsData = [
     "description": "用于提供 review resume 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7295,9 +5998,6 @@ window.skillsData = [
     "description": "用于分析和评估 sentiment analysis，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7312,9 +6012,6 @@ window.skillsData = [
     "description": "用于规划 sprint plan，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7329,9 +6026,6 @@ window.skillsData = [
     "description": "用于创建和配置 sql queries，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7346,9 +6040,6 @@ window.skillsData = [
     "description": "用于规划 stakeholder map，帮助用户明确方向、步骤和优先级。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7363,9 +6054,6 @@ window.skillsData = [
     "description": "用于规划 产品策略，帮助用户明确方向、步骤和优先级。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7380,9 +6068,6 @@ window.skillsData = [
     "description": "用于梳理 访谈总结研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7397,9 +6082,6 @@ window.skillsData = [
     "description": "用于辅助 会议总结的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7414,9 +6096,6 @@ window.skillsData = [
     "description": "用于分析和评估 产品策略，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7431,9 +6110,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 测试场景测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7448,9 +6124,6 @@ window.skillsData = [
     "description": "用于创建和配置 user personas，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7465,9 +6138,6 @@ window.skillsData = [
     "description": "用于辅助 用户分群的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7482,9 +6152,6 @@ window.skillsData = [
     "description": "用于创建和配置 user stories，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7499,9 +6166,6 @@ window.skillsData = [
     "description": "用于创建和配置 价值主张表达，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7516,9 +6180,6 @@ window.skillsData = [
     "description": "用于辅助 产品策略的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7533,9 +6194,6 @@ window.skillsData = [
     "description": "用于创建和配置 wwas，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "phuryn",
       "pm-skills",
@@ -7550,9 +6208,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 广告角度扩展测试。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7567,9 +6222,6 @@ window.skillsData = [
     "description": "用于辅助 用户画像提取的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7584,9 +6236,6 @@ window.skillsData = [
     "description": "用于优化 转化路径设计，提升转化、搜索或运营效果。",
     "audience": "设计",
     "category": "图像",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7601,9 +6250,6 @@ window.skillsData = [
     "description": "用于创建和配置 全漏斗营销活动编排，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7618,9 +6264,6 @@ window.skillsData = [
     "description": "用于辅助 泛泛表达优化的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7635,9 +6278,6 @@ window.skillsData = [
     "description": "用于创建和配置 headline matrix，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7652,9 +6292,6 @@ window.skillsData = [
     "description": "用于辅助 营销机制设计的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7669,9 +6306,6 @@ window.skillsData = [
     "description": "用于辅助 销售异议处理的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7686,9 +6320,6 @@ window.skillsData = [
     "description": "用于辅助 offer extraction的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7703,9 +6334,6 @@ window.skillsData = [
     "description": "用于分析和评估 performance diagnosis，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7720,9 +6348,6 @@ window.skillsData = [
     "description": "用于辅助 Schwartz 认知阶段映射的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7737,9 +6362,6 @@ window.skillsData = [
     "description": "用于创建和配置 吸引停留的创意内容，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "realkimbarrett",
       "advertising-skills",
@@ -7754,9 +6376,6 @@ window.skillsData = [
     "description": "用于提供 Redis 开发 的最佳实践和规范建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "redis",
       "agent-skills",
@@ -7771,9 +6390,6 @@ window.skillsData = [
     "description": "用于辅助 React 开发的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "remotion-dev",
       "skills",
@@ -7787,9 +6403,6 @@ window.skillsData = [
     "description": "用于撰写和优化 agent email inbox内容。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "resend",
       "resend-skills",
@@ -7804,9 +6417,6 @@ window.skillsData = [
     "description": "用于提供 email 的最佳实践和规范建议。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "resend",
       "resend-skills",
@@ -7821,9 +6431,6 @@ window.skillsData = [
     "description": "用于撰写和优化 React 开发内容。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "resend",
       "resend-skills",
@@ -7838,9 +6445,6 @@ window.skillsData = [
     "description": "用于撰写和优化 resend内容。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "resend",
       "resend-skills",
@@ -7854,9 +6458,6 @@ window.skillsData = [
     "description": "用于构建和优化 命令结构管理 工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "resend",
       "resend-skills",
@@ -7871,9 +6472,6 @@ window.skillsData = [
     "description": "用于梳理 deep research研究，帮助用户形成可执行结论。",
     "audience": "工作流",
     "category": "研究",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "sanjay3290",
       "ai-skills",
@@ -7888,9 +6486,6 @@ window.skillsData = [
     "description": "用于创建和配置 imagen，减少从零搭建的整理成本。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Gemini"
-    ],
     "tags": [
       "sanjay3290",
       "ai-skills",
@@ -7905,9 +6500,6 @@ window.skillsData = [
     "description": "用于辅助 postgres的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "sanjay3290",
       "ai-skills",
@@ -7922,9 +6514,6 @@ window.skillsData = [
     "description": "用于管理和配置 sentry，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "getsentry",
       "skills",
@@ -7938,9 +6527,6 @@ window.skillsData = [
     "description": "用于创建和配置 readme，减少从零搭建的整理成本。",
     "audience": "工作流",
     "category": "文档",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "shpigford",
       "skills",
@@ -7955,9 +6541,6 @@ window.skillsData = [
     "description": "用于编写、检查或解释 screenshots测试。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "shpigford",
       "skills",
@@ -7972,9 +6555,6 @@ window.skillsData = [
     "description": "用于辅助 Supabase的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "supabase",
       "agent-skills",
@@ -7988,9 +6568,6 @@ window.skillsData = [
     "description": "用于辅助 Transloadit 文件处理的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "transloadit",
       "skills",
@@ -8004,9 +6581,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 venice api keys API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8021,9 +6595,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 Venice API 概览 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8038,9 +6609,6 @@ window.skillsData = [
     "description": "用于辅助 venice audio music的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8055,9 +6623,6 @@ window.skillsData = [
     "description": "用于辅助 venice audio speech的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8072,9 +6637,6 @@ window.skillsData = [
     "description": "用于辅助 Venice 音频转写的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8089,9 +6651,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 venice augment API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8106,9 +6665,6 @@ window.skillsData = [
     "description": "用于分析和评估 venice billing，帮助用户发现问题并做出判断。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8123,9 +6679,6 @@ window.skillsData = [
     "description": "用于辅助 Venice 角色配置的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8140,9 +6693,6 @@ window.skillsData = [
     "description": "用于辅助 venice chat的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8157,9 +6707,6 @@ window.skillsData = [
     "description": "用于辅助 venice crypto rpc的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8174,9 +6721,6 @@ window.skillsData = [
     "description": "用于辅助 Venice 向量嵌入的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8191,9 +6735,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 venice errors API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8208,9 +6749,6 @@ window.skillsData = [
     "description": "用于辅助 venice image edit的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8225,9 +6763,6 @@ window.skillsData = [
     "description": "用于辅助 Venice 图像生成的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8242,9 +6777,6 @@ window.skillsData = [
     "description": "用于辅助 venice models的 Agent 工作流，帮助用户快速调用对应能力。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8259,9 +6791,6 @@ window.skillsData = [
     "description": "用于调用、集成或管理 Venice 响应接口 API 与服务。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8276,9 +6805,6 @@ window.skillsData = [
     "description": "用于构建和优化 venice video 工作流。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "veniceai",
       "skills",
@@ -8293,9 +6819,6 @@ window.skillsData = [
     "description": "用于提供 React 开发 的最佳实践和规范建议。",
     "audience": "开发",
     "category": "开发",
-    "platforms": [
-      "Antigravity"
-    ],
     "tags": [
       "vercel-labs",
       "agent-skills",
@@ -8309,9 +6832,6 @@ window.skillsData = [
     "description": "用于管理和配置 specific skills use，辅助完成相关开发或运维任务。",
     "audience": "工作流",
     "category": "工作流",
-    "platforms": [
-      "Claude"
-    ],
     "tags": [
       "vercel-labs",
       "skills",

@@ -22,12 +22,6 @@ STOP_WORDS = {
     "\u4e00\u4e2a", "\u8fd9\u4e2a", "\u9879\u76ee", "\u7528\u4e8e", "\u4ee5\u53ca", "\u53ef\u4ee5",
     "\u8fdb\u884c", "\u76f8\u5173", "\u652f\u6301", "\u529f\u80fd", "\u5de5\u5177",
 }
-PLATFORM_RULES = {
-    "Claude": ["claude", "claude code"],
-    "Codex": ["codex", "codex cli", ".codex"],
-    "Cursor": ["cursor"],
-    "Gemini": ["gemini"],
-}
 CHINESE_PREFIX_PATTERNS = [
     r"^\u8fd9\u662f\u4e00\u4e2a",
     r"^\u8fd9\u662f\u7528\u4e8e",
@@ -353,19 +347,7 @@ def infer_category(project_meta: dict | None, repo_description: str, readme_text
     return ZH_PENDING
 
 
-def infer_platforms(project_meta: dict | None, repo_description: str, readme_text: str | None) -> list[str]:
-    if project_meta and isinstance(project_meta.get("platforms"), list) and project_meta["platforms"]:
-        return [str(item).strip() for item in project_meta["platforms"] if str(item).strip()]
-
-    text = " ".join(part for part in [repo_description or "", readme_text or ""] if part).lower()
-    matched: list[str] = []
-    for platform, keywords in PLATFORM_RULES.items():
-        if any(keyword in text for keyword in keywords):
-            matched.append(platform)
-    return matched
-
-
-def infer_audience_from_content(project_meta: dict | None, repo_description: str, readme_text: str | None, platforms: list[str]) -> str:
+def infer_audience_from_content(project_meta: dict | None, repo_description: str, readme_text: str | None) -> str:
     if project_meta and isinstance(project_meta.get("audience"), str) and project_meta["audience"].strip():
         return project_meta["audience"].strip()
 
@@ -387,8 +369,6 @@ def infer_audience_from_content(project_meta: dict | None, repo_description: str
         return ZH_WORKFLOW
     if any(keyword in text for keyword in design_keywords):
         return ZH_DESIGN
-    if platforms:
-        return ZH_DEV
     return ZH_PENDING
 
 
@@ -456,8 +436,7 @@ def build_draft(repo_url: str) -> dict:
 
     inferred_tags = infer_tags(project_meta, [str(topic) for topic in repo_topics])
     inferred_tags = infer_tags_from_readme(readme_text, inferred_tags)
-    inferred_platforms = infer_platforms(project_meta, repo_description, readme_text)
-    inferred_audience = infer_audience_from_content(project_meta, repo_description, readme_text, inferred_platforms)
+    inferred_audience = infer_audience_from_content(project_meta, repo_description, readme_text)
     inferred_category = infer_category(project_meta, repo_description, readme_text, [str(topic) for topic in repo_topics])
 
     return {
@@ -466,7 +445,6 @@ def build_draft(repo_url: str) -> dict:
         "audience": inferred_audience,
         "source": f"{owner}/{repo}",
         "category": inferred_category,
-        "platforms": inferred_platforms,
         "tags": inferred_tags,
         "logo_url": infer_logo_url(owner, repo, readme_text),
         "github_url": f"https://github.com/{owner}/{repo}",

@@ -3,7 +3,6 @@ const CATEGORY_OPTIONS = ["文档", "开发", "嵌入式", "工作流", "插件"
 const AUDIENCE_OPTIONS = ["开发", "设计", "工作流"];
 
 const searchInput = document.getElementById("searchInput");
-const platformFilter = document.getElementById("platformFilter");
 const categoryFilter = document.getElementById("categoryFilter");
 const audienceFilter = document.getElementById("audienceFilter");
 const cardGrid = document.getElementById("cardGrid");
@@ -24,16 +23,6 @@ function syncCardHeights() {
   cards.forEach((card) => {
     card.style.height = `${maxHeight}px`;
   });
-}
-
-function getUniquePlatformValues() {
-  return [
-    ...new Set(
-      skills
-        .flatMap((item) => Array.isArray(item.platforms) ? item.platforms : [])
-        .filter(Boolean)
-    )
-  ].sort();
 }
 
 function fillSelect(select, values) {
@@ -61,7 +50,6 @@ function createCard(skill) {
   article.className = "card";
 
   const tags = Array.isArray(skill.tags) ? skill.tags.map(createTag) : [];
-  const platforms = Array.isArray(skill.platforms) ? skill.platforms : [];
   const logo = skill.logo_url
     ? `<img src="${skill.logo_url}" alt="${skill.name} logo" loading="lazy">`
     : `<span>${getLogoFallback(skill.name)}</span>`;
@@ -76,7 +64,6 @@ function createCard(skill) {
       <span class="badge">${skill.category}</span>
     </div>
     <div class="meta-list">
-      <p><strong>支持平台</strong><span>${platforms.length ? platforms.join(" / ") : "待补充"}</span></p>
       <p><strong>适用人群</strong><span>${skill.audience}</span></p>
       <p><strong>来源</strong><span>${skill.source || "待补充"}</span></p>
     </div>
@@ -105,7 +92,6 @@ function createCard(skill) {
 
 function filterSkills() {
   const query = searchInput.value.trim().toLowerCase();
-  const platform = platformFilter.value;
   const category = categoryFilter.value;
   const audience = audienceFilter.value;
 
@@ -116,18 +102,16 @@ function filterSkills() {
       skill.audience,
       skill.category,
       skill.source,
-      ...(skill.platforms || []),
       ...(skill.tags || [])
     ]
       .join(" ")
       .toLowerCase();
 
     const matchesQuery = !query || searchable.includes(query);
-    const matchesPlatform = platform === "all" || (skill.platforms || []).includes(platform);
     const matchesCategory = category === "all" || skill.category === category;
     const matchesAudience = audience === "all" || skill.audience === audience;
 
-    return matchesQuery && matchesPlatform && matchesCategory && matchesAudience;
+    return matchesQuery && matchesCategory && matchesAudience;
   });
 }
 
@@ -159,12 +143,10 @@ function renderCards() {
   syncCardHeights();
 }
 
-fillSelect(platformFilter, getUniquePlatformValues());
 fillSelect(categoryFilter, CATEGORY_OPTIONS);
 fillSelect(audienceFilter, AUDIENCE_OPTIONS);
 
 searchInput.addEventListener("input", renderCards);
-platformFilter.addEventListener("change", renderCards);
 categoryFilter.addEventListener("change", renderCards);
 audienceFilter.addEventListener("change", renderCards);
 window.addEventListener("resize", syncCardHeights);
