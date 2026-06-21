@@ -9761,17 +9761,38 @@ window.skillsData = [
       "en": "skills"
     },
     "description": {
-      "zh": "用于管理和配置 specific skills use，辅助完成相关开发或运维任务。",
-      "en": "Helps with managing, configuring vercel-labs, skills for AI agent workflows."
+      "zh": "用于整理、管理和分发 vercel-labs 官方 Skills 集合，方便用户集中查看和安装不同能力模块。",
+      "en": "Helps users browse, organize, and manage the official vercel-labs Skills collection in one place."
     },
     "audience": "工作流",
     "category": "工作流",
     "tags": [
       "vercel-labs",
       "skills",
-      "工作流"
+      "official",
+      "workflow"
     ],
     "github_url": "https://github.com/vercel-labs/skills",
     "source": "vercel-labs/skills"
+  },
+  {
+    "name": {
+      "zh": "find-skills",
+      "en": "find-skills"
+    },
+    "description": {
+      "zh": "用于帮助 Agent 根据任务需求发现、筛选并定位合适的 Skills，减少手动查找和能力匹配成本。",
+      "en": "Helps agents discover and select the right Skills for a task, reducing manual lookup and capability matching work."
+    },
+    "audience": "工作流",
+    "category": "工作流",
+    "tags": [
+      "vercel-labs",
+      "skills",
+      "find-skills",
+      "workflow"
+    ],
+    "github_url": "https://github.com/vercel-labs/skills/tree/main/skills/find-skills",
+    "source": "vercel-labs/skills/skills/find-skills"
   }
 ];
