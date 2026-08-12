@@ -358,3 +358,166 @@ GitHub Search
 - 用户能明确跳转到 GitHub 查看详情
 - 维护者能通过 GitHub URL 更高效地产出卡片数据
 - 页面最终可稳定支持中文和英文展示
+---
+
+## 12. Electronics Vertical Extension
+
+### 12.1 Positioning
+
+SkillScope remains a general AI skills discovery directory. The electronics direction should be implemented as a vertical inside the existing directory, not as a replacement for the whole site.
+
+The vertical goal is to help users discover skills, agents, MCP tools, and workflow helpers that have direct value for electronic information work such as:
+
+- embedded development
+- FPGA and HDL workflows
+- PCB and EDA work
+- signal analysis
+- test and measurement
+- datasheet and technical document parsing
+- laboratory automation
+
+### 12.2 Why a Vertical Instead of a Separate Site
+
+- It preserves the current broad collection strategy
+- It creates a clear domain specialty without shrinking the rest of the product
+- It lets the site grow by adding more verticals later if they prove valuable
+
+### 12.3 Inclusion Boundary
+
+The electronics vertical should use a practical, not overly strict, inclusion rule.
+
+Include a repository when at least one of these is true:
+
+- it is explicitly a skill, agent, MCP tool, or workflow package for electronics-related work
+- its README, SKILL file, examples, or topics show clear use in embedded, hardware, FPGA, EDA, protocol, measurement, or datasheet workflows
+- it is a general AI workflow helper whose primary documented value is in electronic information work
+
+Exclude a repository when:
+
+- it is only a generic writing or coding helper with no electronics evidence
+- the electronics relevance is hypothetical rather than documented
+- the repository is too vague to classify confidently
+
+### 12.4 Proposed Data Extensions
+
+Add the following fields to support the vertical:
+
+```text
+domain
+subdomain
+type
+workflow_stage
+stack_keywords
+```
+
+Recommended values:
+
+- `domain`: `general`, `electronic-information`
+- `type`: `skill`, `agent`, `mcp`, `workflow-tool`
+- `workflow_stage`: `learn`, `design`, `develop`, `debug`, `test`, `document`
+
+Recommended `subdomain` values:
+
+- `embedded`
+- `fpga-hdl`
+- `pcb-eda`
+- `signal-processing`
+- `test-measurement`
+- `datasheet-doc`
+- `lab-automation`
+- `communication`
+- `hardware-debug`
+
+`stack_keywords` remains a flexible array for terms such as `stm32`, `esp32`, `uart`, `spi`, `verilog`, or `kicad`.
+
+### 12.5 UI Rollout Strategy
+
+Phase 1:
+
+- keep the current site structure
+- add a domain filter
+- expose electronics as a vertical entry or quick filter
+- show a second-level subdomain filter only when the electronics vertical is active
+
+Phase 2:
+
+- add a dedicated electronics landing page if the dataset becomes large enough
+- keep the same underlying card model and filtering logic
+
+Phase 3:
+
+- optionally add curated views such as student-friendly, lab-friendly, or hardware-debug-focused collections
+
+### 12.6 Content Curation Workflow
+
+The vertical should start with a candidate-review workflow before changing `data.js` aggressively.
+
+Recommended order:
+
+1. collect candidate repositories
+2. classify them by `type` and `subdomain`
+3. record inclusion evidence
+4. confirm a first sample batch
+5. then extend `data.js` and UI filters
+
+### 12.7 Success Criteria for the Vertical
+
+- The main directory still works as a broad AI skills discovery product
+- Electronics users can quickly narrow results to relevant workflows
+- The vertical classification uses domain-native language instead of generic labels only
+- Maintainers can explain clearly why a repository belongs in the electronics vertical
+
+
+### 12.8 Resource Scope Decision
+
+Decision: the electronics vertical should use an AI workflow resource scope, not a strict-only Skill scope.
+
+Include `skill`, `agent`, `mcp`, and `workflow-tool` resources when they clearly support electronic information workflows.
+
+Reason: the supply of strict packaged Skills in electronics is still limited, while adjacent Agent/MCP/workflow resources can deliver the same discovery value for embedded, FPGA, EDA, datasheet, test, and lab automation users.
+
+Consequence: each non-strict-Skill entry must show explicit electronics workflow evidence and must not broaden into generic AI tools without domain relevance.
+
+Decision: reposition the public product as electronics-first, with general AI workflow resources retained as supporting inventory.
+
+### 12.9 Homepage Positioning Decision
+
+Decision: the homepage should default to the electronics-first view and provide a clear `All resources` / general directory escape hatch.
+
+Recommended first version:
+
+- hero copy emphasizes electronic information AI workflows
+- default filter state highlights `electronic-information`
+- general resources remain searchable and accessible
+- empty or low-count electronics states should explain that the vertical is curated and growing
+- no separate electronics landing page until the electronics inventory is large enough to justify it
+
+Reason: this makes the vertical positioning clear while avoiding an empty early product. General resources provide useful adjacent value and prevent the site from feeling sparse, but they should not dominate the first impression.
+
+Consequence: every resource needs a `domain` classification so the product can switch between electronics-first and all-resource views without reworking the dataset later.
+
+### 12.10 Candidate Pool Strategy
+
+Decision: the next phase should prioritize electronics content curation over additional UI expansion.
+
+Recommended sequence:
+
+1. build an electronics candidate pool before writing many new cards into `data.js`
+2. classify each candidate with `type`, `subdomain`, `workflow_stage`, and `stack_keywords`
+3. require `inclusion_evidence` so maintainers can explain why the resource belongs in the vertical
+4. keep `risk_level` and `risk_reasons` for security review before publishing
+5. promote only a small confirmed batch into `data.js` first, then iterate
+
+Candidate pool target for the first pass: 20 to 50 candidates.
+
+Published seed target: 10 to 20 high-confidence resources.
+
+Priority order:
+
+1. embedded development and hardware debug
+2. datasheet and technical document workflows
+3. PCB / EDA and circuit simulation
+4. FPGA / HDL workflows
+5. test, measurement, and lab automation
+
+Reason: the website now has the minimum electronics-first UI and data fields. The main remaining product risk is not interaction design, but whether the vertical has enough trustworthy, clearly classified resources.
