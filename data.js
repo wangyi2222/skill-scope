@@ -40,6 +40,15 @@ window.skillsData = [
     "logo_url": "https://raw.githubusercontent.com/zuoliangyu/STM32-Debug-Configurator/HEAD/icon.png",
     "github_url": "https://github.com/zuoliangyu/STM32-Debug-Configurator",
     "source": "zuoliangyu/STM32-Debug-Configurator"
+    ,"domain": "electronic-information",
+    "subdomain": "embedded",
+    "type": "workflow-tool",
+    "workflow_stage": "debug",
+    "stack_keywords": [
+      "stm32",
+      "openocd",
+      "vscode"
+    ]
   },
   {
     "name": {
@@ -65,6 +74,16 @@ window.skillsData = [
     ],
     "github_url": "https://github.com/EmbeddedKitOrg/EK-OmniProbe",
     "source": "EmbeddedKitOrg/EK-OmniProbe"
+    ,"domain": "electronic-information",
+    "subdomain": "embedded",
+    "type": "workflow-tool",
+    "workflow_stage": "debug",
+    "stack_keywords": [
+      "rtt",
+      "uart",
+      "ble",
+      "probe-rs"
+    ]
   },
   {
     "name": {
@@ -328,6 +347,15 @@ window.skillsData = [
     ],
     "github_url": "https://github.com/DunCanYounG-1/embedded-dev",
     "source": "DunCanYounG-1/embedded-dev"
+    ,"domain": "electronic-information",
+    "subdomain": "embedded",
+    "type": "skill",
+    "workflow_stage": "develop",
+    "stack_keywords": [
+      "stm32",
+      "gd32",
+      "mspm0"
+    ]
   },
   {
     "name": {
@@ -368,6 +396,15 @@ window.skillsData = [
     ],
     "github_url": "https://github.com/naaomiur/simubridge-skills",
     "source": "naaomiur/simubridge-skills"
+    ,"domain": "electronic-information",
+    "subdomain": "signal-processing",
+    "type": "mcp",
+    "workflow_stage": "design",
+    "stack_keywords": [
+      "simulink",
+      "matlab",
+      "model-based-design"
+    ]
   },
   {
     "name": {
@@ -388,6 +425,15 @@ window.skillsData = [
     ],
     "github_url": "https://github.com/wzyn20051216/solidworks-automation-skill",
     "source": "wzyn20051216/solidworks-automation-skill"
+    ,"domain": "electronic-information",
+    "subdomain": "pcb-eda",
+    "type": "skill",
+    "workflow_stage": "design",
+    "stack_keywords": [
+      "solidworks",
+      "cad",
+      "mcp"
+    ]
   },
   {
     "name": {
@@ -408,6 +454,15 @@ window.skillsData = [
     ],
     "github_url": "https://github.com/zuoliangyu/multisim-spice",
     "source": "zuoliangyu/multisim-spice"
+    ,"domain": "electronic-information",
+    "subdomain": "pcb-eda",
+    "type": "workflow-tool",
+    "workflow_stage": "design",
+    "stack_keywords": [
+      "multisim",
+      "spice",
+      "ngspice"
+    ]
   },
   {
     "name": {

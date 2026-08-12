@@ -220,6 +220,10 @@ code {
   font: inherit;
 }
 
+.field[hidden] {
+  display: none;
+}
+
 .field input:focus,
 .field select:focus {
   outline: 2px solid rgba(239, 139, 72, 0.14);
@@ -490,7 +494,7 @@ code {
   }
 
   .controls-grid {
-    grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(220px, 1.4fr) repeat(4, minmax(0, 1fr));
   }
 }
 

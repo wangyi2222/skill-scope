@@ -43,6 +43,20 @@
             <input id="searchInput" type="search" placeholder="名称、场景或标签" data-i18n-placeholder="searchPlaceholder">
           </label>
           <label class="field">
+            <span data-i18n="domainLabel">资源范围</span>
+            <select id="domainFilter">
+              <option value="electronic-information" data-i18n="electronicsDomain">电子信息精选</option>
+              <option value="all" data-i18n="allDomains">全部资源</option>
+              <option value="general" data-i18n="generalDomain">通用资源</option>
+            </select>
+          </label>
+          <label id="subdomainField" class="field">
+            <span data-i18n="subdomainLabel">电子方向</span>
+            <select id="subdomainFilter">
+              <option value="all" data-i18n="allSubdomains">全部电子方向</option>
+            </select>
+          </label>
+          <label class="field">
             <span data-i18n="categoryLabel">类别</span>
             <select id="categoryFilter">
               <option value="all" data-i18n="allCategories">全部类别</option>
